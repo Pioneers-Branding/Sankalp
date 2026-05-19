@@ -4,7 +4,7 @@ RewriteEngine On
 Options -MultiViews -Indexes
 
 # Redirect old blog posts to new blog location (clean URLs)
-Redirect 301 /what-is-the-best-way-to-take-moringa-for-diabetes/ /
+Redirect 301 /what-is-the-best-way-to-take-moringa-for-diabetes/ /blog/what-is-the-best-way-to-take-moringa-for-diabetes
 Redirect 301 /blog/what-is-the-best-way-to-take-moringa-for-diabetes /
 Redirect 301 /will-your-knee-feel-100-percent-normal-after-acl-surgery-recovery-facts/ /blog/will-your-knee-feel-100-percent-normal-after-acl-surgery-recovery-facts
 Redirect 301 /homeopathic-remedy-for-headache-natural-relief-guide/ /blog/homeopathic-remedy-for-headache-natural-relief-guide
