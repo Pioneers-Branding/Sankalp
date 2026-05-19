@@ -55,7 +55,7 @@
 <section class="blog-hero text-center">
   <div class="container">
     <p class="blog-meta"><a href="../index" class="text-white">Home</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="index" class="text-white">Health Blog</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> Infectious Diseases</p>
-    <div class="blog-hero-img"><img src="/assets/img/blog/hiv-symptoms.png" alt="HIV Awareness"></div>
+    <div class="blog-hero-img"><img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400&h=400&fit=crop" alt="HIV Awareness for Women"></div>
     <h1>HIV Symptoms in Women: What You Need to Know</h1>
     <p class="blog-meta"><i class="far fa-calendar"></i> May 7, 2026 &nbsp;&nbsp; <i class="far fa-clock"></i> 9 min read</p>
   </div>
@@ -95,7 +95,7 @@
 
     <h2>Stages of HIV Infection</h2>
     <p>HIV infection progresses through several stages, each with different symptoms:</p>
-    <table>
+    <div class="table-wrapper"><table>
       <thead>
         <tr>
           <th>Stage</th>
@@ -130,7 +130,7 @@
           <td>High</td>
         </tr>
       </tbody>
-    </table>
+    </table></div>
 
     <h2>Early Symptoms of HIV in Women</h2>
     <p>Within 2-4 weeks after exposure, some women experience flu-like symptoms, which is the body's natural response to HIV infection. This is called Acute Retroviral Syndrome (ARS) or Primary HIV Infection.</p>
@@ -226,7 +226,7 @@
     </div>
 
     <h3>Types of HIV Tests:</h3>
-    <table>
+    <div class="table-wrapper"><table>
       <thead>
         <tr>
           <th>Test Type</th>
@@ -256,7 +256,7 @@
           <td>Oral fluid</td>
         </tr>
       </tbody>
-    </table>
+    </table></div>
 
     <h2>HIV Prevention: PrEP and PEP</h2>
     <div class="tip-box">
