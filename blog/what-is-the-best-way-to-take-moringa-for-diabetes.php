@@ -6,7 +6,7 @@ $blog_date = "May 7, 2026";
 $blog_readtime = "10 min read";
 $blog_author = "Dr. Chandra Mukesh Dhawde";
 $blog_author_desc = "Consultant Neurosurgeon, Sankalp Hospital";
-$blog_image = "https://images.unsplash.com/photo-1612257416648-ee7a6c3c5a0a?w=400&h=400&fit=crop";
+$blog_image = "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=900&h=450&fit=crop";
 $blog_content = <<<'HTML'
 <p class="lead">Moringa oleifera, often called the "miracle tree" or "drumstick tree," has been used for centuries in traditional medicine across Asia and Africa. In recent years, this remarkable plant has gained significant attention in the scientific community for its potential benefits in managing blood sugar levels naturally.</p>
 
