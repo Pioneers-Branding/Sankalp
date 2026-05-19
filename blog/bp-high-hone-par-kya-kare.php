@@ -6,7 +6,7 @@ $blog_date = "May 07, 2026";
 $blog_readtime = "10 min read";
 $blog_author = "Dr. Shailesh Gupta";
 $blog_author_desc = "MBBS, MD - Consultant Physician, Sankalp Hospital";
-$blog_image = "/assets/img/blog/heart-health.png";
+$blog_image = "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=400&fit=crop";
 $blog_content = <<<'HTML'
 <p class="lead">उच्च रक्तचाप (Hypertension) एक अत्यंत गंभीर और तेजी से बढ़ती स्वास्थ्य समस्या है। इसे अक्सर मेडिकल विज्ञान में <strong>"साइलेंट किलर" (Silent Killer)</strong> कहा जाता है क्योंकि इसके शुरुआती लक्षण आसानी से समझ नहीं आते, और यह चुपचाप शरीर के महत्वपूर्ण अंगों—जैसे हृदय, मस्तिष्क, किडनी और आंखों—को गंभीर नुकसान पहुंचाता रहता है। भारत में करोड़ों लोग हाई ब्लड प्रेशर से जूझ रहे हैं, और दुर्भाग्यवश, आधे से ज्यादा लोगों को इसका पता तब चलता है जब कोई आपातकालीन स्थिति उत्पन्न हो जाती है। यदि आपको या आपके परिवार में किसी को बीपी (BP) की समस्या है, तो सही समय पर इसका नियंत्रण जीवन रक्षक साबित हो सकता है।</p>
 
@@ -19,6 +19,7 @@ $blog_content = <<<'HTML'
 <li><strong>डायस्टोलिक (Diastolic BP) - नीचे का अंक:</strong> यह तब का दबाव है जब हृदय दो धड़कनों के बीच आराम करता है और रक्त से भरता है।</li>
 </ul>
 
+<div class="table-wrapper">
 <table class="table mt-4 mb-4 table-hover shadow-sm">
 <thead style="background-color: var(--primary); color: white;">
 <tr><th>रक्तचाप की श्रेणी (Category)</th><th>सिस्टोलिक (ऊपर का)</th><th>डायस्टोलिक (नीचे का)</th><th>क्या करना चाहिए?</th></tr>
@@ -31,6 +32,7 @@ $blog_content = <<<'HTML'
 <tr style="background-color: #f8d7da;"><td><strong>हाइपरटेंसिव क्राइसिस (आपातकाल)</strong></td><td>180 से अधिक</td><td>120 से अधिक</td><td><strong>तुरंत अस्पताल जाएं।</strong></td></tr>
 </tbody>
 </table>
+</div>
 
 <h2>उच्च रक्तचाप (High BP) के मुख्य कारण</h2>
 <p>ब्लड प्रेशर बढ़ने के कई कारण हो सकते हैं, जिन्हें दो मुख्य श्रेणियों में बांटा गया है:</p>
@@ -134,9 +136,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-  ['title' => 'A Comprehensive Guide to Heart Health', 'url' => 'heart-health.php', 'date' => 'May 10, 2026', 'image' => '/assets/img/blog/heart-health.png'],
-  ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'May 11, 2026', 'image' => '/assets/img/infrastructure/PATHOLOGY-LAB.jpg'],
-  ['title' => 'A Comprehensive Guide to Stress Management', 'url' => 'stress-management.php', 'date' => 'May 04, 2026', 'image' => '/assets/img/blog/stress-management.png']
+  ['title' => 'A Comprehensive Guide to Heart Health', 'url' => 'heart-health.php', 'date' => 'May 10, 2026', 'image' => 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=300&fit=crop'],
+  ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'May 11, 2026', 'image' => 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&h=300&fit=crop'],
+  ['title' => 'A Comprehensive Guide to Stress Management', 'url' => 'stress-management.php', 'date' => 'May 04, 2026', 'image' => 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=300&fit=crop']
 ];
 
 include 'blog-post.php';

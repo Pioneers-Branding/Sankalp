@@ -6,7 +6,7 @@ $blog_date = "May 19, 2026";
 $blog_readtime = "8 min read";
 $blog_author = "Dr. Rajesh Kumar Soni";
 $blog_author_desc = "Senior Cardiologist, Sankalp Hospital";
-$blog_image = "/assets/img/blog/yawning-heart.png";
+$blog_image = "/assets/img/blog/yawning-heart-attack-feature.jpeg";
 $blog_content = <<<'HTML'
 <p class="lead">हर कोई जम्हाई लेता है — चाहे वो सुबह की ऊंघ हो, बैठक में उम्मीद से ज्यादा लंबी मीटिंग हो, या फिर बस एक आम दिन। लेकिन क्या आपने कभी सोचा है कि अगर जम्हाई बार-बार, बिना किसी ऊंघ या थकान के आ रही हो, तो यह दिल की सेहत से जुड़ा कोई संदेश तो नहीं? कुछ मेडिकल विशेषज्ञों का मानना है कि अत्यधिक जम्हाई लेना वैसोवैगल रिफ्लेक्स (Vasovagal reflex) का संकेत हो सकता है — जो दिल की धड़कन प्रभावित करने वाली एक नसीय प्रक्रिया है। आइए जानते हैं कि जम्हाई और दिल के दौरे में क्या संबंध है और किन चेतावनी संकेतों को नजरअंदाज नहीं करना चाहिए।</p>
 

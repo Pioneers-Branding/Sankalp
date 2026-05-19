@@ -6,7 +6,7 @@ $blog_date = "May 19, 2026";
 $blog_readtime = "10 min read";
 $blog_author = "Dr. Rajesh Kumar Tiwari";
 $blog_author_desc = "Senior Consultant Cardiologist, Sankalp Hospital";
-$blog_image = "/assets/img/blog/heart-attack-genetic.png";
+$blog_image = "https://images.unsplash.com/photo-1628595351029-c2bf17511435?w=400&h=400&fit=crop";
 $blog_content = <<<'HTML'
 <p class="lead">"मेरे पापा को 50 साल की उम्र में दिल का दौरा पड़ा था... क्या मुझे भी होगा?" यह सवाल हर उस व्यक्ति के मन में उठता है जिसके परिवार में हृदय रोग (Heart Disease) का इतिहास रहा हो। आइए विज्ञान की नजर से समझें कि <strong>Heart Attack</strong> कितना आनुवंशिक (Genetic) है और आप अपने जोखिम को कैसे कम कर सकते हैं।</p>
 

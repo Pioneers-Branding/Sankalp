@@ -6,7 +6,7 @@ $blog_date = "May 06, 2026";
 $blog_readtime = "11 min read";
 $blog_author = "Dr. Ankit Gupta";
 $blog_author_desc = "MBBS, DCH - Pediatrician, Sankalp Hospital";
-$blog_image = "/assets/img/blog/child-vaccination.png";
+$blog_image = "https://images.unsplash.com/photo-1627627256672-027a461aa0ce?w=400&h=400&fit=crop";
 $blog_content = <<<'HTML'
 <p class="lead">As a parent, few responsibilities are as profoundly important as safeguarding the health and future of your newborn child. Among the myriad decisions you will make, adhering to a comprehensive child vaccination schedule ranks as one of the most critical. Vaccinations are undeniably one of the greatest achievements of modern medicine, responsible for eradicating devastating illnesses like smallpox and nearly eliminating polio worldwide. This comprehensive guide will walk you through the mechanisms, schedules, safety protocols, and importance of childhood immunizations.</p>
 
@@ -23,7 +23,7 @@ $blog_content = <<<'HTML'
 <h2>The Standard Immunization Schedule: A Roadmap to Health</h2>
 <p>The following schedule is aligned with national health guidelines and pediatric associations to ensure immunity is built early in life when children are most vulnerable.</p>
 
-<table class="table mt-4 mb-4 table-hover shadow-sm">
+<div class="table-wrapper"><table class="table mt-4 mb-4 table-hover shadow-sm">
 <thead style="background-color: var(--primary); color: white;">
 <tr><th>Age Milestone</th><th>Vaccines Administered</th><th>Critical Protection Against</th></tr>
 </thead>
@@ -40,7 +40,7 @@ $blog_content = <<<'HTML'
 <tr><td><strong>5 Years</strong></td><td>DPT Booster-2, OPV Booster-2, MMR-3</td><td>School entry boosters (preparing for social exposure)</td></tr>
 <tr><td><strong>10-12 Years</strong></td><td>Tdap, HPV Vaccine (for girls)</td><td>Tetanus/Diphtheria/Pertussis booster, Cervical cancer prevention</td></tr>
 </tbody>
-</table>
+</table></div>
 
 <h2>Managing the Experience: Side Effects and Comfort</h2>
 <p>It is entirely normal for parents to feel anxious about bringing their infant for injections. However, understanding that side effects are generally mild and temporary can alleviate this stress. These mild reactions are actually a positive sign that the child's immune system is responding to the vaccine and building immunity.</p>
@@ -102,9 +102,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'Essential Tips for a Healthy Pregnancy', 'url' => 'pregnancy-tips', 'date' => 'Jan 15, 2024', 'image' => '/assets/img/blog/pregnancy-care.png'],
-    ['title' => 'Managing Joint Pain', 'url' => 'joint-pain', 'date' => 'Dec 20, 2023', 'image' => '/assets/img/blog/acl-surgery.png'],
-    ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'Dec 10, 2023', 'image' => '/assets/img/infrastructure/PATHOLOGY-LAB.jpg']
+    ['title' => 'Essential Tips for a Healthy Pregnancy', 'url' => 'pregnancy-tips', 'date' => 'Jan 15, 2024', 'image' => 'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=400&h=300&fit=crop'],
+    ['title' => 'Managing Joint Pain', 'url' => 'joint-pain', 'date' => 'Dec 20, 2023', 'image' => 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop'],
+    ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'Dec 10, 2023', 'image' => 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&h=300&fit=crop']
 ];
 
 include 'blog-post.php';

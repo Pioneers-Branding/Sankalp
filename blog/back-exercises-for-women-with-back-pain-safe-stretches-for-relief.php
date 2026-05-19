@@ -32,7 +32,7 @@
 <section class="blog-hero text-center">
   <div class="container">
     <p class="blog-meta"><a href="../index" class="text-white">Home</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="index" class="text-white">Health Blog</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> Orthopedics</p>
-    <div class="blog-hero-img"><img src="/assets/img/blog/back-exercises.png" alt="Back Exercises for Women"></div>
+    <div class="blog-hero-img"><img src="/assets/img/blog/back-exercises-women.jpeg" alt="Woman doing back stretches for relief"></div>
     <h1>Back Exercises for Women: Safe Stretches for Relief</h1>
     <p class="blog-meta"><i class="far fa-calendar"></i> May 11, 2026 &nbsp;&nbsp; <i class="far fa-clock"></i> 8 min read</p>
   </div>

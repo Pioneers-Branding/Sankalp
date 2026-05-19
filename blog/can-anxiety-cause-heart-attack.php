@@ -6,7 +6,7 @@ $blog_date = "May 19, 2026";
 $blog_readtime = "12 min read";
 $blog_author = "Dr. Chandra Mukesh Dhawde";
 $blog_author_desc = "Consultant Neurosurgeon, Sankalp Hospital";
-$blog_image = "/assets/img/blog/anxiety-heart-health.png";
+$blog_image = "https://images.unsplash.com/photo-1493836512294-502baa1986e2?w=400&h=400&fit=crop";
 $blog_content = <<<'HTML'
 <p class="lead">Your heart is pounding. Your chest feels tight. You can't breathe properly. Every muscle in your body is screaming that something is terribly wrong. Is it a <a href="/blog/heart-attack-vs-cardiac-arrest"><strong>heart attack</strong></a> — or is it anxiety?</p>
 
@@ -56,6 +56,7 @@ $blog_content = <<<'HTML'
 <h2>Panic Attack vs. Heart Attack: How to Tell the Difference</h2>
 <p>This is one of the most common questions in emergency rooms across the world. Here's a detailed comparison to help you understand the differences:</p>
 
+<div class="table-wrapper">
 <table class="table">
   <thead>
     <tr>
@@ -107,6 +108,7 @@ $blog_content = <<<'HTML'
     </tr>
   </tbody>
 </table>
+</div>
 
 <div class="alert alert-danger mt-3 mb-4 shadow-sm border-0" style="background-color: #f8d7da; border-left: 5px solid #dc3545 !important;">
   <strong>Important Warning:</strong> If you're ever unsure whether you're experiencing a panic attack or a heart attack, always treat it as a medical emergency and call emergency services immediately. It's always better to be safe than sorry.
@@ -269,9 +271,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'Heart Attack vs Cardiac Arrest: Key Differences', 'url' => 'heart-attack-vs-cardiac-arrest.php', 'date' => 'May 19, 2026', 'image' => '/assets/img/blog/heart-health.png'],
-    ['title' => 'High Blood Pressure - क्या करें?', 'url' => 'bp-high-hone-par-kya-kare.php', 'date' => 'May 06, 2026', 'image' => '/assets/img/blog/bp-high.png'],
-    ['title' => 'Heart Health Guide', 'url' => 'heart-health.php', 'date' => 'May 05, 2026', 'image' => '/assets/img/blog/heart-health.png']
+    ['title' => 'Heart Attack vs Cardiac Arrest: Key Differences', 'url' => 'heart-attack-vs-cardiac-arrest.php', 'date' => 'May 19, 2026', 'image' => 'https://images.unsplash.com/photo-1628348068343-c6a848a2c3b1?w=400&h=300&fit=crop'],
+    ['title' => 'High Blood Pressure - क्या करें?', 'url' => 'bp-high-hone-par-kya-kare.php', 'date' => 'May 06, 2026', 'image' => 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=300&fit=crop'],
+    ['title' => 'Heart Health Guide', 'url' => 'heart-health.php', 'date' => 'May 05, 2026', 'image' => 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=300&fit=crop']
 ];
 
 include 'blog-post.php';

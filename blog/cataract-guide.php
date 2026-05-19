@@ -6,7 +6,7 @@ $blog_date = "January 10, 2024";
 $blog_readtime = "10 min read";
 $blog_author = "Dr. Sanjay Goyal";
 $blog_author_desc = "MBBS, MS (Ophthalmology) - Senior Eye Specialist, Sankalp Hospital";
-$blog_image = "/assets/img/blog/cataract-surgery.png";
+$blog_image = "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=400&h=400&fit=crop";
 $blog_content = <<<'HTML'
 <p class="lead">Cataracts are the leading cause of vision loss in adults over 40 and the primary cause of blindness worldwide. However, thanks to incredible advancements in medical technology, vision loss from cataracts is almost entirely reversible. Understanding this common condition—from its subtle early symptoms to the sophisticated treatment options available today—is the first step toward reclaiming clear, vibrant vision.</p>
 
@@ -55,7 +55,7 @@ $blog_content = <<<'HTML'
 
 <h2>Choosing Your New Lens: A Guide to Intraocular Lenses (IOLs)</h2>
 <p>One of the most exciting advancements in cataract surgery is the variety of IOLs available. Your choice of IOL can significantly reduce or even eliminate your need for glasses after surgery.</p>
-<table class="table mt-3 mb-4">
+<div class="table-wrapper"><table class="table mt-3 mb-4">
 <thead style="background: var(--primary); color: #fff;">
 <tr><th>IOL Type</th><th>Primary Function</th><th>Best For</th></tr>
 </thead>
@@ -65,7 +65,7 @@ $blog_content = <<<'HTML'
 <tr><td><strong>Multifocal IOLs</strong></td><td>Provide clear vision at multiple distances (near, intermediate, and far).</td><td>Patients who want the greatest independence from all glasses.</td></tr>
 <tr><td><strong>Extended Depth of Focus (EDOF) IOLs</strong></td><td>Provide a continuous range of high-quality vision from distance to intermediate.</td><td>Patients who want excellent distance and computer-range vision, and are comfortable with occasional reading glasses.</td></tr>
 </tbody>
-</table>
+</table></div>
 
 <h2>Recovery and Post-Operative Care</h2>
 <p>Recovery from modern cataract surgery is remarkably fast. Most patients notice a significant improvement in their vision within the first 24-48 hours. You will be prescribed anti-inflammatory and antibiotic eye drops to use for a few weeks to prevent infection and control inflammation. While you can resume most normal activities quickly, you should avoid strenuous lifting, bending, and swimming for a short period as advised by your surgeon.</p>
@@ -107,9 +107,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => '5 Simple Steps to Keep Your Heart Healthy', 'url' => 'heart-health', 'date' => 'Jan 5, 2024', 'image' => '/assets/img/blog/heart-health.png'],
-    ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'Dec 10, 2023', 'image' => '/assets/img/infrastructure/PATHOLOGY-LAB.jpg'],
-    ['title' => 'Managing Joint Pain', 'url' => 'joint-pain', 'date' => 'Dec 20, 2023', 'image' => '/assets/img/blog/acl-surgery.png']
+    ['title' => '5 Simple Steps to Keep Your Heart Healthy', 'url' => 'heart-health', 'date' => 'Jan 5, 2024', 'image' => 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=300&fit=crop'],
+    ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'Dec 10, 2023', 'image' => 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&h=300&fit=crop'],
+    ['title' => 'Managing Joint Pain', 'url' => 'joint-pain', 'date' => 'Dec 20, 2023', 'image' => 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop']
 ];
 
 include 'blog-post.php';

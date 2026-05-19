@@ -6,7 +6,7 @@ $blog_date = "May 11, 2026";
 $blog_readtime = "10 min read";
 $blog_author = "Dr. Vijaya Singh";
 $blog_author_desc = "MBBS, MD - Consultant Gynecologist, Sankalp Hospital";
-$blog_image = "/assets/img/blog/hiv-symptoms.png";
+$blog_image = "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400&h=400&fit=crop";
 $blog_content = <<<'HTML'
 <p class="lead">एचआईवी (Human Immunodeficiency Virus) एक ऐसा वायरस है जो दुनिया भर में लाखों महिलाओं को प्रभावित करता है। यह वायरस शरीर की रोग प्रतिरोधक क्षमता (Immune System) पर हमला करता है, विशेष रूप से CD4 कोशिकाओं (T-cells) को नष्ट कर देता है, जिससे शरीर अन्य बीमारियों और संक्रमणों से लड़ने में कमज़ोर पड़ जाता है। यदि एचआईवी का सही समय पर इलाज न किया जाए, तो यह एड्स (AIDS) का रूप ले सकता है। हालांकि, महिलाओं में इसके कुछ लक्षण पुरुषों की तुलना में अलग हो सकते हैं। महिलाओं के लिए इन लक्षणों को समझना, सही समय पर जांच (Testing) करवाना और इलाज शुरू करना एक स्वस्थ जीवन की कुंजी है।</p>
 

@@ -6,7 +6,7 @@ $blog_date = "May 7, 2026";
 $blog_readtime = "10 min read";
 $blog_author = "Dr. Chandra Mukesh Dhawde";
 $blog_author_desc = "Consultant Neurosurgeon, Sankalp Hospital";
-$blog_image = "/assets/img/blog/moringa-diabetes.png";
+$blog_image = "https://images.unsplash.com/photo-1612257416648-ee7a6c3c5a0a?w=400&h=400&fit=crop";
 $blog_content = <<<'HTML'
 <p class="lead">Moringa oleifera, often called the "miracle tree" or "drumstick tree," has been used for centuries in traditional medicine across Asia and Africa. In recent years, this remarkable plant has gained significant attention in the scientific community for its potential benefits in managing blood sugar levels naturally.</p>
 
@@ -14,13 +14,11 @@ $blog_content = <<<'HTML'
 
 <blockquote>"Moringa is packed with nutrients and compounds that may help lower blood sugar levels. However, it should complement, not replace, your prescribed diabetes management plan."</blockquote>
 
-<img src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800&h=400&fit=crop" alt="Moringa Leaves" class="blog-img-large" style="height:300px;margin:30px 0">
-
 <h2>Understanding Moringa's Role in Diabetes Management</h2>
 <p>Moringa leaves contain several bioactive compounds that have demonstrated impressive anti-diabetic properties in various research studies. These compounds work through multiple mechanisms to help regulate blood glucose levels.</p>
 
 <h3>Key Compounds in Moringa</h3>
-<table class="table">
+<div class="table-wrapper"><table class="table">
   <thead>
     <tr>
       <th>Compound</th>
@@ -55,7 +53,7 @@ $blog_content = <<<'HTML'
       <td>Improves insulin signaling and glucose metabolism</td>
     </tr>
   </tbody>
-</table>
+</table></div>
 
 <h2>Nutritional Profile of Moringa</h2>
 <p>One of the remarkable aspects of Moringa is its exceptional nutritional density. Just 100 grams of fresh Moringa leaves contain:</p>
@@ -78,8 +76,7 @@ $blog_content = <<<'HTML'
 <p>There are several forms of Moringa available, each with its own advantages. Here's a detailed look at the most effective ways to consume Moringa for diabetes management.</p>
 
 <h3>1. Moringa Leaf Powder</h3>
-<img src="https://images.unsplash.com/photo-1615485500704-8e990f9900f7?w=800&h=400&fit=crop" alt="Moringa Powder" class="blog-img-large" style="height:250px;margin:20px 0">
-<p>Moringa leaf powder is the most common and versatile form. It's made by drying and grinding Moringa leaves into a fine green powder that can be easily incorporated into your daily routine.</p>
+<p>Moringa leaf powder is the most common and versatile form.</p>
 
 <p><strong>Recommended Dosage:</strong> 1-2 teaspoons (approximately 2-6 grams) daily</p>
 
@@ -140,7 +137,7 @@ $blog_content = <<<'HTML'
 <h2>Optimal Timing for Taking Moringa</h2>
 <p>When you take Moringa can significantly impact its effectiveness for blood sugar management. Here are the best times:</p>
 
-<table class="table">
+<div class="table-wrapper"><table class="table">
   <thead>
     <tr>
       <th>Timing</th>
@@ -170,7 +167,7 @@ $blog_content = <<<'HTML'
       <td>Fasting blood sugar management</td>
     </tr>
   </tbody>
-</table>
+</table></div>
 
 <h2>Research-Backed Benefits of Moringa for Diabetes</h2>
 <p>Several scientific studies have examined Moringa's effects on blood sugar levels with promising results:</p>
@@ -214,7 +211,7 @@ $blog_content = <<<'HTML'
 </ul>
 
 <h3>Who Should Avoid Moringa?</h3>
-<table class="table">
+<div class="table-wrapper"><table class="table">
   <thead>
     <tr>
       <th>Condition</th>
@@ -254,7 +251,7 @@ $blog_content = <<<'HTML'
       <td>Monitor thyroid levels</td>
     </tr>
   </tbody>
-</table>
+</table></div>
 
 <h2>Combining Moringa with a Holistic Diabetes Management Plan</h2>
 <p>Moringa works best when combined with other diabetes management strategies. Here's how to create a comprehensive approach:</p>
@@ -349,9 +346,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'Heart Health Guide', 'url' => 'heart-health.php', 'date' => 'May 05, 2026', 'image' => '/assets/img/blog/heart-health.png'],
-    ['title' => 'High Blood Pressure - क्या करें?', 'url' => 'bp-high-hone-par-kya-kare.php', 'date' => 'May 06, 2026', 'image' => '/assets/img/blog/bp-high.png'],
-    ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'May 11, 2026', 'image' => '/assets/img/infrastructure/PATHOLOGY-LAB.jpg']
+    ['title' => 'Heart Health Guide', 'url' => 'heart-health.php', 'date' => 'May 05, 2026', 'image' => 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=300&fit=crop'],
+    ['title' => 'High Blood Pressure - क्या करें?', 'url' => 'bp-high-hone-par-kya-kare.php', 'date' => 'May 06, 2026', 'image' => 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=300&fit=crop'],
+    ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'May 11, 2026', 'image' => 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&h=300&fit=crop']
 ];
 
 include 'blog-post.php';

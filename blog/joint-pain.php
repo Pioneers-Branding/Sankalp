@@ -6,7 +6,7 @@ $blog_date = "December 20, 2023";
 $blog_readtime = "6 min read";
 $blog_author = "Dr. Tanay Goyal";
 $blog_author_desc = "MBBS, MS (Orthopedics) - Orthopedic Surgeon, Sankalp Hospital";
-$blog_image = "/assets/img/blog/acl-surgery.png";
+$blog_image = "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop";
 $blog_content = <<<'HTML'
 <p class="lead">Joint pain is a pervasive issue that affects millions of individuals globally, drastically reducing mobility and overall quality of life. From the dull ache of early morning stiffness to the sharp, debilitating pain that prevents you from walking up stairs, joint discomfort is one of the leading reasons patients seek orthopedic care. Understanding the mechanics of your joints, the root causes of pain, and knowing when to consult a specialist are pivotal steps in regaining your mobility and comfort.</p>
 
@@ -58,7 +58,7 @@ $blog_content = <<<'HTML'
 
 <h3>Conservative (Non-Surgical) Interventions</h3>
 <p>For early to moderate joint pain, a combination of non-surgical therapies can dramatically improve symptoms:</p>
-<table class="table mt-3 mb-4">
+<div class="table-wrapper"><table class="table mt-3 mb-4">
 <thead>
 <tr style="background: var(--primary); color: #fff;"><th>Therapy Type</th><th>Mechanism and Benefits</th></tr>
 </thead>
@@ -69,7 +69,7 @@ $blog_content = <<<'HTML'
 <tr><td><strong>Activity Modification</strong></td><td>Transitioning from high-impact activities (running) to low-impact alternatives (swimming, cycling) to preserve cartilage while maintaining fitness.</td></tr>
 <tr><td><strong>Bracing and Orthotics</strong></td><td>Specialized braces can offload pressure from the damaged compartment of a joint (e.g., unloader braces for knee osteoarthritis).</td></tr>
 </tbody>
-</table>
+</table></div>
 
 <h3>Surgical Mastery</h3>
 <p>When conservative treatments no longer provide relief and your quality of life is severely impacted, surgical intervention may be recommended. Today's orthopedic procedures are highly refined:</p>
@@ -118,9 +118,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => '5 Simple Steps to Keep Your Heart Healthy', 'url' => 'heart-health', 'date' => 'Jan 5, 2024', 'image' => '/assets/img/blog/heart-health.png'],
-    ['title' => 'Stress Management Techniques', 'url' => 'stress-management', 'date' => 'Dec 15, 2023', 'image' => '/assets/img/blog/heart-health.png'],
-    ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'Dec 10, 2023', 'image' => '/assets/img/infrastructure/PATHOLOGY-LAB.jpg']
+    ['title' => '5 Simple Steps to Keep Your Heart Healthy', 'url' => 'heart-health', 'date' => 'Jan 5, 2024', 'image' => 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=300&fit=crop'],
+    ['title' => 'Stress Management Techniques', 'url' => 'stress-management', 'date' => 'Dec 15, 2023', 'image' => 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=300&fit=crop'],
+    ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'Dec 10, 2023', 'image' => 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&h=300&fit=crop']
 ];
 
 include 'blog-post.php';

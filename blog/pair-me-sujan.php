@@ -6,7 +6,7 @@ $blog_date = "May 07, 2026";
 $blog_readtime = "10 min read";
 $blog_author = "Dr. Shailesh Gupta";
 $blog_author_desc = "MBBS, MD - Consultant Physician, Sankalp Hospital";
-$blog_image = "/assets/img/blog/swollen-feet.png";
+$blog_image = "https://images.unsplash.com/photo-1631567091146-8f21c9e48d7d?w=400&h=400&fit=crop";
 $blog_content = <<<'HTML'
 <p class="lead">पैरों, टखनों (Ankles) या पंजों में सूजन आना एक बेहद आम समस्या है, जिसे मेडिकल भाषा में 'एडिमा' (Edema) कहा जाता है। यह समस्या तब उत्पन्न होती है जब शरीर के ऊतकों (Tissues) में अतिरिक्त तरल पदार्थ (Fluid) जमा हो जाता है। अक्सर लोग लंबी यात्रा के बाद या दिन भर खड़े रहने के कारण पैरों में सूजन का अनुभव करते हैं, जो आराम करने से ठीक हो जाता है। लेकिन यदि आपके पैरों में सूजन लगातार बनी रहती है, या यह दर्दनाक है, तो यह दिल, किडनी या लिवर जैसी किसी गंभीर अंदरूनी बीमारी का संकेत हो सकता है।</p>
 
@@ -109,9 +109,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'पैर में झनझनाहट (Jhunjhuni) होना', 'url' => 'pair-me-jhunjhuni-hona.php', 'date' => 'May 07, 2026', 'image' => '/assets/img/blog/numbness-feet.png'],
-    ['title' => 'पैर में खुजली होना (Khujli)', 'url' => 'pair-me-khujli-hona.php', 'date' => 'May 07, 2026', 'image' => '/assets/img/blog/itchy-feet.png'],
-    ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'May 11, 2026', 'image' => '/assets/img/infrastructure/PATHOLOGY-LAB.jpg']
+    ['title' => 'पैर में झनझनाहट (Jhunjhuni) होना', 'url' => 'pair-me-jhunjhuni-hona.php', 'date' => 'May 07, 2026', 'image' => 'https://images.unsplash.com/photo-1551867974-3f3f5c3ff97?w=400&h=300&fit=crop'],
+    ['title' => 'पैर में खुजली होना (Khujli)', 'url' => 'pair-me-khujli-hona.php', 'date' => 'May 07, 2026', 'image' => 'https://images.unsplash.com/photo-1584308666744-24d5c70f3fb5?w=400&h=300&fit=crop'],
+    ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'May 11, 2026', 'image' => 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&h=300&fit=crop']
 ];
 
 include 'blog-post.php';

@@ -6,7 +6,7 @@ $blog_date = "May 07, 2026";
 $blog_readtime = "10 min read";
 $blog_author = "Dr. Shailesh Gupta";
 $blog_author_desc = "MBBS, MD - Consultant Physician, Sankalp Hospital";
-$blog_image = "/assets/img/blog/burning-feet.png";
+$blog_image = "https://images.unsplash.com/photo-1584308666744-24d5c70f3fb5?w=400&h=400&fit=crop";
 $blog_content = <<<'HTML'
 <p class="lead">क्या आपको रात को सोते समय पैरों के तलवों में सुइयां चुभने, झनझनाहट या तेज जलन (Burning Sensation) महसूस होती है? 'बर्निंग फीट सिंड्रोम' (Burning Feet Syndrome) या पैरों में जलन एक बहुत ही असुविधाजनक और आम समस्या है जो किसी भी उम्र के व्यक्ति को हो सकती है, लेकिन यह बुजुर्गों और डायबिटीज के मरीजों में सबसे ज्यादा देखी जाती है। यह समस्या इतनी कष्टदायक हो सकती है कि मरीज को रातभर नींद नहीं आती और उन्हें अपने पैर ठंडे फर्श पर या ठंडे पानी में रखने पड़ते हैं। आइए जानते हैं इसके मुख्य कारण, लक्षण और सटीक इलाज के बारे में।</p>
 
@@ -69,7 +69,7 @@ $blog_content = <<<'HTML'
 <p>सेब का सिरका शरीर के pH लेवल को संतुलित करता है। आप एक गिलास गर्म पानी में 1 चम्मच सेब का सिरका मिलाकर पी सकते हैं, या फिर पानी के टब में थोड़ा सिरका डालकर उसमें पैर भिगो सकते हैं (यह फंगल इन्फेक्शन में बहुत फायदेमंद है)।</p>
 
 <h2>डाइट और लाइफस्टाइल में क्या बदलाव करें?</h2>
-<table class="table mt-4 mb-4 table-hover shadow-sm">
+<div class="table-wrapper"><table class="table mt-4 mb-4 table-hover shadow-sm">
 <thead style="background-color: var(--primary); color: white;">
 <tr><th>क्या करें (Do's)</th><th>क्या न करें (Don'ts)</th></tr>
 </thead>
@@ -79,7 +79,7 @@ $blog_content = <<<'HTML'
 <tr><td>रोजाना 30 मिनट पैदल चलें या योगा करें (रक्त संचार के लिए)।</td><td>लंबे समय तक एक ही जगह पर पैर लटकाकर न बैठें।</td></tr>
 <tr><td>हमेशा सूती (Cotton) के आरामदायक मोजे पहनें।</td><td>बिना डॉक्टर की सलाह के कोई भी दर्द निवारक गोली न खाएं।</td></tr>
 </tbody>
-</table>
+</table></div>
 
 <div class="alert alert-danger mt-4 p-4 shadow-sm border-0" style="border-left: 5px solid #dc3545 !important;">
 <h4 class="text-danger font-weight-bold"><i class="fas fa-exclamation-triangle me-2"></i> डॉक्टर के पास कब जाना चाहिए?</h4>
@@ -119,9 +119,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-  ['title' => 'पैर में झनझनाहट (Jhunjhuni) होना', 'url' => 'pair-me-jhunjhuni-hona', 'date' => 'May 07, 2026', 'image' => '/assets/img/blog/numbness-feet.png'],
-  ['title' => 'पैरों में सूजन (Sujan) के कारण', 'url' => 'pair-me-sujan', 'date' => 'May 07, 2026', 'image' => '/assets/img/blog/swollen-feet.png'],
-  ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'May 11, 2026', 'image' => '/assets/img/infrastructure/PATHOLOGY-LAB.jpg']
+  ['title' => 'पैर में झनझनाहट (Jhunjhuni) होना', 'url' => 'pair-me-jhunjhuni-hona', 'date' => 'May 07, 2026', 'image' => 'https://images.unsplash.com/photo-1551867974-3f3f5c3ff97?w=400&h=300&fit=crop'],
+  ['title' => 'पैरों में सूजन (Sujan) के कारण', 'url' => 'pair-me-sujan', 'date' => 'May 07, 2026', 'image' => 'https://images.unsplash.com/photo-1631567091146-8f21c9e48d7d?w=400&h=300&fit=crop'],
+  ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'May 11, 2026', 'image' => 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&h=300&fit=crop']
 ];
 
 include 'blog-post.php';

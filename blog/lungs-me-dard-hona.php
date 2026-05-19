@@ -6,7 +6,7 @@ $blog_date = "May 07, 2026";
 $blog_readtime = "10 min read";
 $blog_author = "Dr. Ankita Bansal Goyal";
 $blog_author_desc = "MD(PGIMER CHD) - Consultant Specialist, Sankalp Hospital";
-$blog_image = "/assets/img/blog/lungs-pain.png";
+$blog_image = "https://images.unsplash.com/photo-1519824145371-296894a0daa9?w=400&h=400&fit=crop";
 $blog_content = <<<'HTML'
 <p class="lead">सीने में या पीठ के ऊपरी हिस्से में होने वाला दर्द अक्सर डरावना होता है क्योंकि लोग तुरंत इसे हार्ट अटैक से जोड़कर देखने लगते हैं। हालांकि, कई बार यह 'फेफड़ों में दर्द' (Lung Pain) हो सकता है। यह जानना बहुत दिलचस्प है कि फेफड़ों (Lungs) के अंदर दर्द महसूस करने वाले कोई रिसेप्टर्स (Pain Receptors) नहीं होते हैं। इसलिए जब आपको "फेफड़ों में दर्द" महसूस होता है, तो वास्तव में वह दर्द फेफड़ों की बाहरी परत (Pleura), श्वास नली, छाती की मांसपेशियों या पसलियों से आ रहा होता है। सही कारण का पता लगाना और समय पर इलाज करवाना बेहद जरूरी है।</p>
 
@@ -34,7 +34,7 @@ $blog_content = <<<'HTML'
 <p>पसलियों को ब्रेस्टबोन (Sternum) से जोड़ने वाले कार्टिलेज (उपास्थि) में सूजन आने को कोस्टोकॉन्ड्राइटिस कहते हैं। यह दर्द बिल्कुल हार्ट अटैक जैसा महसूस होता है और गहरी सांस लेने या उस जगह को दबाने पर बहुत तेज हो जाता है।</p>
 
 <h2>हार्ट और फेफड़ों के दर्द में कैसे अंतर करें?</h2>
-<table class="table mt-4 mb-4 table-hover shadow-sm">
+<div class="table-wrapper"><table class="table mt-4 mb-4 table-hover shadow-sm">
 <thead style="background-color: var(--primary); color: white;">
 <tr><th>लक्षण (Symptoms)</th><th>फेफड़ों का दर्द (Lung-related)</th><th>हृदय का दर्द (Heart-related)</th></tr>
 </thead>
@@ -43,7 +43,7 @@ $blog_content = <<<'HTML'
 <tr><td><strong>दर्द का फैलाव</strong></td><td>आमतौर पर सीने के एक हिस्से में या पीठ के ऊपरी हिस्से में सीमित रहता है।</td><td>बाएं हाथ, कंधे, जबड़े या पीठ की तरफ फैलता है (Radiating pain)।</td></tr>
 <tr><td><strong>अन्य लक्षण</strong></td><td>खांसी, बलगम, बुखार, सांस लेने पर घरघराहट।</td><td>अत्यधिक पसीना आना, घबराहट, मतली (Nausea), चक्कर आना।</td></tr>
 </tbody>
-</table>
+</table></div>
 
 <h2>जांच और निदान (Diagnosis)</h2>
 <p>चूंकि सीने का दर्द जानलेवा भी हो सकता है, इसलिए डॉक्टर सटीक कारण जानने के लिए कुछ महत्वपूर्ण टेस्ट करवाते हैं:</p>
@@ -103,9 +103,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-  ['title' => 'गैस से पीठ दर्द क्यों होता है?', 'url' => 'gas-se-peeth-dard-kyun-hota-hai', 'date' => 'May 07, 2026', 'image' => '/assets/img/blog/gas-back-pain.png'],
-  ['title' => 'A Comprehensive Guide to Heart Health', 'url' => 'heart-health.php', 'date' => 'May 10, 2026', 'image' => '/assets/img/blog/heart-health.png'],
-  ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'May 11, 2026', 'image' => '/assets/img/infrastructure/PATHOLOGY-LAB.jpg']
+  ['title' => 'गैस से पीठ दर्द क्यों होता है?', 'url' => 'gas-se-peeth-dard-kyun-hota-hai', 'date' => 'May 07, 2026', 'image' => 'https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=400&h=300&fit=crop'],
+  ['title' => 'A Comprehensive Guide to Heart Health', 'url' => 'heart-health.php', 'date' => 'May 10, 2026', 'image' => 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=300&fit=crop'],
+  ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'May 11, 2026', 'image' => 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&h=300&fit=crop']
 ];
 
 include 'blog-post.php';

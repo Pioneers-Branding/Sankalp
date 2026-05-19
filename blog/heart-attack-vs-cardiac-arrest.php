@@ -6,7 +6,7 @@ $blog_date = "May 19, 2026";
 $blog_readtime = "12 min read";
 $blog_author = "Dr. Chandra Mukesh Dhawde";
 $blog_author_desc = "Consultant Neurosurgeon, Sankalp Hospital";
-$blog_image = "/assets/img/blog/heart-health.png";
+$blog_image = "https://images.unsplash.com/photo-1628348068343-c6a848a2c3b1?w=400&h=400&fit=crop";
 $blog_content = <<<'HTML'
 <p class="lead">The terms "heart attack" and "cardiac arrest" are often used interchangeably in everyday conversation, but they represent two very different medical emergencies with distinct causes, symptoms, and treatments. Understanding these differences could mean the difference between life and death for you or a loved one.</p>
 
@@ -74,6 +74,7 @@ $blog_content = <<<'HTML'
 </div>
 
 <h2>Key Differences: Heart Attack vs Cardiac Arrest</h2>
+<div class="table-wrapper">
 <table class="table">
   <thead>
     <tr>
@@ -120,6 +121,7 @@ $blog_content = <<<'HTML'
     </tr>
   </tbody>
 </table>
+</div>
 
 <h2>The Connection Between Heart Attack and Cardiac Arrest</h2>
 <p>While they are different conditions, a heart attack can <strong>trigger</strong> cardiac arrest. When a large area of heart muscle dies during a heart attack, it can cause electrical instability that leads to <a href="/emergency-hospital-in-ambikapur"><strong>ventricular fibrillation</strong></a> - the chaotic heart rhythm that causes cardiac arrest.</p>
@@ -287,9 +289,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'Heart Health Guide', 'url' => 'heart-health.php', 'date' => 'May 05, 2026', 'image' => '/assets/img/blog/heart-health.png'],
-    ['title' => 'High Blood Pressure - क्या करें?', 'url' => 'bp-high-hone-par-kya-kare.php', 'date' => 'May 06, 2026', 'image' => '/assets/img/blog/bp-high.png'],
-    ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'May 11, 2026', 'image' => '/assets/img/infrastructure/PATHOLOGY-LAB.jpg']
+    ['title' => 'Heart Health Guide', 'url' => 'heart-health.php', 'date' => 'May 05, 2026', 'image' => 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=300&fit=crop'],
+    ['title' => 'High Blood Pressure - क्या करें?', 'url' => 'bp-high-hone-par-kya-kare.php', 'date' => 'May 06, 2026', 'image' => 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=300&fit=crop'],
+    ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'May 11, 2026', 'image' => 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&h=300&fit=crop']
 ];
 
 include 'blog-post.php';

@@ -6,7 +6,7 @@ $blog_date = "January 5, 2024";
 $blog_readtime = "5 min read";
 $blog_author = "Dr. Shailesh Gupta";
 $blog_author_desc = "MBBS, MD, DM (Cardiology) - Senior Cardiologist, Sankalp Hospital";
-$blog_image = "/assets/img/blog/heart-health.png";
+$blog_image = "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=400&fit=crop";
 $blog_content = <<<'HTML'
 <p class="lead">Heart disease continues to hold its position as the leading cause of death globally, accounting for millions of fatalities every year. However, this sobering statistic comes with a silver lining: according to the World Health Organization, up to 80% of premature heart attacks and strokes are entirely preventable. By understanding your cardiovascular system and embracing a proactive, heart-healthy lifestyle, you have the power to protect your heart and dramatically improve your quality of life. This comprehensive guide details five crucial steps to keeping your heart functioning optimally for decades to come.</p>
 
@@ -55,7 +55,7 @@ $blog_content = <<<'HTML'
 
 <h2>5. Know Your Numbers: The Importance of Regular Screenings</h2>
 <p>Heart disease is often referred to as a "silent killer" because many of its precursors—like high blood pressure and high cholesterol—present with zero physical symptoms until a catastrophic event, like a heart attack, occurs. Regular medical screenings are your first line of defense.</p>
-<table class="table mt-4 mb-4">
+<div class="table-wrapper"><table class="table mt-4 mb-4">
 <thead>
 <tr style="background: var(--primary); color: #fff;"><th>Cardiovascular Metric</th><th>Healthy Target / Optimal Range</th></tr>
 </thead>
@@ -67,7 +67,7 @@ $blog_content = <<<'HTML'
 <tr><td><strong>Triglycerides</strong></td><td>Below 150 mg/dL</td></tr>
 <tr><td><strong>Fasting Blood Sugar</strong></td><td>Below 100 mg/dL</td></tr>
 </tbody>
-</table>
+</table></div>
 
 <div class="alert alert-warning mt-4 p-4 shadow-sm" style="border-left: 5px solid #ff9800;">
 <h4 class="alert-heading"><i class="fas fa-exclamation-triangle me-2"></i>Warning Signs of a Heart Attack</h4>
@@ -111,9 +111,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'Stress Management Techniques', 'url' => 'stress-management', 'date' => 'Dec 15, 2023', 'image' => '/assets/img/blog/heart-health.png'],
-    ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'Dec 10, 2023', 'image' => '/assets/img/infrastructure/PATHOLOGY-LAB.jpg'],
-    ['title' => 'Managing Joint Pain', 'url' => 'joint-pain', 'date' => 'Dec 20, 2023', 'image' => '/assets/img/blog/acl-surgery.png']
+    ['title' => 'Stress Management Techniques', 'url' => 'stress-management', 'date' => 'Dec 15, 2023', 'image' => 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=300&fit=crop'],
+    ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'Dec 10, 2023', 'image' => 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&h=300&fit=crop'],
+    ['title' => 'Managing Joint Pain', 'url' => 'joint-pain', 'date' => 'Dec 20, 2023', 'image' => 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop']
 ];
 
 include 'blog-post.php';

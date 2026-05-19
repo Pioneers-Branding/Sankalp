@@ -6,7 +6,7 @@ $blog_date = "May 19, 2026";
 $blog_readtime = "12 min read";
 $blog_author = "Dr. Shailesh Gupta";
 $blog_author_desc = "MBBS, MD, DM (Cardiology) - Senior Cardiologist, Sankalp Hospital";
-$blog_image = "/assets/img/blog/low-bp-heart-attack.png";
+$blog_image = "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=400&fit=crop";
 $blog_content = <<<'HTML'
 <p class="lead">You've probably heard that high blood pressure is dangerous — and that's true. But what about the other extreme? Can low blood pressure cause a heart attack? This question sparks widespread confusion, with many people mistakenly believing that hypotension is just as deadly as hypertension. The truth is far more nuanced. While severely low blood pressure can be a sign of underlying heart problems, the relationship between low BP and heart attacks is often misunderstood. Let's separate myths from facts so you can protect your heart the right way.</p>
 

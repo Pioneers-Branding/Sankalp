@@ -6,7 +6,7 @@ $blog_date = "December 15, 2023";
 $blog_readtime = "5 min read";
 $blog_author = "Dr. Ankit Sharma";
 $blog_author_desc = "MBBS, MD (Psychiatry) - Psychiatrist, Sankalp Hospital";
-$blog_image = "/assets/img/blog/stress-management.png";
+$blog_image = "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=400&fit=crop";
 $blog_content = <<<'HTML'
 <p class="lead">In today's fast-paced world, stress has become a constant companion for many. While some stress can be motivating, chronic stress takes a toll on both your mental and physical health. Learning to manage stress effectively is essential for overall well-being.</p>
 
@@ -90,7 +90,7 @@ $blog_content = <<<'HTML'
 </div>
 
 <h2>Quick Stress Relief Techniques</h2>
-<table class="table">
+<div class="table-wrapper"><table class="table">
 <thead>
 <tr><th>Technique</th><th>Duration</th></tr>
 </thead>
@@ -101,7 +101,7 @@ $blog_content = <<<'HTML'
 <tr><td><strong>Walking</strong></td><td>10-30 minutes</td></tr>
 <tr><td><strong>Journaling</strong></td><td>10 minutes</td></tr>
 </tbody>
-</table>
+</table></div>
 
 <h2>Building Long-Term Resilience</h2>
 <ul>
@@ -117,9 +117,9 @@ $blog_content = <<<'HTML'
 HTML;
 
 $related_posts = [
-    ['title' => '5 Simple Steps to Keep Your Heart Healthy', 'url' => 'heart-health', 'date' => 'Jan 5, 2024', 'image' => '/assets/img/blog/heart-health.png'],
-    ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'Dec 10, 2023', 'image' => '/assets/img/infrastructure/PATHOLOGY-LAB.jpg'],
-    ['title' => 'Managing Joint Pain', 'url' => 'joint-pain', 'date' => 'Dec 20, 2023', 'image' => '/assets/img/blog/acl-surgery.png']
+    ['title' => '5 Simple Steps to Keep Your Heart Healthy', 'url' => 'heart-health', 'date' => 'Jan 5, 2024', 'image' => 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=300&fit=crop'],
+    ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'Dec 10, 2023', 'image' => 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&h=300&fit=crop'],
+    ['title' => 'Managing Joint Pain', 'url' => 'joint-pain', 'date' => 'Dec 20, 2023', 'image' => 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop']
 ];
 
 include 'blog-post.php';

@@ -6,7 +6,7 @@ $blog_date = "May 07, 2026";
 $blog_readtime = "10 min read";
 $blog_author = "Dr. Shailesh Gupta";
 $blog_author_desc = "MBBS, MD - Consultant Physician, Sankalp Hospital";
-$blog_image = "/assets/img/blog/itchy-feet.png";
+$blog_image = "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=400&h=400&fit=crop";
 $blog_content = <<<'HTML'
 <p class="lead">पैरों में खुजली (Pruritus) एक ऐसी स्थिति है जो आपको किसी भी समय और कहीं भी असहज कर सकती है। अक्सर लोग रात को सोते समय पैरों के तलवों या उंगलियों के बीच तेज खुजली का अनुभव करते हैं, जिससे उनकी नींद भी खराब होती है। कभी-कभी यह खुजली केवल त्वचा के रूखेपन के कारण होती है, जबकि कई बार यह एथलीट्स फुट, न्यूरोपैथी या किडनी की किसी गंभीर बीमारी का शुरुआती संकेत भी हो सकती है। इसे नजरअंदाज करने और बार-बार खुजलाने से त्वचा में घाव और बैक्टीरियल इन्फेक्शन होने का खतरा बढ़ जाता है।</p>
 
@@ -34,7 +34,7 @@ $blog_content = <<<'HTML'
 <p>ये दोनों ही क्रोनिक त्वचा रोग हैं। एक्जिमा में त्वचा पर लाल, सूजे हुए और पानी भरे दाने निकल आते हैं जिनमें तीव्र खुजली होती है। वहीं, पामोप्लान्टर सोरायसिस (Palmoplantar Psoriasis) में पैरों के तलवों पर मोटी, लाल और पपड़ीदार त्वचा बन जाती है जो फटने पर दर्द और खुजली करती है।</p>
 
 <h2>पैरों की खुजली के प्रकार और पहचान (Types and Symptoms)</h2>
-<table class="table mt-4 mb-4 table-hover shadow-sm">
+<div class="table-wrapper"><table class="table mt-4 mb-4 table-hover shadow-sm">
 <thead style="background-color: var(--primary); color: white;">
 <tr><th>खुजली का कारण</th><th>मुख्य लक्षण (Symptoms)</th><th>स्थान (Location)</th></tr>
 </thead>
@@ -44,7 +44,7 @@ $blog_content = <<<'HTML'
 <tr><td><strong>एलर्जी (डर्मेटाइटिस)</strong></td><td>अचानक लालिमा, सूजन, छोटे दाने (Rashes)।</td><td>जहां त्वचा एलर्जी वाले पदार्थ के संपर्क में आई हो।</td></tr>
 <tr><td><strong>डायबिटीज/न्यूरोपैथी</strong></td><td>अंदरूनी खुजली, सुन्नपन, सुई चुभने जैसा अहसास, त्वचा रूखी।</td><td>पैरों के निचले हिस्से और तलवों में।</td></tr>
 </tbody>
-</table>
+</table></div>
 
 <h2>तुरंत राहत के लिए असरदार घरेलू उपाय (Home Remedies)</h2>
 <p>यदि खुजली किसी गंभीर मेडिकल स्थिति के कारण नहीं है, तो आप इन घरेलू नुस्खों से तुरंत आराम पा सकते हैं:</p>
@@ -107,9 +107,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'पैरों में सूजन (Sujan) के कारण', 'url' => 'pair-me-sujan.php', 'date' => 'May 07, 2026', 'image' => '/assets/img/blog/swollen-feet.png'],
-    ['title' => 'पैर में झनझनाहट (Jhunjhuni) होना', 'url' => 'pair-me-jhunjhuni-hona.php', 'date' => 'May 07, 2026', 'image' => '/assets/img/blog/numbness-feet.png'],
-    ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'May 11, 2026', 'image' => '/assets/img/infrastructure/PATHOLOGY-LAB.jpg']
+    ['title' => 'पैरों में सूजन (Sujan) के कारण', 'url' => 'pair-me-sujan.php', 'date' => 'May 07, 2026', 'image' => 'https://images.unsplash.com/photo-1631567091146-8f21c9e48d7d?w=400&h=300&fit=crop'],
+    ['title' => 'पैर में झनझनाहट (Jhunjhuni) होना', 'url' => 'pair-me-jhunjhuni-hona.php', 'date' => 'May 07, 2026', 'image' => 'https://images.unsplash.com/photo-1551867974-3f3f5c3ff97?w=400&h=300&fit=crop'],
+    ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'May 11, 2026', 'image' => 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&h=300&fit=crop']
 ];
 
 include 'blog-post.php';

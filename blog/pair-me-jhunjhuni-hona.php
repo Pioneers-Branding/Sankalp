@@ -6,7 +6,7 @@ $blog_date = "May 07, 2026";
 $blog_readtime = "11 min read";
 $blog_author = "Dr. Chandra Mukesh Dhawde";
 $blog_author_desc = "Consultant Neurosurgeon, Sankalp Hospital";
-$blog_image = "/assets/img/blog/numbness-feet.png";
+$blog_image = "https://images.unsplash.com/photo-1551867974-3d6bb3c3ff97?w=400&h=400&fit=crop";
 $blog_content = <<<'HTML'
 <p class="lead">क्या आपने कभी महसूस किया है कि लगातार एक ही स्थिति (Posture) में बैठे रहने के बाद जब आप खड़े होते हैं, तो आपके पैरों में चींटियां चलने जैसा अहसास या 'सुइयां चुभने' जैसी झनझनाहट (Tingling) होती है? मेडिकल भाषा में इसे "पैरास्थीसिया" (Paresthesia) कहा जाता है। आमतौर पर यह कुछ मिनटों में ठीक हो जाता है। लेकिन, यदि यह झनझनाहट बार-बार हो रही है, बिना किसी कारण के हो रही है, या सुन्नपन (Numbness) के साथ लगातार बनी रहती है, तो यह किसी गंभीर तंत्रिका तंत्र (Nervous System) की बीमारी का संकेत हो सकता है। आइए इस समस्या की गहराई को समझें।</p>
 
@@ -108,9 +108,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'पैरों में जलन (Burning Feet) के कारण', 'url' => 'pair-me-jalan.php', 'date' => 'May 07, 2026', 'image' => '/assets/img/blog/burning-feet.png'],
-    ['title' => 'पैरों में सूजन (Sujan) के कारण', 'url' => 'pair-me-sujan.php', 'date' => 'May 07, 2026', 'image' => '/assets/img/blog/swollen-feet.png'],
-    ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'May 11, 2026', 'image' => '/assets/img/infrastructure/PATHOLOGY-LAB.jpg']
+    ['title' => 'पैरों में जलन (Burning Feet) के कारण', 'url' => 'pair-me-jalan.php', 'date' => 'May 07, 2026', 'image' => 'https://images.unsplash.com/photo-1584308666744-24d5c70f3fb5?w=400&h=300&fit=crop'],
+    ['title' => 'पैरों में सूजन (Sujan) के कारण', 'url' => 'pair-me-sujan.php', 'date' => 'May 07, 2026', 'image' => 'https://images.unsplash.com/photo-1631567091146-8f21c9e48d7d?w=400&h=300&fit=crop'],
+    ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'May 11, 2026', 'image' => 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&h=300&fit=crop']
 ];
 
 include 'blog-post.php';

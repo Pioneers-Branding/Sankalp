@@ -6,7 +6,7 @@ $blog_date = "January 15, 2024";
 $blog_readtime = "12 min read";
 $blog_author = "Dr. Lata Goyal";
 $blog_author_desc = "MBBS, DGO - Senior Gynecologist, Sankalp Hospital";
-$blog_image = "/assets/img/blog/pregnancy-care.png";
+$blog_image = "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=400&h=400&fit=crop";
 $blog_content = <<<'HTML'
 <p class="lead">Pregnancy is a profound journey of transformation, a time of incredible physical and emotional change for an expectant mother. A healthy pregnancy begins with informed choices. From the moment you discover you're expecting, every decision you make contributes to your baby's healthy development and your own well-being. This comprehensive guide breaks down the essentials trimester by trimester, helping you navigate this beautiful journey with confidence.</p>
 
@@ -49,7 +49,7 @@ $blog_content = <<<'HTML'
 
 <h2>Prenatal Care: Your Health Partnership</h2>
 <p>Regular check-ups with your gynecologist are the cornerstone of a healthy pregnancy. These visits allow your doctor to monitor your health and your baby's development, and to address any concerns you may have.</p>
-<table class="table mt-3 mb-4">
+<div class="table-wrapper"><table class="table mt-3 mb-4">
 <thead style="background: var(--primary); color: #fff;">
 <tr><th>Trimester</th><th>Typical Visit Frequency</th><th>Key Milestones & Tests</th></tr>
 </thead>
@@ -58,7 +58,7 @@ $blog_content = <<<'HTML'
 <tr><td><strong>Second Trimester</strong></td><td>Once a month</td><td>Anatomy scan (around 20 weeks) to check baby's development, screening for gestational diabetes.</td></tr>
 <tr><td><strong>Third Trimester</strong></td><td>Every 2 weeks, then weekly</td><td>Monitoring baby's position, Group B Strep test, discussing birth plan and signs of labor.</td></tr>
 </tbody>
-</table>
+</table></div>
 
 <h2>Mental and Emotional Well-being</h2>
 <p>Pregnancy can be an emotional rollercoaster. It's normal to feel a mix of excitement, anxiety, and apprehension. Prioritize your mental health by talking about your feelings with your partner, friends, or a professional. Practice relaxation techniques like deep breathing or meditation, and don't hesitate to ask for help when you need it.</p>
@@ -108,9 +108,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'Dec 10, 2023', 'image' => '/assets/img/infrastructure/PATHOLOGY-LAB.jpg'],
-    ['title' => 'What is the Best Way to Take Moringa for Diabetes?', 'url' => 'what-is-the-best-way-to-take-moringa-for-diabetes', 'date' => 'Dec 5, 2023', 'image' => '/assets/img/blog/moringa-diabetes.png'],
-    ['title' => 'Back Exercises for Women with Back Pain', 'url' => 'back-exercises-for-women-with-back-pain-safe-stretches-for-relief', 'date' => 'Nov 28, 2023', 'image' => '/assets/img/blog/back-exercises.png']
+    ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'Dec 10, 2023', 'image' => 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&h=300&fit=crop'],
+    ['title' => 'What is the Best Way to Take Moringa for Diabetes?', 'url' => 'what-is-the-best-way-to-take-moringa-for-diabetes', 'date' => 'Dec 5, 2023', 'image' => 'https://images.unsplash.com/photo-1612257416648-ee7a6c3c5a0a?w=400&h=300&fit=crop'],
+    ['title' => 'Back Exercises for Women with Back Pain', 'url' => 'back-exercises-for-women-with-back-pain-safe-stretches-for-relief', 'date' => 'Nov 28, 2023', 'image' => 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=300&fit=crop']
 ];
 
 include 'blog-post.php';
