@@ -6,7 +6,7 @@ $blog_date = "June 03, 2026";
 $blog_readtime = "10 min read";
 $blog_author = "Dr. Tanay Goyal";
 $blog_author_desc = "MBBS, MS (Orthopedics) - Orthopedic Surgeon, Sankalp Hospital";
-$blog_image = "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=400&fit=crop";
+$blog_image = "https://images.unsplash.com/photo-1584466977773-e625c37cdd50?w=1200&h=630&fit=crop";
 $blog_content = <<<'HTML'
 <p class="lead">कमर दर्द आज के समय में सबसे आम स्वास्थ्य समस्याओं में से एक है। WHO के अनुसार, दुनिया भर में लगभग 80% लोग अपने जीवन में कभी न कभी कमर दर्द से पीड़ित होते हैं। अधिकांश मामलों में यह मामूली मांसपेशियों के खिंचाव या गलत मुद्रा के कारण होता है और कुछ दिनों में ठीक हो जाता है। लेकिन कुछ स्थितियों में कमर दर्द किसी गंभीर बीमारी का संकेत हो सकता है। इस ब्लॉग में हम विस्तार से जानेंगे कि <strong>कमर दर्द कब गंभीर माना जाता है</strong> और किन परिस्थितियों में <a href="orthopedic-hospital-in-ambikapur">ऑर्थोपेडिक विशेषज्ञ</a> से मिलना आवश्यक है।</p>
 

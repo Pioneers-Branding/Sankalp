@@ -6,7 +6,7 @@ $blog_date = "June 03, 2026";
 $blog_readtime = "9 min read";
 $blog_author = "Dr. Shailesh Gupta";
 $blog_author_desc = "MBBS, MD - Consultant Physician, Sankalp Hospital";
-$blog_image = "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=400&h=400&fit=crop";
+$blog_image = "https://images.unsplash.com/photo-1513224502586-d1e602410265?w=400&h=400&fit=crop";
 $blog_content = <<<'HTML'
 <p class="lead">भारत में हार्ट अटैक (Heart Attack) से होने वाली मौतों की संख्या लगातार बढ़ रही है, और इसकी एक बड़ी वजह है लक्षणों की सही पहचान न हो पाना। बहुत से लोग हार्ट अटैक के दर्द को सामान्य <strong>गैस या एसिडिटी का दर्द</strong> समझकर नजरअंदाज कर देते हैं, जिसकी वजह से वे अस्पताल पहुंचने में देरी कर देते हैं। यह देरी जानलेवा साबित हो सकती है। इस ब्लॉग में हम विस्तार से जानेंगे कि <strong>हार्ट अटैक और गैस के दर्द में क्या अंतर</strong> होता है, कैसे दोनों की पहचान की जा सकती है, और किन स्थितियों में तुरंत <a href="emergency-hospital-in-ambikapur">आपातकालीन चिकित्सा</a> की जरूरत होती है।</p>
 

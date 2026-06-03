@@ -6,7 +6,7 @@ $blog_date = "June 03, 2026";
 $blog_readtime = "11 min read";
 $blog_author = "Dr. Tanay Goyal";
 $blog_author_desc = "MBBS, MS (Orthopedics) - Orthopedic Surgeon, Sankalp Hospital";
-$blog_image = "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=400&fit=crop";
+$blog_image = "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop";
 $blog_content = <<<'HTML'
 <p class="lead">जोड़ों का दर्द (Joint Pain) आज के समय की सबसे आम स्वास्थ्य समस्याओं में से एक है। भारत में लगभग 15 करोड़ से अधिक लोग किसी न किसी प्रकार के जोड़ों के दर्द से पीड़ित हैं। यह समस्या न केवल बुजुर्गों को, बल्कि युवा वर्ग को भी प्रभावित कर रही है। खराब जीवनशैली, शारीरिक निष्क्रियता, और बढ़ते मोटापे के कारण यह समस्या तेजी से बढ़ रही है। इस ब्लॉग में हम विस्तार से जानेंगे कि <strong>जोड़ों के दर्द का सबसे अच्छा इलाज</strong> क्या है और किन तरीकों से आप जोड़ों को स्वस्थ रख सकते हैं।</p>
 

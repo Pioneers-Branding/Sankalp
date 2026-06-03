@@ -231,4 +231,3 @@
 
 
 <?php include 'includes/footer.php'; ?>
-<a href="https://wa.me/919584889068" target="_blank" class="float-wa" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
