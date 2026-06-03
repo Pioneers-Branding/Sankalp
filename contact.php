@@ -107,10 +107,74 @@
               <label class="form-label fw-bold">Message</label>
               <textarea name="message" class="form-control form-control-lg" rows="4" placeholder="How can we help you?"></textarea>
             </div>
+            <!-- Math CAPTCHA -->
+            <div class="col-12">
+              <label class="form-label fw-bold">Security Check <span class="text-danger">*</span></label>
+              <div class="d-flex align-items-center gap-3 flex-wrap">
+                <div class="captcha-box d-flex align-items-center justify-content-between gap-2 px-3 py-2 rounded-3 border" style="background:linear-gradient(135deg,rgba(13,110,253,.07),rgba(25,135,84,.07));border-color:rgba(13,110,253,.25)!important;min-width:220px;">
+                  <span id="captcha-question" class="fw-bold fs-5 text-dark" style="letter-spacing:.05em;user-select:none;"></span>
+                  <button type="button" id="captcha-refresh-btn" onclick="generateCaptcha()" title="Get a new question" class="btn btn-sm btn-outline-primary p-1" style="line-height:1;" aria-label="Refresh CAPTCHA">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+                  </button>
+                </div>
+                <span class="fw-bold fs-4 text-muted">=</span>
+                <input type="number" id="captcha_answer" name="captcha_answer" required autocomplete="off"
+                  class="form-control form-control-lg text-center fw-bold"
+                  style="width:100px;" placeholder="?">
+              </div>
+              <div id="captcha-error" class="text-danger small mt-2 d-none">
+                <i class="fas fa-exclamation-triangle me-1"></i>Incorrect answer. Please try again.
+              </div>
+            </div>
+
             <div class="col-12 mt-4">
               <button type="submit" class="btn btn-primary btn-lg px-5 shadow">Send Message Now</button>
             </div>
           </form>
+
+          <script>
+            var _captchaAnswer = 0;
+
+            function generateCaptcha() {
+              var ops = ['+', '-', '×'];
+              var op = ops[Math.floor(Math.random() * ops.length)];
+              var a, b, answer;
+
+              if (op === '+') {
+                a = Math.floor(Math.random() * 20) + 1;
+                b = Math.floor(Math.random() * 20) + 1;
+                answer = a + b;
+              } else if (op === '-') {
+                a = Math.floor(Math.random() * 20) + 10;
+                b = Math.floor(Math.random() * 10) + 1;
+                answer = a - b;
+              } else {
+                a = Math.floor(Math.random() * 9) + 2;
+                b = Math.floor(Math.random() * 9) + 2;
+                answer = a * b;
+              }
+
+              _captchaAnswer = answer;
+              document.getElementById('captcha-question').textContent = 'What is ' + a + ' ' + op + ' ' + b + ' ?';
+              document.getElementById('captcha_answer').value = '';
+              document.getElementById('captcha-error').classList.add('d-none');
+            }
+
+            generateCaptcha();
+
+            document.querySelector('form[action*="formester"]').addEventListener('submit', function(e) {
+              var userAnswer = parseInt(document.getElementById('captcha_answer').value, 10);
+              var errEl = document.getElementById('captcha-error');
+              if (isNaN(userAnswer) || userAnswer !== _captchaAnswer) {
+                e.preventDefault();
+                errEl.classList.remove('d-none');
+                generateCaptcha();
+                document.getElementById('captcha_answer').focus();
+              } else {
+                errEl.classList.add('d-none');
+              }
+            });
+          </script>
         </div>
       </div>
     </div>
