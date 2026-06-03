@@ -183,12 +183,8 @@ img{max-width:100%;height:auto}
 .footer-bottom a:hover{color:var(--accent)}
 
 /* ===== FLOATING ===== */
-.float-call,.float-wa{position:fixed;right:18px;width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:22px;box-shadow:0 4px 14px rgba(0,0,0,.25);z-index:999;animation:pulse 1.6s infinite}
-.float-call{bottom:88px;background:var(--primary)}
-.float-wa{bottom:24px;background:#25d366}
-.float-call:hover,.float-wa:hover{color:#fff;transform:scale(1.08)}
-@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(22,128,119,.5)}50%{box-shadow:0 0 0 12px rgba(22,128,119,0)}}
-.float-wa{animation-name:pulseWa}
+.float-wa{position:fixed;right:18px;bottom:24px;width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:22px;box-shadow:0 4px 14px rgba(0,0,0,.25);z-index:999;background:#25d366;animation:pulseWa 1.6s infinite}
+.float-wa:hover{color:#fff;transform:scale(1.08)}
 @keyframes pulseWa{0%,100%{box-shadow:0 0 0 0 rgba(37,211,102,.5)}50%{box-shadow:0 0 0 12px rgba(37,211,102,0)}}
 
 /* ===== RESPONSIVE TWEAKS ===== */
@@ -206,7 +202,7 @@ img{max-width:100%;height:auto}
   .speciality-card h5{font-size:13px;min-height:auto}
   .ticker-content li{font-size:13px}
   .news-ticker .ticker-controls{display:none}
-  .float-call,.float-wa{width:46px;height:46px;font-size:18px}
+  .float-wa{width:46px;height:46px;font-size:18px}
 }
 @media (max-width:575px){
   .section-title,.section-h1{font-size:20px}

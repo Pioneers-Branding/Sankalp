@@ -62,9 +62,6 @@
   </div>
 </footer>
 
-<!-- Floating Call -->
-<a href="tel:+919584889068" class="float-call" aria-label="Call us"><i class="fas fa-phone-alt"></i></a>
-
 <script defer src="https://app.wacrs.com/install-widget/bundle.js?key=7f126296-8427-416e-9aa1-6fa5ca1798d4"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script>

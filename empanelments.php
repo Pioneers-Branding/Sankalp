@@ -231,5 +231,4 @@
 
 
 <?php include 'includes/footer.php'; ?>
-<a href="tel:+919584889068" class="float-call" aria-label="Call us"><i class="fas fa-phone-alt"></i></a>
 <a href="https://wa.me/919584889068" target="_blank" class="float-wa" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
