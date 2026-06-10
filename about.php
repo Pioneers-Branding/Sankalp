@@ -169,7 +169,7 @@
             <h4 class="mb-3">Quick Contact</h4>
             <ul class="list-unstyled">
               <li class="mb-3 d-flex align-items-start"><i class="fas fa-phone-alt text-primary me-3 mt-1"></i><div><strong>Phone</strong><br>+91 9584 889068</div></li>
-              <li class="mb-3 d-flex align-items-start"><i class="fas fa-envelope text-primary me-3 mt-1"></i><div><strong>Email</strong><br>info.sankalpslms@gmail.com</div></li>
+              <li class="mb-3 d-flex align-items-start"><i class="fas fa-envelope text-primary me-3 mt-1"></i><div><strong>Email</strong><br>contact@sankalphospital.com</div></li>
               <li class="mb-3 d-flex align-items-start"><i class="fas fa-map-marker-alt text-primary me-3 mt-1"></i><div><strong>Address</strong><br>Near Distt. Hospital, Manipur, Ambikapur, CG 497001</div></li>
             </ul>
             <a href="/index#appointment" class="btn btn-primary w-100 mt-2"><i class="fas fa-calendar-check me-2"></i>Book Appointment</a>

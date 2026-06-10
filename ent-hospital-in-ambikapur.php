@@ -322,7 +322,7 @@
           <p class="lead">Schedule your visit with our expert ENT team in Ambikapur. Fill the form and our care coordinator will reach out to you shortly.</p>
           <ul class="list-unstyled mt-4">
             <li class="mb-3 d-flex align-items-center gap-3"><div class="icon-circle-white"><i class="fas fa-phone-alt"></i></div> <div><strong>Call Us:</strong><br>+91 9584 889068</div></li>
-            <li class="mb-3 d-flex align-items-center gap-3"><div class="icon-circle-white"><i class="fas fa-envelope"></i></div> <div><strong>Email:</strong><br>info.sankalpslms@gmail.com</div></li>
+            <li class="mb-3 d-flex align-items-center gap-3"><div class="icon-circle-white"><i class="fas fa-envelope"></i></div> <div><strong>Email:</strong><br>contact@sankalphospital.com</div></li>
             <li class="mb-3 d-flex align-items-center gap-3"><div class="icon-circle-white"><i class="fas fa-map-marker-alt"></i></div> <div><strong>Address:</strong><br>Near Distt. Hospital, Manipur, Ambikapur, Chhattisgarh 497001</div></li>
           </ul>
         </div>

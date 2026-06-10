@@ -611,7 +611,7 @@
               care coordinator will reach out shortly.</p>
             <ul class="list-unstyled mt-4">
               <li class="mb-2"><i class="fas fa-phone-alt me-2"></i> +91 9584 889068</li>
-              <li class="mb-2"><i class="fas fa-envelope me-2"></i> info.sankalpslms@gmail.com</li>
+              <li class="mb-2"><i class="fas fa-envelope me-2"></i> contact@sankalphospital.com</li>
               <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> Near Distt. Hospital, Manipur, Ambikapur,
                 Chhattisgarh (CG) 497001</li>
               <li class="mb-2"><i class="fas fa-clock me-2"></i> 24/7 Emergency &amp; Trauma Services</li>

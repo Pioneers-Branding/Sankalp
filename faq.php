@@ -121,7 +121,7 @@
       <h3 class="mb-3">Still have questions?</h3>
       <p class="text-muted mb-4">Our team is here to help. Contact us and we'll get back to you promptly.</p>
       <a href="tel:+919584889068" class="btn btn-primary me-3"><i class="fas fa-phone-alt me-2"></i>Call Us</a>
-      <a href="mailto:info.sankalpslms@gmail.com" class="btn btn-outline-primary"><i class="fas fa-envelope me-2"></i>Email Us</a>
+      <a href="mailto:contact@sankalphospital.com" class="btn btn-outline-primary"><i class="fas fa-envelope me-2"></i>Email Us</a>
     </div>
   </div>
 </section>

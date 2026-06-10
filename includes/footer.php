@@ -40,7 +40,7 @@
           <h3>Reach Us At</h3>
           <ul class="footer-list">
             <li><i class="fas fa-phone-alt"></i> <a href="tel:+919584889068">+91-958 488 9068</a></li>
-            <li><i class="fas fa-envelope"></i> <a href="mailto:info.sankalpslms@gmail.com">info.sankalpslms@gmail.com</a></li>
+            <li><i class="fas fa-envelope"></i> <a href="mailto:contact@sankalphospital.com">contact@sankalphospital.com</a></li>
             <li><i class="fas fa-map-marker-alt"></i> Near Distt. Hospital, Manipur, Ambikapur Chhattisgarh (CG) 497001</li>
           </ul>
           <div class="social-icons mt-3">

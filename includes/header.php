@@ -4,7 +4,7 @@
   <div class="container">
     <div class="d-flex justify-content-between align-items-center">
       <div class="top-bar-info">
-        <a href="mailto:info.sankalpslms@gmail.com"><i class="fas fa-envelope"></i> info.sankalpslms@gmail.com</a>
+        <a href="mailto:contact@sankalphospital.com"><i class="fas fa-envelope"></i> contact@sankalphospital.com</a>
         <a href="tel:+919584889068"><i class="fas fa-phone-alt"></i> +91 9584 889068</a>
       </div>
       <div class="top-bar-actions">
