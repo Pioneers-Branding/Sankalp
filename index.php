@@ -398,6 +398,20 @@
               </div>
             </div>
           </div>
+          <div class="carousel-item">
+            <div class="row g-4">
+              <div class="col-6 col-md-6 col-lg-3">
+                <a href="/doctors/dr-akshay-gupta" class="doctor-link">
+                  <div class="doctor-card"><img src="assets/img/doctors/akshay-gupta.jpg" alt="Dr. Akshay Gupta">
+                    <div class="doctor-info">
+                      <h3>Dr. Akshay Gupta</h3>
+                      <p>Consultant Physician &amp; Rheumatologist</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#doctorsCarousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon"></span>
@@ -411,6 +425,7 @@
           <button type="button" data-bs-target="#doctorsCarousel" data-bs-slide-to="2"></button>
           <button type="button" data-bs-target="#doctorsCarousel" data-bs-slide-to="3"></button>
           <button type="button" data-bs-target="#doctorsCarousel" data-bs-slide-to="4"></button>
+          <button type="button" data-bs-target="#doctorsCarousel" data-bs-slide-to="5"></button>
         </div>
       </div>
     </div>
@@ -656,6 +671,7 @@
                   <option value="Dr. Ankita Bansal Goyal">Dr. Ankita Bansal Goyal</option>
                   <option value="Dr. Megha Goyal">Dr. Megha Goyal</option>
                   <option value="Dr. Ankit Gupta">Dr. Ankit Gupta</option>
+                  <option value="Dr. Akshay Gupta">Dr. Akshay Gupta</option>
                   <option value="Dr. Himanshu Gupta">Dr. Himanshu Gupta</option>
                   <option value="Dr. Suneedh Gupta">Dr. Suneedh Gupta</option>
                   <option value="Dr. Manoj Bharti">Dr. Manoj Bharti</option>

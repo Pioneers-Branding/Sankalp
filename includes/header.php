@@ -83,6 +83,7 @@
             <li><a href="/doctors/dr-ankita-bansal-goyal">Dr. Ankita Bansal Goyal</a></li>
             <li><a href="/doctors/dr-usha-armo">Dr. Usha Armo</a></li>
             <li><a href="/doctors/dr-ankit-gupta">Dr. Ankit Gupta</a></li>
+            <li><a href="/doctors/dr-akshay-gupta">Dr. Akshay Gupta</a></li>
             <li><a href="/doctors/dr-nilesh-goyal">Dr. Nilesh Goyal</a></li>
             <li><a href="/doctors/dr-akshaya-goyal">Dr. Akshaya Goyal</a></li>
             <li><a href="/doctors/dr-shailesh-gupta">Dr. Shailesh Gupta</a></li>

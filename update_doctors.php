@@ -61,6 +61,18 @@ $doctors = [
         'keywords' => ['Newborn Care', 'Vaccination', 'Pediatric ICU', 'Child Nutrition']
     ],
     [
+        'name' => 'Dr. Akshay Gupta',
+        'slug' => 'dr-akshay-gupta',
+        'title' => 'Best Rheumatologist in Ambikapur | Dr. Akshay Gupta - Consultant Physician',
+        'desc' => 'Consult Dr. Akshay Gupta, the first & only Rheumatology specialist in Ambikapur & Surguja region. Expert care for Rheumatoid Arthritis, Lupus, Ankylosing Spondylitis, and General Medicine.',
+        'specialty' => 'Rheumatology & Internal Medicine',
+        'degree' => 'MD (Medicine)',
+        'designation' => 'Consultant Physician & Rheumatologist',
+        'image' => '/assets/img/doctors/akshay-gupta.jpg',
+        'bio' => 'Dr. Akshay Gupta is a Consultant Physician and Rheumatologist with expertise in Internal Medicine, autoimmune diseases, arthritis, and complex medical disorders. He completed his MBBS from Vardhman Mahavir Medical College & Safdarjung Hospital and MD (Medicine) from Dr. Ram Manohar Lohia Hospital, New Delhi. He is recognized as the first and only rheumatology specialist serving the Surguja region.',
+        'keywords' => ['Rheumatology', 'Rheumatoid Arthritis', 'Ankylosing Spondylitis', 'Lupus (SLE)', 'Psoriatic Arthritis', 'Gout', 'Vasculitis', 'Osteoporosis', 'Diabetes & Hypertension', 'General Internal Medicine']
+    ],
+    [
         'name' => 'Dr. Tanay Goyal',
         'slug' => 'dr-tanay-goyal',
         'title' => 'Best Orthopedic Doctor in Ambikapur | Dr. Tanay Goyal',
