@@ -1,291 +1,246 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Medical Glossary | Sankalp Hospital - Healthcare Terms Explained</title>
-  <meta name="description" content="Medical terminology glossary - understand healthcare terms used by doctors at Sankalp Hospital.">
-  <?php include 'includes/header-code.php'; ?>
-</head>
-<body>
-<?php include 'includes/header.php'; ?>
-<!-- PAGE HERO -->
-<section class="page-hero">
-  <div class="container">
-    <p class="breadcrumbs"><a href="/index">Home</a> <i class="fas fa-chevron-right mx-2" style="font-size:11px"></i> About <i class="fas fa-chevron-right mx-2" style="font-size:11px"></i> Glossary</p>
-    <h1>Medical Glossary</h1>
-    <p>Understanding healthcare terminology - A to Z guide of medical terms</p>
+<?php
+$pageTitle = "Medical Glossary | Sankalp Hospital - Healthcare Terms Explained";
+$pageDesc = "Understand complex medical terminologies in plain language. Read explanations for IVF, Laparoscopy, PCNL, Dialysis, and more.";
+
+include __DIR__ . '/includes/header.php';
+include __DIR__ . '/includes/navbar.php';
+?>
+
+<!-- SUBPAGE HERO BANNER -->
+<section class="subpage-hero">
+  <!-- Background Visual -->
+  <div class="subpage-hero-bg">
+    <img src="images/hero4.png" alt="Sankalp Clinical Consult">
+  </div>
+  <div class="subpage-hero-overlay"></div>
+
+  <div class="container text-center text-lg-start">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-8">
+        <span class="badge bg-white-20 text-white px-3 py-2 rounded-pill text-uppercase mb-3"><i class="fas fa-book-medical me-1"></i> Medical Glossary</span>
+        <h1 class="text-white display-4 fw-bold">Medical Glossary</h1>
+        <p class="lead text-white-50 mb-0">A comprehensive, searchable index explaining clinical terminologies, procedures, and terms in plain language.</p>
+      </div>
+      <div class="col-lg-4 text-center text-lg-end">
+        <a href="index.php#appointment" class="btn btn-light btn-lg px-4 py-3 border-0 rounded-pill shadow-lg text-primary fw-bold fs-6"><i class="far fa-calendar-check me-2"></i> Book Consultation</a>
+      </div>
+    </div>
   </div>
 </section>
 
-<!-- GLOSSARY CONTENT -->
-<section class="py-5">
+<!-- GLOSSARY SECTION -->
+<section class="py-5 bg-white">
   <div class="container">
-    <div class="glossary-search">
-      <input type="text" id="glossarySearch" placeholder="Search for a medical term..." onkeyup="filterGlossary()">
+    <div class="section-title">
+      <span>Patient Information Desk</span>
+      <h2>Healthcare Terms Explained</h2>
+      <p>Use the live search box or click a letter in the A-Z bar to filter medical terms instantly.</p>
     </div>
 
-    <div class="alpha-nav">
-      <a href="#letter-A" class="active">A</a>
-      <a href="#letter-B">B</a>
-      <a href="#letter-C">C</a>
-      <a href="#letter-D">D</a>
-      <a href="#letter-E">E</a>
-      <a href="#letter-F">F</a>
-      <a href="#letter-G">G</a>
-      <a href="#letter-H">H</a>
-      <a href="#letter-I">I</a>
-      <a href="#letter-J">J</a>
-      <a href="#letter-L">L</a>
-      <a href="#letter-M">M</a>
-      <a href="#letter-N">N</a>
-      <a href="#letter-O">O</a>
-      <a href="#letter-P">P</a>
-      <a href="#letter-R">R</a>
-      <a href="#letter-S">S</a>
-      <a href="#letter-T">T</a>
-      <a href="#letter-U">U</a>
-      <a href="#letter-V">V</a>
+    <!-- Search Input Bar -->
+    <div class="glossary-search-wrapper">
+      <i class="fas fa-search"></i>
+      <input type="text" id="glossary-search" class="glossary-search-box" placeholder="Search medical terms (e.g. IVF, Dialysis, PCNL)..." aria-label="Search medical terms">
     </div>
 
-    <!-- A -->
-    <div class="glossary-category" id="letter-A">
-      <h3><i class="fas fa-book"></i> A</h3>
-      <div class="glossary-item">
-        <h4>AMH (Anti-Müllerian Hormone)</h4>
-        <p>A hormone produced by ovarian follicles. AMH levels help assess a woman's egg count and ovarian reserve, commonly used in fertility assessments.</p>
-      </div>
-      <div class="glossary-item">
-        <h4>ART (Assisted Reproductive Technology)</h4>
-        <p>Medical procedures used to treat infertility, including IVF, ICSI, and IUI. These techniques help couples conceive when natural methods fail.</p>
-      </div>
-      <div class="glossary-item">
-        <h4>Anesthesia</h4>
-        <p>Medication that numbs sensation in a specific area (local) or makes you unconscious (general) during surgery to prevent pain.</p>
-      </div>
+    <!-- A-Z Alphabet bar -->
+    <div class="az-nav-bar" id="az-navigation">
+      <button class="az-letter-btn active" data-letter="all">All</button>
+      <button class="az-letter-btn" data-letter="a">A</button>
+      <button class="az-letter-btn" data-letter="b">B</button>
+      <button class="az-letter-btn" data-letter="c">C</button>
+      <button class="az-letter-btn" data-letter="d">D</button>
+      <button class="az-letter-btn" data-letter="e">E</button>
+      <button class="az-letter-btn" data-letter="f" disabled>F</button>
+      <button class="az-letter-btn" data-letter="g" disabled>G</button>
+      <button class="az-letter-btn" data-letter="h" disabled>H</button>
+      <button class="az-letter-btn" data-letter="i">I</button>
+      <button class="az-letter-btn" data-letter="j" disabled>J</button>
+      <button class="az-letter-btn" data-letter="k" disabled>K</button>
+      <button class="az-letter-btn" data-letter="l">L</button>
+      <button class="az-letter-btn" data-letter="m" disabled>M</button>
+      <button class="az-letter-btn" data-letter="n">N</button>
+      <button class="az-letter-btn" data-letter="o">O</button>
+      <button class="az-letter-btn" data-letter="p">P</button>
+      <button class="az-letter-btn" data-letter="q" disabled>Q</button>
+      <button class="az-letter-btn" data-letter="r" disabled>R</button>
+      <button class="az-letter-btn" data-letter="s" disabled>S</button>
+      <button class="az-letter-btn" data-letter="t" disabled>T</button>
+      <button class="az-letter-btn" data-letter="u">U</button>
+      <button class="az-letter-btn" data-letter="v" disabled>V</button>
+      <button class="az-letter-btn" data-letter="w" disabled>W</button>
+      <button class="az-letter-btn" data-letter="x" disabled>X</button>
+      <button class="az-letter-btn" data-letter="y" disabled>Y</button>
+      <button class="az-letter-btn" data-letter="z" disabled>Z</button>
     </div>
 
-    <!-- B -->
-    <div class="glossary-category" id="letter-B">
-      <h3><i class="fas fa-book"></i> B</h3>
-      <div class="glossary-item">
-        <h4>Beta hCG</h4>
-        <p>The pregnancy hormone measured in blood tests. Detecting beta hCG confirms pregnancy and its levels help monitor early pregnancy progress.</p>
+    <!-- Glossary List Grid -->
+    <div class="row g-4" id="glossary-items-container">
+      
+      <!-- Term: Amniocentesis -->
+      <div class="col-lg-4 col-md-6 glossary-item" data-letter="a">
+        <div class="glossary-term-card">
+          <span class="glossary-term-letter">A</span>
+          <h4>Amniocentesis</h4>
+          <p>A specialized prenatal testing procedure in which a small sample of amniotic fluid is extracted from the uterus for clinical genetic screening and diagnostic checks.</p>
+        </div>
       </div>
-      <div class="glossary-item">
-        <h4>Biopsy</h4>
-        <p>Removal of a small tissue sample for laboratory examination to diagnose diseases like cancer. Can be done with a needle or during surgery.</p>
+
+      <!-- Term: Anesthesia -->
+      <div class="col-lg-4 col-md-6 glossary-item" data-letter="a">
+        <div class="glossary-term-card">
+          <span class="glossary-term-letter">A</span>
+          <h4>Anesthesia</h4>
+          <p>The clinical administration of gases or drugs (anesthetics) to temporarily block pain and sensory awareness during major or minor surgical operations.</p>
+        </div>
       </div>
+
+      <!-- Term: Blastocyst -->
+      <div class="col-lg-4 col-md-6 glossary-item" data-letter="b">
+        <div class="glossary-term-card">
+          <span class="glossary-term-letter">B</span>
+          <h4>Blastocyst</h4>
+          <p>An embryo that has developed in the laboratory incubator for 5 to 6 days after egg fertilization. It displays a highly complex cellular form optimized for successful implantation.</p>
+        </div>
+      </div>
+
+      <!-- Term: Cataract -->
+      <div class="col-lg-4 col-md-6 glossary-item" data-letter="c">
+        <div class="glossary-term-card">
+          <span class="glossary-term-letter">C</span>
+          <h4>Cataract</h4>
+          <p>A gradual clouding of the eye's natural internal crystalline lens behind the iris, which blocks light and results in blurred or degraded visual perception.</p>
+        </div>
+      </div>
+
+      <!-- Term: Chemotherapy -->
+      <div class="col-lg-4 col-md-6 glossary-item" data-letter="c">
+        <div class="glossary-term-card">
+          <span class="glossary-term-letter">C</span>
+          <h4>Chemotherapy</h4>
+          <p>Specialized oncology treatment utilizing powerful chemical agents or drugs to halt, kill, and suppress rapidly growing cancer cells in the body.</p>
+        </div>
+      </div>
+
+      <!-- Term: Dialysis -->
+      <div class="col-lg-4 col-md-6 glossary-item" data-letter="d">
+        <div class="glossary-term-card">
+          <span class="glossary-term-letter">D</span>
+          <h4>Dialysis</h4>
+          <p>A life-sustaining mechanical filtration process that cleans waste products, excess salt, and fluid accumulations from the blood when the kidneys have lost functioning capacity.</p>
+        </div>
+      </div>
+
+      <!-- Term: Endoscopy -->
+      <div class="col-lg-4 col-md-6 glossary-item" data-letter="e">
+        <div class="glossary-term-card">
+          <span class="glossary-term-letter">E</span>
+          <h4>Endoscopy</h4>
+          <p>A diagnostic visual procedure where a physician inserts a thin, flexible tube with a high-resolution camera to view inside hollow organs (like the stomach or colon).</p>
+        </div>
+      </div>
+
+      <!-- Term: ICSI -->
+      <div class="col-lg-4 col-md-6 glossary-item" data-letter="i">
+        <div class="glossary-term-card">
+          <span class="glossary-term-letter">I</span>
+          <h4>ICSI (Intracytoplasmic Sperm Injection)</h4>
+          <p>An advanced micro-fertilization laboratory technique where a embryologist selects a single healthy sperm and injects it directly into a mature female egg.</p>
+        </div>
+      </div>
+
+      <!-- Term: IUI -->
+      <div class="col-lg-4 col-md-6 glossary-item" data-letter="i">
+        <div class="glossary-term-card">
+          <span class="glossary-term-letter">I</span>
+          <h4>IUI (Intrauterine Insemination)</h4>
+          <p>A primary fertility support treatment where processed, concentrated sperm are inserted directly into the uterus using a fine catheter during ovulation.</p>
+        </div>
+      </div>
+
+      <!-- Term: IVF -->
+      <div class="col-lg-4 col-md-6 glossary-item" data-letter="i">
+        <div class="glossary-term-card">
+          <span class="glossary-term-letter">I</span>
+          <h4>IVF (In Vitro Fertilization)</h4>
+          <p>An assisted reproduction technique where eggs are extracted, fertilized by sperm in the laboratory embryology incubator, and the resulting embryos are placed in the uterus.</p>
+        </div>
+      </div>
+
+      <!-- Term: Laparoscopy -->
+      <div class="col-lg-4 col-md-6 glossary-item" data-letter="l">
+        <div class="glossary-term-card">
+          <span class="glossary-term-letter">L</span>
+          <h4>Laparoscopy (Keyhole Surgery)</h4>
+          <p>A modern minimally invasive surgical option where specialized camera tools and thin instruments are inserted through small 0.5-1 cm incisions in the abdomen.</p>
+        </div>
+      </div>
+
+      <!-- Term: Lithotripsy -->
+      <div class="col-lg-4 col-md-6 glossary-item" data-letter="l">
+        <div class="glossary-term-card">
+          <span class="glossary-term-letter">L</span>
+          <h4>Lithotripsy</h4>
+          <p>A non-invasive treatment utilizing high-energy shock waves directed from outside the body to crush kidney or ureter stones into tiny sand-like fragments.</p>
+        </div>
+      </div>
+
+      <!-- Term: Neonatology -->
+      <div class="col-lg-4 col-md-6 glossary-item" data-letter="n">
+        <div class="glossary-term-card">
+          <span class="glossary-term-letter">N</span>
+          <h4>Neonatology</h4>
+          <p>A sub-specialty of pediatrics focused on the clinical management of premature, low birth weight, or critically ill newborn babies in incubator care (NICU).</p>
+        </div>
+      </div>
+
+      <!-- Term: Ophthalmology -->
+      <div class="col-lg-4 col-md-6 glossary-item" data-letter="o">
+        <div class="glossary-term-card">
+          <span class="glossary-term-letter">O</span>
+          <h4>Ophthalmology</h4>
+          <p>The specialized medical and surgical branch of care involving the complete diagnosis, visual rehabilitation, and clinical treatment of ocular and eye disorders.</p>
+        </div>
+      </div>
+
+      <!-- Term: Phacoemulsification -->
+      <div class="col-lg-4 col-md-6 glossary-item" data-letter="p">
+        <div class="glossary-term-card">
+          <span class="glossary-term-letter">P</span>
+          <h4>Phacoemulsification</h4>
+          <p>The standard modern cataract surgery procedure where high-frequency ultrasound breaks up the cloudy lens, which is then suctioned out and replaced with an IOL lens.</p>
+        </div>
+      </div>
+
+      <!-- Term: PCNL -->
+      <div class="col-lg-4 col-md-6 glossary-item" data-letter="p">
+        <div class="glossary-term-card">
+          <span class="glossary-term-letter">P</span>
+          <h4>PCNL (Percutaneous Nephrolithotomy)</h4>
+          <p>A minimally invasive keyhole urological surgery used to remove large kidney stones (usually larger than 2 cm) through a small incision in the patient's back.</p>
+        </div>
+      </div>
+
+      <!-- Term: Urology -->
+      <div class="col-lg-4 col-md-6 glossary-item" data-letter="u">
+        <div class="glossary-term-card">
+          <span class="glossary-term-letter">U</span>
+          <h4>Urology</h4>
+          <p>The clinical field of medicine dealing with surgical and medical diseases of the kidneys, ureters, urinary bladder, and the male reproductive system.</p>
+        </div>
+      </div>
+
     </div>
 
-    <!-- C -->
-    <div class="glossary-category" id="letter-C">
-      <h3><i class="fas fa-book"></i> C</h3>
-      <div class="glossary-item">
-        <h4>Cataract</h4>
-        <p>Clouding of the natural lens inside the eye that causes vision to become blurry or dim. Treatment involves surgically removing the cloudy lens.</p>
-      </div>
-      <div class="glossary-item">
-        <h4>Cesarean Section (C-Section)</h4>
-        <p>Surgical delivery of a baby through an incision in the mother's abdomen and uterus. Performed when vaginal delivery isn't safe.</p>
-      </div>
-      <div class="glossary-item">
-        <h4>Chemotherapy</h4>
-        <p>Use of strong drugs to treat cancer. Chemotherapy can kill cancer cells, shrink tumors, and prevent cancer from spreading.</p>
-      </div>
-      <div class="glossary-item">
-        <h4>Cryopreservation</h4>
-        <p>Freezing and storing embryos, eggs, or sperm at very low temperatures for future use in fertility treatments.</p>
-      </div>
+    <!-- Empty State for Search -->
+    <div id="glossary-no-results" class="text-center py-5 d-none">
+      <i class="fas fa-search-minus text-muted fs-1 mb-3"></i>
+      <h5 class="text-muted">No terms matching your search criteria.</h5>
+      <p class="text-muted fs-8">Try searching for other terms like 'IVF', 'ICSI', 'Laparoscopy', or 'PCNL'.</p>
     </div>
-
-    <!-- D -->
-    <div class="glossary-category" id="letter-D">
-      <h3><i class="fas fa-book"></i> D</h3>
-      <div class="glossary-item">
-        <h4>Dialysis</h4>
-        <p>Artificial process to remove waste and excess water from blood when kidneys cannot function properly. Two types: hemodialysis and peritoneal dialysis.</p>
-      </div>
-      <div class="glossary-item">
-        <h4>DSA (Digital Subtraction Angiography)</h4>
-        <p>An X-ray imaging technique that uses contrast dye to visualize blood vessels in the brain, heart, and other organs.</p>
-      </div>
-    </div>
-
-    <!-- E -->
-    <div class="glossary-category" id="letter-E">
-      <h3><i class="fas fa-book"></i> E</h3>
-      <div class="glossary-item">
-        <h4>ECG (Electrocardiogram)</h4>
-        <p>A test that records the electrical activity of the heart. ECG helps diagnose heart conditions, irregular heartbeats, and heart attacks.</p>
-      </div>
-      <div class="glossary-item">
-        <h4>Embryo</h4>
-        <p>A developing human from fertilization until about 8 weeks of pregnancy. In IVF, embryos are created in the lab and transferred to the uterus.</p>
-      </div>
-      <div class="glossary-item">
-        <h4>Endoscopy</h4>
-        <p>Procedure using a flexible camera to examine internal organs or structures. Used for diagnosis and treatment of digestive, respiratory, and other conditions.</p>
-      </div>
-    </div>
-
-    <!-- F -->
-    <div class="glossary-category" id="letter-F">
-      <h3><i class="fas fa-book"></i> F</h3>
-      <div class="glossary-item">
-        <h4>Fertilization</h4>
-        <p>The process where a sperm and egg combine to form an embryo. In IVF, fertilization happens in the laboratory rather than in the fallopian tube.</p>
-      </div>
-      <div class="glossary-item">
-        <h4>Folic Acid</h4>
-        <p>A B vitamin essential for healthy cell growth. Recommended before and during pregnancy to prevent birth defects in the baby's brain and spine.</p>
-      </div>
-    </div>
-
-    <!-- G -->
-    <div class="glossary-category" id="letter-G">
-      <h3><i class="fas fa-book"></i> G</h3>
-      <div class="glossary-item">
-        <h4>Glaucoma</h4>
-        <p>Eye disease that damages the optic nerve, often due to high eye pressure. Can lead to vision loss if untreated but is manageable with medication or surgery.</p>
-      </div>
-    </div>
-
-    <!-- I -->
-    <div class="glossary-category" id="letter-I">
-      <h3><i class="fas fa-book"></i> I</h3>
-      <div class="glossary-item">
-        <h4>ICSI (Intra-Cytoplasmic Sperm Injection)</h4>
-        <p>A specialized IVF technique where a single sperm is directly injected into an egg. Used for male factor infertility or previous IVF failures.</p>
-      </div>
-      <div class="glossary-item">
-        <h4>IUI (Intra-Uterine Insemination)</h4>
-        <p>A fertility treatment where prepared sperm is placed directly into the uterus around ovulation time to increase chances of fertilization.</p>
-      </div>
-      <div class="glossary-item">
-        <h4>ICU (Intensive Care Unit)</h4>
-        <p>A hospital unit providing intensive medical care for critically ill patients. Equipped with advanced monitoring and life-support equipment.</p>
-      </div>
-      <div class="glossary-item">
-        <h4>IVF (In-Vitro Fertilization)</h4>
-        <p>An assisted reproductive technology where eggs are fertilized with sperm in a laboratory. The resulting embryo is then transferred to the uterus.</p>
-      </div>
-    </div>
-
-    <!-- L -->
-    <div class="glossary-category" id="letter-L">
-      <h3><i class="fas fa-book"></i> L</h3>
-      <div class="glossary-item">
-        <h4>Laparoscopy</h4>
-        <p>Minimally invasive surgery using small incisions and a camera. Also called keyhole surgery, it offers faster recovery and less scarring than open surgery.</p>
-      </div>
-      <div class="glossary-item">
-        <h4>LASIK</h4>
-        <p>Laser eye surgery to correct vision problems like nearsightedness, farsightedness, and astigmatism by reshaping the cornea.</p>
-      </div>
-    </div>
-
-    <!-- M -->
-    <div class="glossary-category" id="letter-M">
-      <h3><i class="fas fa-book"></i> M</h3>
-      <div class="glossary-item">
-        <h4>MRI (Magnetic Resonance Imaging)</h4>
-        <p>A non-invasive imaging technique using strong magnetic fields and radio waves to create detailed images of internal organs and tissues.</p>
-      </div>
-      <div class="glossary-item">
-        <h4>Miscarriage</h4>
-        <p>Loss of a pregnancy before 20 weeks. Common causes include chromosomal abnormalities, hormonal issues, and health conditions.</p>
-      </div>
-    </div>
-
-    <!-- N -->
-    <div class="glossary-category" id="letter-N">
-      <h3><i class="fas fa-book"></i> N</h3>
-      <div class="glossary-item">
-        <h4>NICU (Neonatal Intensive Care Unit)</h4>
-        <p>Specialized unit for premature or ill newborns requiring intensive medical care. Staffed by neonatologists and equipped with infant incubators.</p>
-      </div>
-    </div>
-
-    <!-- O -->
-    <div class="glossary-category" id="letter-O">
-      <h3><i class="fas fa-book"></i> O</h3>
-      <div class="glossary-item">
-        <h4>Obstetrics</h4>
-        <p>Medical specialty focusing on pregnancy, childbirth, and the postpartum period. Obstetricians provide prenatal care and manage deliveries.</p>
-      </div>
-      <div class="glossary-item">
-        <h4>Oncology</h4>
-        <p>The branch of medicine dealing with cancer diagnosis, treatment, and prevention. Oncologists treat tumors using surgery, chemotherapy, and radiation.</p>
-      </div>
-    </div>
-
-    <!-- P -->
-    <div class="glossary-category" id="letter-P">
-      <h3><i class="fas fa-book"></i> P</h3>
-      <div class="glossary-item">
-        <h4>PCOD (Polycystic Ovarian Disease)</h4>
-        <p>A hormonal disorder causing enlarged ovaries with small cysts. Symptoms include irregular periods, weight gain, and difficulty conceiving.</p>
-      </div>
-      <div class="glossary-item">
-        <h4>Platelets</h4>
-        <p>Blood cells that help stop bleeding by forming clots. Low platelet count increases bleeding risk and may require treatment.</p>
-      </div>
-    </div>
-
-    <!-- R -->
-    <div class="glossary-category" id="letter-R">
-      <h3><i class="fas fa-book"></i> R</h3>
-      <div class="glossary-item">
-        <h4>Radiology</h4>
-        <p>Medical specialty using imaging techniques like X-rays, CT scans, MRI, and ultrasound to diagnose diseases and guide treatments.</p>
-      </div>
-    </div>
-
-    <!-- S -->
-    <div class="glossary-category" id="letter-S">
-      <h3><i class="fas fa-book"></i> S</h3>
-      <div class="glossary-item">
-        <h4>Sonography / Ultrasound</h4>
-        <p>Imaging technique using sound waves to create pictures of internal organs and fetuses. Safe and commonly used during pregnancy monitoring.</p>
-      </div>
-      <div class="glossary-item">
-        <h4>Stress Test</h4>
-        <p>A test that monitors heart activity during exercise or medication-induced stress. Helps detect heart problems that don't appear at rest.</p>
-      </div>
-    </div>
-
-    <!-- T -->
-    <div class="glossary-category" id="letter-T">
-      <h3><i class="fas fa-book"></i> T</h3>
-      <div class="glossary-item">
-        <h4>TPA (Third Party Administrator)</h4>
-        <p>Insurance intermediary that processes claims and facilitates cashless treatment. Patients can get treated without paying upfront at empaneled hospitals.</p>
-      </div>
-      <div class="glossary-item">
-        <h4>Trauma</h4>
-        <p>Physical injury caused by accidents, falls, violence, or disasters. Trauma care involves emergency treatment and surgery for severe injuries.</p>
-      </div>
-    </div>
-
-    <!-- U -->
-    <div class="glossary-category" id="letter-U">
-      <h3><i class="fas fa-book"></i> U</h3>
-      <div class="glossary-item">
-        <h4>Ultrasound</h4>
-        <p>Sound wave imaging used to view internal organs, monitor pregnancy, and guide certain procedures. Completely safe with no radiation.</p>
-      </div>
-    </div>
-
-    <!-- V -->
-    <div class="glossary-category" id="letter-V">
-      <h3><i class="fas fa-book"></i> V</h3>
-      <div class="glossary-item">
-        <h4>Ventricle</h4>
-        <p>Lower chambers of the heart that pump blood to the body. Problems with ventricles can cause heart failure and other cardiovascular conditions.</p>
-      </div>
-    </div>
-
   </div>
 </section>
 
-
-<?php include 'includes/footer.php'; ?>
+<?php
+include __DIR__ . '/includes/footer.php';
+?>

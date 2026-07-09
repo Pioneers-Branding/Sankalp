@@ -1,294 +1,131 @@
 <?php
-/**
- * Blog Index - Automatically loads all published blogs
- * New blogs are automatically featured when added to this directory
- */
-require_once 'blog-functions.php';
+$pageTitle = "Health Blog | Sankalp Hospital - Best Multi-Specialty Hospital in Ambikapur";
+$pageDesc = "Read the latest health tips, medical insights, and wellness articles from the expert doctors at Sankalp Hospital, Ambikapur.";
 
-// Get all blogs automatically - sorted by date (newest first)
-$all_blogs = get_all_blogs(__DIR__);
+include __DIR__ . '/../includes/header.php';
+include __DIR__ . '/../includes/navbar.php';
+include __DIR__ . '/blog-functions.php';
 
-// Ensure all blogs have required fields
-$blogs = [];
-foreach ($all_blogs as $blog) {
-    $blogs[] = [
-        'title' => $blog['title'] ?? '',
-        'url' => $blog['url'] ?? '',
-        'img' => $blog['image'] ?? '',
-        'category' => $blog['category'] ?? 'Health',
-        'desc' => $blog['desc'] ?? '',
-        'date' => $blog['date'] ?? date('F j, Y')
-    ];
-}
+$allBlogs = get_all_blogs(__DIR__);
 
-// Pagination Logic
-$items_per_page = 9;
-$total_items = count($blogs);
-$total_pages = ceil($total_items / $items_per_page);
-$current_page = isset($_GET['page']) ? (int) $_GET['page'] : 1;
-if ($current_page < 1)
-  $current_page = 1;
-if ($current_page > $total_pages)
-  $current_page = $total_pages;
+// Category icon map
+$catIcons = [
+  'Ophthalmology' => 'fa-eye',
+  'IVF & Fertility' => 'fa-baby',
+  'Fertility' => 'fa-baby',
+  'Pediatrics' => 'fa-child',
+  'Orthopaedics' => 'fa-bone',
+  'Orthopedics' => 'fa-bone',
+  'Emergency Care' => 'fa-ambulance',
+  'Psychiatry' => 'fa-brain',
+  'Gynecology' => 'fa-female',
+  'Pregnancy Care' => 'fa-baby',
+  'Urology' => 'fa-user-md',
+  'Heart Health' => 'fa-heartbeat',
+  'Cardiology' => 'fa-heartbeat',
+  'General Health' => 'fa-notes-medical',
+  'Health' => 'fa-notes-medical',
+  'Joint Pain' => 'fa-bone',
+  'Kidney Care' => 'fa-kidneys',
+  'Thyroid' => 'fa-lungs',
+  'Women Health' => 'fa-female',
+  "Women's Health" => 'fa-female',
+  'Mental Health' => 'fa-brain',
+  'Neurology' => 'fa-brain',
+  'Pain Management' => 'fa-hand-holding-medical',
+  'Diabetes' => 'fa-syringe',
+  'Pulmonology' => 'fa-lungs',
+  'Dermatology' => 'fa-hand-sparkles',
+];
 
-$offset = ($current_page - 1) * $items_per_page;
-$paged_blogs = array_slice($blogs, $offset, $items_per_page);
+// Category image fallback map
+$catImages = [
+  'Ophthalmology' => '/images/ophthalmology.png',
+  'Gynecology' => '/images/ultrasound.png',
+  'Pregnancy Care' => '/images/ultrasound.png',
+  'Pediatrics' => '/images/pediatric.png',
+  'Orthopaedics' => '/images/orthopedics.png',
+  'Orthopedics' => '/images/orthopedics.png',
+  'Urology' => '/images/urology.png',
+  'Emergency Care' => '/images/emergency.png',
+  'Psychiatry' => '/images/psychiatry.png',
+];
 ?>
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <title>Health Blog | Sankalp Hospital - Expert Health Tips & Articles</title>
-  <meta name="description"
-    content="Read expert health tips, medical articles, and healthcare advice from Sankalp Hospital doctors.">
-  <?php if (isset($_GET['page']) && (int) $_GET['page'] > 1): ?>
-    <meta name="robots" content="noindex, follow">
-  <?php endif; ?>
-  <?php include '../includes/header-code.php'; ?>
-  <style>
-    .blog-card {
-      background: #fff;
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-      transition: all 0.3s;
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .blog-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 12px 30px rgba(22, 128, 119, 0.18);
-    }
-
-    .blog-card-img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-      display: block;
-    }
-
-    .blog-icon-bg {
-      width: 100%;
-      height: 200px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: linear-gradient(135deg, var(--bg-soft) 0%, #d4edeb 100%);
-    }
-
-    .blog-icon-bg i {
-      font-size: 48px;
-      color: var(--primary);
-    }
-
-    .blog-body {
-      padding: 22px 20px;
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .blog-category {
-      display: inline-block;
-      background: var(--primary);
-      color: #fff;
-      padding: 4px 12px;
-      border-radius: 20px;
-      font-size: 11px;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      margin-bottom: 12px;
-    }
-
-    .blog-body h3 {
-      font-size: 17px;
-      font-weight: 700;
-      margin: 0 0 10px;
-      line-height: 1.4;
-    }
-
-    .blog-body h3 a {
-      color: var(--dark);
-      transition: color 0.2s;
-    }
-
-    .blog-body h3 a:hover {
-      color: var(--primary);
-    }
-
-    .blog-body p {
-      font-size: 14px;
-      color: #666;
-      margin: 0 0 15px;
-      line-height: 1.6;
-      flex: 1;
-    }
-
-    .blog-meta {
-      font-size: 12px;
-      color: #888;
-      margin-top: auto;
-    }
-
-    .blog-meta i {
-      color: var(--primary);
-      margin-right: 4px;
-    }
-
-    .page-hero {
-      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-      color: #fff;
-      padding: 60px 0 50px;
-      text-align: center;
-    }
-
-    .page-hero p.breadcrumbs {
-      color: rgba(255, 255, 255, 0.85);
-      font-size: 14px;
-      margin-bottom: 10px;
-    }
-
-    .page-hero p.breadcrumbs a {
-      color: #fff;
-    }
-
-    .page-hero h1 {
-      color: #fff;
-      font-size: 2.5rem;
-      font-weight: 700;
-      margin-bottom: 10px;
-    }
-
-    .page-hero p {
-      color: rgba(255, 255, 255, 0.9);
-      font-size: 16px;
-      margin: 0;
-    }
-
-    /* Pagination Styles */
-    .pagination {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 10px;
-      margin-top: 50px;
-    }
-
-    .pagination a,
-    .pagination span {
-      padding: 8px 16px;
-      border-radius: 8px;
-      border: 1px solid #ddd;
-      color: var(--dark);
-      text-decoration: none;
-      transition: all 0.2s;
-    }
-
-    .pagination a:hover {
-      background: var(--primary);
-      border-color: var(--primary);
-      color: #fff;
-    }
-
-    .pagination .active {
-      background: var(--primary);
-      border-color: var(--primary);
-      color: #fff;
-      font-weight: 700;
-    }
-
-    .pagination .disabled {
-      color: #ccc;
-      pointer-events: none;
-    }
-
-    /* Mobile Responsive */
-    @media (max-width: 768px) {
-      .page-hero { padding: 40px 0 35px; }
-      .page-hero h1 { font-size: 1.8rem; }
-      .blog-card-img,
-      .blog-icon-bg { height: 160px; }
-      .blog-body { padding: 18px 15px; }
-      .blog-body h3 { font-size: 16px; }
-      .blog-body p { font-size: 13px; }
-    }
-  </style>
-</head>
-
-<body>
-  <?php include '../includes/header.php'; ?>
-
-  <!-- PAGE HERO -->
-  <section class="page-hero">
-    <div class="container">
-      <p class="breadcrumbs"><a href="/index">Home</a> <i class="fas fa-chevron-right mx-2" style="font-size:11px"></i>
-        Health Blog</p>
-      <h1>Health Tips & Articles</h1>
-      <p>Expert health advice and medical information from our experienced doctors</p>
+<!-- SUBPAGE HERO BANNER -->
+<section class="subpage-hero">
+  <div class="subpage-hero-bg">
+    <img src="/images/hero5.png" alt="Sankalp Hospital Blog">
+  </div>
+  <div class="subpage-hero-overlay"></div>
+  <div class="container text-center text-lg-start">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-8">
+        <span class="badge bg-white-20 text-white px-3 py-2 rounded-pill text-uppercase mb-3"><i class="fas fa-book-medical me-1"></i> Health Blog</span>
+        <h1 class="text-white display-4 fw-bold">Our Health Blog</h1>
+        <p class="lead text-white-50 mb-0">Stay informed with the latest health tips, medical insights, and wellness articles from our expert doctors.</p>
+      </div>
+      <div class="col-lg-4 text-center text-lg-end">
+        <a href="/index.php#appointment" class="btn btn-light btn-lg px-4 py-3 border-0 rounded-pill shadow-lg text-primary fw-bold fs-6"><i class="far fa-calendar-check me-2"></i> Book Consultation</a>
+      </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- BLOG GRID -->
-  <section class="py-5">
-    <div class="container">
-      <div class="row g-4 justify-content-center">
-        <?php foreach ($paged_blogs as $blog): ?>
-          <div class="col-md-6 col-lg-4">
-            <div class="blog-card">
-              <?php if (!empty($blog['img'])): ?>
-                <img src="<?php echo htmlspecialchars($blog['img']); ?>" alt="<?php echo htmlspecialchars($blog['title']); ?>" class="blog-card-img">
-              <?php else: ?>
-                <div class="blog-icon-bg">
-                  <i class="fas fa-heartbeat"></i>
-                </div>
-              <?php endif; ?>
-              <div class="blog-body">
-                <span class="blog-category"><?php echo htmlspecialchars($blog['category']); ?></span>
-                <h3><a href="<?php echo htmlspecialchars($blog['url']); ?>"><?php echo htmlspecialchars($blog['title']); ?></a></h3>
-                <p><?php echo htmlspecialchars($blog['desc']); ?></p>
-                <div class="blog-meta"><i class="far fa-calendar"></i> <?php echo htmlspecialchars($blog['date']); ?></div>
+<!-- BLOG CARDS SECTION -->
+<section class="py-5 bg-white">
+  <div class="container">
+
+    <?php if (empty($allBlogs)): ?>
+    <div class="text-center py-5">
+      <i class="fas fa-newspaper fa-3x text-muted mb-3"></i>
+      <h4 class="text-muted">No blog posts found.</h4>
+    </div>
+    <?php else: ?>
+
+    <div class="row g-4">
+      <?php foreach ($allBlogs as $blog):
+        $cat = isset($blog['category']) ? $blog['category'] : 'Health';
+        $icon = isset($catIcons[$cat]) ? $catIcons[$cat] : 'fa-notes-medical';
+        
+        // Use blog image if available, otherwise fall back to category image, then default
+        if (!empty($blog['image'])) {
+          $img = $blog['image'];
+        } elseif (isset($catImages[$cat])) {
+          $img = $catImages[$cat];
+        } else {
+          $img = '/images/hero5.png';
+        }
+      ?>
+      <div class="col-lg-4 col-md-6">
+        <a href="/blog/<?php echo $blog['url']; ?>" class="text-decoration-none">
+          <div class="blog-card h-100">
+            <div class="blog-img-wrapper">
+              <img src="<?php echo $img; ?>" alt="<?php echo htmlspecialchars($blog['title']); ?>" class="blog-img">
+              <span class="blog-category"><i class="fas <?php echo $icon; ?> me-1"></i> <?php echo htmlspecialchars($cat); ?></span>
+            </div>
+            <div class="blog-content">
+              <div class="blog-meta">
+                <span><i class="far fa-calendar-alt me-1"></i> <?php echo htmlspecialchars($blog['date']); ?></span>
+                <?php if (!empty($blog['readtime'])): ?>
+                <span class="ms-3"><i class="far fa-clock me-1"></i> <?php echo htmlspecialchars($blog['readtime']); ?></span>
+                <?php endif; ?>
               </div>
+              <h5 class="blog-title"><?php echo htmlspecialchars($blog['title']); ?></h5>
+              <?php if (!empty($blog['desc'])): ?>
+              <p class="blog-excerpt"><?php echo htmlspecialchars(strlen($blog['desc']) > 150 ? substr($blog['desc'], 0, 147) . '...' : $blog['desc']); ?></p>
+              <?php endif; ?>
+              <span class="blog-read-more">Read More <i class="fas fa-arrow-right ms-1"></i></span>
             </div>
           </div>
-        <?php endforeach; ?>
+        </a>
       </div>
-
-      <!-- Pagination -->
-      <?php if ($total_pages > 1): ?>
-        <div class="pagination">
-          <?php if ($current_page > 1): ?>
-            <a href="?page=<?php echo $current_page - 1; ?>"><i class="fas fa-chevron-left me-1"></i> Prev</a>
-          <?php else: ?>
-            <span class="disabled"><i class="fas fa-chevron-left me-1"></i> Prev</span>
-          <?php endif; ?>
-
-          <?php for ($i = 1; $i <= $total_pages; $i++): ?>
-            <?php if ($i == $current_page): ?>
-              <span class="active"><?php echo $i; ?></span>
-            <?php else: ?>
-              <a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a>
-            <?php endif; ?>
-          <?php endfor; ?>
-
-          <?php if ($current_page < $total_pages): ?>
-            <a href="?page=<?php echo $current_page + 1; ?>">Next <i class="fas fa-chevron-right ms-1"></i></a>
-          <?php else: ?>
-            <span class="disabled">Next <i class="fas fa-chevron-right ms-1"></i></span>
-          <?php endif; ?>
-        </div>
-      <?php endif; ?>
-
-      <!-- View All Button (Reset/Home) -->
-      <div class="text-center mt-5">
-        <a href="/index" class="btn btn-outline-primary"><i class="fas fa-home me-2"></i>Back to Home</a>
-      </div>
+      <?php endforeach; ?>
     </div>
-  </section>
 
-  <?php include '../includes/footer.php'; ?>
-</body>
+    <?php endif; ?>
 
-</html>
+  </div>
+</section>
+
+<?php include __DIR__ . '/../includes/footer.php'; ?>
