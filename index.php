@@ -107,22 +107,22 @@ include __DIR__ . '/includes/navbar.php';
     <div id="heroCarousel" class="carousel slide carousel-fade h-100" data-bs-ride="carousel" data-bs-interval="3000">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="images/hero1.png" alt="Hospital Lobby Banner">
+          <img src="assets/img/hospital-front.jpg" alt="Sankalp Hospital Front View">
         </div>
         <div class="carousel-item">
-          <img src="images/hero2.png" alt="Advanced Operation Theatre">
+          <img src="assets/img/infrastructure/ICU.jpg" alt="Advanced ICU Facility">
         </div>
         <div class="carousel-item">
-          <img src="images/hero3.png" alt="Healthcare Staff and Care">
+          <img src="assets/img/infrastructure/GYNAE-OT.jpg" alt="Modular Operation Theatre">
         </div>
         <div class="carousel-item">
-          <img src="images/hero4.png" alt="Modern Clinical Consult">
+          <img src="assets/img/infrastructure/PATHOLOGY-LAB.jpg" alt="Pathology Laboratory">
         </div>
         <div class="carousel-item">
-          <img src="images/hero5.png" alt="Advanced Laboratory Setup">
+          <img src="assets/img/infrastructure/NICU.jpg" alt="NICU Neonatal Care">
         </div>
         <div class="carousel-item">
-          <img src="images/hero6.png" alt="Modern Hospital Building Facade">
+          <img src="assets/img/infrastructure/GENERAL-WARD.jpg" alt="General Ward">
         </div>
       </div>
     </div>
@@ -205,9 +205,6 @@ include __DIR__ . '/includes/navbar.php';
           <div class="about-collage-container">
             <div class="about-collage-bg-wrap">
               <img src="assets/img/hospital-front.jpg" alt="Sankalp Hospital Facade" class="about-collage-img-bg w-100">
-            </div>
-            <div class="about-collage-fg-wrap">
-              <img src="assets/img/infrastructure/ICU.jpg" alt="Advanced ICU Facility" class="about-collage-img-fg w-100">
             </div>
             <div class="about-img-experience">
               <h3>15+</h3>
@@ -1276,39 +1273,19 @@ include __DIR__ . '/includes/navbar.php';
               <div class="carousel-inner rounded-4 overflow-hidden">
                 <!-- Slide 1 -->
                 <div class="carousel-item active">
-                  <img src="images/hero1.png" class="d-block w-100 facility-img" alt="Hospital Reception Lobby">
-                  <div class="carousel-caption">
-                    <h5>Hospital Reception & Waiting Lobby</h5>
-                    <p>A spacious, fully-airconditioned, and sanitized lobby designed for patient comfort.</p>
-                  </div>
+                  <img src="assets/img/hospital-front.jpg" class="d-block w-100 facility-img" alt="Sankalp Hospital Front View">
+
                 </div>
-                <!-- Slide 2 -->
                 <div class="carousel-item">
-                  <img src="images/hero2.png" class="d-block w-100 facility-img" alt="Advanced Operation Theatre">
-                  <div class="carousel-caption">
-                    <h5>Modular Operation Theatre</h5>
-                    <p>Equipped with modern anesthesia and clean air-laminar flows.</p>
-                  </div>
+                  <img src="assets/img/infrastructure/ICU.jpg" class="d-block w-100 facility-img" alt="Advanced ICU Facility">
+
                 </div>
-                <!-- Slide 3 -->
                 <div class="carousel-item">
-                  <img src="images/hero4.png" class="d-block w-100 facility-img" alt="Specialist Consultation Room">
-                  <div class="carousel-caption">
-                    <h5>Consultation Suites</h5>
-                    <p>Private counseling chambers for in-depth clinical discussions.</p>
-                  </div>
+                  <img src="assets/img/infrastructure/OPD-CHAMBER-2.jpg" class="d-block w-100 facility-img" alt="OPD Consultation Room">
+
                 </div>
-                <!-- Slide 4 -->
-                <div class="carousel-item">
-                  <img src="images/pediatric.png" class="d-block w-100 facility-img" alt="Pediatric Ward">
-                  <div class="carousel-caption">
-                    <h5>Pediatric Care Ward</h5>
-                    <p>Child-friendly clinical ward settings designed to ensure pediatric patients feel safe.</p>
-                  </div>
-                </div>
-                <!-- Slide 5 -->
-                <div class="carousel-item">
-                  <img src="images/hero5.png" class="d-block w-100 facility-img" alt="Pathology Lab">
+                <div class="carousel-item active">
+                  <img src="assets/img/infrastructure/PATHOLOGY-LAB.jpg" class="d-block w-100 facility-img" alt="Pathology Laboratory">
                   <div class="carousel-caption">
                     <h5>High-Tech Pathology Laboratory</h5>
                     <p>Fully automated analyzer machines for delivering rapid, precise diagnostic test results.</p>

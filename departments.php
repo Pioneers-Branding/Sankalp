@@ -17,7 +17,7 @@ $deptImages = [
     'emergency'     => 'images/emergency.png',
     'gynecology'    => 'images/ultrasound.png',
     'ivf'           => 'images/ivf.png',
-    'surgery'       => 'images/hero2.png',
+    'surgery'       => 'assets/img/infrastructure/GYNAE-OT.jpg',
     'pediatrics'    => 'images/pediatric.png',
     'orthopedics'   => 'images/orthopedics.png',
     'urology'       => 'images/urology.png',
@@ -409,7 +409,7 @@ $deptImages = [
 /* BOTTOM CTA */
 .dp-cta{
     background:linear-gradient(135deg,rgba(15,92,173,0.94),rgba(11,69,130,0.97)),
-              url('images/hero1.png') center/cover;
+              url('assets/img/hospital-front.jpg') center/cover;
     padding:76px 0;text-align:center;
     position:relative;overflow:hidden;
 }
@@ -478,10 +478,10 @@ $deptImages = [
     <!-- Background Slideshow -->
     <div class="dp-hero-bg-slider">
         <div class="dp-hero-slide active">
-            <img src="images/hero4.png" alt="Clinical Consultations">
+            <img src="assets/img/infrastructure/OPD-CHAMBER-2.jpg" alt="Clinical Consultations">
         </div>
         <div class="dp-hero-slide">
-            <img src="images/hero2.png" alt="Advanced Operation Theatre">
+            <img src="assets/img/infrastructure/GYNAE-OT.jpg" alt="Advanced Operation Theatre">
         </div>
         <div class="dp-hero-slide">
             <img src="images/ultrasound.png" alt="Advanced Diagnostics">
@@ -596,7 +596,7 @@ $deptImages = [
                 <div class="dp-dept-card">
                     <div class="dp-card-accent-bar" style="background:linear-gradient(90deg,<?php echo $accent; ?>,<?php echo $accent; ?>99);"></div>
                     <?php 
-                        $cardImg = $deptImages[$key] ?? 'images/hero4.png';
+                        $cardImg = $deptImages[$key] ?? 'assets/img/infrastructure/OPD-CHAMBER-2.jpg';
                     ?>
                     <div class="dp-card-image-wrap">
                         <img src="<?php echo $cardImg; ?>" alt="<?php echo $dept['title']; ?>" class="dp-card-img" loading="lazy">

@@ -73,7 +73,7 @@ $rss_url = "https://www.youtube.com/feeds/videos.xml?channel_id=$channel_id";
 <!-- SUBPAGE HERO BANNER -->
 <section class="subpage-hero">
   <div class="subpage-hero-bg">
-    <img src="images/hero5.png" alt="Sankalp Hospital Video Gallery">
+    <img src="assets/img/infrastructure/PATHOLOGY-LAB.jpg" alt="Sankalp Hospital Video Gallery">
   </div>
   <div class="subpage-hero-overlay"></div>
   <div class="container text-center text-lg-start">

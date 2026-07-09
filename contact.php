@@ -9,7 +9,7 @@ include __DIR__ . '/includes/navbar.php';
 <!-- SUBPAGE HERO BANNER -->
 <section class="subpage-hero">
   <div class="subpage-hero-bg">
-    <img src="images/hero4.png" alt="Sankalp Hospital Contact">
+    <img src="assets/img/infrastructure/OPD-CHAMBER-2.jpg" alt="Sankalp Hospital Contact">
   </div>
   <div class="subpage-hero-overlay"></div>
   <div class="container text-center text-lg-start">

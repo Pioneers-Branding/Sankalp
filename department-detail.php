@@ -55,7 +55,7 @@ $deptImages = [
     'emergency'     => 'images/emergency.png',
     'gynecology'    => 'images/ultrasound.png',
     'ivf'           => 'images/ivf.png',
-    'surgery'       => 'images/hero2.png',
+    'surgery'       => 'assets/img/infrastructure/GYNAE-OT.jpg',
     'pediatrics'    => 'images/pediatric.png',
     'orthopedics'   => 'images/orthopedics.png',
     'urology'       => 'images/urology.png',
@@ -64,7 +64,7 @@ $deptImages = [
     'anesthesia'    => 'images/anesthesia.png',
     'oncology'      => 'images/oncology.png',
 ];
-$deptImage = $deptImages[$deptKey] ?? 'images/hero4.png';
+$deptImage = $deptImages[$deptKey] ?? 'assets/img/infrastructure/OPD-CHAMBER-2.jpg';
 
 // Dynamic color assignment from category
 $cat = $catMap[$deptKey] ?? 'clinical';
@@ -571,7 +571,7 @@ include __DIR__.'/includes/navbar.php';
 /* ---- APPOINTMENT ---- */
 .dd-appt{
     background:linear-gradient(135deg,rgba(15,92,173,0.93),rgba(11,69,130,0.97)),
-              url('images/hero1.png') center/cover;
+              url('assets/img/hospital-front.jpg') center/cover;
     padding:76px 0;position:relative;overflow:hidden;
 }
 .dd-appt::before{

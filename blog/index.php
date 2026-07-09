@@ -55,7 +55,7 @@ $catImages = [
 <!-- SUBPAGE HERO BANNER -->
 <section class="subpage-hero">
   <div class="subpage-hero-bg">
-    <img src="/images/hero5.png" alt="Sankalp Hospital Blog">
+    <img src="/assets/img/infrastructure/PATHOLOGY-LAB.jpg" alt="Sankalp Hospital Blog">
   </div>
   <div class="subpage-hero-overlay"></div>
   <div class="container text-center text-lg-start">
@@ -94,7 +94,7 @@ $catImages = [
         } elseif (isset($catImages[$cat])) {
           $img = $catImages[$cat];
         } else {
-          $img = '/images/hero5.png';
+          $img = '/assets/img/infrastructure/PATHOLOGY-LAB.jpg';
         }
       ?>
       <div class="col-lg-4 col-md-6">

@@ -10,7 +10,7 @@ include __DIR__ . '/includes/navbar.php';
 <section class="subpage-hero">
   <!-- Background Visual -->
   <div class="subpage-hero-bg">
-    <img src="images/hero4.png" alt="Sankalp Clinical Consult">
+    <img src="assets/img/infrastructure/OPD-CHAMBER-2.jpg" alt="Sankalp Clinical Consult">
   </div>
   <div class="subpage-hero-overlay"></div>
 

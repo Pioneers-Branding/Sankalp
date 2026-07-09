@@ -147,7 +147,7 @@
 <section class="dp-hero">
   <!-- Background Image & Overlay -->
   <div class="dp-hero-bg">
-    <img src="/images/hero4.png" alt="Clinical Consult Background">
+    <img src="/assets/img/infrastructure/OPD-CHAMBER-2.jpg" alt="Clinical Consult Background">
   </div>
   <div class="dp-hero-overlay"></div>
   <div class="dp-hero-ring"></div>
