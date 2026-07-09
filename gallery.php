@@ -9,7 +9,7 @@ include __DIR__ . '/includes/navbar.php';
 <!-- SUBPAGE HERO BANNER -->
 <section class="subpage-hero">
   <div class="subpage-hero-bg">
-    <img src="images/hero6.png" alt="Sankalp Hospital Gallery">
+    <img src="assets/img/hospital-front.jpg" alt="Sankalp Hospital Gallery">
   </div>
   <div class="subpage-hero-overlay"></div>
 
@@ -39,29 +39,45 @@ include __DIR__ . '/includes/navbar.php';
 
     <!-- Gallery Grid -->
     <div class="row g-4">
-      <!-- Card 1: Hospital Reception -->
+      <!-- Card 1: Hospital Front View -->
       <div class="col-lg-4 col-md-6">
         <div class="gallery-card">
           <div class="gallery-img-wrapper">
-            <img src="images/hero1.png" alt="Hospital Reception & Waiting Lobby" class="gallery-img">
+            <img src="assets/img/hospital-front.jpg" alt="Sankalp Hospital Front View" class="gallery-img">
             <div class="gallery-overlay">
-              <a href="images/hero1.png" class="gallery-lightbox" data-gallery="hospital"><i class="fas fa-expand"></i></a>
+              <a href="assets/img/hospital-front.jpg" class="gallery-lightbox" data-gallery="hospital"><i class="fas fa-expand"></i></a>
             </div>
           </div>
           <div class="gallery-info">
-            <h5>Reception & Waiting Lobby</h5>
-            <p>Spacious, air-conditioned, and sanitized lobby designed for patient comfort.</p>
+            <h5>Hospital Front View</h5>
+            <p>Our modern multi-story hospital building with advanced medical facilities.</p>
           </div>
         </div>
       </div>
 
-      <!-- Card 2: Operation Theatre -->
+      <!-- Card 2: ICU -->
       <div class="col-lg-4 col-md-6">
         <div class="gallery-card">
           <div class="gallery-img-wrapper">
-            <img src="images/hero2.png" alt="Modular Operation Theatre" class="gallery-img">
+            <img src="assets/img/infrastructure/ICU.jpg" alt="Intensive Care Unit" class="gallery-img">
             <div class="gallery-overlay">
-              <a href="images/hero2.png" class="gallery-lightbox" data-gallery="hospital"><i class="fas fa-expand"></i></a>
+              <a href="assets/img/infrastructure/ICU.jpg" class="gallery-lightbox" data-gallery="hospital"><i class="fas fa-expand"></i></a>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <h5>Intensive Care Unit (ICU)</h5>
+            <p>24/7 critical care with advanced monitoring and life support systems.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3: Operation Theatre -->
+      <div class="col-lg-4 col-md-6">
+        <div class="gallery-card">
+          <div class="gallery-img-wrapper">
+            <img src="assets/img/infrastructure/GYNAE-OT.jpg" alt="Modular Operation Theatre" class="gallery-img">
+            <div class="gallery-overlay">
+              <a href="assets/img/infrastructure/GYNAE-OT.jpg" class="gallery-lightbox" data-gallery="hospital"><i class="fas fa-expand"></i></a>
             </div>
           </div>
           <div class="gallery-info">
@@ -71,29 +87,13 @@ include __DIR__ . '/includes/navbar.php';
         </div>
       </div>
 
-      <!-- Card 3: Consultation Suites -->
-      <div class="col-lg-4 col-md-6">
-        <div class="gallery-card">
-          <div class="gallery-img-wrapper">
-            <img src="images/hero4.png" alt="Specialist Consultation Rooms" class="gallery-img">
-            <div class="gallery-overlay">
-              <a href="images/hero4.png" class="gallery-lightbox" data-gallery="hospital"><i class="fas fa-expand"></i></a>
-            </div>
-          </div>
-          <div class="gallery-info">
-            <h5>Consultation Suites</h5>
-            <p>Private counseling chambers for in-depth clinical discussions.</p>
-          </div>
-        </div>
-      </div>
-
       <!-- Card 4: Pathology Lab -->
       <div class="col-lg-4 col-md-6">
         <div class="gallery-card">
           <div class="gallery-img-wrapper">
-            <img src="images/hero5.png" alt="Pathology Laboratory" class="gallery-img">
+            <img src="assets/img/infrastructure/PATHOLOGY-LAB.jpg" alt="Pathology Laboratory" class="gallery-img">
             <div class="gallery-overlay">
-              <a href="images/hero5.png" class="gallery-lightbox" data-gallery="hospital"><i class="fas fa-expand"></i></a>
+              <a href="assets/img/infrastructure/PATHOLOGY-LAB.jpg" class="gallery-lightbox" data-gallery="hospital"><i class="fas fa-expand"></i></a>
             </div>
           </div>
           <div class="gallery-info">
@@ -103,130 +103,250 @@ include __DIR__ . '/includes/navbar.php';
         </div>
       </div>
 
-      <!-- Card 5: Ultrasound Room -->
+      <!-- Card 5: OPD Chamber -->
       <div class="col-lg-4 col-md-6">
         <div class="gallery-card">
           <div class="gallery-img-wrapper">
-            <img src="images/ultrasound.png" alt="Ultrasound Diagnostic Room" class="gallery-img">
+            <img src="assets/img/infrastructure/OPD-CHAMBER-2.jpg" alt="OPD Consultation Room" class="gallery-img">
             <div class="gallery-overlay">
-              <a href="images/ultrasound.png" class="gallery-lightbox" data-gallery="hospital"><i class="fas fa-expand"></i></a>
+              <a href="assets/img/infrastructure/OPD-CHAMBER-2.jpg" class="gallery-lightbox" data-gallery="hospital"><i class="fas fa-expand"></i></a>
             </div>
           </div>
           <div class="gallery-info">
-            <h5>Ultrasound Diagnostic Room</h5>
-            <p>Advanced ultrasound imaging for pregnancy scans and diagnostics.</p>
+            <h5>OPD Consultation Room</h5>
+            <p>Private counseling chambers for in-depth clinical discussions.</p>
           </div>
         </div>
       </div>
 
-      <!-- Card 6: Pediatric Ward -->
+      <!-- Card 6: NICU -->
       <div class="col-lg-4 col-md-6">
         <div class="gallery-card">
           <div class="gallery-img-wrapper">
-            <img src="images/pediatric.png" alt="Pediatric Care Ward" class="gallery-img">
+            <img src="assets/img/infrastructure/NICU.jpg" alt="Neonatal Intensive Care Unit" class="gallery-img">
             <div class="gallery-overlay">
-              <a href="images/pediatric.png" class="gallery-lightbox" data-gallery="hospital"><i class="fas fa-expand"></i></a>
+              <a href="assets/img/infrastructure/NICU.jpg" class="gallery-lightbox" data-gallery="hospital"><i class="fas fa-expand"></i></a>
             </div>
           </div>
           <div class="gallery-info">
-            <h5>Pediatric Care Ward</h5>
-            <p>Child-friendly ward settings ensuring young patients feel safe and comfortable.</p>
+            <h5>NICU (Neonatal Care)</h5>
+            <p>Specialized care for newborns requiring intensive medical attention.</p>
           </div>
         </div>
       </div>
 
-      <!-- Card 7: Ophthalmology -->
+      <!-- Card 7: Eye OT -->
       <div class="col-lg-4 col-md-6">
         <div class="gallery-card">
           <div class="gallery-img-wrapper">
-            <img src="images/ophthalmology.png" alt="Ophthalmology Department" class="gallery-img">
+            <img src="assets/img/infrastructure/EYE-OT.jpg" alt="Ophthalmology Operation Theatre" class="gallery-img">
             <div class="gallery-overlay">
-              <a href="images/ophthalmology.png" class="gallery-lightbox" data-gallery="hospital"><i class="fas fa-expand"></i></a>
+              <a href="assets/img/infrastructure/EYE-OT.jpg" class="gallery-lightbox" data-gallery="hospital"><i class="fas fa-expand"></i></a>
             </div>
           </div>
           <div class="gallery-info">
-            <h5>Ophthalmology Department</h5>
+            <h5>Eye Operation Theatre</h5>
             <p>Advanced eye care facility with modern cataract and LASIK equipment.</p>
           </div>
         </div>
       </div>
 
-      <!-- Card 8: Emergency & Trauma -->
+      <!-- Card 8: General Ward -->
       <div class="col-lg-4 col-md-6">
         <div class="gallery-card">
           <div class="gallery-img-wrapper">
-            <img src="images/emergency.png" alt="Emergency & Trauma Center" class="gallery-img">
+            <img src="assets/img/infrastructure/GENERAL-WARD.jpg" alt="General Ward" class="gallery-img">
             <div class="gallery-overlay">
-              <a href="images/emergency.png" class="gallery-lightbox" data-gallery="hospital"><i class="fas fa-expand"></i></a>
+              <a href="assets/img/infrastructure/GENERAL-WARD.jpg" class="gallery-lightbox" data-gallery="hospital"><i class="fas fa-expand"></i></a>
             </div>
           </div>
           <div class="gallery-info">
-            <h5>Emergency & Trauma Center</h5>
-            <p>24/7 fully-equipped emergency unit with rapid response capabilities.</p>
+            <h5>General Ward</h5>
+            <p>Comfortable and clean ward settings for patient recovery.</p>
           </div>
         </div>
       </div>
 
-      <!-- Card 9: IVF Unit -->
+      <!-- Card 9: Laparoscopic Surgery -->
       <div class="col-lg-4 col-md-6">
         <div class="gallery-card">
           <div class="gallery-img-wrapper">
-            <img src="images/ivf.png" alt="Assisted Fertility IVF Unit" class="gallery-img">
+            <img src="assets/img/infrastructure/LAPAROSCOPIC-SURGERY.jpg" alt="Laparoscopic Surgery Suite" class="gallery-img">
             <div class="gallery-overlay">
-              <a href="images/ivf.png" class="gallery-lightbox" data-gallery="hospital"><i class="fas fa-expand"></i></a>
+              <a href="assets/img/infrastructure/LAPAROSCOPIC-SURGERY.jpg" class="gallery-lightbox" data-gallery="hospital"><i class="fas fa-expand"></i></a>
             </div>
           </div>
           <div class="gallery-info">
-            <h5>Assisted Fertility (IVF) Unit</h5>
-            <p>State-of-the-art IVF lab with advanced reproductive technology.</p>
+            <h5>Laparoscopic Surgery Suite</h5>
+            <p>Minimally invasive surgery with advanced laparoscopic equipment.</p>
           </div>
         </div>
       </div>
 
-      <!-- Card 10: Orthopedics -->
+      <!-- Card 10: Ortho OT -->
       <div class="col-lg-4 col-md-6">
         <div class="gallery-card">
           <div class="gallery-img-wrapper">
-            <img src="images/orthopedics.png" alt="Orthopaedics Department" class="gallery-img">
+            <img src="assets/img/infrastructure/ORTHO-OT.jpg" alt="Orthopaedics Operation Theatre" class="gallery-img">
             <div class="gallery-overlay">
-              <a href="images/orthopedics.png" class="gallery-lightbox" data-gallery="hospital"><i class="fas fa-expand"></i></a>
+              <a href="assets/img/infrastructure/ORTHO-OT.jpg" class="gallery-lightbox" data-gallery="hospital"><i class="fas fa-expand"></i></a>
             </div>
           </div>
           <div class="gallery-info">
-            <h5>Orthopaedics Department</h5>
+            <h5>Orthopaedics OT</h5>
             <p>Specialized unit for joint replacement, sports trauma, and spinal surgeries.</p>
           </div>
         </div>
       </div>
 
-      <!-- Card 11: Oncology -->
+      <!-- Card 11: TPA Desk -->
       <div class="col-lg-4 col-md-6">
         <div class="gallery-card">
           <div class="gallery-img-wrapper">
-            <img src="images/oncology.png" alt="Onco Surgery Department" class="gallery-img">
+            <img src="assets/img/infrastructure/TPA-DESK.jpg" alt="TPA Help Desk" class="gallery-img">
             <div class="gallery-overlay">
-              <a href="images/oncology.png" class="gallery-lightbox" data-gallery="hospital"><i class="fas fa-expand"></i></a>
+              <a href="assets/img/infrastructure/TPA-DESK.jpg" class="gallery-lightbox" data-gallery="hospital"><i class="fas fa-expand"></i></a>
             </div>
           </div>
           <div class="gallery-info">
-            <h5>Onco Surgery Department</h5>
-            <p>Comprehensive cancer care with modern surgical and chemotherapy facilities.</p>
+            <h5>TPA Help Desk</h5>
+            <p>Insurance and TPA assistance for cashless treatment.</p>
           </div>
         </div>
       </div>
 
-      <!-- Card 12: Hospital Overview -->
+      <!-- Card 12: Hospital Interior -->
       <div class="col-lg-4 col-md-6">
         <div class="gallery-card">
           <div class="gallery-img-wrapper">
-            <img src="images/hero3.png" alt="Sankalp Hospital Overview" class="gallery-img">
+            <img src="assets/img/infrastructure/sankalp-photo-010.jpg" alt="Hospital Interior" class="gallery-img">
             <div class="gallery-overlay">
-              <a href="images/hero3.png" class="gallery-lightbox" data-gallery="hospital"><i class="fas fa-expand"></i></a>
+              <a href="assets/img/infrastructure/sankalp-photo-010.jpg" class="gallery-lightbox" data-gallery="hospital"><i class="fas fa-expand"></i></a>
             </div>
           </div>
           <div class="gallery-info">
-            <h5>Hospital Overview</h5>
+            <h5>Hospital Interior</h5>
             <p>Complete multi-specialty healthcare facility serving the Surguja region.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slider Gallery Section -->
+    <div class="text-center mt-5 mb-4">
+      <span class="badge bg-primary-soft text-primary px-3 py-2 rounded-pill text-uppercase mb-3"><i class="fas fa-images me-1"></i> Hospital Wings</span>
+      <h3 class="fw-bold text-dark">Our Medical Wings</h3>
+    </div>
+
+    <div class="row g-4">
+      <!-- Wing 1 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="gallery-card">
+          <div class="gallery-img-wrapper">
+            <img src="assets/img/wings/wing-1.jpg" alt="Medical Wing 1" class="gallery-img">
+            <div class="gallery-overlay">
+              <a href="assets/img/wings/wing-1.jpg" class="gallery-lightbox" data-gallery="wings"><i class="fas fa-expand"></i></a>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <h5>Medical Wing 1</h5>
+            <p>Advanced medical departments and treatment facilities.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wing 2 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="gallery-card">
+          <div class="gallery-img-wrapper">
+            <img src="assets/img/wings/wing-2.jpg" alt="Medical Wing 2" class="gallery-img">
+            <div class="gallery-overlay">
+              <a href="assets/img/wings/wing-2.jpg" class="gallery-lightbox" data-gallery="wings"><i class="fas fa-expand"></i></a>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <h5>Medical Wing 2</h5>
+            <p>Specialized treatment and diagnostic centers.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wing 3 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="gallery-card">
+          <div class="gallery-img-wrapper">
+            <img src="assets/img/wings/wing-3.jpg" alt="Medical Wing 3" class="gallery-img">
+            <div class="gallery-overlay">
+              <a href="assets/img/wings/wing-3.jpg" class="gallery-lightbox" data-gallery="wings"><i class="fas fa-expand"></i></a>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <h5>Medical Wing 3</h5>
+            <p>Patient care and recovery facilities.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wing 4 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="gallery-card">
+          <div class="gallery-img-wrapper">
+            <img src="assets/img/wings/wing-4.jpg" alt="Medical Wing 4" class="gallery-img">
+            <div class="gallery-overlay">
+              <a href="assets/img/wings/wing-4.jpg" class="gallery-lightbox" data-gallery="wings"><i class="fas fa-expand"></i></a>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <h5>Medical Wing 4</h5>
+            <p>Emergency and critical care departments.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wing 5 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="gallery-card">
+          <div class="gallery-img-wrapper">
+            <img src="assets/img/wings/wing-5.jpg" alt="Medical Wing 5" class="gallery-img">
+            <div class="gallery-overlay">
+              <a href="assets/img/wings/wing-5.jpg" class="gallery-lightbox" data-gallery="wings"><i class="fas fa-expand"></i></a>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <h5>Medical Wing 5</h5>
+            <p>Surgical and operation theatre complex.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wing 6 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="gallery-card">
+          <div class="gallery-img-wrapper">
+            <img src="assets/img/wings/wing-6.jpg" alt="Medical Wing 6" class="gallery-img">
+            <div class="gallery-overlay">
+              <a href="assets/img/wings/wing-6.jpg" class="gallery-lightbox" data-gallery="wings"><i class="fas fa-expand"></i></a>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <h5>Medical Wing 6</h5>
+            <p>Diagnostic and imaging center.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wing 7 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="gallery-card">
+          <div class="gallery-img-wrapper">
+            <img src="assets/img/wings/wing-7.jpg" alt="Medical Wing 7" class="gallery-img">
+            <div class="gallery-overlay">
+              <a href="assets/img/wings/wing-7.jpg" class="gallery-lightbox" data-gallery="wings"><i class="fas fa-expand"></i></a>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <h5>Medical Wing 7</h5>
+            <p>Outpatient and consultation departments.</p>
           </div>
         </div>
       </div>
