@@ -6,7 +6,8 @@
 
 // Helper function to extract blog metadata from a PHP file
 function get_blog_metadata($file_path) {
-    $content = file_get_contents($file_path);
+    $content = @file_get_contents($file_path);
+    if ($content === false) return [];
     $metadata = [];
 
     // Extract title from PHP variable first, then fallback to HTML title
@@ -36,8 +37,9 @@ function get_blog_metadata($file_path) {
         $metadata['timestamp'] = strtotime($match[1]);
     } else {
         // Try to get file modification time as fallback
-        $metadata['date'] = date('F j, Y', filemtime($file_path));
-        $metadata['timestamp'] = filemtime($file_path);
+        $mtime = @filemtime($file_path);
+        $metadata['date'] = $mtime ? date('F j, Y', $mtime) : '';
+        $metadata['timestamp'] = $mtime ?: 0;
     }
 
     // Extract read time
@@ -62,28 +64,34 @@ function get_blog_metadata($file_path) {
 function get_all_blogs($blog_dir = __DIR__) {
     $blogs = [];
 
-    if (is_dir($blog_dir)) {
-        $files = scandir($blog_dir);
-        foreach ($files as $file) {
-            // Skip non-PHP files, index, and the template
-            if (pathinfo($file, PATHINFO_EXTENSION) === 'php' &&
-                $file !== 'index.php' &&
-                $file !== 'blog-post.php' &&
-                $file !== 'blog-functions.php' &&
-                strpos($file, '-') !== false) {
+    if (!is_dir($blog_dir)) return $blogs;
 
-                $file_path = $blog_dir . '/' . $file;
-                $metadata = get_blog_metadata($file_path);
+    $files = @scandir($blog_dir);
+    if ($files === false) return $blogs;
 
-                // Only include files that have a title
-                if (!empty($metadata['title'])) {
-                    // Remove .php extension from URL if present
-                    $url = preg_replace('/\.php$/', '', $file);
-                    $metadata['url'] = $url;
-                    $metadata['file'] = $file;
-                    $blogs[] = $metadata;
-                }
-            }
+    // Files to skip (non-blog PHP files)
+    $skip = ['index.php', 'blog-post.php', 'blog-functions.php', 'sidebar.php'];
+
+    foreach ($files as $file) {
+        // Skip non-PHP files
+        if (pathinfo($file, PATHINFO_EXTENSION) !== 'php') continue;
+        // Skip template/utility files
+        if (in_array($file, $skip)) continue;
+        // Blog posts always have a hyphen in the name
+        if (strpos($file, '-') === false) continue;
+
+        $file_path = $blog_dir . '/' . $file;
+        if (!is_file($file_path)) continue;
+
+        $metadata = get_blog_metadata($file_path);
+
+        // Only include files that have a title
+        if (!empty($metadata['title'])) {
+            // Remove .php extension from URL
+            $url = preg_replace('/\.php$/', '', $file);
+            $metadata['url'] = $url;
+            $metadata['file'] = $file;
+            $blogs[] = $metadata;
         }
     }
 
