@@ -38,6 +38,9 @@ $doctorsList=[
         ['name'=>'Dr. Nilesh Goyal','degrees'=>'MBBS, MS - General Surgery','bio'=>'Consultant General and Laparoscopic Surgeon specializing in minimally invasive keyhole procedures.','img'=>'doc3.png'],
         ['name'=>'Dr. Chandra Mukesh Dhawde','degrees'=>'MBBS, MS - Laparoscopic Surgeon','bio'=>'Expert in laparoscopic keyhole surgery, hernia treatment, and general abdominal surgeries.','img'=>'chandra-dhawde.jpg']
     ],
+    'neurosurgery'=>[
+        ['name'=>'On-Call Neurosurgery Team','degrees'=>'MCh - Neurosurgery','bio'=>'Expert neurosurgeons available for advanced brain and spine surgeries with precision-guided techniques.','img'=>'dp']
+    ],
     'emergency'   =>[
         ['name'=>'On-Duty Emergency Team','degrees'=>'Emergency Medical Officers','bio'=>'Qualified trauma nurses and emergency physicians staffed round-the-clock for critical triage.','img'=>'dp']
     ],
@@ -63,6 +66,7 @@ $deptImages = [
     'ent'           => 'images/ent.png',
     'anesthesia'    => 'images/anesthesia.png',
     'oncology'      => 'images/oncology.png',
+    'neurosurgery'  => 'images/neurosurgery.png',
 ];
 $deptImage = $deptImages[$deptKey] ?? 'assets/img/infrastructure/OPD-CHAMBER-2.jpg';
 

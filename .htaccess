@@ -30,6 +30,7 @@ Redirect 301 /departments/laparoscopic-surgery/ /laparoscopic-surgery-hospital-i
 Redirect 301 /departments/emergency/ /emergency-hospital-in-ambikapur
 Redirect 301 /departments/chemotherapy/ /chemotherapy-hospital-in-ambikapur
 Redirect 301 /departments/anesthesia/ /anesthesia-services-in-ambikapur
+Redirect 301 /departments/neurosurgery/ /neurosurgery-hospital-in-ambikapur
 Redirect 301 /departments/oral-surgery/ /maxillofacial-surgery-hospital-in-ambikapur
 
 Redirect 301 /departments.php /departments

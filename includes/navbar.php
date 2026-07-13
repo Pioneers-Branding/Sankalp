@@ -38,6 +38,7 @@
               <li><a class="dropdown-item" href="/ent"><i class="fas fa-head-side-cough me-2 text-primary"></i> ENT</a></li>
               <li><a class="dropdown-item" href="/anesthesiology"><i class="fas fa-syringe me-2 text-primary"></i> Anesthesia</a></li>
               <li><a class="dropdown-item" href="/oncology"><i class="fas fa-hand-holding-medical me-2 text-primary"></i> Onco Surgery</a></li>
+              <li><a class="dropdown-item" href="/neurosurgery"><i class="fas fa-brain me-2 text-primary"></i> Neurosurgery</a></li>
             </ul>
           </li>
           <li class="nav-item"><a class="nav-link" href="/doctors.php">Experts</a></li>
@@ -105,6 +106,7 @@
               <li><a href="/ent">ENT</a></li>
               <li><a href="/anesthesiology">Anesthesia</a></li>
               <li><a href="/oncology">Onco Surgery</a></li>
+              <li><a href="/neurosurgery">Neurosurgery</a></li>
             </ul>
           </div>
         </li>

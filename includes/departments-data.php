@@ -481,6 +481,46 @@ $departments = [
             ['q' => 'Do you provide chemotherapy services in-house?', 'a' => 'Yes. We coordinate with medical oncologists to provide chemotherapy administration, hydration therapies, and supportive medication management in our dedicated day-care oncology ward.']
         ]
     ],
+    'neurosurgery' => [
+        'title' => 'Neurosurgery & Spine Care',
+        'tagline' => 'Advanced cranial, spinal, and neuro-critical surgical interventions with precision-guided techniques.',
+        'icon' => 'fas fa-brain',
+        'theme_color' => 'var(--primary)',
+        'gradient' => 'clinical',
+        'overview' => 'Sankalp Hospital’s Neurosurgery and Spine Care Department is a dedicated center for the diagnosis and surgical management of complex neurological conditions. Our team of expert neurosurgeons treats disorders of the brain, spine, and peripheral nerves using the latest in microsurgical techniques, intra-operative navigation, and minimally invasive spine surgery. From cranial trauma and tumor resections to spinal decompression and disc replacements, we provide comprehensive neuro-surgical care with a patient-first approach.',
+        'features' => [
+            ['icon' => 'fas fa-microscope', 'title' => 'Microsurgical Precision', 'desc' => 'Operating microscopes and neuronavigation systems for ultra-precise brain and spine procedures.'],
+            ['icon' => 'fas fa-bed', 'title' => 'Neuro-ICU Support', 'desc' => 'Dedicated neuro-critical care unit with ventilators, ICP monitors, and 24/7 neurologist backup.'],
+            ['icon' => 'fas fa-bone', 'title' => 'Minimally Invasive Spine Surgery', 'desc' => 'Keyhole spine procedures for reduced pain, minimal scarring, and faster post-surgical recovery.']
+        ],
+        'services' => [
+            ['title' => 'Brain Tumor Surgery', 'desc' => 'Craniotomy with microsurgical resection of benign and malignant brain tumors using intra-op navigation.'],
+            ['title' => 'Spine Surgery & Decompression', 'desc' => 'Laminectomy, discectomy, and spinal canal decompression for herniated discs and spinal stenosis.'],
+            ['title' => 'Trauma & Head Injury Care', 'desc' => 'Emergency surgical management of skull fractures, intracranial hemorrhages (EDH, SDH), and brain contusions.'],
+            ['title' => 'Stroke & Cerebrovascular Surgery', 'desc' => 'Surgical intervention for intracranial aneurysms, AV malformations, and hemorrhagic stroke management.']
+        ],
+        'procedures' => [
+            'Craniotomy & Brain Tumor Resection',
+            'Minimally Invasive Microdiscectomy',
+            'Posterior Lumbar Interbody Fusion (PLIF)',
+            'Spinal Decompression Laminectomy',
+            'Burr Hole Evacuation of Chronic Subdural Hematoma',
+            'Ventriculoperitoneal (VP) Shunt Placement'
+        ],
+        'why_choose_us' => [
+            'Led by experienced neurosurgeons trained in advanced cranial and spinal microsurgery.',
+            'Equipped with modern neuro-operation theatres featuring intra-operative CT and navigation.',
+            'Dedicated neuro-ICU for post-operative critical monitoring and rapid intervention.',
+            'Comprehensive rehabilitation support for neurological patients and their families.'
+        ],
+        'faqs' => [
+            ['q' => 'What is minimally invasive spine surgery?', 'a' => 'Minimally invasive spine surgery uses small tubular retractors (5-10mm) instead of large open incisions to access the spine. This results in significantly less muscle damage, reduced post-operative pain, lower infection risk, and faster return to normal activities compared to traditional open surgery.'],
+            ['q' => 'Is brain surgery risky?', 'a' => 'Like any major surgery, neurosurgery carries inherent risks. However, with modern microsurgical techniques, intra-operative monitoring, and experienced surgical teams, the risk profile has reduced significantly. Our neurosurgeons discuss all potential risks and benefits in detail before any procedure.'],
+            ['q' => 'What are the warning signs of a brain aneurysm?', 'a' => 'Warning signs include sudden, severe "thunderclap" headache, nausea, vomiting, stiff neck, blurred vision, and loss of consciousness. If you experience these, seek immediate medical attention — an unruptured aneurysm can be surgically treated, while a ruptured one requires emergency neurosurgical intervention.'],
+            ['q' => 'How long does spine surgery recovery take?', 'a' => 'Recovery varies by procedure. Minimally invasive discectomy patients may return to normal activities in 2-4 weeks, while spinal fusion surgeries may require 3-6 months for complete recovery. Our team provides detailed post-operative rehabilitation protocols for each case.'],
+            ['q' => 'What is a slipped disc? Does it always need surgery?', 'a' => 'A slipped disc occurs when the inner gel-like material bulges out through a tear in the outer disc layer, pressing on nerves. Most cases respond to rest, physiotherapy, and medications. Surgery is recommended when there is severe nerve compression causing progressive weakness, loss of bladder/bowel control, or persistent pain unresponsive to conservative treatment.']
+        ]
+    ],
     'dialysis' => [
         'title' => 'Dialysis Center & Renal Care',
         'tagline' => 'Advanced hemodialysis services with a focus on patient comfort, safety, and sterility.',
@@ -535,6 +575,7 @@ $catMap = [
     'orthopedics'   => 'surgical',
     'oncology'      => 'surgical',
     'gynecology'    => 'surgical',
+    'neurosurgery'  => 'surgical',
     'emergency'     => 'critical',
     'ivf'           => 'family',
     'pediatrics'    => 'family',
