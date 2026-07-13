@@ -1,48 +1,64 @@
-RewriteEngine On
+Options -Indexes -MultiViews
+ServerSignature Off
 
-# Disable MultiViews to prevent /blog from incorrectly matching blogs.php
-Options -MultiViews -Indexes
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+</IfModule>
 
-# Redirect old blog posts to new blog location (clean URLs)
-Redirect 301 /what-is-the-best-way-to-take-moringa-for-diabetes/ /blog/what-is-the-best-way-to-take-moringa-for-diabetes
+<IfModule mod_rewrite.c>
+    RewriteEngine On
 
-Redirect 301 /will-your-knee-feel-100-percent-normal-after-acl-surgery-recovery-facts/ /blog/will-your-knee-feel-100-percent-normal-after-acl-surgery-recovery-facts
-Redirect 301 /homeopathic-remedy-for-headache-natural-relief-guide/ /blog/homeopathic-remedy-for-headache-natural-relief-guide
-Redirect 301 /pair-me-jhunjhuni-hona/ /blog/pair-me-jhunjhuni-hona
-Redirect 301 /gas-se-peeth-dard-kyun-hota-hai/ /blog/gas-se-peeth-dard-kyun-hota-hai
-Redirect 301 /pair-me-khujli-hona/ /blog/pair-me-khujli-hona
-Redirect 301 /lungs-me-dard-hona/ /blog/lungs-me-dard-hona
-Redirect 301 /pair-me-jalan/ /blog/pair-me-jalan
-Redirect 301 /bp-high-hone-par-kya-kare/ /blog/bp-high-hone-par-kya-kare
-Redirect 301 /hiv-symptoms-in-women/ /blog/hiv-symptoms-in-women
-Redirect 301 /pair-me-sujan/ /blog/pair-me-sujan
+    # Block obvious attacks
+    RewriteCond %{QUERY_STRING} (base64_encode|eval\(|system\(|shell_exec|passthru).* [NC]
+    RewriteRule ^ - [F,L]
 
-# Redirect old department pages to new service pages
-Redirect 301 /departments/ivf/ /ivf-treatment-in-ambikapur
-Redirect 301 /departments/ent/ /ent-hospital-in-ambikapur
-Redirect 301 /departments/orthopaedics-surgery/ /orthopedic-hospital-in-ambikapur
-Redirect 301 /departments/obstetrics-gynecology/ /gynecology-hospital-in-ambikapur
-Redirect 301 /departments/urology/ /urology-hospital-in-ambikapur
-Redirect 301 /departments/ophthalmology/ /ophthalmology-hospital-in-ambikapur
-Redirect 301 /departments/pediatrics/ /pediatric-hospital-in-ambikapur
-Redirect 301 /departments/dialysis/ /dialysis-center-in-ambikapur
-Redirect 301 /departments/laparoscopic-surgery/ /laparoscopic-surgery-hospital-in-ambikapur
-Redirect 301 /departments/emergency/ /emergency-hospital-in-ambikapur
-Redirect 301 /departments/chemotherapy/ /chemotherapy-hospital-in-ambikapur
-Redirect 301 /departments/anesthesia/ /anesthesia-services-in-ambikapur
-Redirect 301 /departments/neurosurgery/ /neurosurgery-hospital-in-ambikapur
-Redirect 301 /departments/oral-surgery/ /maxillofacial-surgery-hospital-in-ambikapur
+    # Remove .php extension from URLs
+    RewriteCond %{THE_REQUEST} \s/([^.]+)\.php[\s?]
+    RewriteRule ^([^.]+)\.php$ /$1 [R=301,L]
 
+    # Route clean URLs to .php files
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^([^\.]+)$ $1.php [L]
+
+    # Fallback: send unmatched routes to index.php
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+# Blog redirects
+Redirect 301 /what-is-the-best-way-to-take-moringa-for-diabetes /blog/what-is-the-best-way-to-take-moringa-for-diabetes
+Redirect 301 /will-your-knee-feel-100-percent-normal-after-acl-surgery-recovery-facts /blog/will-your-knee-feel-100-percent-normal-after-acl-surgery-recovery-facts
+Redirect 301 /homeopathic-remedy-for-headache-natural-relief-guide /blog/homeopathic-remedy-for-headache-natural-relief-guide
+Redirect 301 /pair-me-jhunjhuni-hona /blog/pair-me-jhunjhuni-hona
+Redirect 301 /gas-se-peeth-dard-kyun-hota-hai /blog/lungs-me-dard-hona
+Redirect 301 /pair-me-khujli-hona /blog/pair-me-khujli-hona
+Redirect 301 /lungs-me-dard-hona /blog/lungs-me-dard-hona
+Redirect 301 /pair-me-jalan /blog/pair-me-jalan
+Redirect 301 /bp-high-hone-par-kya-kare /blog/bp-high-hone-par-kya-kare
+Redirect 301 /hiv-symptoms-in-women /blog/hiv-symptoms-in-women
+Redirect 301 /pair-me-sujan /blog/pair-me-sujan
+
+# Department redirects
+Redirect 301 /departments/ivf /ivf-treatment-in-ambikapur
+Redirect 301 /departments/ent /ent-hospital-in-ambikapur
+Redirect 301 /departments/orthopaedics-surgery /orthopedic-hospital-in-ambikapur
+Redirect 301 /departments/obstetrics-gynecology /gynecology-hospital-in-ambikapur
+Redirect 301 /departments/urology /urology-hospital-in-ambikapur
+Redirect 301 /departments/ophthalmology /ophthalmology-hospital-in-ambikapur
+Redirect 301 /departments/pediatrics /pediatric-hospital-in-ambikapur
+Redirect 301 /departments/dialysis /dialysis-center-in-ambikapur
+Redirect 301 /departments/laparoscopic-surgery /laparoscopic-surgery-hospital-in-ambikapur
+Redirect 301 /departments/emergency /emergency-hospital-in-ambikapur
+Redirect 301 /departments/chemotherapy /chemotherapy-hospital-in-ambikapur
+Redirect 301 /departments/anesthesia /anesthesia-services-in-ambikapur
+Redirect 301 /departments/neurosurgery /neurosurgery-hospital-in-ambikapur
+Redirect 301 /departments/oral-surgery /maxillofacial-surgery-hospital-in-ambikapur
+
+# Old page redirects
 Redirect 301 /departments.php /departments
 Redirect 301 /contact.php /contact
-
-# Doctor page clean URLs - handled by mod_rewrite below (no conflicting Redirect needed)
-
-# External redirect to remove .php extension
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^\ ]+)\.php
-RewriteRule ^/?(.*)\.php$ /$1 [L,R=301]
-
-# Internal rewrite to add .php extension back (if file exists)
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule ^([^\.]+)$ $1.php [NC,L]

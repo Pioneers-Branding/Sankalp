@@ -25,6 +25,7 @@ $deptImages = [
     'ent'           => 'images/ent.png',
     'anesthesia'    => 'images/anesthesia.png',
     'oncology'      => 'images/oncology.png',
+    'neurosurgery'  => 'images/neurosurgery.png',
 ];
 ?>
 <style>
@@ -503,7 +504,7 @@ $deptImages = [
                     <span class="pulse-dot"></span>
                     Sankalp Hospital · Ambikapur
                 </div>
-                <h1>Expert Care Across<br><span>12 Specialities.</span></h1>
+                <h1>Expert Care Across<br><span>13 Specialities.</span></h1>
                 <p class="dp-hero-sub">Advanced multi-specialty clinical care — from critical emergency trauma to precision IVF — delivered with compassion and cutting-edge technology.</p>
                 <div class="dp-hero-actions">
                     <a href="index.php#appointment" class="dp-btn-white">
@@ -544,7 +545,7 @@ $deptImages = [
     </div>
     <div class="dp-hero-metrics position-relative" style="z-index: 5;">
         <div class="container d-flex p-0">
-            <div class="dp-metric"><span class="mn">12</span><span class="ml">Specialities</span></div>
+            <div class="dp-metric"><span class="mn">13</span><span class="ml">Specialities</span></div>
             <div class="dp-metric"><span class="mn">15+</span><span class="ml">Specialists</span></div>
             <div class="dp-metric"><span class="mn">24/7</span><span class="ml">Emergency</span></div>
             <div class="dp-metric"><span class="mn">99.8%</span><span class="ml">Success Rate</span></div>
@@ -561,8 +562,8 @@ $deptImages = [
             <input type="text" id="dp-search" class="dp-search-input" placeholder="Search departments...">
         </div>
         <div class="dp-filter-btns">
-            <button class="dp-filter-btn active" data-filter="all">All <span class="dp-count-badge">12</span></button>
-            <button class="dp-filter-btn" data-filter="surgical"><i class="fas fa-procedures"></i> Surgical <span class="dp-count-badge">4</span></button>
+            <button class="dp-filter-btn active" data-filter="all">All <span class="dp-count-badge">13</span></button>
+            <button class="dp-filter-btn" data-filter="surgical"><i class="fas fa-procedures"></i> Surgical <span class="dp-count-badge">5</span></button>
             <button class="dp-filter-btn" data-filter="clinical"><i class="fas fa-stethoscope"></i> Clinical <span class="dp-count-badge">5</span></button>
             <button class="dp-filter-btn" data-filter="critical"><i class="fas fa-ambulance"></i> Critical <span class="dp-count-badge">1</span></button>
             <button class="dp-filter-btn" data-filter="family"><i class="fas fa-baby-carriage"></i> Family <span class="dp-count-badge">2</span></button>
