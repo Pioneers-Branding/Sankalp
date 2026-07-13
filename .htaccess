@@ -10,11 +10,7 @@ ServerSignature Off
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
-    # Block obvious attacks
-    RewriteCond %{QUERY_STRING} (base64_encode|eval\(|system\(|shell_exec|passthru).* [NC]
-    RewriteRule ^ - [F,L]
-
-    # Remove .php extension from URLs
+    # Remove .php extension
     RewriteCond %{THE_REQUEST} \s/([^.]+)\.php[\s?]
     RewriteRule ^([^.]+)\.php$ /$1 [R=301,L]
 
@@ -24,7 +20,7 @@ ServerSignature Off
     RewriteCond %{REQUEST_FILENAME}.php -f
     RewriteRule ^([^\.]+)$ $1.php [L]
 
-    # Fallback: send unmatched routes to index.php
+    # Fallback to index.php for routing
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
