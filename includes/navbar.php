@@ -45,6 +45,7 @@
           <li class="nav-item"><a class="nav-link" href="/gallery.php">Gallery</a></li>
           <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
           <li class="nav-item"><a class="nav-link" href="/empanelments.php">Empanelments</a></li>
+          <li class="nav-item"><a class="nav-link" href="/japa-sakhi" style="color:#0d9488;font-weight:600;"><i class="fas fa-heart me-1"></i> Japa Sakhi</a></li>
           <li class="nav-item"><a class="nav-link" href="/faq.php">FAQs</a></li>
           <li class="nav-item"><a class="nav-link" href="/index.php#contact">Contact</a></li>
         </ul>
@@ -114,6 +115,7 @@
         <li><a href="/gallery.php">Gallery</a></li>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/empanelments.php">Empanelments</a></li>
+        <li><a href="/japa-sakhi" style="color:#0d9488;font-weight:600;"><i class="fas fa-heart me-1"></i> Japa Sakhi</a></li>
         <li><a href="/faq.php">FAQs</a></li>
         <li><a href="/index.php#contact">Contact Us</a></li>
       </ul>
