@@ -96,6 +96,9 @@ if ($route === 'about' || $route === 'about.php') {
 } elseif ($route === 'glossary' || $route === 'glossary.php') {
     include __DIR__ . '/glossary.php';
     exit;
+} elseif ($route === 'japa-sakhi' || $route === 'japa-sakhi.php' || $route === 'japa-sakhi-program') {
+    include __DIR__ . '/japa-sakhi.php';
+    exit;
 }
 
 // Dynamic page configuration
