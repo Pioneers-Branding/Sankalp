@@ -160,9 +160,37 @@ img {
   color: var(--text-dark);
   font-weight: 600;
   font-size: 0.85rem;
-  padding: 8px 18px !important;
+  padding: 8px 12px !important;
   border-radius: 30px;
   transition: var(--transition);
+  white-space: nowrap;
+}
+
+/* The capsule is a fixed-height single row: nothing inside it may wrap or be
+   squeezed to zero. Without this the menu steals the brand's width entirely. */
+.floating-nav .navbar-collapse {
+  min-width: 0;
+}
+
+.floating-nav .navbar-nav {
+  flex-wrap: nowrap;
+}
+
+.floating-nav .btn-primary-nav,
+.floating-nav .btn-emergency-nav {
+  white-space: nowrap;
+}
+
+/* The inline menu needs ~730px and only has that from 1366px up; below that the
+   offcanvas drawer carries the links instead of overlapping the logo. */
+@media (max-width: 1365.98px) {
+  .floating-nav .navbar-collapse {
+    display: none !important;
+  }
+
+  .floating-nav .navbar-toggler {
+    display: flex !important;
+  }
 }
 
 .floating-nav .navbar-nav .nav-link:hover,

@@ -1,8 +1,8 @@
   <!-- FLOATING CAPSULE NAVIGATION -->
-  <nav class="navbar navbar-expand-lg floating-nav">
+  <nav class="navbar navbar-expand-xl floating-nav">
     <div class="container-fluid px-lg-4 d-flex align-items-center justify-content-between">
       <!-- Brand Logo -->
-      <a class="navbar-brand d-flex align-items-center me-0" href="/index.php">
+      <a class="navbar-brand d-flex align-items-center me-0 flex-shrink-0" href="/index.php">
         <img src="/logo.png" alt="Sankalp Hospital Logo" class="brand-logo">
       </a>
       
@@ -45,14 +45,13 @@
           <li class="nav-item"><a class="nav-link" href="/gallery.php">Gallery</a></li>
           <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
           <li class="nav-item"><a class="nav-link" href="/empanelments.php">Empanelments</a></li>
-          <li class="nav-item"><a class="nav-link" href="/japa-sakhi" style="color:#0d9488;font-weight:600;"><i class="fas fa-heart me-1"></i> Japa Sakhi</a></li>
           <li class="nav-item"><a class="nav-link" href="/faq.php">FAQs</a></li>
           <li class="nav-item"><a class="nav-link" href="/index.php#contact">Contact</a></li>
         </ul>
       </div>
 
       <!-- Action Buttons (Right) -->
-      <div class="d-flex align-items-center gap-2">
+      <div class="d-flex align-items-center gap-2 flex-shrink-0">
         <a href="tel:+917774223344" class="btn btn-emergency-nav d-none d-xl-inline-flex"><i class="fas fa-ambulance"></i> Emergency</a>
         <a href="/index.php#appointment" class="btn btn-primary-nav"><i class="far fa-calendar-check"></i> Book Now</a>
         <button class="navbar-toggler d-lg-none py-1 px-2 border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav">
@@ -115,7 +114,6 @@
         <li><a href="/gallery.php">Gallery</a></li>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/empanelments.php">Empanelments</a></li>
-        <li><a href="/japa-sakhi" style="color:#0d9488;font-weight:600;"><i class="fas fa-heart me-1"></i> Japa Sakhi</a></li>
         <li><a href="/faq.php">FAQs</a></li>
         <li><a href="/index.php#contact">Contact Us</a></li>
       </ul>
