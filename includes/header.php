@@ -13,6 +13,22 @@
   
   <!-- Custom CSS -->
   <link rel="stylesheet" href="/style.css">
+  <script type="text/javascript">
+    (function () {
+        window.usermaven = window.usermaven || (function () { (window.usermavenQ = window.usermavenQ || []).push(arguments); })
+        var t = document.createElement('script'),
+            s = document.getElementsByTagName('script')[0];
+        t.defer = true;
+        t.id = 'um-tracker';
+        t.setAttribute('data-tracking-host', "https://events.usermaven.com")
+        t.setAttribute('data-key', 'UM67IGZjVj');
+        t.setAttribute('data-autocapture', 'true');
+        t.setAttribute('data-form-tracking', 'all');
+        t.src = 'https://t.usermaven.com/lib.js';
+        s.parentNode.insertBefore(t, s);
+    })();
+  </script>
+  
 </head>
 <body data-bs-spy="scroll" data-bs-target="#scroll-spy" data-bs-offset="90">
 <div class="page-wrapper">
