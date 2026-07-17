@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<?php include_once __DIR__ . '/analytics.php'; ?>
   <title><?php echo isset($pageTitle) ? $pageTitle : 'Sankalp Hospital | Best Multi-Specialty Hospital In Ambikapur'; ?></title>
   <meta name="description" content="<?php echo isset($pageDesc) ? $pageDesc : 'Sankalp Hospital is a premier multi-specialist healthcare facility in Ambikapur. We provide advanced IVF treatments, Urology, Gynecology, 24/7 emergency care, and world-class medical infrastructure.'; ?>">
   
