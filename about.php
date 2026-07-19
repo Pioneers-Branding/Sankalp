@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Aboutt Us  Sankalp Hospital - Best Multi-Specialty Hospital in Ambikapur";
+$pageTitle = "About Us - Sankalp Hospital - Best Multi-Specialty Hospital in Ambikapur";
 $pageDesc = "Learn about Sankalp Hospital's journey since 2008, led by Dr. Sanjay Goyal and Dr. Lata Goyal, our vision and mission, achievements, and commitment to clinical excellence in Chhattisgarh.";
 
 include __DIR__ . '/includes/header.php';
