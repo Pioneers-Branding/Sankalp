@@ -1,28 +1,31 @@
-name: Deploy to VPS
+name: Deploy to CyberPanel VPS
 
 on:
   push:
     branches:
       - main
-      - master # Triggers on master or main branch
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      # (Optional) If you have a build step (like npm install && npm run build), add it here
+      - name: Setup SSH
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.VPS_SSH_KEY }}
 
-      - name: Sync files to VPS
-        uses: easingthemes/ssh-deploy@main
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.VPS_SSH_KEY }}
-          ARGS: "-rltgoDzvO --delete"
-          SOURCE: "./" # Directory to copy (change if you have a build output folder like 'dist/')
-          REMOTE_HOST: ${{ secrets.VPS_HOST }}
-          REMOTE_USER: ${{ secrets.VPS_USERNAME }}
-          REMOTE_PORT: ${{ secrets.VPS_PORT }}
-          TARGET: "/var/www/sankalp" # IMPORTANT: Change this to the actual path on your VPS
+      - name: Add VPS to known_hosts
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan 72.61.224.90 >> ~/.ssh/known_hosts
+
+      - name: Deploy to VPS
+        run: |
+          # IMPORTANT: Change 'sankalphospital.com' below to the actual domain folder on CyberPanel
+          git remote add vps ssh://root@72.61.224.90/home/sankalphospital.com/git/website.git
+          git push -f vps main
