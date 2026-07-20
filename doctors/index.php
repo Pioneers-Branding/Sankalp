@@ -142,6 +142,50 @@ include __DIR__ . '/../includes/navbar.php';
   flex-grow: 1;
 }
 
+/* Two-button action group (View Profile + Book Appointment) */
+.doctor-directory-grid .doc-card-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  margin-top: auto;
+}
+
+.doctor-directory-grid .doc-action-btn {
+  font-weight: 600;
+  font-size: 0.8rem;
+  padding: 10px 18px;
+  border-radius: 30px;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.doctor-directory-grid .doc-action-btn.is-outline {
+  background-color: var(--white);
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.doctor-directory-grid .doc-action-btn.is-outline:hover {
+  background-color: var(--primary);
+  color: var(--white);
+  box-shadow: 0 6px 16px rgba(15, 92, 173, 0.2);
+}
+
+.doctor-directory-grid .doc-action-btn.is-solid {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+  color: var(--white);
+  border: 1px solid transparent;
+}
+
+.doctor-directory-grid .doc-action-btn.is-solid:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(15, 92, 173, 0.3);
+}
+
 /* No results state styling */
 .search-no-results {
   text-align: center;
@@ -240,12 +284,6 @@ include __DIR__ . '/../includes/navbar.php';
                 $filterClasses .= ' filter-' . htmlspecialchars($filter);
             }
         }
-
-        // Build direct booking link department parameter
-        $bookingDept = 'all';
-        if (isset($doc['filters']) && count($doc['filters']) > 0) {
-            $bookingDept = htmlspecialchars($doc['filters'][0]);
-        }
       ?>
       <div class="col-xl-3 col-lg-4 col-sm-6 doctor-item<?php echo $filterClasses; ?>">
         <div class="doctor-card">
@@ -263,7 +301,10 @@ include __DIR__ . '/../includes/navbar.php';
             <span class="doc-dept-badge"><?php echo htmlspecialchars($doc['specialty']); ?></span>
             <h4><a href="/doctors/<?php echo htmlspecialchars($slug); ?>" class="text-decoration-none text-dark"><?php echo htmlspecialchars($doc['name']); ?></a></h4>
             <p class="doc-degrees"><?php echo htmlspecialchars($doc['degrees']); ?></p>
-            <a href="/index.php?dept=<?php echo $bookingDept; ?>#appointment" class="doc-cta-btn">Book Appointment</a>
+            <div class="doc-card-actions">
+              <a href="/doctors/<?php echo htmlspecialchars($slug); ?>" class="doc-action-btn is-outline">View Profile</a>
+              <a href="/contact" class="doc-action-btn is-solid">Book Appointment</a>
+            </div>
           </div>
         </div>
       </div>

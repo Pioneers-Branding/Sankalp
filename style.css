@@ -181,15 +181,36 @@ img {
   white-space: nowrap;
 }
 
-/* The inline menu needs ~730px and only has that from 1366px up; below that the
-   offcanvas drawer carries the links instead of overlapping the logo. */
-@media (max-width: 1365.98px) {
+/* Show the inline desktop menu from 1200px up (Bootstrap's xl breakpoint, matching
+   navbar-expand-xl); below that the offcanvas drawer carries the links instead of
+   overlapping the logo. */
+@media (max-width: 1199.98px) {
   .floating-nav .navbar-collapse {
     display: none !important;
   }
 
   .floating-nav .navbar-toggler {
     display: flex !important;
+  }
+}
+
+/* 1200–1365px: the whole capsule row (logo + links + Emergency + Book Now) is
+   tighter here, so compact the links and buttons so nothing wraps or overlaps. */
+@media (min-width: 1200px) and (max-width: 1365.98px) {
+  .floating-nav .navbar-nav {
+    gap: 0 !important;
+  }
+  .floating-nav .navbar-nav .nav-link {
+    font-size: 0.78rem;
+    padding: 6px 8px !important;
+  }
+  .floating-nav .btn-emergency-nav {
+    font-size: 0.72rem;
+    padding: 8px 14px;
+  }
+  .floating-nav .btn-primary-nav {
+    font-size: 0.74rem;
+    padding: 8px 16px;
   }
 }
 
