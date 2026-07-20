@@ -56,7 +56,7 @@ if (isset($blog_title)) {
         <i class="fas fa-phone-alt"></i>
         <span>+91 9584 889068</span>
       </a>
-      <a href="/index.php#appointment" class="sidebar-contact-btn">
+      <a href="/#appointment" class="sidebar-contact-btn">
         <i class="far fa-calendar-check me-2"></i>Book Free Consultation
       </a>
       <div class="sidebar-contact-trust">

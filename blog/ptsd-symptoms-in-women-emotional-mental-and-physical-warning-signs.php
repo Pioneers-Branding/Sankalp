@@ -3,6 +3,7 @@
 <head>
   <title>PTSD Symptoms in Women: Warning Signs | Sankalp Hospital</title>
   <meta name="description" content="Understand the emotional, mental, and physical symptoms of PTSD in women. Learn about warning signs and how to seek help at Sankalp Hospital.">
+  <link rel="canonical" href="https://www.sankalphospital.com/blog/ptsd-symptoms-in-women-emotional-mental-and-physical-warning-signs">
   <?php include '../includes/header-code.php'; ?>
   <style>
     .blog-hero { background: linear-gradient(135deg, #455a64 0%, #607d8b 100%); color: #fff; padding: 80px 0 60px; text-align: center; }

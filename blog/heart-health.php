@@ -7,6 +7,7 @@ $blog_readtime = "5 min read";
 $blog_author = "Dr. Shailesh Gupta";
 $blog_author_desc = "MBBS, MD, DM (Cardiology) - Senior Cardiologist, Sankalp Hospital";
 $blog_image = "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=400&fit=crop";
+$pageCanonical = "https://www.sankalphospital.com/blog/heart-health";
 $blog_content = <<<'HTML'
 <p class="lead">Heart disease continues to hold its position as the leading cause of death globally, accounting for millions of fatalities every year. However, this sobering statistic comes with a silver lining: according to the World Health Organization, up to 80% of premature heart attacks and strokes are entirely preventable. By understanding your cardiovascular system and embracing a proactive, heart-healthy lifestyle, you have the power to protect your heart and dramatically improve your quality of life. This comprehensive guide details five crucial steps to keeping your heart functioning optimally for decades to come.</p>
 

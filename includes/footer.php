@@ -2,7 +2,7 @@
   <footer class="site-footer">
     <div class="container">
       <div class="row g-4">
-        <div class="col-lg-4">
+        <div class="col-lg-3 col-md-6">
           <div class="footer-widget">
             <img src="/logo.png" alt="Sankalp Hospital Logo" class="footer-logo mb-3">
             <p class="footer-desc">Sankalp Hospital is committed to providing premium, multi-specialty healthcare and assisted fertility services with class-leading medical infrastructure and care.</p>
@@ -14,24 +14,41 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-3 col-md-6">
           <div class="footer-widget">
             <h4>Quick Links</h4>
             <ul class="footer-links">
-              <li><a href="/index.php">Home</a></li>
-              <li><a href="/about.php">About Us</a></li>
-              <li><a href="/departments.php">Our Specialties</a></li>
-              <li><a href="/doctors.php">Meet Doctors</a></li>
-              <li><a href="/gallery.php">Image Gallery</a></li>
-              <li><a href="/empanelments.php">Empanelments & Cashless</a></li>
-              <li><a href="/faq.php">Support & FAQs</a></li>
-              <li><a href="/myths-facts.php">Myths & Facts</a></li>
-              <li><a href="/glossary.php">Medical Glossary</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About Us</a></li>
+              <li><a href="/departments">Our Specialties</a></li>
+              <li><a href="/doctors">Meet Doctors</a></li>
+              <li><a href="/blog/">Health Blog</a></li>
+              <li><a href="/empanelments">Empanelments & Cashless</a></li>
+              <li><a href="/faq">Support & FAQs</a></li>
+              <li><a href="/myths-facts">Myths & Facts</a></li>
+              <li><a href="/glossary">Medical Glossary</a></li>
+              <li><a href="/contact">Contact Us</a></li>
             </ul>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-widget">
+            <h4>Top Specialities</h4>
+            <ul class="footer-links">
+              <li><a href="/gynecology-hospital-in-ambikapur">Gynecology &amp; Obstetrics</a></li>
+              <li><a href="/ivf-treatment-in-ambikapur">IVF &amp; Fertility</a></li>
+              <li><a href="/orthopedic-hospital-in-ambikapur">Orthopaedics &amp; Joint Surgery</a></li>
+              <li><a href="/urology-hospital-in-ambikapur">Urology</a></li>
+              <li><a href="/ophthalmology-hospital-in-ambikapur">Ophthalmology</a></li>
+              <li><a href="/pediatric-hospital-in-ambikapur">Pediatrics &amp; NICU</a></li>
+              <li><a href="/ent-hospital-in-ambikapur">ENT</a></li>
+              <li><a href="/emergency-hospital-in-ambikapur">Emergency &amp; Trauma</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
           <div class="footer-widget">
             <h4>Reach Us</h4>
             <ul class="footer-contact">

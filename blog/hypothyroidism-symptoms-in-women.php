@@ -3,6 +3,7 @@
 <head>
   <title>Hypothyroidism Symptoms in Women | Sankalp Hospital</title>
   <meta name="description" content="Common signs, symptoms, and causes of hypothyroidism in women. Learn about thyroid health and treatment options at Sankalp Hospital Ambikapur.">
+  <link rel="canonical" href="https://www.sankalphospital.com/blog/hypothyroidism-symptoms-in-women">
   <?php include '../includes/header-code.php'; ?>
   <style>
     .blog-hero { background: linear-gradient(135deg, #4a148c 0%, #7b1fa2 100%); color: #fff; padding: 80px 0 60px; text-align: center; }

@@ -3,6 +3,7 @@
 <head>
   <title>Health Care Packages in Ambikapur | Sankalp Hospital</title>
   <meta name="description" content="Affordable and comprehensive health checkup packages at Sankalp Hospital Ambikapur. Preventive health screenings for every age and need.">
+  <link rel="canonical" href="https://www.sankalphospital.com/blog/sankalp-hospital-health-care-packages">
   <?php include '../includes/header-code.php'; ?>
   <style>
     .blog-hero { background: linear-gradient(135deg, #16a085 0%, #1abc9c 100%); color: #fff; padding: 80px 0 60px; text-align: center; }

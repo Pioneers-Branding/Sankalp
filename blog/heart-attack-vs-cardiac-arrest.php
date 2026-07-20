@@ -7,6 +7,7 @@ $blog_readtime = "12 min read";
 $blog_author = "Dr. Chandra Mukesh Dhawde";
 $blog_author_desc = "Consultant Neurosurgeon, Sankalp Hospital";
 $blog_image = "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800&h=400&fit=crop";
+$pageCanonical = "https://www.sankalphospital.com/blog/heart-attack-vs-cardiac-arrest";
 $blog_content = <<<'HTML'
 <p class="lead">The terms "heart attack" and "cardiac arrest" are often used interchangeably in everyday conversation, but they represent two very different medical emergencies with distinct causes, symptoms, and treatments. Understanding these differences could mean the difference between life and death for you or a loved one.</p>
 
@@ -289,8 +290,8 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'Heart Health Guide', 'url' => 'heart-health.php', 'date' => 'May 05, 2026', 'image' => 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=300&fit=crop'],
-    ['title' => 'High Blood Pressure - क्या करें?', 'url' => 'bp-high-hone-par-kya-kare.php', 'date' => 'May 06, 2026', 'image' => 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=300&fit=crop'],
+    ['title' => 'Heart Health Guide', 'url' => 'heart-health', 'date' => 'May 05, 2026', 'image' => 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=300&fit=crop'],
+    ['title' => 'High Blood Pressure - क्या करें?', 'url' => 'bp-high-hone-par-kya-kare', 'date' => 'May 06, 2026', 'image' => 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=300&fit=crop'],
     ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'May 11, 2026', 'image' => 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&h=300&fit=crop']
 ];
 

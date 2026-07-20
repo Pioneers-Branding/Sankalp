@@ -7,6 +7,7 @@ $blog_readtime = "6 min read";
 $blog_author = "Dr. Tanay Goyal";
 $blog_author_desc = "MBBS, MS (Orthopedics) - Orthopedic Surgeon, Sankalp Hospital";
 $blog_image = "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop";
+$pageCanonical = "https://www.sankalphospital.com/blog/joint-pain";
 $blog_content = <<<'HTML'
 <p class="lead">Joint pain is a pervasive issue that affects millions of individuals globally, drastically reducing mobility and overall quality of life. From the dull ache of early morning stiffness to the sharp, debilitating pain that prevents you from walking up stairs, joint discomfort is one of the leading reasons patients seek orthopedic care. Understanding the mechanics of your joints, the root causes of pain, and knowing when to consult a specialist are pivotal steps in regaining your mobility and comfort.</p>
 

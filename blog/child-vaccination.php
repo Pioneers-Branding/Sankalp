@@ -7,6 +7,7 @@ $blog_readtime = "11 min read";
 $blog_author = "Dr. Ankit Gupta";
 $blog_author_desc = "MBBS, DCH - Pediatrician, Sankalp Hospital";
 $blog_image = "https://images.unsplash.com/photo-1627627256672-027a461aa0ce?w=400&h=400&fit=crop";
+$pageCanonical = "https://www.sankalphospital.com/blog/child-vaccination";
 $blog_content = <<<'HTML'
 <p class="lead">As a parent, few responsibilities are as profoundly important as safeguarding the health and future of your newborn child. Among the myriad decisions you will make, adhering to a comprehensive child vaccination schedule ranks as one of the most critical. Vaccinations are undeniably one of the greatest achievements of modern medicine, responsible for eradicating devastating illnesses like smallpox and nearly eliminating polio worldwide. This comprehensive guide will walk you through the mechanisms, schedules, safety protocols, and importance of childhood immunizations.</p>
 

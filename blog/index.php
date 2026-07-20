@@ -66,7 +66,7 @@ $catImages = [
         <p class="lead text-white-50 mb-0">Stay informed with the latest health tips, medical insights, and wellness articles from our expert doctors.</p>
       </div>
       <div class="col-lg-4 text-center text-lg-end">
-        <a href="/index.php#appointment" class="btn btn-light btn-lg px-4 py-3 border-0 rounded-pill shadow-lg text-primary fw-bold fs-6"><i class="far fa-calendar-check me-2"></i> Book Consultation</a>
+        <a href="/#appointment" class="btn btn-light btn-lg px-4 py-3 border-0 rounded-pill shadow-lg text-primary fw-bold fs-6"><i class="far fa-calendar-check me-2"></i> Book Consultation</a>
       </div>
     </div>
   </div>

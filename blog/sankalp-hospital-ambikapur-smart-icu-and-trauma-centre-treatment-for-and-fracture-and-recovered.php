@@ -3,6 +3,7 @@
 <head>
   <title>Smart ICU and Trauma Centre in Ambikapur | Sankalp Hospital</title>
   <meta name="description" content="Discover Sankalp Hospital's Smart ICU and advanced Trauma Centre for emergency care, fracture treatment, and rapid recovery in Ambikapur.">
+  <link rel="canonical" href="https://www.sankalphospital.com/blog/sankalp-hospital-ambikapur-smart-icu-and-trauma-centre-treatment-for-and-fracture-and-recovered">
   <?php include '../includes/header-code.php'; ?>
   <style>
     .blog-hero { background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); color: #fff; padding: 80px 0 60px; text-align: center; }

@@ -3,6 +3,7 @@
 <head>
   <title>How to Reduce Knee Swelling Fast | Sankalp Hospital</title>
   <meta name="description" content="Proven home remedies and medical treatments to reduce knee swelling (effusion) fast. Learn when to see a doctor for knee swelling at Sankalp Hospital.">
+  <link rel="canonical" href="https://www.sankalphospital.com/blog/how-to-reduce-knee-swelling-fast-proven-remedies">
   <?php include '../includes/header-code.php'; ?>
   <style>
     .blog-hero { background: linear-gradient(135deg, #148f77 0%, #1abc9c 100%); color: #fff; padding: 80px 0 60px; text-align: center; }

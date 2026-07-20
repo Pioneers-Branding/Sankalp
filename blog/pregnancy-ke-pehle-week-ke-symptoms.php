@@ -3,6 +3,7 @@
 <head>
   <title>गर्भावस्था के पहले सप्ताह के लक्षण | Pregnancy Symptoms in Hindi</title>
   <meta name="description" content="प्रेग्नेंसी के पहले सप्ताह के शुरुआती लक्षण (First Week Pregnancy Symptoms) और सावधानियां। जानें शरीर में होने वाले महत्वपूर्ण बदलावों के बारे में।">
+  <link rel="canonical" href="https://www.sankalphospital.com/blog/pregnancy-ke-pehle-week-ke-symptoms">
   <?php include '../includes/header-code.php'; ?>
   <style>
     .blog-hero { background: linear-gradient(135deg, #f48fb1 0%, #f06292 100%); color: #fff; padding: 80px 0 60px; text-align: center; }

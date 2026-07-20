@@ -7,6 +7,7 @@ $blog_readtime = "10 min read";
 $blog_author = "Dr. Tanay Goyal";
 $blog_author_desc = "MBBS, MS (Orthopedics) - Orthopedic Surgeon, Sankalp Hospital";
 $blog_image = "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=400&fit=crop";
+$pageCanonical = "https://www.sankalphospital.com/blog/cervical-pain-symptoms-in-hindi";
 $blog_content = <<<'HTML'
 <p class="lead">आज की भागदौड़ भरी जिंदगी, घंटों कंप्यूटर या लैपटॉप के सामने बैठकर काम करने की मजबूरी और मोबाइल फोन के अत्यधिक इस्तेमाल के कारण 'सर्वाइकल पेन' (Cervical Pain) या गर्दन का दर्द एक बहुत ही सामान्य और गंभीर समस्या बन गई है। पहले यह समस्या मुख्य रूप से बढ़ती उम्र (50 वर्ष से अधिक) के लोगों में देखी जाती थी, लेकिन अब यह युवाओं और यहां तक कि स्कूली बच्चों में भी तेजी से बढ़ रही है। मेडिकल भाषा में इसे 'सर्वाइकल स्पोंडिलोसिस' (Cervical Spondylosis) या गर्दन का ऑस्टियोआर्थराइटिस (Osteoarthritis of the neck) भी कहा जाता है। यह लेख सर्वाइकल पेन के लक्षण, इसके मूल कारण, सटीक निदान और बचाव के सबसे प्रभावी उपायों पर विस्तार से चर्चा करेगा।</p>
 
@@ -107,7 +108,7 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-  ['title' => 'The Ultimate Guide to Managing Joint Pain', 'url' => 'joint-pain.php', 'date' => 'May 08, 2026', 'image' => 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop'],
+  ['title' => 'The Ultimate Guide to Managing Joint Pain', 'url' => 'joint-pain', 'date' => 'May 08, 2026', 'image' => 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop'],
   ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'May 11, 2026', 'image' => 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&h=300&fit=crop'],
   ['title' => 'Left Shoulder Pain in Women: Causes & Care', 'url' => 'left-shoulder-pain-in-women-possible-causes-and-treatment-options', 'date' => 'May 11, 2026', 'image' => 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=300&fit=crop']
 ];

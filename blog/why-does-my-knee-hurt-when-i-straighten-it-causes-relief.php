@@ -7,6 +7,7 @@ $blog_readtime = "12 min read";
 $blog_author = "Dr. Tanay Goyal";
 $blog_author_desc = "MBBS, MS (Orthopedics) - Orthopedic Surgeon, Sankalp Hospital";
 $blog_image = "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop";
+$pageCanonical = "https://www.sankalphospital.com/blog/why-does-my-knee-hurt-when-i-straighten-it-causes-relief";
 $blog_content = <<<'HTML'
 <p class="lead">Experiencing a sharp catch, a dull ache, or a feeling of extreme tightness when trying to fully straighten your leg is a highly common orthopedic complaint. Your knee is one of the largest and most complex hinge joints in your body, designed to bear massive amounts of weight while moving fluidly through extension (straightening) and flexion (bending). When pain interrupts this natural mechanism, it is usually a sign that an underlying structure—whether it be cartilage, a ligament, a tendon, or the joint capsule itself—has been injured, inflamed, or degraded over time.</p>
 

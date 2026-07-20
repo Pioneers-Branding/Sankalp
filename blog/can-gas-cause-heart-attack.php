@@ -7,6 +7,7 @@ $blog_readtime = "14 min read";
 $blog_author = "Dr. Chandra Mukesh Dhawde";
 $blog_author_desc = "Consultant Neurosurgeon, Sankalp Hospital";
 $blog_image = "https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=400&h=400&fit=crop";
+$pageCanonical = "https://www.sankalphospital.com/blog/can-gas-cause-heart-attack";
 $blog_content = <<<'HTML'
 <p class="lead">You're sitting comfortably when suddenly your chest starts hurting. Your mind races: "Is this gas or something worse?" You're not alone. Every year, millions of people rush to emergency rooms thinking they're having a <a href="/blog/heart-attack-vs-cardiac-arrest"><strong>heart attack</strong></a>, only to discover it was just painful gas. But here's the concerning part: some people dismiss real heart symptoms as "just gas" — with devastating consequences.</p>
 
@@ -320,9 +321,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'Heart Attack vs Cardiac Arrest: Key Differences', 'url' => 'heart-attack-vs-cardiac-arrest.php', 'date' => 'May 19, 2026', 'image' => 'https://images.unsplash.com/photo-1628348068343-c6a848a2c3b1?w=400&h=300&fit=crop'],
-    ['title' => 'Complete Heart Health Guide', 'url' => 'heart-health.php', 'date' => 'May 05, 2026', 'image' => 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=300&fit=crop'],
-    ['title' => 'High Blood Pressure Management', 'url' => 'bp-high-hone-par-kya-kare.php', 'date' => 'May 06, 2026', 'image' => 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=300&fit=crop']
+    ['title' => 'Heart Attack vs Cardiac Arrest: Key Differences', 'url' => 'heart-attack-vs-cardiac-arrest', 'date' => 'May 19, 2026', 'image' => 'https://images.unsplash.com/photo-1628348068343-c6a848a2c3b1?w=400&h=300&fit=crop'],
+    ['title' => 'Complete Heart Health Guide', 'url' => 'heart-health', 'date' => 'May 05, 2026', 'image' => 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=300&fit=crop'],
+    ['title' => 'High Blood Pressure Management', 'url' => 'bp-high-hone-par-kya-kare', 'date' => 'May 06, 2026', 'image' => 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=300&fit=crop']
 ];
 
 include 'blog-post.php';

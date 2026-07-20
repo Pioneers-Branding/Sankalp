@@ -3,6 +3,7 @@
 <head>
   <title>Hormonal Imbalance in Women: Symptoms and Signs | Sankalp Hospital</title>
   <meta name="description" content="Common symptoms, causes, and effects of hormonal imbalance in women. Learn how to manage hormonal health with expert care at Sankalp Hospital.">
+  <link rel="canonical" href="https://www.sankalphospital.com/blog/symptoms-of-hormonal-imbalance-in-women">
   <?php include '../includes/header-code.php'; ?>
   <style>
     .blog-hero { background: linear-gradient(135deg, #ec407a 0%, #d81b60 100%); color: #fff; padding: 80px 0 60px; text-align: center; }

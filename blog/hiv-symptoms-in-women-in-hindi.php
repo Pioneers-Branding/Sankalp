@@ -7,6 +7,7 @@ $blog_readtime = "10 min read";
 $blog_author = "Dr. Vijaya Singh";
 $blog_author_desc = "MBBS, MD - Consultant Gynecologist, Sankalp Hospital";
 $blog_image = "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400&h=400&fit=crop";
+$pageCanonical = "https://www.sankalphospital.com/blog/hiv-symptoms-in-women-in-hindi";
 $blog_content = <<<'HTML'
 <p class="lead">एचआईवी (Human Immunodeficiency Virus) एक ऐसा वायरस है जो दुनिया भर में लाखों महिलाओं को प्रभावित करता है। यह वायरस शरीर की रोग प्रतिरोधक क्षमता (Immune System) पर हमला करता है, विशेष रूप से CD4 कोशिकाओं (T-cells) को नष्ट कर देता है, जिससे शरीर अन्य बीमारियों और संक्रमणों से लड़ने में कमज़ोर पड़ जाता है। यदि एचआईवी का सही समय पर इलाज न किया जाए, तो यह एड्स (AIDS) का रूप ले सकता है। हालांकि, महिलाओं में इसके कुछ लक्षण पुरुषों की तुलना में अलग हो सकते हैं। महिलाओं के लिए इन लक्षणों को समझना, सही समय पर जांच (Testing) करवाना और इलाज शुरू करना एक स्वस्थ जीवन की कुंजी है।</p>
 
@@ -106,7 +107,7 @@ $blog_faqs = [
 $related_posts = [
   ['title' => 'Lower Abdominal Pain in Women', 'url' => 'lower-abdominal-pain-in-women-common-causes-and-when-to-seek-medical-help', 'date' => 'May 11, 2026', 'image' => 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=300&fit=crop'],
   ['title' => 'Early Warning Signs of Cancer in Women', 'url' => 'symptoms-of-cancer-in-women-early-warning-signs-you-should-not-ignore', 'date' => 'May 11, 2026', 'image' => 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=300&fit=crop'],
-  ['title' => 'The Ultimate Guide to a Healthy Pregnancy', 'url' => 'pregnancy-tips.php', 'date' => 'April 30, 2026', 'image' => 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=300&fit=crop']
+  ['title' => 'The Ultimate Guide to a Healthy Pregnancy', 'url' => 'pregnancy-tips', 'date' => 'April 30, 2026', 'image' => 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=300&fit=crop']
 ];
 
 include 'blog-post.php';

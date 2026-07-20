@@ -3,6 +3,7 @@
 <head>
   <title>Kidney Failure Symptoms in Women | Sankalp Hospital</title>
   <meta name="description" content="Early signs, symptoms, and risk factors of kidney failure in women. Learn how to protect your kidney health with Sankalp Hospital.">
+  <link rel="canonical" href="https://www.sankalphospital.com/blog/kidney-failure-symptoms-in-women-early-signs-and-risk-factors">
   <?php include '../includes/header-code.php'; ?>
   <style>
     .blog-hero { background: linear-gradient(135deg, #2c3e50 0%, #4ca1af 100%); color: #fff; padding: 80px 0 60px; text-align: center; }

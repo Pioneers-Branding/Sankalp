@@ -7,6 +7,7 @@ $blog_readtime = "12 min read";
 $blog_author = "Dr. Lata Goyal";
 $blog_author_desc = "MBBS, DGO - Senior Gynecologist, Sankalp Hospital";
 $blog_image = "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=400&h=400&fit=crop";
+$pageCanonical = "https://www.sankalphospital.com/blog/pregnancy-tips";
 $blog_content = <<<'HTML'
 <p class="lead">Pregnancy is a profound journey of transformation, a time of incredible physical and emotional change for an expectant mother. A healthy pregnancy begins with informed choices. From the moment you discover you're expecting, every decision you make contributes to your baby's healthy development and your own well-being. This comprehensive guide breaks down the essentials trimester by trimester, helping you navigate this beautiful journey with confidence.</p>
 

@@ -7,6 +7,7 @@ $blog_readtime = "5 min read";
 $blog_author = "Dr. Ankit Sharma";
 $blog_author_desc = "MBBS, MD (Psychiatry) - Psychiatrist, Sankalp Hospital";
 $blog_image = "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=400&fit=crop";
+$pageCanonical = "https://www.sankalphospital.com/blog/stress-management";
 $blog_content = <<<'HTML'
 <p class="lead">In today's fast-paced world, stress has become a constant companion for many. While some stress can be motivating, chronic stress takes a toll on both your mental and physical health. Learning to manage stress effectively is essential for overall well-being.</p>
 

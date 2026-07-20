@@ -3,10 +3,12 @@ $blog_title = "गर्दन के दर्द के पीछे क्य
 $blog_desc = "गर्दन दर्द (Neck Pain) के मुख्य कारण क्या हैं? जानें सर्वाइकल, टेक्स्ट नेक, तनाव और अन्य कारणों के बारे में, साथ ही सही इलाज और बचाव के उपाय।";
 $blog_category = "Orthopedics";
 $blog_date = "June 03, 2026";
+$blog_modified = "Jul 20, 2026";
 $blog_readtime = "10 min read";
 $blog_author = "Dr. Tanay Goyal";
 $blog_author_desc = "MBBS, MS (Orthopedics) - Orthopedic Surgeon, Sankalp Hospital";
 $blog_image = "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=400&fit=crop";
+$pageCanonical = "https://www.sankalphospital.com/blog/garden-ke-dard-ke-peechhe-kya-karan-ho-sakte-hain";
 $blog_content = <<<'HTML'
 <p class="lead">गर्दन का दर्द (Neck Pain) आज के समय की सबसे आम स्वास्थ्य समस्याओं में से एक है। WHO के अनुसार, दुनिया भर में लगभग 30% लोग अपने जीवन में कभी न कभी गर्दन के दर्द से पीड़ित होते हैं। पहले यह समस्या मुख्य रूप से बुजुर्गों में देखी जाती थी, लेकिन आज स्कूली बच्चों से लेकर युवा पेशेवरों तक, हर उम्र के लोग इससे प्रभावित हैं। डिजिटल युग में मोबाइल और लैपटॉप के अत्यधिक उपयोग ने गर्दन के दर्द को एक महामारी का रूप दे दिया है। इस ब्लॉग में हम विस्तार से जानेंगे कि <strong>गर्दन के दर्द के पीछे क्या कारण</strong> हो सकते हैं और कैसे इससे राहत पाई जा सकती है।</p>
 

@@ -3,6 +3,7 @@
 <head>
   <title>HIV Symptoms in Women | Sankalp Hospital</title>
   <meta name="description" content="HIV symptoms in women - early signs, stages, and what to do if you think you may be infected. Expert guidance on HIV awareness and testing.">
+  <link rel="canonical" href="https://www.sankalphospital.com/blog/hiv-symptoms-in-women">
   <?php include '../includes/header-code.php'; ?>
   <style>
     .blog-hero { background: linear-gradient(135deg, #922b21 0%, #cb4335 100%); color: #fff; padding: 80px 0 60px; text-align: center; }

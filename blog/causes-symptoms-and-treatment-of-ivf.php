@@ -3,6 +3,7 @@
 <head>
   <title>Causes, Symptoms, and Treatment of IVF | Sankalp Hospital</title>
   <meta name="description" content="A comprehensive guide to IVF: understanding the causes of infertility, symptoms that indicate a need for IVF, and the step-by-step treatment process.">
+  <link rel="canonical" href="https://www.sankalphospital.com/blog/causes-symptoms-and-treatment-of-ivf">
   <?php include '../includes/header-code.php'; ?>
   <style>
     .blog-hero { background: linear-gradient(135deg, #f06292 0%, #ec407a 100%); color: #fff; padding: 80px 0 60px; text-align: center; }

@@ -7,6 +7,7 @@ $blog_readtime = "10 min read";
 $blog_author = "Dr. Tanay Goyal";
 $blog_author_desc = "MBBS, MS (Orthopedics) - Orthopedic Surgeon, Sankalp Hospital";
 $blog_image = "https://images.unsplash.com/photo-1606166325683-e6deb697d301?w=400&h=400&fit=crop";
+$pageCanonical = "https://www.sankalphospital.com/blog/knee-treatment-without-surgery";
 $blog_content = <<<'HTML'
 <p class="lead">घुटने का दर्द (Knee Pain) एक ऐसी समस्या है जो हर उम्र के लोगों को प्रभावित करती है। जब दर्द बढ़ने लगता है, तो अधिकांश लोग सोचते हैं कि सर्जरी ही एकमात्र विकल्प है। लेकिन सच्चाई यह है कि <strong>बिना सर्जरी के घुटने के अधिकांश रोगों का सफल इलाज</strong> संभव है। आधुनिक चिकित्सा में कई ऐसी तकनीकें और उपचार उपलब्ध हैं जो सर्जरी की जरूरत को काफी हद तक कम कर देते हैं। इस ब्लॉग में हम विस्तार से जानेंगे कि कैसे बिना सर्जरी के घुटने के दर्द से राहत पाई जा सकती है।</p>
 

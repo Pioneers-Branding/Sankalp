@@ -3,6 +3,7 @@
 <head>
   <title>Early Warning Signs of Cancer in Women | Sankalp Hospital</title>
   <meta name="description" content="Discover the early warning signs of cancer in women that should never be ignored. Learn about screenings and preventive care at Sankalp Hospital Ambikapur.">
+  <link rel="canonical" href="https://www.sankalphospital.com/blog/symptoms-of-cancer-in-women-early-warning-signs-you-should-not-ignore">
   <?php include '../includes/header-code.php'; ?>
   <style>
     .blog-hero { background: linear-gradient(135deg, #c0392b 0%, #e74c3c 100%); color: #fff; padding: 80px 0 60px; text-align: center; }

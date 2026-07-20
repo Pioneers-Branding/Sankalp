@@ -85,6 +85,19 @@ $odp  = $deptKey==='emergency'?'24/7 Open':($deptKey==='urology'||$deptKey==='ps
 
 $pageTitle="{$dept['title']} | Sankalp Hospital Ambikapur";
 $pageDesc="Sankalp Hospital's {$dept['title']} department – ".substr($dept['overview'],0,150)."...";
+// Self-referencing canonical to the SEO service URL — consolidates duplicate
+// department URLs (e.g. /orthopedics and /orthopedic-hospital-in-ambikapur render
+// identical content) onto one canonical page.
+$deptCanonicalSlug = [
+  'ophthalmology'=>'ophthalmology-hospital-in-ambikapur','emergency'=>'emergency-hospital-in-ambikapur',
+  'gynecology'=>'gynecology-hospital-in-ambikapur','ivf'=>'ivf-treatment-in-ambikapur',
+  'surgery'=>'laparoscopic-surgery-hospital-in-ambikapur','pediatrics'=>'pediatric-hospital-in-ambikapur',
+  'orthopedics'=>'orthopedic-hospital-in-ambikapur','urology'=>'urology-hospital-in-ambikapur',
+  'oncology'=>'chemotherapy-hospital-in-ambikapur','anesthesia'=>'anesthesia-services-in-ambikapur',
+  'ent'=>'ent-hospital-in-ambikapur','neurosurgery'=>'neurosurgery-hospital-in-ambikapur',
+  'psychiatry'=>'psychiatry',
+];
+$pageCanonical = 'https://www.sankalphospital.com/' . ($deptCanonicalSlug[$deptKey] ?? $deptKey);
 include __DIR__.'/includes/header.php';
 include __DIR__.'/includes/navbar.php';
 ?>
@@ -990,6 +1003,70 @@ include __DIR__.'/includes/navbar.php';
         </div>
     </div>
 </section>
+
+<!-- RELATED HEALTH ARTICLES (internal linking: service pages <-> blog) -->
+<?php
+require_once __DIR__ . '/blog/blog-functions.php';
+// Map each department to blog CATEGORY matches (curated, precise) and SLUG-phrase
+// matches (specific strings). Category matches avoid false positives like the short
+// token "ent" matching "treatm-ent"/"m-ent-al"; slug phrases catch Hindi posts.
+$deptBlogMatch = [
+  'orthopedics'  => ['cat'=>['orthop','joint','pain','bone'], 'slug'=>['ghutno','kamar','jodon','cervical','edi-me','nas-chadhna','pair-me-sujan','pair-me-jalan','jhunjhuni','knee','back-exercise','shoulder','acl']],
+  'urology'      => ['cat'=>['urolog','kidney'], 'slug'=>['kidney','peshab','stone']],
+  'neurosurgery' => ['cat'=>['neuro'], 'slug'=>['jhunjhuni','cervical','migraine','headache','chakkar','nas-chadhna']],
+  'ent'          => ['cat'=>['ent','throat'], 'slug'=>['badbu','muh-se']],
+  'emergency'    => ['cat'=>['hypertension','cardio','heart','pulmonolog'], 'slug'=>['heart','bp-high','gas-se-peeth','gas-cause','lungs','yawning','low-bp','cardiac']],
+  'gynecology'   => ['cat'=>['gyneco','women','pregnan','thyroid','hormonal'], 'slug'=>['pregnan','intercourse','hormonal','abdominal-pain','thyroid']],
+  'ivf'          => ['cat'=>['fertil','pregnan'], 'slug'=>['ivf','fertil','pregnancy']],
+  'pediatrics'   => ['cat'=>['pediatric'], 'slug'=>['child','vaccin']],
+  'psychiatry'   => ['cat'=>['mental','psych'], 'slug'=>['stress','ptsd','neend','anxiety']],
+  'oncology'     => ['cat'=>['oncolog','cancer'], 'slug'=>['cancer']],
+  'ophthalmology'=> ['cat'=>['ophthal','eye'], 'slug'=>['cataract']],
+  'surgery'      => ['cat'=>[], 'slug'=>['laparoscop','acidity','khatti','moringa','hernia','gas-se','peshab']],
+];
+$m = $deptBlogMatch[$deptKey] ?? ['cat'=>[], 'slug'=>[]];
+$relatedArticles = [];
+if (function_exists('get_all_blogs') && ($m['cat'] || $m['slug'])) {
+    foreach (get_all_blogs(__DIR__ . '/blog') as $b) {
+        $slug = strtolower($b['url'] ?? '');
+        $cat  = strtolower($b['category'] ?? '');
+        $catWords = preg_split('/[^a-z]+/', $cat, -1, PREG_SPLIT_NO_EMPTY);
+        $ok = false;
+        // Category match: short keywords (<5 chars, e.g. "ent","eye","pain") must match a
+        // whole word to avoid "ent" hitting "m-ent-al"; longer keywords allow substring.
+        foreach ($m['cat'] as $k) {
+            if ($k === '') continue;
+            if (strlen($k) >= 5 ? strpos($cat, $k) !== false : in_array($k, $catWords, true)) { $ok = true; break; }
+        }
+        if (!$ok) foreach ($m['slug'] as $k) { if ($k !== '' && strpos($slug, $k) !== false) { $ok = true; break; } }
+        if ($ok) $relatedArticles[] = $b;
+        if (count($relatedArticles) >= 4) break;
+    }
+}
+if (!empty($relatedArticles)): ?>
+<section class="dd-section" id="related-articles">
+    <div class="container">
+        <div class="dd-eyebrow"><div class="bar"></div> Health Library</div>
+        <h2 class="dd-h2">Related Health Articles</h2>
+        <p class="dd-sub">Expert-written guides from our doctors on <?php echo htmlspecialchars($dept['title']); ?> and related conditions.</p>
+        <div class="row g-4 mt-2">
+            <?php foreach ($relatedArticles as $ra): ?>
+            <div class="col-md-6 col-lg-3">
+                <a href="/blog/<?php echo htmlspecialchars($ra['url']); ?>" class="dd-article-card" style="display:flex;flex-direction:column;height:100%;padding:22px;border:1px solid <?php echo $border;?>;border-radius:16px;background:#fff;text-decoration:none;transition:transform .25s ease, box-shadow .25s ease;">
+                    <div class="dd-eyebrow" style="margin-bottom:10px;"><div class="bar"></div> <?php echo htmlspecialchars($ra['category'] ?? 'Health'); ?></div>
+                    <h3 style="font-size:1rem;font-weight:700;line-height:1.5;color:#1e293b;margin:0 0 14px;flex:1;"><?php echo htmlspecialchars($ra['title']); ?></h3>
+                    <span style="display:inline-flex;align-items:center;gap:6px;font-size:0.82rem;font-weight:700;color:<?php echo $ac;?>;">पूरा पढ़ें <i class="fas fa-arrow-right"></i></span>
+                </a>
+            </div>
+            <?php endforeach; ?>
+        </div>
+        <div class="text-center mt-4">
+            <a href="/blog/" style="display:inline-flex;align-items:center;gap:8px;font-weight:700;color:<?php echo $ac;?>;text-decoration:none;">सभी स्वास्थ्य लेख देखें <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </div>
+</section>
+<style>#related-articles .dd-article-card:hover{transform:translateY(-4px);box-shadow:0 14px 34px rgba(0,0,0,0.09);}</style>
+<?php endif; ?>
 
 <!-- APPOINTMENT -->
 <section class="dd-appt" id="appointment">

@@ -3,6 +3,7 @@
 <head>
   <title>Joint Pain in Winter: Causes and Remedies | Sankalp Hospital</title>
   <meta name="description" content="Discover why joint pain increases in winter, effective home remedies, and when to consult an orthopedic specialist at Sankalp Hospital.">
+  <link rel="canonical" href="https://www.sankalphospital.com/blog/joint-pain-in-winter-causes-home-remedies-when-to-see-an-orthopedic-doctor">
   <?php include '../includes/header-code.php'; ?>
   <style>
     .blog-hero { background: linear-gradient(135deg, #1a5276 0%, #2980b9 100%); color: #fff; padding: 80px 0 60px; text-align: center; }

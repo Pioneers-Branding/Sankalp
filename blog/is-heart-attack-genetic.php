@@ -7,6 +7,7 @@ $blog_readtime = "10 min read";
 $blog_author = "Dr. Rajesh Kumar Tiwari";
 $blog_author_desc = "Senior Consultant Cardiologist, Sankalp Hospital";
 $blog_image = "https://images.unsplash.com/photo-1628595351029-c2bf17511435?w=400&h=400&fit=crop";
+$pageCanonical = "https://www.sankalphospital.com/blog/is-heart-attack-genetic";
 $blog_content = <<<'HTML'
 <p class="lead">"मेरे पापा को 50 साल की उम्र में दिल का दौरा पड़ा था... क्या मुझे भी होगा?" यह सवाल हर उस व्यक्ति के मन में उठता है जिसके परिवार में हृदय रोग (Heart Disease) का इतिहास रहा हो। आइए विज्ञान की नजर से समझें कि <strong>Heart Attack</strong> कितना आनुवंशिक (Genetic) है और आप अपने जोखिम को कैसे कम कर सकते हैं।</p>
 
@@ -129,8 +130,8 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'Heart Attack vs Cardiac Arrest: अंतर जानें', 'url' => 'heart-attack-vs-cardiac-arrest.php', 'date' => 'May 19, 2026', 'image' => 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop'],
-    ['title' => 'पैरों में झनझनाहट के कारण', 'url' => 'pair-me-jhunjhuni-hona.php', 'date' => 'May 07, 2026', 'image' => 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop'],
+    ['title' => 'Heart Attack vs Cardiac Arrest: अंतर जानें', 'url' => 'heart-attack-vs-cardiac-arrest', 'date' => 'May 19, 2026', 'image' => 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop'],
+    ['title' => 'पैरों में झनझनाहट के कारण', 'url' => 'pair-me-jhunjhuni-hona', 'date' => 'May 07, 2026', 'image' => 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop'],
     ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'May 11, 2026', 'image' => '/assets/img/infrastructure/PATHOLOGY-LAB.jpg']
 ];
 

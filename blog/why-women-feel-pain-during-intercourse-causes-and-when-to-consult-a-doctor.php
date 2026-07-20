@@ -3,6 +3,7 @@
 <head>
   <title>Pain During Intercourse in Women: Causes and Care | Sankalp Hospital</title>
   <meta name="description" content="Understand the physical and psychological causes of painful intercourse (dyspareunia) in women and when to consult a gynecologist at Sankalp Hospital.">
+  <link rel="canonical" href="https://www.sankalphospital.com/blog/why-women-feel-pain-during-intercourse-causes-and-when-to-consult-a-doctor">
   <?php include '../includes/header-code.php'; ?>
   <style>
     .blog-hero { background: linear-gradient(135deg, #d81b60 0%, #ad1457 100%); color: #fff; padding: 80px 0 60px; text-align: center; }

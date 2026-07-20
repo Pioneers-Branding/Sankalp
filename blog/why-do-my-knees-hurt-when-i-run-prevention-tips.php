@@ -3,6 +3,7 @@
 <head>
   <title>Why Do My Knees Hurt When I Run? | Sankalp Hospital</title>
   <meta name="description" content="Explore common causes of knee pain during running, from runner's knee to IT band syndrome, and learn effective prevention tips at Sankalp Hospital.">
+  <link rel="canonical" href="https://www.sankalphospital.com/blog/why-do-my-knees-hurt-when-i-run-prevention-tips">
   <?php include '../includes/header-code.php'; ?>
   <style>
     .blog-hero { background: linear-gradient(135deg, #1a5276 0%, #2980b9 100%); color: #fff; padding: 80px 0 60px; text-align: center; }

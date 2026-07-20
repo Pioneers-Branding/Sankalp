@@ -3,6 +3,7 @@
 <head>
   <title>Will Your Knee Feel 100% Normal After ACL Surgery? | Sankalp Hospital</title>
   <meta name="description" content="Expert guide on ACL surgery recovery expectations, timeline, and what you can realistically expect for knee function after reconstruction surgery.">
+  <link rel="canonical" href="https://www.sankalphospital.com/blog/will-your-knee-feel-100-percent-normal-after-acl-surgery-recovery-facts">
   <?php include '../includes/header-code.php'; ?>
   <style>
     .blog-hero { background: linear-gradient(135deg, #1a5276 0%, #3498db 100%); color: #fff; padding: 80px 0 60px; text-align: center; }

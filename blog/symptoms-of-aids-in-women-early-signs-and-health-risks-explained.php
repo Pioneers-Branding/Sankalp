@@ -3,6 +3,7 @@
 <head>
   <title>Symptoms of AIDS in Women: Signs and Risks | Sankalp Hospital</title>
   <meta name="description" content="Detailed guide on the symptoms of AIDS in women, from early signs of HIV to advanced stages. Understand the health risks and care options at Sankalp Hospital.">
+  <link rel="canonical" href="https://www.sankalphospital.com/blog/symptoms-of-aids-in-women-early-signs-and-health-risks-explained">
   <?php include '../includes/header-code.php'; ?>
   <style>
     .blog-hero { background: linear-gradient(135deg, #c0392b 0%, #e74c3c 100%); color: #fff; padding: 80px 0 60px; text-align: center; }

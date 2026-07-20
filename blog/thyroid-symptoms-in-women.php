@@ -3,6 +3,7 @@
 <head>
   <title>Thyroid Symptoms in Women: Common Signs | Sankalp Hospital</title>
   <meta name="description" content="Common thyroid symptoms in women, including fatigue, weight changes, and mood swings. Expert diagnosis and care at Sankalp Hospital Ambikapur.">
+  <link rel="canonical" href="https://www.sankalphospital.com/blog/thyroid-symptoms-in-women">
   <?php include '../includes/header-code.php'; ?>
   <style>
     .blog-hero { background: linear-gradient(135deg, #4a148c 0%, #7b1fa2 100%); color: #fff; padding: 80px 0 60px; text-align: center; }

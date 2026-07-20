@@ -3,6 +3,7 @@
 <head>
   <title>Kidney Stone Symptoms in Men | Sankalp Hospital</title>
   <meta name="description" content="Common symptoms, causes, and treatment options for kidney stones in men. Expert medical advice from Sankalp Hospital Ambikapur.">
+  <link rel="canonical" href="https://www.sankalphospital.com/blog/kidney-stone-symptoms-in-men">
   <?php include '../includes/header-code.php'; ?>
   <style>
     .blog-hero { background: linear-gradient(135deg, #2980b9 0%, #3498db 100%); color: #fff; padding: 80px 0 60px; text-align: center; }

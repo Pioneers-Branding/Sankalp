@@ -101,6 +101,22 @@ if ($route === 'about' || $route === 'about.php') {
     exit;
 }
 
+// --- Legacy / duplicate blog URL canonicalization ---------------------------
+// Any request reaching this point matched no explicit route above and would
+// otherwise be served the homepage with HTTP 200. For root-level requests that
+// correspond to an existing blog post (e.g. /pair-me-khujli-hona instead of
+// /blog/pair-me-khujli-hona, or a trailing-slash variant), issue a 301 to the
+// canonical /blog/ URL. This stops Google from indexing these as
+// "Duplicate without user-selected canonical" (Google was choosing the homepage
+// as their canonical). Only real blog files are matched, so unknown paths are
+// unaffected.
+$legacySlug = preg_replace('/\.php$/', '', $route);
+if ($legacySlug !== '' && preg_match('/^[A-Za-z0-9-]+$/', $legacySlug)
+    && is_file(__DIR__ . '/blog/' . $legacySlug . '.php')) {
+    header('Location: /blog/' . $legacySlug, true, 301);
+    exit;
+}
+
 // Dynamic page configuration
 $pageTitle = "Sankalp Hospital | Best Multi-Specialty Hospital In Ambikapur";
 $pageDesc = "Sankalp Hospital is a premier multi-specialist healthcare facility in Ambikapur. We provide advanced IVF treatments, Urology, Gynecology, 24/7 emergency care, and world-class medical infrastructure.";
@@ -113,7 +129,10 @@ include __DIR__ . '/includes/navbar.php';
     <div id="heroCarousel" class="carousel slide carousel-fade h-100" data-bs-ride="carousel" data-bs-interval="3000">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="assets/img/hospital-front.jpg" alt="Sankalp Hospital Front View">
+          <img src="assets/img/hospital-render-1.jpg" alt="Sankalp Hospital Aerial View">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/hospital-render-2.jpg" alt="Sankalp Hospital Front View">
         </div>
         <div class="carousel-item">
           <img src="assets/img/infrastructure/ICU.jpg" alt="Advanced ICU Facility">

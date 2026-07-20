@@ -3,6 +3,7 @@
 <head>
   <title>Thyroid Problems in Women: A Comprehensive Guide | Sankalp Hospital</title>
   <meta name="description" content="Explore the different types of thyroid problems affecting women, from hypothyroidism to hyperthyroidism. Learn about diagnosis and care at Sankalp Hospital.">
+  <link rel="canonical" href="https://www.sankalphospital.com/blog/thyroid-problems-in-women">
   <?php include '../includes/header-code.php'; ?>
   <style>
     .blog-hero { background: linear-gradient(135deg, #4a148c 0%, #7b1fa2 100%); color: #fff; padding: 80px 0 60px; text-align: center; }

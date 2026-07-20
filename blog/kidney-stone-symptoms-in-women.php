@@ -3,6 +3,7 @@
 <head>
   <title>Kidney Stone Symptoms in Women | Sankalp Hospital</title>
   <meta name="description" content="Comprehensive guide to kidney stone symptoms in women. Learn about causes, risk factors, warning signs, prevention tips, and treatment options at Sankalp Hospital Ambikapur.">
+  <link rel="canonical" href="https://www.sankalphospital.com/blog/kidney-stone-symptoms-in-women">
   <?php include '../includes/header-code.php'; ?>
   <style>
     .blog-hero { background: linear-gradient(135deg, #8e44ad 0%, #9b59b6 100%); color: #fff; padding: 80px 0 60px; text-align: center; }

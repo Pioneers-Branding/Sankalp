@@ -7,6 +7,7 @@ $blog_readtime = "11 min read";
 $blog_author = "Dr. Shailesh Gupta";
 $blog_author_desc = "MBBS, MD - Consultant Physician, Sankalp Hospital";
 $blog_image = "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=400&fit=crop";
+$pageCanonical = "https://www.sankalphospital.com/blog/hriday-ko-swasth-rakhne-ke-liye-kya-kare";
 $blog_content = <<<'HTML'
 <p class="lead">हृदय (Heart) हमारे शरीर का सबसे महत्वपूर्ण अंग है। यह बिना रुके, बिना थके, पूरे जीवनभाल रक्त पंप करता रहता है। लेकिन आज की तेज-रफ्तार जिंदगी, तनाव, गलत खान-पान, और शारीरिक निष्क्रियता ने हृदय रोगों को एक महामारी का रूप दे दिया है। भारत में हर साल लगभग 17 लाख लोग हृदय रोगों से अपनी जान गंवाते हैं, और सबसे चिंताजनक बात यह है कि अब युवा भी इसकी चपेट में तेजी से आ रहे हैं। इस ब्लॉग में हम विस्तार से जानेंगे कि <strong>हृदय को स्वस्थ रखने के लिए क्या करें</strong> और कैसे एक स्वस्थ जीवनशैली अपनाकर हृदय रोगों के जोखिम को काफी हद तक कम किया जा सकता है।</p>
 

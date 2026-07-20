@@ -7,6 +7,7 @@ $blog_readtime = "9 min read";
 $blog_author = "Dr. Tanay Goyal";
 $blog_author_desc = "MBBS, MS (Orthopedics) - Orthopedic Surgeon, Sankalp Hospital";
 $blog_image = "https://images.unsplash.com/photo-1606166325683-e6deb697d301?w=400&h=400&fit=crop";
+$pageCanonical = "https://www.sankalphospital.com/blog/ghutno-ke-dard-ke-liye-doctor-ko-kab-dikhana-chahiye";
 $blog_content = <<<'HTML'
 <p class="lead">घुटने शरीर के सबसे जटिल और भार सहने वाले जोड़ हैं। चलने, उठने, बैठने और सीढ़ियां चढ़ने जैसी हर छोटी-बड़ी गतिविधि में घुटने सक्रिय रूप से भाग लेते हैं। इसीलिए घुटनों में दर्द होना बेहद आम है—खासकर बढ़ती उम्र के साथ। लेकिन सवाल यह है कि कब यह साधारण दर्द है और कब यह किसी गंभीर समस्या का संकेत है, जिसके लिए तुरंत <a href="orthopedic-hospital-in-ambikapur">हड्डी रोग विशेषज्ञ</a> से मिलना जरूरी है? इस ब्लॉग में हम विस्तार से जानेंगे कि घुटनों के दर्द को कब नजरअंदाज नहीं करना चाहिए और किन परिस्थितियों में <a href="orthopedic-hospital-in-ambikapur">ऑर्थोपेडिक डॉक्टर</a> के पास जाना आपके लिए फायदेमंद हो सकता है।</p>
 

@@ -3,6 +3,7 @@
 <head>
   <title>Lower Abdominal Pain in Women: Causes and Care | Sankalp Hospital</title>
   <meta name="description" content="Understand common causes of lower abdominal pain in women, from digestive issues to gynecological concerns, and when to seek medical help at Sankalp Hospital.">
+  <link rel="canonical" href="https://www.sankalphospital.com/blog/lower-abdominal-pain-in-women-common-causes-and-when-to-seek-medical-help">
   <?php include '../includes/header-code.php'; ?>
   <style>
     .blog-hero { background: linear-gradient(135deg, #d81b60 0%, #ad1457 100%); color: #fff; padding: 80px 0 60px; text-align: center; }

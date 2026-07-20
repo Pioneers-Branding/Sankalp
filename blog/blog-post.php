@@ -258,14 +258,27 @@ include __DIR__ . '/../includes/header.php';
   
   <?php
   $schema_date = isset($blog_date) ? date('Y-m-d', strtotime($blog_date)) : date('Y-m-d');
+  $schema_modified = isset($blog_modified) ? date('Y-m-d', strtotime($blog_modified)) : $schema_date;
+  $schema_image = '';
+  if (isset($blog_image) && $blog_image) {
+    $schema_image = preg_match('#^https?://#', $blog_image) ? $blog_image : 'https://sankalphospital.com' . $blog_image;
+  }
   ?>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "<?php echo isset($blog_title) ? htmlspecialchars($blog_title) : ''; ?>",
-    "image": "https://sankalphospital.com<?php echo isset($blog_image) ? $blog_image : ''; ?>",
+    "description": "<?php echo isset($blog_desc) ? htmlspecialchars($blog_desc) : ''; ?>",
+    <?php if (isset($pageCanonical) && $pageCanonical): ?>
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "<?php echo htmlspecialchars($pageCanonical); ?>"
+    },
+    <?php endif; ?>
+    "image": "<?php echo $schema_image; ?>",
     "datePublished": "<?php echo $schema_date; ?>",
+    "dateModified": "<?php echo $schema_modified; ?>",
     "author": {
       "@type": "Person",
       "name": "<?php echo isset($blog_author) ? htmlspecialchars($blog_author) : 'Sankalp Hospital'; ?>"
@@ -313,7 +326,7 @@ include __DIR__ . '/../includes/header.php';
   <div class="container">
     <p class="blog-category-tag"><?php echo isset($blog_category) ? $blog_category : 'Health Tips'; ?></p>
     <p class="blog-meta">
-      <a href="/index.php">Home</a>
+      <a href="/">Home</a>
       <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i>
       <a href="/blog/">Health Blog</a>
       <span>|</span>
@@ -357,6 +370,44 @@ include __DIR__ . '/../includes/header.php';
           </div>
         </div>
         <?php endif; ?>
+
+        <!-- Consult-a-specialist CTA (contextual blog -> service internal link) -->
+        <?php
+        $blogServiceMap = [
+          'Orthopedics'     => ['orthopedic-hospital-in-ambikapur', 'ऑर्थोपेडिक्स एवं जॉइंट सर्जरी'],
+          'Joint Pain'      => ['orthopedic-hospital-in-ambikapur', 'ऑर्थोपेडिक्स एवं जॉइंट सर्जरी'],
+          'Pain Management' => ['orthopedic-hospital-in-ambikapur', 'ऑर्थोपेडिक्स एवं जॉइंट सर्जरी'],
+          'Urology'         => ['urology-hospital-in-ambikapur', 'यूरोलॉजी'],
+          'Kidney Care'     => ['urology-hospital-in-ambikapur', 'यूरोलॉजी'],
+          'Neurology'       => ['neurosurgery-hospital-in-ambikapur', 'न्यूरोलॉजी एवं न्यूरोसर्जरी'],
+          'ENT'             => ['ent-hospital-in-ambikapur', 'ईएनटी (कान-नाक-गला)'],
+          'Cardiology'      => ['emergency-hospital-in-ambikapur', 'कार्डियक एवं इमरजेंसी केयर'],
+          'Heart Health'    => ['emergency-hospital-in-ambikapur', 'कार्डियक एवं इमरजेंसी केयर'],
+          'Hypertension'    => ['emergency-hospital-in-ambikapur', 'कार्डियक एवं इमरजेंसी केयर'],
+          'Pulmonology'     => ['emergency-hospital-in-ambikapur', 'क्रिटिकल केयर एवं इमरजेंसी'],
+          'Gynecology'      => ['gynecology-hospital-in-ambikapur', 'स्त्री रोग एवं प्रसूति'],
+          "Women's Health"  => ['gynecology-hospital-in-ambikapur', 'स्त्री रोग एवं प्रसूति'],
+          'Pregnancy Care'  => ['gynecology-hospital-in-ambikapur', 'स्त्री रोग एवं प्रसूति'],
+          'Fertility'       => ['ivf-treatment-in-ambikapur', 'आईवीएफ एवं फर्टिलिटी'],
+          'Pediatrics'      => ['pediatric-hospital-in-ambikapur', 'बाल रोग (Pediatrics)'],
+          'Mental Health'   => ['psychiatry', 'मानसिक स्वास्थ्य (Psychiatry)'],
+          'Oncology'        => ['chemotherapy-hospital-in-ambikapur', 'कैंसर एवं कीमोथेरेपी'],
+          'Eye Care'        => ['ophthalmology-hospital-in-ambikapur', 'नेत्र रोग (Ophthalmology)'],
+        ];
+        $bc = isset($blog_category) ? $blog_category : '';
+        $svc = isset($blogServiceMap[$bc]) ? $blogServiceMap[$bc] : ['departments', 'संकल्प हॉस्पिटल के विशेषज्ञ'];
+        ?>
+        <div class="blog-service-cta" style="margin:40px 0;padding:28px 30px;border-radius:16px;background:linear-gradient(135deg,var(--primary) 0%,var(--primary-dark) 100%);">
+          <div style="display:flex;flex-wrap:wrap;align-items:center;gap:20px;justify-content:space-between;">
+            <div style="flex:1;min-width:240px;">
+              <h3 style="color:#fff;font-size:1.3rem;font-weight:700;margin:0 0 8px;">इस समस्या का विशेषज्ञ इलाज चाहिए?</h3>
+              <p style="margin:0;color:rgba(255,255,255,0.92);font-size:15px;line-height:1.6;">संकल्प हॉस्पिटल (अंबिकापुर) के <a href="/<?php echo htmlspecialchars($svc[0]); ?>" style="color:#fff;text-decoration:underline;font-weight:600;"><?php echo $svc[1]; ?> विभाग</a> के अनुभवी डॉक्टरों से सही जांच और इलाज पाएं।</p>
+            </div>
+            <div style="flex-shrink:0;">
+              <a href="/#appointment" style="display:inline-block;background:#fff;color:var(--primary);font-weight:700;padding:12px 26px;border-radius:10px;text-decoration:none;white-space:nowrap;"><i class="far fa-calendar-check me-2"></i>अपॉइंटमेंट बुक करें</a>
+            </div>
+          </div>
+        </div>
 
         <!-- Author Box -->
         <?php if (isset($blog_author) && $blog_author): ?>

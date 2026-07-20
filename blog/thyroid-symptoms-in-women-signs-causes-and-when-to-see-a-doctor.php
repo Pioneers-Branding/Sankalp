@@ -3,6 +3,7 @@
 <head>
   <title>Thyroid Symptoms in Women: Signs and Causes | Sankalp Hospital</title>
   <meta name="description" content="A detailed look at thyroid symptoms in women, including early warning signs, common causes like Hashimoto's, and when to consult a specialist at Sankalp Hospital.">
+  <link rel="canonical" href="https://www.sankalphospital.com/blog/thyroid-symptoms-in-women-signs-causes-and-when-to-see-a-doctor">
   <?php include '../includes/header-code.php'; ?>
   <style>
     .blog-hero { background: linear-gradient(135deg, #4a148c 0%, #7b1fa2 100%); color: #fff; padding: 80px 0 60px; text-align: center; }

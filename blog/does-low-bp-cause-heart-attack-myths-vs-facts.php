@@ -7,6 +7,7 @@ $blog_readtime = "12 min read";
 $blog_author = "Dr. Shailesh Gupta";
 $blog_author_desc = "MBBS, MD, DM (Cardiology) - Senior Cardiologist, Sankalp Hospital";
 $blog_image = "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=400&fit=crop";
+$pageCanonical = "https://www.sankalphospital.com/blog/does-low-bp-cause-heart-attack-myths-vs-facts";
 $blog_content = <<<'HTML'
 <p class="lead">You've probably heard that high blood pressure is dangerous — and that's true. But what about the other extreme? Can low blood pressure cause a heart attack? This question sparks widespread confusion, with many people mistakenly believing that hypotension is just as deadly as hypertension. The truth is far more nuanced. While severely low blood pressure can be a sign of underlying heart problems, the relationship between low BP and heart attacks is often misunderstood. Let's separate myths from facts so you can protect your heart the right way.</p>
 
@@ -166,9 +167,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'Heart Attack vs Cardiac Arrest: Key Differences', 'url' => 'heart-attack-vs-cardiac-arrest.php', 'date' => 'May 10, 2026', 'image' => 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop'],
-    ['title' => '5 Simple Steps to Keep Your Heart Healthy', 'url' => 'heart-health.php', 'date' => 'January 5, 2024', 'image' => 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop'],
-    ['title' => 'BP High होने पर क्या करें?', 'url' => 'bp-high-hone-par-kya-kare.php', 'date' => 'May 07, 2026', 'image' => 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop']
+    ['title' => 'Heart Attack vs Cardiac Arrest: Key Differences', 'url' => 'heart-attack-vs-cardiac-arrest', 'date' => 'May 10, 2026', 'image' => 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop'],
+    ['title' => '5 Simple Steps to Keep Your Heart Healthy', 'url' => 'heart-health', 'date' => 'January 5, 2024', 'image' => 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop'],
+    ['title' => 'BP High होने पर क्या करें?', 'url' => 'bp-high-hone-par-kya-kare', 'date' => 'May 07, 2026', 'image' => 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop']
 ];
 
 include 'blog-post.php';

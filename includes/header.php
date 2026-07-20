@@ -6,7 +6,10 @@
 <?php include_once __DIR__ . '/analytics.php'; ?>
   <title><?php echo isset($pageTitle) ? $pageTitle : 'Sankalp Hospital | Best Multi-Specialty Hospital In Ambikapur'; ?></title>
   <meta name="description" content="<?php echo isset($pageDesc) ? $pageDesc : 'Sankalp Hospital is a premier multi-specialist healthcare facility in Ambikapur. We provide advanced IVF treatments, Urology, Gynecology, 24/7 emergency care, and world-class medical infrastructure.'; ?>">
-  
+<?php if (isset($pageCanonical) && $pageCanonical): ?>
+  <link rel="canonical" href="<?php echo htmlspecialchars($pageCanonical); ?>">
+<?php endif; ?>
+
   <!-- CSS CDNs -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">

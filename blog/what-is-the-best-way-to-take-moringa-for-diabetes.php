@@ -7,6 +7,7 @@ $blog_readtime = "10 min read";
 $blog_author = "Dr. Chandra Mukesh Dhawde";
 $blog_author_desc = "Consultant Neurosurgeon, Sankalp Hospital";
 $blog_image = "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=900&h=450&fit=crop";
+$pageCanonical = "https://www.sankalphospital.com/blog/what-is-the-best-way-to-take-moringa-for-diabetes";
 $blog_content = <<<'HTML'
 <p class="lead">Moringa oleifera, often called the "miracle tree" or "drumstick tree," has been used for centuries in traditional medicine across Asia and Africa. In recent years, this remarkable plant has gained significant attention in the scientific community for its potential benefits in managing blood sugar levels naturally.</p>
 
@@ -346,8 +347,8 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'Heart Health Guide', 'url' => 'heart-health.php', 'date' => 'May 05, 2026', 'image' => 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=300&fit=crop'],
-    ['title' => 'High Blood Pressure - क्या करें?', 'url' => 'bp-high-hone-par-kya-kare.php', 'date' => 'May 06, 2026', 'image' => 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=300&fit=crop'],
+    ['title' => 'Heart Health Guide', 'url' => 'heart-health', 'date' => 'May 05, 2026', 'image' => 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=300&fit=crop'],
+    ['title' => 'High Blood Pressure - क्या करें?', 'url' => 'bp-high-hone-par-kya-kare', 'date' => 'May 06, 2026', 'image' => 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=300&fit=crop'],
     ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'May 11, 2026', 'image' => 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&h=300&fit=crop']
 ];
 

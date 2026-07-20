@@ -7,6 +7,7 @@ $blog_readtime = "10 min read";
 $blog_author = "Dr. Sanjay Goyal";
 $blog_author_desc = "MBBS, MS (Ophthalmology) - Senior Eye Specialist, Sankalp Hospital";
 $blog_image = "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400&h=400&fit=crop";
+$pageCanonical = "https://www.sankalphospital.com/blog/cataract-guide";
 $blog_content = <<<'HTML'
 <p class="lead">Cataracts are the leading cause of vision loss in adults over 40 and the primary cause of blindness worldwide. However, thanks to incredible advancements in medical technology, vision loss from cataracts is almost entirely reversible. Understanding this common condition—from its subtle early symptoms to the sophisticated treatment options available today—is the first step toward reclaiming clear, vibrant vision.</p>
 

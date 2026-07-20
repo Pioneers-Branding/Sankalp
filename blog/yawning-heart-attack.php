@@ -7,6 +7,7 @@ $blog_readtime = "8 min read";
 $blog_author = "Dr. Rajesh Kumar Soni";
 $blog_author_desc = "Senior Cardiologist, Sankalp Hospital";
 $blog_image = "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=400&fit=crop";
+$pageCanonical = "https://www.sankalphospital.com/blog/yawning-heart-attack";
 $blog_content = <<<'HTML'
 <p class="lead">हर कोई जम्हाई लेता है — चाहे वो सुबह की ऊंघ हो, बैठक में उम्मीद से ज्यादा लंबी मीटिंग हो, या फिर बस एक आम दिन। लेकिन क्या आपने कभी सोचा है कि अगर जम्हाई बार-बार, बिना किसी ऊंघ या थकान के आ रही हो, तो यह दिल की सेहत से जुड़ा कोई संदेश तो नहीं? कुछ मेडिकल विशेषज्ञों का मानना है कि अत्यधिक जम्हाई लेना वैसोवैगल रिफ्लेक्स (Vasovagal reflex) का संकेत हो सकता है — जो दिल की धड़कन प्रभावित करने वाली एक नसीय प्रक्रिया है। आइए जानते हैं कि जम्हाई और दिल के दौरे में क्या संबंध है और किन चेतावनी संकेतों को नजरअंदाज नहीं करना चाहिए।</p>
 
@@ -138,7 +139,7 @@ $blog_content = <<<'HTML'
 <div class="cta-box bg-primary text-white p-4 rounded mt-4 mb-4">
 <h3 class="text-white">अपने दिल की सेहत को आज ही जांचें</h3>
 <p class="mb-3">क्या आपको अक्सर थकान, सांस फूलना, या छाती में असुविधा महसूस होती है? दिल की जांच अब केवल बुजुर्गों के लिए नहीं है — 30+ उम्र के हर व्यक्ति को नियमित जांच करवानी चाहिए।</p>
-<a href="/contact.php" class="btn btn-light text-primary fw-bold px-4 py-2">अपॉइंटमेंट बुक करें</a>
+<a href="/contact" class="btn btn-light text-primary fw-bold px-4 py-2">अपॉइंटमेंट बुक करें</a>
 </div>
 HTML;
 
@@ -170,9 +171,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'Heart Attack vs Cardiac Arrest: क्या अंतर है?', 'url' => 'heart-attack-vs-cardiac-arrest.php', 'date' => 'May 19, 2026', 'image' => 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop'],
-    ['title' => 'पैरों में झनझनाहट के कारण', 'url' => 'pair-me-jhunjhuni-hona.php', 'date' => 'May 07, 2026', 'image' => 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop'],
-    ['title' => 'पैरों में सूजन के कारण', 'url' => 'pair-me-sujan.php', 'date' => 'May 07, 2026', 'image' => 'https://images.unsplash.com/photo-1434596922112-19c563067271?w=400&h=300&fit=crop'],
+    ['title' => 'Heart Attack vs Cardiac Arrest: क्या अंतर है?', 'url' => 'heart-attack-vs-cardiac-arrest', 'date' => 'May 19, 2026', 'image' => 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop'],
+    ['title' => 'पैरों में झनझनाहट के कारण', 'url' => 'pair-me-jhunjhuni-hona', 'date' => 'May 07, 2026', 'image' => 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop'],
+    ['title' => 'पैरों में सूजन के कारण', 'url' => 'pair-me-sujan', 'date' => 'May 07, 2026', 'image' => 'https://images.unsplash.com/photo-1434596922112-19c563067271?w=400&h=300&fit=crop'],
     ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'May 11, 2026', 'image' => '/assets/img/infrastructure/PATHOLOGY-LAB.jpg']
 ];
 
