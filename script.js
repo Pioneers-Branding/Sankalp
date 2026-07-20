@@ -660,4 +660,33 @@ $(document).ready(function () {
   } else {
     $(".reveal-on-scroll").addClass("revealed");
   }
+
+  // Failsafe: never leave content stuck invisible if the reveal observer misses or
+  // races (which can blank an entire page, e.g. /blog, since whole <section>s start
+  // at opacity:0). Reveal what's in view immediately, again on window load, and
+  // force-reveal anything still hidden shortly after.
+  function revealInView() {
+    var vh = window.innerHeight || document.documentElement.clientHeight;
+    $(".reveal-on-scroll:not(.revealed)").each(function () {
+      if (this.getBoundingClientRect().top < vh + 80) {
+        $(this).addClass("revealed");
+      }
+    });
+  }
+  revealInView();
+  $(window).on("load", revealInView);
+  setTimeout(function () {
+    $(".reveal-on-scroll:not(.revealed)").addClass("revealed");
+  }, 1500);
 });
+
+// Independent safety net (vanilla JS, no jQuery — runs even if the ready handler above
+// throws before revealing). Guarantees no page is ever left blank by the scroll-reveal.
+window.setTimeout(function () {
+  try {
+    var els = document.querySelectorAll(".reveal-on-scroll:not(.revealed)");
+    for (var i = 0; i < els.length; i++) {
+      els[i].classList.add("revealed");
+    }
+  } catch (e) {}
+}, 1800);
