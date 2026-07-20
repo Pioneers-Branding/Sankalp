@@ -1,5 +1,7 @@
 <?php
-$pageTitle = "Health Blog | Sankalp Hospital - Best Multi-Specialty Hospital in Ambikapur";
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+<?php echo '<h1>Test Render</h1>'; exit; ?>
 $pageDesc = "Read the latest health tips, medical insights, and wellness articles from the expert doctors at Sankalp Hospital, Ambikapur.";
 
 include __DIR__ . '/../includes/header.php';

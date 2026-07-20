@@ -1,64 +1,77 @@
 <?php
-/**
- * Blog Data Loader
- * Automatically scans blog directory and loads blog metadata
- */
-
-// Helper function to extract blog metadata from a PHP file
 function get_blog_metadata($file_path) {
+    // Ensure the file exists and is readable
+    if (!is_readable($file_path)) {
+        return null; // skip unreadable files silently
+    }
     $content = @file_get_contents($file_path);
-    if ($content === false) return [];
+    if ($content === false) {
+        return null;
+    }
     $metadata = [];
 
-    // Extract title from PHP variable first, then fallback to HTML title
+    // Title – try PHP variable then HTML <title>
     if (preg_match('/\$blog_title\s*=\s*["\'](.+?)["\']/', $content, $match)) {
         $metadata['title'] = $match[1];
-    } elseif (preg_match('/<title>([^<]+)/', $content, $match)) {
+    } elseif (preg_match('/<title>([^<]+)<\/title>/', $content, $match)) {
         $metadata['title'] = trim($match[1]);
+    } else {
+        // Fallback: use filename (without extension) as title
+        $metadata['title'] = basename($file_path, '.php');
     }
 
-    // Extract description from PHP variable first, then fallback to meta description
+    // Description – PHP var or meta description
     if (preg_match('/\$blog_desc\s*=\s*["\'](.+?)["\']/', $content, $match)) {
         $metadata['desc'] = $match[1];
     } elseif (preg_match('/<meta name="description" content="([^"]+)"/', $content, $match)) {
         $metadata['desc'] = $match[1];
+    } else {
+        $metadata['desc'] = '';
     }
 
-    // Extract category
+    // Category – PHP var, default "Health"
     if (preg_match('/\$blog_category\s*=\s*["\'](.+?)["\']/', $content, $match)) {
         $metadata['category'] = $match[1];
     } else {
         $metadata['category'] = 'Health';
     }
 
-    // Extract date
+    // Date – PHP var or file modification time
     if (preg_match('/\$blog_date\s*=\s*["\'](.+?)["\']/', $content, $match)) {
         $metadata['date'] = $match[1];
         $metadata['timestamp'] = strtotime($match[1]);
     } else {
-        // Try to get file modification time as fallback
         $mtime = @filemtime($file_path);
         $metadata['date'] = $mtime ? date('F j, Y', $mtime) : '';
         $metadata['timestamp'] = $mtime ?: 0;
     }
 
-    // Extract read time
+    // Read time – optional
     if (preg_match('/\$blog_readtime\s*=\s*["\'](.+?)["\']/', $content, $match)) {
         $metadata['readtime'] = $match[1];
+    } else {
+        $metadata['readtime'] = '';
     }
 
-    // Extract image
+    // Image – optional
     if (preg_match('/\$blog_image\s*=\s*["\'](.+?)["\']/', $content, $match)) {
         $metadata['image'] = $match[1];
+    } else {
+        $metadata['image'] = '';
     }
 
-    // Extract author
+    // Author – optional
     if (preg_match('/\$blog_author\s*=\s*["\'](.+?)["\']/', $content, $match)) {
         $metadata['author'] = $match[1];
+    } else {
+        $metadata['author'] = '';
     }
 
     return $metadata;
 }
+?>
+
+// Removed duplicate get_blog_metadata function to prevent redeclaration
 
 // Function to get all blogs sorted by date (newest first)
 function get_all_blogs($blog_dir = __DIR__) {
