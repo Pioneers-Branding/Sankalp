@@ -96,12 +96,15 @@ $catImages = [
         } else {
           $img = '/assets/img/infrastructure/PATHOLOGY-LAB.jpg';
         }
+        // Local fallback shown if the (often external/Unsplash) image fails to load —
+        // prevents blank white card boxes when a hotlinked image 404s.
+        $fallbackImg = isset($catImages[$cat]) ? $catImages[$cat] : '/assets/img/infrastructure/PATHOLOGY-LAB.jpg';
       ?>
       <div class="col-lg-4 col-md-6">
         <a href="/blog/<?php echo $blog['url']; ?>" class="text-decoration-none">
           <div class="blog-card h-100">
             <div class="blog-img-wrapper">
-              <img src="<?php echo $img; ?>" alt="<?php echo htmlspecialchars($blog['title']); ?>" class="blog-img">
+              <img src="<?php echo $img; ?>" alt="<?php echo htmlspecialchars($blog['title']); ?>" class="blog-img" onerror="this.onerror=null;this.src='<?php echo $fallbackImg; ?>';">
               <span class="blog-category"><i class="fas <?php echo $icon; ?> me-1"></i> <?php echo htmlspecialchars($cat); ?></span>
             </div>
             <div class="blog-content">
