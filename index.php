@@ -134,21 +134,6 @@ include __DIR__ . '/includes/navbar.php';
         <div class="carousel-item">
           <img src="assets/img/hospital-render-2.jpg" alt="Sankalp Hospital Front View">
         </div>
-        <div class="carousel-item">
-          <img src="assets/img/infrastructure/ICU.jpg" alt="Advanced ICU Facility">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/infrastructure/GYNAE-OT.jpg" alt="Modular Operation Theatre">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/infrastructure/PATHOLOGY-LAB.jpg" alt="Pathology Laboratory">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/infrastructure/NICU.jpg" alt="NICU Neonatal Care">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/infrastructure/GENERAL-WARD.jpg" alt="General Ward">
-        </div>
       </div>
     </div>
 
