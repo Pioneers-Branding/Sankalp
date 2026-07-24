@@ -69,7 +69,6 @@ function get_blog_metadata($file_path) {
 
     return $metadata;
 }
-?>
 
 // Removed duplicate get_blog_metadata function to prevent redeclaration
 
