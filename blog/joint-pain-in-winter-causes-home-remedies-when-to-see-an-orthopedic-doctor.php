@@ -34,7 +34,8 @@
   </style>
 </head>
 <body>
-<?php include '../includes/header.php'; ?>
+<?php
+$blog_date = "July 18, 2026"; include '../includes/header.php'; ?>
 
 <!-- BLOG HERO -->
 <section class="blog-hero text-center">

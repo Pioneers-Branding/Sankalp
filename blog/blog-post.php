@@ -335,9 +335,7 @@ include __DIR__ . '/../includes/header.php';
       <i class="far fa-clock"></i> <?php echo isset($blog_readtime) ? $blog_readtime : '5 min read'; ?>
     </p>
     <h1><?php echo isset($blog_title) ? $blog_title : ''; ?></h1>
-    <?php if (isset($blog_image) && $blog_image): ?>
-    <img src="<?php echo $blog_image; ?>" alt="<?php echo isset($blog_title) ? $blog_title : 'Blog'; ?>" class="blog-featured-img" onerror="this.onerror=null;this.src='/assets/img/infrastructure/PATHOLOGY-LAB.jpg';">
-    <?php endif; ?>
+    <img src="/images/blog-placeholder.svg" alt="<?php echo isset($blog_title) ? htmlspecialchars($blog_title) : 'Sankalp Hospital Health Blog'; ?>" class="blog-featured-img">
   </div>
 </section>
 
@@ -401,11 +399,7 @@ include __DIR__ . '/../includes/header.php';
             <?php foreach ($related_posts as $post): ?>
             <div class="col-md-4">
               <div class="related-card">
-                <?php if (isset($post['image'])): ?>
-                <img src="<?php echo $post['image']; ?>" alt="<?php echo $post['title']; ?>" class="related-card-img">
-                <?php else: ?>
-                <div class="related-card-img d-flex align-items-center justify-content-center"><i class="fas fa-heartbeat" style="font-size:40px;color:var(--primary)"></i></div>
-                <?php endif; ?>
+                <img src="/images/blog-placeholder.svg" alt="<?php echo htmlspecialchars($post['title']); ?>" class="related-card-img">
                 <div class="related-card-body">
                   <h5><a href="<?php echo $post['url']; ?>"><?php echo $post['title']; ?></a></h5>
                   <span><?php echo isset($post['date']) ? $post['date'] : ''; ?></span>

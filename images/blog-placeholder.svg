@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Sankalp Hospital Health Blog">
+  <defs>
+    <linearGradient id="skBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f5cad"/>
+      <stop offset="1" stop-color="#0b4582"/>
+    </linearGradient>
+    <linearGradient id="skTeal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00cca7"/>
+      <stop offset="1" stop-color="#00a385"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="640" height="400" fill="url(#skBg)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="565" cy="60" r="140" fill="#00cca7" opacity="0.10"/>
+  <circle cx="565" cy="60" r="80" fill="#00cca7" opacity="0.10"/>
+  <circle cx="70" cy="350" r="110" fill="#ffffff" opacity="0.05"/>
+
+  <!-- Pulse / ECG line -->
+  <path d="M20 250 H210 l16 0 l10 -42 l14 74 l14 -58 l12 26 H620"
+        fill="none" stroke="#ffffff" stroke-width="4"
+        stroke-linecap="round" stroke-linejoin="round" opacity="0.55"/>
+
+  <!-- Medical cross badge -->
+  <g transform="translate(320 150)">
+    <rect x="-48" y="-48" width="96" height="96" rx="26" fill="#ffffff"/>
+    <rect x="-11" y="-32" width="22" height="64" rx="7" fill="url(#skTeal)"/>
+    <rect x="-32" y="-11" width="64" height="22" rx="7" fill="url(#skTeal)"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="320" y="332" text-anchor="middle" fill="#ffffff" opacity="0.95"
+        font-family="'Segoe UI', Arial, sans-serif" font-size="32" font-weight="700" letter-spacing="0.5">Sankalp Hospital</text>
+  <text x="320" y="362" text-anchor="middle" fill="#bfe3ff" opacity="0.85"
+        font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="4">HEALTH &amp; WELLNESS BLOG</text>
+</svg>
