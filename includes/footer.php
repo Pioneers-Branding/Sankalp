@@ -20,6 +20,7 @@
             <ul class="footer-links">
               <li><a href="/">Home</a></li>
               <li><a href="/about">About Us</a></li>
+              <li><a href="/photos">Photos &amp; Reviews</a></li>
               <li><a href="/departments">Our Specialties</a></li>
               <li><a href="/doctors">Meet Doctors</a></li>
               <li><a href="/blog/">Health Blog</a></li>

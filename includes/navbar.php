@@ -18,6 +18,7 @@
               <li><a class="dropdown-item" href="/about#director"><i class="fas fa-user-md me-2 text-primary"></i> Director's Message</a></li>
               <li><a class="dropdown-item" href="/about#achievements"><i class="fas fa-trophy me-2 text-primary"></i> Achievements</a></li>
               <li><a class="dropdown-item" href="/about#care"><i class="fas fa-heartbeat me-2 text-primary"></i> Patient Care</a></li>
+              <li><a class="dropdown-item" href="/photos"><i class="fas fa-images me-2 text-primary"></i> Photos &amp; Reviews</a></li>
               <li><a class="dropdown-item" href="/faq"><i class="fas fa-question-circle me-2 text-primary"></i> FAQs</a></li>
               <li><a class="dropdown-item" href="/myths-facts"><i class="fas fa-lightbulb me-2 text-primary"></i> Myths & Facts</a></li>
               <li><a class="dropdown-item" href="/glossary"><i class="fas fa-book-medical me-2 text-primary"></i> Glossary of Terms</a></li>
@@ -81,6 +82,7 @@
               <li><a href="/about#director">Director's Message</a></li>
               <li><a href="/about#achievements">Achievements</a></li>
               <li><a href="/about#care">Patient Care</a></li>
+              <li><a href="/photos">Photos &amp; Reviews</a></li>
               <li><a href="/faq">FAQs</a></li>
               <li><a href="/myths-facts">Myths & Facts</a></li>
               <li><a href="/glossary">Medical Glossary</a></li>
