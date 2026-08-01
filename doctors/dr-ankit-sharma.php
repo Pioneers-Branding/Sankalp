@@ -4,8 +4,8 @@
 <?php include_once __DIR__ . '/../includes/analytics.php'; ?>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dr. Ankit Sharma | Best Psychiatry Specialist in Ambikapur | Sankalp Hospital</title>
-  <meta name="description" content="Consult Dr. Ankit Sharma, MBBS, MD (Psychiatry) | Consultant Psychiatrist at Sankalp Hospital in Ambikapur. Dr. Ankit Sharma is a compassionate Psychiatrist at Sankalp Hospital, dedicated to providing comprehensive mental health care. He specializes in treating a wide range of psychological conditions and is committed to helping his patients achieve mental well-being and resilience.">
+  <title>Dr. Ankit Sharma | Best Pediatrics Specialist in Ambikapur | Sankalp Hospital</title>
+  <meta name="description" content="Consult Dr. Ankit Sharma, MBBS, MD (Pediatrics) | Consultant Pediatrician at Sankalp Hospital in Ambikapur. Dr. Ankit Sharma is a dedicated Consultant Pediatrician, providing compassionate and comprehensive healthcare for newborns, children, and adolescents.">
 
   <!-- CSS CDNs -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -18,32 +18,32 @@
 <body data-bs-spy="scroll" data-bs-target="#scroll-spy" data-bs-offset="90">
 <div class="page-wrapper">
   <!-- FLOATING CAPSULE NAVIGATION -->
-  <nav class="navbar navbar-expand-lg floating-nav">
+  <nav class="navbar navbar-expand-xl floating-nav">
     <div class="container-fluid px-lg-4 d-flex align-items-center justify-content-between">
       <!-- Brand Logo -->
-      <a class="navbar-brand d-flex align-items-center me-0" href="/index.php">
+      <a class="navbar-brand d-flex align-items-center me-0 flex-shrink-0" href="/">
         <img src="/logo.png" alt="Sankalp Hospital Logo" class="brand-logo">
       </a>
       
       <!-- Centerized Menu Links (Desktop) -->
       <div class="collapse navbar-collapse justify-content-center" id="desktopNavbarMenu">
         <ul class="navbar-nav gap-1">
-          <li class="nav-item"><a class="nav-link" href="/index.php">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="/about.php" role="button">About</a>
+            <a class="nav-link dropdown-toggle" href="/about" role="button">About</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="/about.php"><i class="fas fa-hospital me-2 text-primary"></i> About Us</a></li>
-              <li><a class="dropdown-item" href="/about.php#vision"><i class="fas fa-eye me-2 text-primary"></i> Vision & Mission</a></li>
-              <li><a class="dropdown-item" href="/about.php#director"><i class="fas fa-user-md me-2 text-primary"></i> Director's Message</a></li>
-              <li><a class="dropdown-item" href="/about.php#achievements"><i class="fas fa-trophy me-2 text-primary"></i> Achievements</a></li>
-              <li><a class="dropdown-item" href="/about.php#care"><i class="fas fa-heartbeat me-2 text-primary"></i> Patient Care</a></li>
-              <li><a class="dropdown-item" href="/faq.php"><i class="fas fa-question-circle me-2 text-primary"></i> FAQs</a></li>
-              <li><a class="dropdown-item" href="/myths-facts.php"><i class="fas fa-lightbulb me-2 text-primary"></i> Myths & Facts</a></li>
-              <li><a class="dropdown-item" href="/glossary.php"><i class="fas fa-book-medical me-2 text-primary"></i> Glossary of Terms</a></li>
+              <li><a class="dropdown-item" href="/about"><i class="fas fa-hospital me-2 text-primary"></i> About Us</a></li>
+              <li><a class="dropdown-item" href="/about#vision"><i class="fas fa-eye me-2 text-primary"></i> Vision & Mission</a></li>
+              <li><a class="dropdown-item" href="/about#director"><i class="fas fa-user-md me-2 text-primary"></i> Director's Message</a></li>
+              <li><a class="dropdown-item" href="/about#achievements"><i class="fas fa-trophy me-2 text-primary"></i> Achievements</a></li>
+              <li><a class="dropdown-item" href="/about#care"><i class="fas fa-heartbeat me-2 text-primary"></i> Patient Care</a></li>
+              <li><a class="dropdown-item" href="/faq"><i class="fas fa-question-circle me-2 text-primary"></i> FAQs</a></li>
+              <li><a class="dropdown-item" href="/myths-facts"><i class="fas fa-lightbulb me-2 text-primary"></i> Myths & Facts</a></li>
+              <li><a class="dropdown-item" href="/glossary"><i class="fas fa-book-medical me-2 text-primary"></i> Glossary of Terms</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="/departments.php" role="button">Departments</a>
+            <a class="nav-link dropdown-toggle" href="/departments" role="button">Departments</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="/ophthalmology"><i class="fas fa-eye me-2 text-primary"></i> Ophthalmology</a></li>
               <li><a class="dropdown-item" href="/emergency"><i class="fas fa-ambulance me-2 text-primary"></i> Emergency & Trauma</a></li>
@@ -57,21 +57,22 @@
               <li><a class="dropdown-item" href="/ent"><i class="fas fa-head-side-cough me-2 text-primary"></i> ENT</a></li>
               <li><a class="dropdown-item" href="/anesthesiology"><i class="fas fa-syringe me-2 text-primary"></i> Anesthesia</a></li>
               <li><a class="dropdown-item" href="/oncology"><i class="fas fa-hand-holding-medical me-2 text-primary"></i> Onco Surgery</a></li>
+              <li><a class="dropdown-item" href="/neurosurgery"><i class="fas fa-brain me-2 text-primary"></i> Neurosurgery</a></li>
             </ul>
           </li>
-          <li class="nav-item"><a class="nav-link" href="/doctors.php">Experts</a></li>
-          <li class="nav-item"><a class="nav-link" href="/gallery.php">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="/doctors">Experts</a></li>
+          <li class="nav-item"><a class="nav-link" href="/gallery">Gallery</a></li>
           <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
-          <li class="nav-item"><a class="nav-link" href="/empanelments.php">Empanelments</a></li>
-          <li class="nav-item"><a class="nav-link" href="/faq.php">FAQs</a></li>
-          <li class="nav-item"><a class="nav-link" href="/index.php#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="/empanelments">Empanelments</a></li>
+          <li class="nav-item"><a class="nav-link" href="/faq">FAQs</a></li>
+          <li class="nav-item"><a class="nav-link" href="/#contact">Contact</a></li>
         </ul>
       </div>
 
       <!-- Action Buttons (Right) -->
-      <div class="d-flex align-items-center gap-2">
+      <div class="d-flex align-items-center gap-2 flex-shrink-0">
         <a href="tel:+917774223344" class="btn btn-emergency-nav d-none d-xl-inline-flex"><i class="fas fa-ambulance"></i> Emergency</a>
-        <a href="/index.php#appointment" class="btn btn-primary-nav"><i class="far fa-calendar-check"></i> Book Now</a>
+        <a href="/#appointment" class="btn btn-primary-nav"><i class="far fa-calendar-check"></i> Book Now</a>
         <button class="navbar-toggler d-lg-none py-1 px-2 border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav">
           <i class="fas fa-bars text-primary fs-4"></i>
         </button>
@@ -87,21 +88,21 @@
     </div>
     <div class="offcanvas-body">
       <ul class="mobile-menu d-flex flex-column gap-3 fs-5">
-        <li><a href="/index.php">Home</a></li>
+        <li><a href="/">Home</a></li>
         <li>
           <a class="d-flex justify-content-between align-items-center dropdown-toggle" data-bs-toggle="collapse" href="#mobileAboutSubmenu" role="button" aria-expanded="false" aria-controls="mobileAboutSubmenu">
             About Us
           </a>
           <div class="collapse" id="mobileAboutSubmenu">
             <ul class="list-unstyled ps-3 mt-2 fs-6 d-flex flex-column gap-2 border-start">
-              <li><a href="/about.php">About Overview</a></li>
-              <li><a href="/about.php#vision">Vision & Mission</a></li>
-              <li><a href="/about.php#director">Director's Message</a></li>
-              <li><a href="/about.php#achievements">Achievements</a></li>
-              <li><a href="/about.php#care">Patient Care</a></li>
-              <li><a href="/faq.php">FAQs</a></li>
-              <li><a href="/myths-facts.php">Myths & Facts</a></li>
-              <li><a href="/glossary.php">Medical Glossary</a></li>
+              <li><a href="/about">About Overview</a></li>
+              <li><a href="/about#vision">Vision & Mission</a></li>
+              <li><a href="/about#director">Director's Message</a></li>
+              <li><a href="/about#achievements">Achievements</a></li>
+              <li><a href="/about#care">Patient Care</a></li>
+              <li><a href="/faq">FAQs</a></li>
+              <li><a href="/myths-facts">Myths & Facts</a></li>
+              <li><a href="/glossary">Medical Glossary</a></li>
             </ul>
           </div>
         </li>
@@ -111,7 +112,7 @@
           </a>
           <div class="collapse" id="mobileDeptsSubmenu">
             <ul class="list-unstyled ps-3 mt-2 fs-6 d-flex flex-column gap-2 border-start">
-              <li><a href="/departments.php">All Departments</a></li>
+              <li><a href="/departments">All Departments</a></li>
               <li><a href="/ophthalmology">Ophthalmology</a></li>
               <li><a href="/emergency">Emergency & Trauma</a></li>
               <li><a href="/gynecology">Obstetrics & Gynecology</a></li>
@@ -124,15 +125,16 @@
               <li><a href="/ent">ENT</a></li>
               <li><a href="/anesthesiology">Anesthesia</a></li>
               <li><a href="/oncology">Onco Surgery</a></li>
+              <li><a href="/neurosurgery">Neurosurgery</a></li>
             </ul>
           </div>
         </li>
-        <li><a href="/doctors.php">Our Experts</a></li>
-        <li><a href="/gallery.php">Gallery</a></li>
+        <li><a href="/doctors">Our Experts</a></li>
+        <li><a href="/gallery">Gallery</a></li>
         <li><a href="/blog/">Blog</a></li>
-        <li><a href="/empanelments.php">Empanelments</a></li>
-        <li><a href="/faq.php">FAQs</a></li>
-        <li><a href="/index.php#contact">Contact Us</a></li>
+        <li><a href="/empanelments">Empanelments</a></li>
+        <li><a href="/faq">FAQs</a></li>
+        <li><a href="/#contact">Contact Us</a></li>
       </ul>
       <div class="mt-5 pt-4 border-top">
         <h6 class="text-uppercase text-muted mb-3">Emergency Support</h6>
@@ -144,7 +146,7 @@
 
 
 <!-- HERO BANNER -->
-<div class="dp-page dp-theme-clinical">
+<div class="dp-page dp-theme-family">
 <section class="dp-hero">
   <!-- Background Image & Overlay -->
   <div class="dp-hero-bg">
@@ -183,11 +185,11 @@
       <div class="col-lg-8 col-md-7">
         <div class="dp-hero-content">
           <span class="dp-specialty-tag">
-            <i class="fas fa-stethoscope"></i> Psychiatry
+            <i class="fas fa-stethoscope"></i> Pediatrics
           </span>
           <h1 class="dp-hero-name">Dr. Ankit Sharma</h1>
-          <p class="dp-hero-degrees">MBBS, MD (Psychiatry) | Consultant Psychiatrist</p>
-          <p class="dp-hero-bio">Dr. Ankit Sharma is a compassionate Psychiatrist at Sankalp Hospital, dedicated to providing comprehensive mental health care. He specializes in treating a wide range of psychological conditions and is committed to helping his patients achieve mental well-being and resilience.</p>
+          <p class="dp-hero-degrees">MBBS, MD (Pediatrics) | Consultant Pediatrician</p>
+          <p class="dp-hero-bio">Dr. Ankit Sharma is a dedicated Consultant Pediatrician, providing compassionate and comprehensive healthcare for newborns, children, and adolescents.</p>
 
           <div class="dp-stats-row">
             <div class="dp-stat-chip">
@@ -229,7 +231,7 @@
           <!-- Professional Profile -->
           <span class="dp-section-label"><i class="fas fa-circle"></i> Professional Profile</span>
           <h2 class="dp-section-title">About Dr. Ankit Sharma</h2>
-          <p class="dp-profile-text">Dr. Ankit believes in a holistic approach to mental health, combining medication management with evidence-based psychotherapy. He treats conditions like anxiety disorders, depression, bipolar disorder, and addiction with the utmost confidentiality and professionalism.</p>
+          <p class="dp-profile-text">Dr. Sharma is passionate about child health and development, offering expert care in everything from routine immunizations to managing acute childhood illnesses. He works closely with parents to guide them through developmental milestones and pediatric nutrition. His gentle approach and clinical acumen make him a trusted healthcare partner for families in the region.</p>
 
           <div class="dp-divider"></div>
 
@@ -237,11 +239,11 @@
           <span class="dp-section-label"><i class="fas fa-circle"></i> Clinical Expertise</span>
           <h2 class="dp-section-title">Specializations & Services</h2>
           <div class="dp-expertise-grid">
-            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Depression &amp; Anxiety</span>
-            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Stress Management</span>
-            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> De-addiction</span>
-            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Child &amp; Adolescent Psychiatry</span>
-            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Counseling</span>
+            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Child Vaccination &amp; Immunization</span>
+            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Growth &amp; Development Monitoring</span>
+            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Pediatric Nutrition</span>
+            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Neonatal Care</span>
+            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Management of Acute Infections</span>
           </div>
 
           <!-- Credentials & Qualifications -->
@@ -254,8 +256,8 @@
             </div>
             <ul class="dp-qual-list">
                 <li>MBBS</li>
-                <li>MD (Psychiatry)</li>
-                <li>Consultant Psychiatrist</li>
+                <li>MD (Pediatrics)</li>
+                <li>Consultant Pediatrician</li>
             </ul>
           </div>
         </div>
@@ -269,7 +271,7 @@
             <h3><i class="far fa-calendar-check me-2"></i> Request a Callback</h3>
             <p class="dp-book-sub">Schedule a consultation with Dr. Ankit Sharma. Our coordinator will reach out to confirm.</p>
             <form id="detailed-booking-form" class="appointment-form">
-              <input type="hidden" id="book-dept" value="psychiatry">
+              <input type="hidden" id="book-dept" value="pediatrics">
               <input type="hidden" id="book-doc" value="Dr. Ankit Sharma">
               <div class="mb-3">
                 <label for="book-name" class="form-label">Patient Name</label>
@@ -342,7 +344,7 @@
   <footer class="site-footer">
     <div class="container">
       <div class="row g-4">
-        <div class="col-lg-4">
+        <div class="col-lg-3 col-md-6">
           <div class="footer-widget">
             <img src="/logo.png" alt="Sankalp Hospital Logo" class="footer-logo mb-3">
             <p class="footer-desc">Sankalp Hospital is committed to providing premium, multi-specialty healthcare and assisted fertility services with class-leading medical infrastructure and care.</p>
@@ -354,24 +356,41 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-3 col-md-6">
           <div class="footer-widget">
             <h4>Quick Links</h4>
             <ul class="footer-links">
-              <li><a href="/index.php">Home</a></li>
-              <li><a href="/about.php">About Us</a></li>
-              <li><a href="/departments.php">Our Specialties</a></li>
-              <li><a href="/doctors.php">Meet Doctors</a></li>
-              <li><a href="/gallery.php">Image Gallery</a></li>
-              <li><a href="/empanelments.php">Empanelments & Cashless</a></li>
-              <li><a href="/faq.php">Support & FAQs</a></li>
-              <li><a href="/myths-facts.php">Myths & Facts</a></li>
-              <li><a href="/glossary.php">Medical Glossary</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About Us</a></li>
+              <li><a href="/departments">Our Specialties</a></li>
+              <li><a href="/doctors">Meet Doctors</a></li>
+              <li><a href="/blog/">Health Blog</a></li>
+              <li><a href="/empanelments">Empanelments & Cashless</a></li>
+              <li><a href="/faq">Support & FAQs</a></li>
+              <li><a href="/myths-facts">Myths & Facts</a></li>
+              <li><a href="/glossary">Medical Glossary</a></li>
+              <li><a href="/contact">Contact Us</a></li>
             </ul>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-widget">
+            <h4>Top Specialities</h4>
+            <ul class="footer-links">
+              <li><a href="/gynecology-hospital-in-ambikapur">Gynecology &amp; Obstetrics</a></li>
+              <li><a href="/ivf-treatment-in-ambikapur">IVF &amp; Fertility</a></li>
+              <li><a href="/orthopedic-hospital-in-ambikapur">Orthopaedics &amp; Joint Surgery</a></li>
+              <li><a href="/urology-hospital-in-ambikapur">Urology</a></li>
+              <li><a href="/ophthalmology-hospital-in-ambikapur">Ophthalmology</a></li>
+              <li><a href="/pediatric-hospital-in-ambikapur">Pediatrics &amp; NICU</a></li>
+              <li><a href="/ent-hospital-in-ambikapur">ENT</a></li>
+              <li><a href="/emergency-hospital-in-ambikapur">Emergency &amp; Trauma</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
           <div class="footer-widget">
             <h4>Reach Us</h4>
             <ul class="footer-contact">

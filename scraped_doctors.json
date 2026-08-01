@@ -81,18 +81,18 @@
     },
     "dr-ankit-sharma": {
         "name": "Dr. Ankit Sharma",
-        "specialty": "Psychiatry",
-        "degrees": "MBBS, MD (Psychiatry) | Consultant Psychiatrist",
+        "specialty": "Pediatrics",
+        "degrees": "MBBS, MD (Pediatrics) | Consultant Pediatrician",
         "experience": "8+ Years",
         "img": "ankit-sharma.jpg",
-        "bio": "Dr. Ankit Sharma is a compassionate Psychiatrist at Sankalp Hospital, dedicated to providing comprehensive mental health care. He specializes in treating a wide range of psychological conditions and is committed to helping his patients achieve mental well-being and resilience.",
-        "long_bio": "",
+        "bio": "Dr. Ankit Sharma is a dedicated Consultant Pediatrician, providing compassionate and comprehensive healthcare for newborns, children, and adolescents.",
+        "long_bio": "Dr. Sharma is passionate about child health and development, offering expert care in everything from routine immunizations to managing acute childhood illnesses. He works closely with parents to guide them through developmental milestones and pediatric nutrition. His gentle approach and clinical acumen make him a trusted healthcare partner for families in the region.",
         "expertise": [
-            "Depression & Anxiety",
-            "Stress Management",
-            "De-addiction",
-            "Child & Adolescent Psychiatry",
-            "Counseling"
+            "Child Vaccination & Immunization",
+            "Growth & Development Monitoring",
+            "Pediatric Nutrition",
+            "Neonatal Care",
+            "Management of Acute Infections"
         ]
     },
     "dr-ankita-bansal-goyal": {
@@ -180,7 +180,7 @@
         "specialty": "Rheumatology & Internal Medicine",
         "degrees": "MD (Medicine) | Consultant Physician & Rheumatologist",
         "experience": "5+ Years",
-        "img": "akshay-gupta.jpg",
+        "img": "akshay-gupta.png",
         "bio": "Dr. Akshay Gupta is a Consultant Physician and Rheumatologist with expertise in Internal Medicine, autoimmune diseases, arthritis, and complex medical disorders. He completed his MBBS from Vardhman Mahavir Medical College & Safdarjung Hospital and MD (Medicine) from Dr. Ram Manohar Lohia Hospital, New Delhi. He is recognized as the first and only rheumatology specialist serving the Surguja region.",
         "long_bio": "",
         "expertise": [
@@ -210,6 +210,150 @@
             "Pediatric Nutrition",
             "Child Growth Monitoring",
             "Infectious Diseases"
+        ]
+    },
+    "dr-sukirti-chauhan": {
+        "name": "Dr. Sukruti Chauhan",
+        "specialty": "Neurosurgery",
+        "degrees": "MBBS, MS (Neurosurgery) | Consultant Neurosurgeon",
+        "experience": "10+ Years",
+        "img": "sukirti-chauhan.jpg",
+        "bio": "Dr. Sukruti Chauhan is a highly skilled Neurosurgeon at Sankalp Hospital, renowned for her expertise in treating complex brain and spinal disorders. She is dedicated to providing minimally invasive neurosurgical care and comprehensive neurological rehabilitation.",
+        "long_bio": "Dr. Sukruti Chauhan brings years of specialized experience in neurosurgery, focusing on brain tumors, spinal trauma, and degenerative spine conditions. She is passionate about utilizing advanced neuro-navigation techniques to ensure precision and quicker recovery times for her patients. Dr. Chauhan is deeply committed to compassionate patient care and works closely with multidisciplinary teams to deliver holistic treatment.",
+        "expertise": [
+            "Brain Tumor Surgery",
+            "Spinal Trauma & Fixation",
+            "Microdiscectomy",
+            "Neuro-Navigation Techniques",
+            "Peripheral Nerve Surgery"
+        ]
+    },
+    "dr-yuvan-prasannaa": {
+        "name": "Dr. Yuvan Prasannaa",
+        "specialty": "Anaesthesiology",
+        "degrees": "MBBS, MD (Anaesthesiology) | Consultant Anaesthesiologist",
+        "experience": "10+ Years",
+        "img": "yuvan.jpg",
+        "bio": "Dr. Yuvan Prasannaa is a Senior Consultant Anaesthesiologist at Sankalp Hospital with over 10 years of experience. He specializes in administering safe anesthesia for complex surgical procedures and intensive pain management.",
+        "long_bio": "With a profound background in critical care and anesthesiology, Dr. Yuvan Prasannaa ensures optimal patient safety during pre-operative and post-operative phases. His expertise spans regional, general, and pediatric anesthesia. He is an integral part of the surgical team, closely monitoring patient vitals and managing post-surgical pain to facilitate smooth recoveries.",
+        "expertise": [
+            "General & Regional Anaesthesia",
+            "Post-Operative Pain Management",
+            "Critical Care & ICU",
+            "Pediatric Anaesthesia",
+            "Trauma Resuscitation"
+        ]
+    },
+    "dr-rajesh-kr-agarwal": {
+        "name": "Dr. Rajesh Kr Agarwal",
+        "specialty": "Urology",
+        "degrees": "MBBS, MS (Urology) | Consultant Urologist",
+        "experience": "10+ Years",
+        "img": "doc1.png",
+        "bio": "Dr. Rajesh Kr Agarwal is a distinguished Consultant Urologist specializing in endourology and advanced laparoscopic urological surgeries. He is dedicated to providing cutting-edge treatments for kidney stones and prostate conditions.",
+        "long_bio": "Dr. Agarwal has extensive experience in managing complex genitourinary diseases, male infertility, and urologic oncology. He is highly proficient in minimally invasive laser surgeries for kidney stones and prostate enlargement (BPH). At Sankalp Hospital, he is committed to delivering patient-centric, evidence-based urological care with a focus on fast recovery and improved quality of life.",
+        "expertise": [
+            "Endourology & Laser Surgery",
+            "Kidney Stone Management",
+            "Prostate Enlargement (BPH)",
+            "Male Infertility",
+            "Urologic Oncology"
+        ]
+    },
+    "dr-ambar-garg": {
+        "name": "Dr. Ambar Garg",
+        "specialty": "Haematology",
+        "degrees": "MBBS, MS (Haematology) | Consultant Haematologist",
+        "experience": "10+ Years",
+        "img": "doc1.png",
+        "bio": "Dr. Ambar Garg is a leading Consultant Haematologist with a focus on diagnosing and treating blood disorders, including anemias, bleeding disorders, and hematological malignancies.",
+        "long_bio": "Dr. Garg brings comprehensive expertise in clinical haematology and bone marrow disorders. He is deeply involved in managing complex cases of leukemia, lymphoma, and multiple myeloma. With a compassionate approach, Dr. Garg ensures that patients receive the most advanced and personalized therapeutic regimens available for both benign and malignant blood conditions.",
+        "expertise": [
+            "Leukemia & Lymphoma",
+            "Anemia & Bleeding Disorders",
+            "Multiple Myeloma",
+            "Coagulation Disorders",
+            "Bone Marrow Evaluation"
+        ]
+    },
+    "dr-azad-bhagat": {
+        "name": "Dr. Azad Bhagat",
+        "specialty": "Pathology",
+        "degrees": "MBBS, Clinical Pathology | Consultant Pathologist",
+        "experience": "10+ Years",
+        "img": "doc1.png",
+        "bio": "Dr. Azad Bhagat is an expert Consultant Pathologist at Sankalp Hospital, committed to providing accurate and timely diagnostic services crucial for effective patient treatment plans.",
+        "long_bio": "Dr. Bhagat oversees the clinical laboratory, ensuring rigorous quality control and the highest standards of diagnostic accuracy. His expertise lies in histopathology, cytopathology, and clinical biochemistry. By working closely with clinicians across departments, Dr. Bhagat plays a vital role in the early detection and precise diagnosis of various diseases, directly impacting positive patient outcomes.",
+        "expertise": [
+            "Histopathology",
+            "Cytopathology",
+            "Clinical Biochemistry",
+            "Hematopathology",
+            "Laboratory Quality Assurance"
+        ]
+    },
+    "dr-anoj-kumar": {
+        "name": "Dr. Anoj Kumar",
+        "specialty": "Anaesthesiology",
+        "degrees": "MBBS, DNB (Anaesthesiology) | Consultant Anaesthesiologist",
+        "experience": "10+ Years",
+        "img": "doc1.png",
+        "bio": "Dr. Anoj Kumar is a dedicated Consultant Anaesthesiologist, proficient in advanced airway management and regional anesthesia for high-risk surgical patients.",
+        "long_bio": "Dr. Kumar specializes in providing safe and effective anesthesia care across various surgical specialties, including orthopedics, general surgery, and obstetrics. He is particularly skilled in nerve blocks and epidural analgesia, focusing on minimizing post-operative pain and enhancing patient comfort. His vigilant approach ensures the highest safety standards in the operating theater.",
+        "expertise": [
+            "Advanced Airway Management",
+            "Regional & Epidural Anaesthesia",
+            "High-Risk Surgical Anaesthesia",
+            "Pain Management",
+            "Obstetric Anaesthesia"
+        ]
+    },
+    "dr-rajshree-verma": {
+        "name": "Dr. Rajshree Verma",
+        "specialty": "Obstetrics & Gynaecology",
+        "degrees": "MBBS, MS (Obstetrics & Gynaecology) | Consultant Gynaecologist",
+        "experience": "10+ Years",
+        "img": "doc1.png",
+        "bio": "Dr. Rajshree Verma is a compassionate Consultant Gynaecologist and Obstetrician, specializing in high-risk pregnancies, adolescent gynecology, and minimally invasive gynecological surgeries.",
+        "long_bio": "With over a decade of clinical experience, Dr. Rajshree Verma provides comprehensive healthcare for women at every stage of life. She is an advocate for preventive maternal care and is highly skilled in managing complex obstetric emergencies. Dr. Verma is known for her empathetic patient communication and her dedication to promoting women's health and wellness in the community.",
+        "expertise": [
+            "High-Risk Pregnancy",
+            "Laparoscopic Gynaecology",
+            "Adolescent Gynaecology",
+            "Preventive Maternal Care",
+            "Menopause Management"
+        ]
+    },
+    "dr-sonali-gupta": {
+        "name": "Dr. Sonali Gupta",
+        "specialty": "Pathology",
+        "degrees": "MBBS, MD (Pathology) | Consultant Pathologist",
+        "experience": "10+ Years",
+        "img": "doc1.png",
+        "bio": "Dr. Sonali Gupta is an accomplished Pathologist known for her precision in diagnostic medicine, specifically in surgical pathology and molecular diagnostics.",
+        "long_bio": "Dr. Gupta plays a critical role in the diagnostic team at Sankalp Hospital, bringing extensive knowledge in interpreting complex tissue biopsies and body fluid cytology. Her dedication to continuous learning and implementing modern pathological techniques ensures that referring physicians receive detailed, accurate reports necessary for tailored patient treatments.",
+        "expertise": [
+            "Surgical Pathology",
+            "Molecular Diagnostics",
+            "Cytology",
+            "Immunohistochemistry",
+            "Oncopathology"
+        ]
+    },
+    "dr-chetan-chaturvedi": {
+        "name": "Dr. Chetan Chaturvedi",
+        "specialty": "Cardiology",
+        "degrees": "MBBS, DNB (Cardiology) | Consultant Cardiologist",
+        "experience": "10+ Years",
+        "img": "doc1.png",
+        "bio": "Dr. Chetan Chaturvedi is a leading Consultant Cardiologist specializing in interventional cardiology, echocardiography, and the comprehensive management of cardiovascular diseases.",
+        "long_bio": "Dr. Chaturvedi is dedicated to the prevention, diagnosis, and treatment of heart conditions. His clinical focus includes managing acute myocardial infarctions, heart failure, and complex arrhythmias. He is highly proficient in performing diagnostic angiograms and echocardiograms. His patient-first philosophy ensures comprehensive cardiovascular care aimed at long-term heart health.",
+        "expertise": [
+            "Interventional Cardiology",
+            "Echocardiography (2D Echo)",
+            "Heart Failure Management",
+            "Hypertension & Lipid Management",
+            "Preventive Cardiology"
         ]
     }
 }

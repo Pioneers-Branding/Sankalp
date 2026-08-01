@@ -21,7 +21,7 @@ $doctorsList=[
         ['name'=>'On-Call Urology Specialists','degrees'=>'Consultant Urosurgeons','bio'=>'Visiting urologists available for laser kidney stone removal and urinary tract reconstructions.','img'=>'dp']
     ],
     'ophthalmology'=>[
-        ['name'=>'Dr. Sanjay Goyal','degrees'=>'MBBS, MS - Ophthalmology','bio'=>'Founder & Senior Eye Surgeon with 25+ years of experience pioneering advanced cataract and LASIK surgeries.','img'=>'doc4.png'],
+        ['name'=>'Dr. Sanjay Goyal','degrees'=>'MBBS, MS - Ophthalmology','bio'=>'Founder & Senior Eye Surgeon with 25+ years of experience pioneering advanced cataract and LASIK surgeries.','img'=>'sanjay-goyal.jpg'],
         ['name'=>'Dr. Akshaya Goyal','degrees'=>'MBBS, MS - Ophthalmology','bio'=>'Consultant Ophthalmologist specializing in modern cataract surgeries and glaucoma therapies.','img'=>'doc2.png']
     ],
     'pediatrics'  =>[

@@ -4,8 +4,8 @@
 <?php include_once __DIR__ . '/../includes/analytics.php'; ?>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dr. Ankita Bansal Goyal | Best Obstetrics & Gynaecology Specialist in Ambikapur | Sankalp Hospital</title>
-  <meta name="description" content="Consult Dr. Ankita Bansal Goyal, MD (Obstetrics & Gynaecology) - PGIMER CHD, FMAS | Consultant Laparoscopic Surgeon & Gynaecologist at Sankalp Hospital in Ambikapur. Dr. Ankita Bansal Goyal is a gold-medalist from PGIMER Chandigarh and a pioneer in 3D Laparoscopic Surgery in Ambikapur. She specializes in minimally invasive gynecological procedures, including laparoscopic hysterectomy and myomectomy, providing advanced surgical care for women.">
+  <title>Dr. Rajesh Kr Agarwal | Best Urology Specialist in Ambikapur | Sankalp Hospital</title>
+  <meta name="description" content="Consult Dr. Rajesh Kr Agarwal, MBBS, MS (Urology) | Consultant Urologist at Sankalp Hospital in Ambikapur. Dr. Rajesh Kr Agarwal is a distinguished Consultant Urologist specializing in endourology and advanced laparoscopic urological surgeries. He is dedicated to providing cutting-edge treatments for kidney stones and prostate conditions.">
 
   <!-- CSS CDNs -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -146,7 +146,7 @@
 
 
 <!-- HERO BANNER -->
-<div class="dp-page dp-theme-surgical">
+<div class="dp-page dp-theme-clinical">
 <section class="dp-hero">
   <!-- Background Image & Overlay -->
   <div class="dp-hero-bg">
@@ -166,7 +166,7 @@
         <span class="sep"><i class="fas fa-chevron-right"></i></span>
         <a href="/doctors.php">Our Experts</a>
         <span class="sep"><i class="fas fa-chevron-right"></i></span>
-        <span class="current">Dr. Ankita Bansal Goyal</span>
+        <span class="current">Dr. Rajesh Kr Agarwal</span>
       </div>
     </div>
 
@@ -175,8 +175,8 @@
       <div class="col-lg-4 col-md-5">
         <div class="dp-photo-wrapper">
           <div class="dp-photo-card">
-            <img src="/images/ankita-goyal.jpg" alt="Dr. Ankita Bansal Goyal" onerror="this.src='/images/doc1.png'">
-            <span class="dp-photo-badge"><i class="fas fa-award"></i> 8+ Years Exp</span>
+            <img src="/images/doc1.png" alt="Dr. Rajesh Kr Agarwal" onerror="this.src='/images/doc1.png'">
+            <span class="dp-photo-badge"><i class="fas fa-award"></i> 10+ Years Exp</span>
           </div>
         </div>
       </div>
@@ -185,17 +185,17 @@
       <div class="col-lg-8 col-md-7">
         <div class="dp-hero-content">
           <span class="dp-specialty-tag">
-            <i class="fas fa-stethoscope"></i> Obstetrics &amp; Gynaecology
+            <i class="fas fa-stethoscope"></i> Urology
           </span>
-          <h1 class="dp-hero-name">Dr. Ankita Bansal Goyal</h1>
-          <p class="dp-hero-degrees">MD (Obstetrics &amp; Gynaecology) - PGIMER CHD, FMAS | Consultant Laparoscopic Surgeon &amp; Gynaecologist</p>
-          <p class="dp-hero-bio">Dr. Ankita Bansal Goyal is a gold-medalist from PGIMER Chandigarh and a pioneer in 3D Laparoscopic Surgery in Ambikapur. She specializes in minimally invasive gynecological procedures, including laparoscopic hysterectomy and myomectomy, providing advanced surgical care for women.</p>
+          <h1 class="dp-hero-name">Dr. Rajesh Kr Agarwal</h1>
+          <p class="dp-hero-degrees">MBBS, MS (Urology) | Consultant Urologist</p>
+          <p class="dp-hero-bio">Dr. Rajesh Kr Agarwal is a distinguished Consultant Urologist specializing in endourology and advanced laparoscopic urological surgeries. He is dedicated to providing cutting-edge treatments for kidney stones and prostate conditions.</p>
 
           <div class="dp-stats-row">
             <div class="dp-stat-chip">
               <div class="chip-icon icon-exp"><i class="fas fa-award"></i></div>
               <div class="chip-text">
-                <strong>8+ Years</strong>
+                <strong>10+ Years</strong>
                 <span>Experience</span>
               </div>
             </div>
@@ -230,8 +230,8 @@
         <div class="dp-profile-card">
           <!-- Professional Profile -->
           <span class="dp-section-label"><i class="fas fa-circle"></i> Professional Profile</span>
-          <h2 class="dp-section-title">About Dr. Ankita Bansal Goyal</h2>
-          <p class="dp-profile-text"></p>
+          <h2 class="dp-section-title">About Dr. Rajesh Kr Agarwal</h2>
+          <p class="dp-profile-text">Dr. Agarwal has extensive experience in managing complex genitourinary diseases, male infertility, and urologic oncology. He is highly proficient in minimally invasive laser surgeries for kidney stones and prostate enlargement (BPH). At Sankalp Hospital, he is committed to delivering patient-centric, evidence-based urological care with a focus on fast recovery and improved quality of life.</p>
 
           <div class="dp-divider"></div>
 
@@ -239,11 +239,11 @@
           <span class="dp-section-label"><i class="fas fa-circle"></i> Clinical Expertise</span>
           <h2 class="dp-section-title">Specializations & Services</h2>
           <div class="dp-expertise-grid">
-            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> 3D Laparoscopic Surgery</span>
-            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Laparoscopic Hysterectomy</span>
-            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> PCOS Specialist</span>
-            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> High-risk Pregnancy</span>
-            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Infertility Care</span>
+            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Endourology &amp; Laser Surgery</span>
+            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Kidney Stone Management</span>
+            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Prostate Enlargement (BPH)</span>
+            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Male Infertility</span>
+            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Urologic Oncology</span>
           </div>
 
           <!-- Credentials & Qualifications -->
@@ -255,9 +255,9 @@
               <h3 class="mb-0" style="font-size: 1.1rem; font-weight: 700; color: var(--text-dark);">Credentials & Certifications</h3>
             </div>
             <ul class="dp-qual-list">
-                <li>MD (Obstetrics &amp; Gynaecology) - PGIMER CHD</li>
-                <li>FMAS</li>
-                <li>Consultant Laparoscopic Surgeon &amp; Gynaecologist</li>
+                <li>MBBS</li>
+                <li>MS (Urology)</li>
+                <li>Consultant Urologist</li>
             </ul>
           </div>
         </div>
@@ -269,10 +269,10 @@
           <!-- Booking Form -->
           <div class="dp-book-card">
             <h3><i class="far fa-calendar-check me-2"></i> Request a Callback</h3>
-            <p class="dp-book-sub">Schedule a consultation with Dr. Ankita Bansal Goyal. Our coordinator will reach out to confirm.</p>
+            <p class="dp-book-sub">Schedule a consultation with Dr. Rajesh Kr Agarwal. Our coordinator will reach out to confirm.</p>
             <form id="detailed-booking-form" class="appointment-form">
-              <input type="hidden" id="book-dept" value="obstetrics">
-              <input type="hidden" id="book-doc" value="Dr. Ankita Bansal Goyal">
+              <input type="hidden" id="book-dept" value="urology">
+              <input type="hidden" id="book-doc" value="Dr. Rajesh Kr Agarwal">
               <div class="mb-3">
                 <label for="book-name" class="form-label">Patient Name</label>
                 <div class="input-group">

@@ -74,7 +74,7 @@ include __DIR__ . '/includes/navbar.php';
       <div class="col-lg-5 col-md-6">
         <div class="director-msg-card h-100">
           <div class="director-img-frame mb-4">
-            <img src="images/doc4.png" alt="Dr. Sanjay Goyal" class="w-100">
+            <img src="images/sanjay-goyal.jpg" alt="Dr. Sanjay Goyal" class="w-100">
             <div class="director-badge">
               <h5>Dr. Sanjay Goyal</h5>
               <small class="text-uppercase text-white-50">Founder & Director</small>

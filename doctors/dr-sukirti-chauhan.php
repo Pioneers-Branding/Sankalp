@@ -4,8 +4,8 @@
 <?php include_once __DIR__ . '/../includes/analytics.php'; ?>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dr. Sukirti Chauhan | Best Obstetrics & Gynaecology Specialist in Ambikapur | Sankalp Hospital</title>
-  <meta name="description" content="Consult Dr. Sukirti Chauhan, MBBS, MS - Obs & Gynaecology at Sankalp Hospital in Ambikapur. Specialist Gynecologist expert in maternal health screenings, prenatal checks, and deliveries.">
+  <title>Dr. Sukruti Chauhan | Best Neurosurgery Specialist in Ambikapur | Sankalp Hospital</title>
+  <meta name="description" content="Consult Dr. Sukruti Chauhan, MBBS, MS (Neurosurgery) | Consultant Neurosurgeon at Sankalp Hospital in Ambikapur. Dr. Sukruti Chauhan is a highly skilled Neurosurgeon at Sankalp Hospital, renowned for her expertise in treating complex brain and spinal disorders. She is dedicated to providing minimally invasive neurosurgical care and comprehensive neurological rehabilitation.">
 
   <!-- CSS CDNs -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -18,32 +18,32 @@
 <body data-bs-spy="scroll" data-bs-target="#scroll-spy" data-bs-offset="90">
 <div class="page-wrapper">
   <!-- FLOATING CAPSULE NAVIGATION -->
-  <nav class="navbar navbar-expand-lg floating-nav">
+  <nav class="navbar navbar-expand-xl floating-nav">
     <div class="container-fluid px-lg-4 d-flex align-items-center justify-content-between">
       <!-- Brand Logo -->
-      <a class="navbar-brand d-flex align-items-center me-0" href="/index.php">
+      <a class="navbar-brand d-flex align-items-center me-0 flex-shrink-0" href="/">
         <img src="/logo.png" alt="Sankalp Hospital Logo" class="brand-logo">
       </a>
       
       <!-- Centerized Menu Links (Desktop) -->
       <div class="collapse navbar-collapse justify-content-center" id="desktopNavbarMenu">
         <ul class="navbar-nav gap-1">
-          <li class="nav-item"><a class="nav-link" href="/index.php">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="/about.php" role="button">About</a>
+            <a class="nav-link dropdown-toggle" href="/about" role="button">About</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="/about.php"><i class="fas fa-hospital me-2 text-primary"></i> About Us</a></li>
-              <li><a class="dropdown-item" href="/about.php#vision"><i class="fas fa-eye me-2 text-primary"></i> Vision & Mission</a></li>
-              <li><a class="dropdown-item" href="/about.php#director"><i class="fas fa-user-md me-2 text-primary"></i> Director's Message</a></li>
-              <li><a class="dropdown-item" href="/about.php#achievements"><i class="fas fa-trophy me-2 text-primary"></i> Achievements</a></li>
-              <li><a class="dropdown-item" href="/about.php#care"><i class="fas fa-heartbeat me-2 text-primary"></i> Patient Care</a></li>
-              <li><a class="dropdown-item" href="/faq.php"><i class="fas fa-question-circle me-2 text-primary"></i> FAQs</a></li>
-              <li><a class="dropdown-item" href="/myths-facts.php"><i class="fas fa-lightbulb me-2 text-primary"></i> Myths & Facts</a></li>
-              <li><a class="dropdown-item" href="/glossary.php"><i class="fas fa-book-medical me-2 text-primary"></i> Glossary of Terms</a></li>
+              <li><a class="dropdown-item" href="/about"><i class="fas fa-hospital me-2 text-primary"></i> About Us</a></li>
+              <li><a class="dropdown-item" href="/about#vision"><i class="fas fa-eye me-2 text-primary"></i> Vision & Mission</a></li>
+              <li><a class="dropdown-item" href="/about#director"><i class="fas fa-user-md me-2 text-primary"></i> Director's Message</a></li>
+              <li><a class="dropdown-item" href="/about#achievements"><i class="fas fa-trophy me-2 text-primary"></i> Achievements</a></li>
+              <li><a class="dropdown-item" href="/about#care"><i class="fas fa-heartbeat me-2 text-primary"></i> Patient Care</a></li>
+              <li><a class="dropdown-item" href="/faq"><i class="fas fa-question-circle me-2 text-primary"></i> FAQs</a></li>
+              <li><a class="dropdown-item" href="/myths-facts"><i class="fas fa-lightbulb me-2 text-primary"></i> Myths & Facts</a></li>
+              <li><a class="dropdown-item" href="/glossary"><i class="fas fa-book-medical me-2 text-primary"></i> Glossary of Terms</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="/departments.php" role="button">Departments</a>
+            <a class="nav-link dropdown-toggle" href="/departments" role="button">Departments</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="/ophthalmology"><i class="fas fa-eye me-2 text-primary"></i> Ophthalmology</a></li>
               <li><a class="dropdown-item" href="/emergency"><i class="fas fa-ambulance me-2 text-primary"></i> Emergency & Trauma</a></li>
@@ -57,21 +57,22 @@
               <li><a class="dropdown-item" href="/ent"><i class="fas fa-head-side-cough me-2 text-primary"></i> ENT</a></li>
               <li><a class="dropdown-item" href="/anesthesiology"><i class="fas fa-syringe me-2 text-primary"></i> Anesthesia</a></li>
               <li><a class="dropdown-item" href="/oncology"><i class="fas fa-hand-holding-medical me-2 text-primary"></i> Onco Surgery</a></li>
+              <li><a class="dropdown-item" href="/neurosurgery"><i class="fas fa-brain me-2 text-primary"></i> Neurosurgery</a></li>
             </ul>
           </li>
-          <li class="nav-item"><a class="nav-link" href="/doctors.php">Experts</a></li>
-          <li class="nav-item"><a class="nav-link" href="/gallery.php">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="/doctors">Experts</a></li>
+          <li class="nav-item"><a class="nav-link" href="/gallery">Gallery</a></li>
           <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
-          <li class="nav-item"><a class="nav-link" href="/empanelments.php">Empanelments</a></li>
-          <li class="nav-item"><a class="nav-link" href="/faq.php">FAQs</a></li>
-          <li class="nav-item"><a class="nav-link" href="/index.php#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="/empanelments">Empanelments</a></li>
+          <li class="nav-item"><a class="nav-link" href="/faq">FAQs</a></li>
+          <li class="nav-item"><a class="nav-link" href="/#contact">Contact</a></li>
         </ul>
       </div>
 
       <!-- Action Buttons (Right) -->
-      <div class="d-flex align-items-center gap-2">
+      <div class="d-flex align-items-center gap-2 flex-shrink-0">
         <a href="tel:+917774223344" class="btn btn-emergency-nav d-none d-xl-inline-flex"><i class="fas fa-ambulance"></i> Emergency</a>
-        <a href="/index.php#appointment" class="btn btn-primary-nav"><i class="far fa-calendar-check"></i> Book Now</a>
+        <a href="/#appointment" class="btn btn-primary-nav"><i class="far fa-calendar-check"></i> Book Now</a>
         <button class="navbar-toggler d-lg-none py-1 px-2 border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav">
           <i class="fas fa-bars text-primary fs-4"></i>
         </button>
@@ -87,21 +88,21 @@
     </div>
     <div class="offcanvas-body">
       <ul class="mobile-menu d-flex flex-column gap-3 fs-5">
-        <li><a href="/index.php">Home</a></li>
+        <li><a href="/">Home</a></li>
         <li>
           <a class="d-flex justify-content-between align-items-center dropdown-toggle" data-bs-toggle="collapse" href="#mobileAboutSubmenu" role="button" aria-expanded="false" aria-controls="mobileAboutSubmenu">
             About Us
           </a>
           <div class="collapse" id="mobileAboutSubmenu">
             <ul class="list-unstyled ps-3 mt-2 fs-6 d-flex flex-column gap-2 border-start">
-              <li><a href="/about.php">About Overview</a></li>
-              <li><a href="/about.php#vision">Vision & Mission</a></li>
-              <li><a href="/about.php#director">Director's Message</a></li>
-              <li><a href="/about.php#achievements">Achievements</a></li>
-              <li><a href="/about.php#care">Patient Care</a></li>
-              <li><a href="/faq.php">FAQs</a></li>
-              <li><a href="/myths-facts.php">Myths & Facts</a></li>
-              <li><a href="/glossary.php">Medical Glossary</a></li>
+              <li><a href="/about">About Overview</a></li>
+              <li><a href="/about#vision">Vision & Mission</a></li>
+              <li><a href="/about#director">Director's Message</a></li>
+              <li><a href="/about#achievements">Achievements</a></li>
+              <li><a href="/about#care">Patient Care</a></li>
+              <li><a href="/faq">FAQs</a></li>
+              <li><a href="/myths-facts">Myths & Facts</a></li>
+              <li><a href="/glossary">Medical Glossary</a></li>
             </ul>
           </div>
         </li>
@@ -111,7 +112,7 @@
           </a>
           <div class="collapse" id="mobileDeptsSubmenu">
             <ul class="list-unstyled ps-3 mt-2 fs-6 d-flex flex-column gap-2 border-start">
-              <li><a href="/departments.php">All Departments</a></li>
+              <li><a href="/departments">All Departments</a></li>
               <li><a href="/ophthalmology">Ophthalmology</a></li>
               <li><a href="/emergency">Emergency & Trauma</a></li>
               <li><a href="/gynecology">Obstetrics & Gynecology</a></li>
@@ -124,15 +125,16 @@
               <li><a href="/ent">ENT</a></li>
               <li><a href="/anesthesiology">Anesthesia</a></li>
               <li><a href="/oncology">Onco Surgery</a></li>
+              <li><a href="/neurosurgery">Neurosurgery</a></li>
             </ul>
           </div>
         </li>
-        <li><a href="/doctors.php">Our Experts</a></li>
-        <li><a href="/gallery.php">Gallery</a></li>
+        <li><a href="/doctors">Our Experts</a></li>
+        <li><a href="/gallery">Gallery</a></li>
         <li><a href="/blog/">Blog</a></li>
-        <li><a href="/empanelments.php">Empanelments</a></li>
-        <li><a href="/faq.php">FAQs</a></li>
-        <li><a href="/index.php#contact">Contact Us</a></li>
+        <li><a href="/empanelments">Empanelments</a></li>
+        <li><a href="/faq">FAQs</a></li>
+        <li><a href="/#contact">Contact Us</a></li>
       </ul>
       <div class="mt-5 pt-4 border-top">
         <h6 class="text-uppercase text-muted mb-3">Emergency Support</h6>
@@ -144,7 +146,7 @@
 
 
 <!-- HERO BANNER -->
-<div class="dp-page dp-theme-surgical">
+<div class="dp-page dp-theme-clinical">
 <section class="dp-hero">
   <!-- Background Image & Overlay -->
   <div class="dp-hero-bg">
@@ -164,7 +166,7 @@
         <span class="sep"><i class="fas fa-chevron-right"></i></span>
         <a href="/doctors.php">Our Experts</a>
         <span class="sep"><i class="fas fa-chevron-right"></i></span>
-        <span class="current">Dr. Sukirti Chauhan</span>
+        <span class="current">Dr. Sukruti Chauhan</span>
       </div>
     </div>
 
@@ -173,7 +175,7 @@
       <div class="col-lg-4 col-md-5">
         <div class="dp-photo-wrapper">
           <div class="dp-photo-card">
-            <img src="/images/sukirti-chauhan.jpg" alt="Dr. Sukirti Chauhan" onerror="this.src='/images/doc1.png'">
+            <img src="/images/sukirti-chauhan.jpg" alt="Dr. Sukruti Chauhan" onerror="this.src='/images/doc1.png'">
             <span class="dp-photo-badge"><i class="fas fa-award"></i> 10+ Years Exp</span>
           </div>
         </div>
@@ -183,11 +185,11 @@
       <div class="col-lg-8 col-md-7">
         <div class="dp-hero-content">
           <span class="dp-specialty-tag">
-            <i class="fas fa-stethoscope"></i> Obstetrics &amp; Gynaecology
+            <i class="fas fa-stethoscope"></i> Neurosurgery
           </span>
-          <h1 class="dp-hero-name">Dr. Sukirti Chauhan</h1>
-          <p class="dp-hero-degrees">MBBS, MS - Obs &amp; Gynaecology</p>
-          <p class="dp-hero-bio">Specialist Gynecologist expert in maternal health screenings, prenatal checks, and deliveries.</p>
+          <h1 class="dp-hero-name">Dr. Sukruti Chauhan</h1>
+          <p class="dp-hero-degrees">MBBS, MS (Neurosurgery) | Consultant Neurosurgeon</p>
+          <p class="dp-hero-bio">Dr. Sukruti Chauhan is a highly skilled Neurosurgeon at Sankalp Hospital, renowned for her expertise in treating complex brain and spinal disorders. She is dedicated to providing minimally invasive neurosurgical care and comprehensive neurological rehabilitation.</p>
 
           <div class="dp-stats-row">
             <div class="dp-stat-chip">
@@ -228,8 +230,8 @@
         <div class="dp-profile-card">
           <!-- Professional Profile -->
           <span class="dp-section-label"><i class="fas fa-circle"></i> Professional Profile</span>
-          <h2 class="dp-section-title">About Dr. Sukirti Chauhan</h2>
-          <p class="dp-profile-text">Dr. Sukirti Chauhan is a Specialist Gynecologist at Sankalp Hospital. She focuses on outpatient consultations, preventative maternal health screenings, prenatal checks, family planning, and handling both normal and assisted deliveries with extreme care.</p>
+          <h2 class="dp-section-title">About Dr. Sukruti Chauhan</h2>
+          <p class="dp-profile-text">Dr. Sukruti Chauhan brings years of specialized experience in neurosurgery, focusing on brain tumors, spinal trauma, and degenerative spine conditions. She is passionate about utilizing advanced neuro-navigation techniques to ensure precision and quicker recovery times for her patients. Dr. Chauhan is deeply committed to compassionate patient care and works closely with multidisciplinary teams to deliver holistic treatment.</p>
 
           <div class="dp-divider"></div>
 
@@ -237,11 +239,11 @@
           <span class="dp-section-label"><i class="fas fa-circle"></i> Clinical Expertise</span>
           <h2 class="dp-section-title">Specializations & Services</h2>
           <div class="dp-expertise-grid">
-            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Prenatal Diagnostics</span>
-            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Maternal Screening Panels</span>
-            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Normal Deliveries</span>
-            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Outpatient Gynaecology</span>
-            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Adolescent Gynae Counselling</span>
+            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Brain Tumor Surgery</span>
+            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Spinal Trauma &amp; Fixation</span>
+            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Microdiscectomy</span>
+            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Neuro-Navigation Techniques</span>
+            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Peripheral Nerve Surgery</span>
           </div>
 
           <!-- Credentials & Qualifications -->
@@ -254,7 +256,8 @@
             </div>
             <ul class="dp-qual-list">
                 <li>MBBS</li>
-                <li>MS - Obs &amp; Gynaecology</li>
+                <li>MS (Neurosurgery)</li>
+                <li>Consultant Neurosurgeon</li>
             </ul>
           </div>
         </div>
@@ -266,10 +269,10 @@
           <!-- Booking Form -->
           <div class="dp-book-card">
             <h3><i class="far fa-calendar-check me-2"></i> Request a Callback</h3>
-            <p class="dp-book-sub">Schedule a consultation with Dr. Sukirti Chauhan. Our coordinator will reach out to confirm.</p>
+            <p class="dp-book-sub">Schedule a consultation with Dr. Sukruti Chauhan. Our coordinator will reach out to confirm.</p>
             <form id="detailed-booking-form" class="appointment-form">
-              <input type="hidden" id="book-dept" value="obstetrics">
-              <input type="hidden" id="book-doc" value="Dr. Sukirti Chauhan">
+              <input type="hidden" id="book-dept" value="neurosurgery">
+              <input type="hidden" id="book-doc" value="Dr. Sukruti Chauhan">
               <div class="mb-3">
                 <label for="book-name" class="form-label">Patient Name</label>
                 <div class="input-group">
@@ -341,7 +344,7 @@
   <footer class="site-footer">
     <div class="container">
       <div class="row g-4">
-        <div class="col-lg-4">
+        <div class="col-lg-3 col-md-6">
           <div class="footer-widget">
             <img src="/logo.png" alt="Sankalp Hospital Logo" class="footer-logo mb-3">
             <p class="footer-desc">Sankalp Hospital is committed to providing premium, multi-specialty healthcare and assisted fertility services with class-leading medical infrastructure and care.</p>
@@ -353,24 +356,41 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-3 col-md-6">
           <div class="footer-widget">
             <h4>Quick Links</h4>
             <ul class="footer-links">
-              <li><a href="/index.php">Home</a></li>
-              <li><a href="/about.php">About Us</a></li>
-              <li><a href="/departments.php">Our Specialties</a></li>
-              <li><a href="/doctors.php">Meet Doctors</a></li>
-              <li><a href="/gallery.php">Image Gallery</a></li>
-              <li><a href="/empanelments.php">Empanelments & Cashless</a></li>
-              <li><a href="/faq.php">Support & FAQs</a></li>
-              <li><a href="/myths-facts.php">Myths & Facts</a></li>
-              <li><a href="/glossary.php">Medical Glossary</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About Us</a></li>
+              <li><a href="/departments">Our Specialties</a></li>
+              <li><a href="/doctors">Meet Doctors</a></li>
+              <li><a href="/blog/">Health Blog</a></li>
+              <li><a href="/empanelments">Empanelments & Cashless</a></li>
+              <li><a href="/faq">Support & FAQs</a></li>
+              <li><a href="/myths-facts">Myths & Facts</a></li>
+              <li><a href="/glossary">Medical Glossary</a></li>
+              <li><a href="/contact">Contact Us</a></li>
             </ul>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-widget">
+            <h4>Top Specialities</h4>
+            <ul class="footer-links">
+              <li><a href="/gynecology-hospital-in-ambikapur">Gynecology &amp; Obstetrics</a></li>
+              <li><a href="/ivf-treatment-in-ambikapur">IVF &amp; Fertility</a></li>
+              <li><a href="/orthopedic-hospital-in-ambikapur">Orthopaedics &amp; Joint Surgery</a></li>
+              <li><a href="/urology-hospital-in-ambikapur">Urology</a></li>
+              <li><a href="/ophthalmology-hospital-in-ambikapur">Ophthalmology</a></li>
+              <li><a href="/pediatric-hospital-in-ambikapur">Pediatrics &amp; NICU</a></li>
+              <li><a href="/ent-hospital-in-ambikapur">ENT</a></li>
+              <li><a href="/emergency-hospital-in-ambikapur">Emergency &amp; Trauma</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
           <div class="footer-widget">
             <h4>Reach Us</h4>
             <ul class="footer-contact">
