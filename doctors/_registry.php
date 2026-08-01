@@ -187,7 +187,7 @@ $doctorRegistry = [
         'specialty' => 'Obstetrics & Gynaecology',
         'degrees' => 'MBBS, MS (Obstetrics & Gynaecology) | Consultant Gynaecologist',
         'experience' => '10+ Years',
-        'img' => 'doc1.png',
+        'img' => 'rajshree-verma.jpg',
         'filters' => ['gynecology'],
     ],
     'dr-sonali-gupta' => [
@@ -205,5 +205,13 @@ $doctorRegistry = [
         'experience' => '10+ Years',
         'img' => 'doc1.png',
         'filters' => ['cardiology'],
+    ],
+    'dr-shradha-kinkar' => [
+        'name' => 'Dr. Shradha Kinkar',
+        'specialty' => 'Obstetrics & Gynaecology',
+        'degrees' => 'MBBS, NBEMS DGO | Consultant Gynaecologist',
+        'experience' => '5+ Years',
+        'img' => 'shradha-kinkar.jpg',
+        'filters' => ['gynecology'],
     ],
 ];

@@ -4,8 +4,8 @@
 <?php include_once __DIR__ . '/../includes/analytics.php'; ?>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dr. Tanay Goyal | Best Orthopaedics Specialist in Ambikapur | Sankalp Hospital</title>
-  <meta name="description" content="Consult Dr. Tanay Goyal, MBBS, MS (Orthopaedics) | Senior Orthopedic Surgeon at Sankalp Hospital in Ambikapur. Dr. Tanay Goyal is a highly skilled Orthopedic Surgeon at Sankalp Hospital. He is an expert in joint replacement and sports injuries, having performed hundreds of successful knee and hip surgeries. He is dedicated to restoring mobility for his patients in the Surguja region.">
+  <title>Dr. Shradha Kinkar | Best Obstetrics & Gynaecology Specialist in Ambikapur | Sankalp Hospital</title>
+  <meta name="description" content="Consult Dr. Shradha Kinkar, MBBS, NBEMS DGO | Consultant Gynaecologist at Sankalp Hospital in Ambikapur. Dr. Shradha Kinkar is a dedicated Consultant Gynaecologist at Sankalp Hospital, offering expert care in women's health, pregnancy management, and obstetric emergencies.">
 
   <!-- CSS CDNs -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -166,7 +166,7 @@
         <span class="sep"><i class="fas fa-chevron-right"></i></span>
         <a href="/doctors.php">Our Experts</a>
         <span class="sep"><i class="fas fa-chevron-right"></i></span>
-        <span class="current">Dr. Tanay Goyal</span>
+        <span class="current">Dr. Shradha Kinkar</span>
       </div>
     </div>
 
@@ -175,8 +175,8 @@
       <div class="col-lg-4 col-md-5">
         <div class="dp-photo-wrapper">
           <div class="dp-photo-card">
-            <img src="/images/tanay-goyal.jpg" alt="Dr. Tanay Goyal" onerror="this.src='/images/doc1.png'">
-            <span class="dp-photo-badge"><i class="fas fa-award"></i> 10+ Years Exp</span>
+            <img src="/images/shradha-kinkar.jpg" alt="Dr. Shradha Kinkar" onerror="this.src='/images/doc1.png'">
+            <span class="dp-photo-badge"><i class="fas fa-award"></i> 5+ Years Exp</span>
           </div>
         </div>
       </div>
@@ -185,17 +185,17 @@
       <div class="col-lg-8 col-md-7">
         <div class="dp-hero-content">
           <span class="dp-specialty-tag">
-            <i class="fas fa-stethoscope"></i> Orthopaedics
+            <i class="fas fa-stethoscope"></i> Obstetrics &amp; Gynaecology
           </span>
-          <h1 class="dp-hero-name">Dr. Tanay Goyal</h1>
-          <p class="dp-hero-degrees">MBBS, MS (Orthopaedics) | Senior Orthopedic Surgeon</p>
-          <p class="dp-hero-bio">Dr. Tanay Goyal is a highly skilled Orthopedic Surgeon at Sankalp Hospital. He is an expert in joint replacement and sports injuries, having performed hundreds of successful knee and hip surgeries. He is dedicated to restoring mobility for his patients in the Surguja region.</p>
+          <h1 class="dp-hero-name">Dr. Shradha Kinkar</h1>
+          <p class="dp-hero-degrees">MBBS, NBEMS DGO | Consultant Gynaecologist</p>
+          <p class="dp-hero-bio">Dr. Shradha Kinkar is a dedicated Consultant Gynaecologist at Sankalp Hospital, offering expert care in women&#039;s health, pregnancy management, and obstetric emergencies.</p>
 
           <div class="dp-stats-row">
             <div class="dp-stat-chip">
               <div class="chip-icon icon-exp"><i class="fas fa-award"></i></div>
               <div class="chip-text">
-                <strong>10+ Years</strong>
+                <strong>5+ Years</strong>
                 <span>Experience</span>
               </div>
             </div>
@@ -230,8 +230,8 @@
         <div class="dp-profile-card">
           <!-- Professional Profile -->
           <span class="dp-section-label"><i class="fas fa-circle"></i> Professional Profile</span>
-          <h2 class="dp-section-title">About Dr. Tanay Goyal</h2>
-          <p class="dp-profile-text"></p>
+          <h2 class="dp-section-title">About Dr. Shradha Kinkar</h2>
+          <p class="dp-profile-text">Dr. Shradha Kinkar completed her MBBS from PDM Medical College, Amravati, and pursued her NBEMS DGO from DH Surajpur. She brings a compassionate and evidence-based approach to obstetric and gynecological care. Dr. Kinkar is highly skilled in managing normal and high-risk pregnancies, performing preventive health screenings for women, and diagnosing various gynecological conditions. She is deeply committed to ensuring safe deliveries and promoting women&#039;s overall well-being in the Ambikapur region.</p>
 
           <div class="dp-divider"></div>
 
@@ -239,11 +239,11 @@
           <span class="dp-section-label"><i class="fas fa-circle"></i> Clinical Expertise</span>
           <h2 class="dp-section-title">Specializations & Services</h2>
           <div class="dp-expertise-grid">
-            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Joint Replacement</span>
-            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> ACL &amp; Sports Injury</span>
-            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Fracture Management</span>
-            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Spine Surgery</span>
-            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Arthroscopy</span>
+            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Normal &amp; High-Risk Pregnancy</span>
+            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Preventive Women&#039;s Health</span>
+            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Obstetric Emergencies</span>
+            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Menstrual Disorders</span>
+            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Family Planning &amp; Counseling</span>
           </div>
 
           <!-- Credentials & Qualifications -->
@@ -256,8 +256,8 @@
             </div>
             <ul class="dp-qual-list">
                 <li>MBBS</li>
-                <li>MS (Orthopaedics)</li>
-                <li>Senior Orthopedic Surgeon</li>
+                <li>NBEMS DGO</li>
+                <li>Consultant Gynaecologist</li>
             </ul>
           </div>
         </div>
@@ -269,10 +269,10 @@
           <!-- Booking Form -->
           <div class="dp-book-card">
             <h3><i class="far fa-calendar-check me-2"></i> Request a Callback</h3>
-            <p class="dp-book-sub">Schedule a consultation with Dr. Tanay Goyal. Our coordinator will reach out to confirm.</p>
+            <p class="dp-book-sub">Schedule a consultation with Dr. Shradha Kinkar. Our coordinator will reach out to confirm.</p>
             <form id="detailed-booking-form" class="appointment-form">
-              <input type="hidden" id="book-dept" value="orthopaedics">
-              <input type="hidden" id="book-doc" value="Dr. Tanay Goyal">
+              <input type="hidden" id="book-dept" value="obstetrics">
+              <input type="hidden" id="book-doc" value="Dr. Shradha Kinkar">
               <div class="mb-3">
                 <label for="book-name" class="form-label">Patient Name</label>
                 <div class="input-group">

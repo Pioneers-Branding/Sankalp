@@ -9,7 +9,7 @@
 
   <!-- CSS CDNs -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdnjsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.0/css/all.min.css" rel="stylesheet">
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="/style.css">
@@ -175,7 +175,7 @@
       <div class="col-lg-4 col-md-5">
         <div class="dp-photo-wrapper">
           <div class="dp-photo-card">
-            <img src="/images/doc1.png" alt="Dr. Rajshree Verma" onerror="this.src='/images/doc1.png'">
+            <img src="/images/rajshree-verma.jpg" alt="Dr. Rajshree Verma" onerror="this.src='/images/doc1.png'">
             <span class="dp-photo-badge"><i class="fas fa-award"></i> 10+ Years Exp</span>
           </div>
         </div>
@@ -349,9 +349,9 @@
             <img src="/logo.png" alt="Sankalp Hospital Logo" class="footer-logo mb-3">
             <p class="footer-desc">Sankalp Hospital is committed to providing premium, multi-specialty healthcare and assisted fertility services with class-leading medical infrastructure and care.</p>
             <div class="footer-socials">
-              <a href="https://www.facebook.com/sankalphospitals/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-              <a href="https://www.instagram.com/sankalphospitals/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-              <a href="https://www.youtube.com/channel/UCWGjgpakHsg7z4qMbXBSK_w" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+              <a href="https://www.facebook.com/sankalphospitals/" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/sankalphospitals/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.youtube.com/channel/UCWGjgpakHsg7z4qMbXBSK_w" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
             </div>
           </div>
         </div>

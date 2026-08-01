@@ -8,7 +8,8 @@ $doctorsList=[
     'gynecology'  =>[
         ['name'=>'Dr. Lata Goyal','degrees'=>'MBBS, MS - Obs & Gynaecology','bio'=>'Senior Consultant & IVF Specialist with 15+ years of care in high-risk obstetrics and reproductive endocrinology.','img'=>'lata-goyal.jpg'],
         ['name'=>'Dr. Ankita Bansal Goyal','degrees'=>'MD (Obs & Gynae) - PGIMER CHD, FMAS','bio'=>'Gold-medalist Gynaecologist and pioneer of 3D laparoscopic keyhole surgery in Ambikapur.','img'=>'doc2.png'],
-        ['name'=>'Dr. Sukirti Chauhan','degrees'=>'MBBS, MS - Obs & Gynaecology','bio'=>'Specialist Gynecologist expert in maternal health screenings, prenatal checks, and deliveries.','img'=>'doc2.png']
+        ['name'=>'Dr. Rajshree Verma','degrees'=>'MBBS, MS - Obs & Gynaecology','bio'=>'Consultant Gynaecologist specializing in high-risk pregnancies and minimally invasive gynecological surgeries.','img'=>'rajshree-verma.jpg'],
+        ['name'=>'Dr. Shradha Kinkar','degrees'=>'MBBS, NBEMS DGO','bio'=>'Consultant Gynaecologist offering expert care in women\'s health, pregnancy management, and obstetric emergencies.','img'=>'shradha-kinkar.jpg']
     ],
     'ivf'         =>[
         ['name'=>'Dr. Lata Goyal','degrees'=>'MBBS, MS - Obs & Gynaecology','bio'=>'Lead reproductive endocrinologist with extensive expertise in IVF stimulation and ART treatments.','img'=>'lata-goyal.jpg'],
@@ -36,9 +37,10 @@ $doctorsList=[
     ],
     'surgery'     =>[
         ['name'=>'Dr. Nilesh Goyal','degrees'=>'MBBS, MS - General Surgery','bio'=>'Consultant General and Laparoscopic Surgeon specializing in minimally invasive keyhole procedures.','img'=>'doc3.png'],
-        ['name'=>'Dr. Chandra Mukesh Dhawde','degrees'=>'MBBS, MS - Laparoscopic Surgeon','bio'=>'Expert in laparoscopic keyhole surgery, hernia treatment, and general abdominal surgeries.','img'=>'chandra-dhawde.jpg']
+        ['name'=>'Dr. Manoj Bharti','degrees'=>'MBBS, MS - General & Laparoscopic Surgery','bio'=>'Experienced General and Laparoscopic Surgeon with expertise in complex abdominal surgeries and trauma care.','img'=>'doc1.png']
     ],
     'neurosurgery'=>[
+        ['name'=>'Dr. Sukruti Chauhan','degrees'=>'MBBS, MS - Neurosurgery','bio'=>'Consultant Neurosurgeon highly skilled in treating complex brain and spinal disorders.','img'=>'sukirti-chauhan.jpg'],
         ['name'=>'On-Call Neurosurgery Team','degrees'=>'MCh - Neurosurgery','bio'=>'Expert neurosurgeons available for advanced brain and spine surgeries with precision-guided techniques.','img'=>'dp']
     ],
     'emergency'   =>[

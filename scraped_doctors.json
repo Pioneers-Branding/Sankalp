@@ -313,7 +313,7 @@
         "specialty": "Obstetrics & Gynaecology",
         "degrees": "MBBS, MS (Obstetrics & Gynaecology) | Consultant Gynaecologist",
         "experience": "10+ Years",
-        "img": "doc1.png",
+        "img": "rajshree-verma.jpg",
         "bio": "Dr. Rajshree Verma is a compassionate Consultant Gynaecologist and Obstetrician, specializing in high-risk pregnancies, adolescent gynecology, and minimally invasive gynecological surgeries.",
         "long_bio": "With over a decade of clinical experience, Dr. Rajshree Verma provides comprehensive healthcare for women at every stage of life. She is an advocate for preventive maternal care and is highly skilled in managing complex obstetric emergencies. Dr. Verma is known for her empathetic patient communication and her dedication to promoting women's health and wellness in the community.",
         "expertise": [
@@ -354,6 +354,22 @@
             "Heart Failure Management",
             "Hypertension & Lipid Management",
             "Preventive Cardiology"
+        ]
+    },
+    "dr-shradha-kinkar": {
+        "name": "Dr. Shradha Kinkar",
+        "specialty": "Obstetrics & Gynaecology",
+        "degrees": "MBBS, NBEMS DGO | Consultant Gynaecologist",
+        "experience": "5+ Years",
+        "img": "shradha-kinkar.jpg",
+        "bio": "Dr. Shradha Kinkar is a dedicated Consultant Gynaecologist at Sankalp Hospital, offering expert care in women's health, pregnancy management, and obstetric emergencies.",
+        "long_bio": "Dr. Shradha Kinkar completed her MBBS from PDM Medical College, Amravati, and pursued her NBEMS DGO from DH Surajpur. She brings a compassionate and evidence-based approach to obstetric and gynecological care. Dr. Kinkar is highly skilled in managing normal and high-risk pregnancies, performing preventive health screenings for women, and diagnosing various gynecological conditions. She is deeply committed to ensuring safe deliveries and promoting women's overall well-being in the Ambikapur region.",
+        "expertise": [
+            "Normal & High-Risk Pregnancy",
+            "Preventive Women's Health",
+            "Obstetric Emergencies",
+            "Menstrual Disorders",
+            "Family Planning & Counseling"
         ]
     }
 }
