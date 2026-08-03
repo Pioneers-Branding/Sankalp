@@ -58,3 +58,7 @@ Redirect 301 /departments/oral-surgery /maxillofacial-surgery-hospital-in-ambika
 # Old page redirects
 Redirect 301 /departments.php /departments
 Redirect 301 /contact.php /contact
+
+# Redirect all product URLs to homepage
+RedirectMatch 301 ^/product/ /
+
