@@ -32,6 +32,10 @@
     })();
   </script>
   
+<?php if (basename($_SERVER['PHP_SELF']) === 'blogs.php' || strpos($_SERVER['REQUEST_URI'], '/blog/') !== false) : ?>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4910239000711715"
+     crossorigin="anonymous"></script>
+<?php endif; ?>
 </head>
 <body data-bs-spy="scroll" data-bs-target="#scroll-spy" data-bs-offset="90">
 <div class="page-wrapper">
