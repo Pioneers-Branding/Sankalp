@@ -24,13 +24,13 @@ $deptVids = isset($deptVideoCats[$deptKey]) ? sankalp_videos_by_cat($deptVideoCa
 $doctorsList=[
     'gynecology'  =>[
         ['name'=>'Dr. Lata Goyal','degrees'=>'MBBS, MS - Obs & Gynaecology','bio'=>'Senior Consultant & IVF Specialist with 15+ years of care in high-risk obstetrics and reproductive endocrinology.','img'=>'lata-goyal.jpg'],
-        ['name'=>'Dr. Ankita Bansal Goyal','degrees'=>'MD (Obs & Gynae) - PGIMER CHD, FMAS','bio'=>'Gold-medalist Gynaecologist and pioneer of 3D laparoscopic keyhole surgery in Ambikapur.','img'=>'doc2.png'],
+        ['name'=>'Dr. Ankita Bansal Goyal','degrees'=>'MD (Obs & Gynae) - PGIMER CHD, FMAS','bio'=>'Gold-medalist Gynaecologist and pioneer of 3D laparoscopic keyhole surgery in Ambikapur.','img'=>'ankita-goyal.jpg'],
         ['name'=>'Dr. Rajshree Verma','degrees'=>'MBBS, MS - Obs & Gynaecology','bio'=>'Consultant Gynaecologist specializing in high-risk pregnancies and minimally invasive gynecological surgeries.','img'=>'rajshree-verma.jpg'],
         ['name'=>'Dr. Shradha Kinkar','degrees'=>'MBBS, NBEMS DGO','bio'=>'Consultant Gynaecologist offering expert care in women\'s health, pregnancy management, and obstetric emergencies.','img'=>'shradha-kinkar.jpg']
     ],
     'ivf'         =>[
         ['name'=>'Dr. Lata Goyal','degrees'=>'MBBS, MS - Obs & Gynaecology','bio'=>'Lead reproductive endocrinologist with extensive expertise in IVF stimulation and ART treatments.','img'=>'lata-goyal.jpg'],
-        ['name'=>'Dr. Ankita Bansal Goyal','degrees'=>'MD (Obs & Gynae) - PGIMER CHD, FMAS','bio'=>'Clinical embryologist and surgeon specializing in advanced IVF and fertility procedures.','img'=>'doc2.png']
+        ['name'=>'Dr. Ankita Bansal Goyal','degrees'=>'MD (Obs & Gynae) - PGIMER CHD, FMAS','bio'=>'Clinical embryologist and surgeon specializing in advanced IVF and fertility procedures.','img'=>'ankita-goyal.jpg']
     ],
     'orthopedics' =>[
         ['name'=>'Dr. Tanay Goyal','degrees'=>'MBBS, MS - Orthopaedics','bio'=>'Senior Orthopedic Surgeon specializing in joint replacement, sports trauma, and spinal surgeries.','img'=>'tanay-goyal.jpg']
@@ -40,21 +40,21 @@ $doctorsList=[
     ],
     'ophthalmology'=>[
         ['name'=>'Dr. Sanjay Goyal','degrees'=>'MBBS, MS - Ophthalmology','bio'=>'Founder & Senior Eye Surgeon with 25+ years of experience pioneering advanced cataract and LASIK surgeries.','img'=>'sanjay-goyal.jpg'],
-        ['name'=>'Dr. Akshaya Goyal','degrees'=>'MBBS, MS - Ophthalmology','bio'=>'Consultant Ophthalmologist specializing in modern cataract surgeries and glaucoma therapies.','img'=>'doc2.png']
+        ['name'=>'Dr. Akshaya Goyal','degrees'=>'MBBS, MS - Ophthalmology','bio'=>'Consultant Ophthalmologist specializing in modern cataract surgeries and glaucoma therapies.','img'=>'akshaya-goyal.jpg']
     ],
     'pediatrics'  =>[
-        ['name'=>'Dr. Ankit Gupta','degrees'=>'MBBS, DCH - Pediatrician','bio'=>'Senior Consultant Pediatrician providing comprehensive outpatient child care and NICU support.','img'=>'doc4.png'],
-        ['name'=>'Dr. Megha Goyal','degrees'=>'MBBS, MD - Pediatrics','bio'=>'Consultant Neonatologist specialized in level-III NICU care for premature newborns and babies.','img'=>'doc1.png']
+        ['name'=>'Dr. Ankit Gupta','degrees'=>'MBBS, DCH - Pediatrician','bio'=>'Senior Consultant Pediatrician providing comprehensive outpatient child care and NICU support.','img'=>'ankit-gupta.jpg'],
+        ['name'=>'Dr. Megha Goyal','degrees'=>'MBBS, MD - Pediatrics','bio'=>'Consultant Neonatologist specialized in level-III NICU care for premature newborns and babies.','img'=>'megha-goyal.jpg']
     ],
     'psychiatry'  =>[
-        ['name'=>'Dr. Ankit Sharma','degrees'=>'MBBS, MD - Psychiatry','bio'=>'Consultant Psychiatrist providing professional counseling and therapy for stress, anxiety, and depression.','img'=>'doc3.png']
+        ['name'=>'Dr. Ankit Sharma','degrees'=>'MBBS, MD - Psychiatry','bio'=>'Consultant Psychiatrist providing professional counseling and therapy for stress, anxiety, and depression.','img'=>'ankit-sharma.jpg']
     ],
     'oncology'    =>[
         ['name'=>'Dr. Himanshu Gupta','degrees'=>'MBBS, MD / DNB - Medical Oncology','bio'=>'Cancer & Chemotherapy Specialist coordinating tumor chemotherapies and cancer screening packages.','img'=>'himanshu-gupta.jpg']
     ],
     'surgery'     =>[
-        ['name'=>'Dr. Nilesh Goyal','degrees'=>'MBBS, MS - General Surgery','bio'=>'Consultant General and Laparoscopic Surgeon specializing in minimally invasive keyhole procedures.','img'=>'doc3.png'],
-        ['name'=>'Dr. Manoj Bharti','degrees'=>'MBBS, MS - General & Laparoscopic Surgery','bio'=>'Experienced General and Laparoscopic Surgeon with expertise in complex abdominal surgeries and trauma care.','img'=>'doc1.png']
+        ['name'=>'Dr. Nilesh Goyal','degrees'=>'MBBS, MS - General Surgery','bio'=>'Consultant General and Laparoscopic Surgeon specializing in minimally invasive keyhole procedures.','img'=>'nilesh-goyal.jpg'],
+        ['name'=>'Dr. Manoj Bharti','degrees'=>'MBBS, MS - General & Laparoscopic Surgery','bio'=>'Experienced General and Laparoscopic Surgeon with expertise in complex abdominal surgeries and trauma care.','img'=>'manoj-bharti.jpg']
     ],
     'neurosurgery'=>[
         ['name'=>'Dr. Sukruti Chauhan','degrees'=>'MBBS, MS - Neurosurgery','bio'=>'Consultant Neurosurgeon highly skilled in treating complex brain and spinal disorders.','img'=>'sukirti-chauhan.jpg'],
@@ -64,7 +64,7 @@ $doctorsList=[
         ['name'=>'On-Duty Emergency Team','degrees'=>'Emergency Medical Officers','bio'=>'Qualified trauma nurses and emergency physicians staffed round-the-clock for critical triage.','img'=>'dp']
     ],
     'ent'         =>[
-        ['name'=>'Dr. Usha Armo','degrees'=>'MBBS, MS - ENT','bio'=>'Senior ENT Consultant proficient in endoscopic sinus surgeries and micro-ear treatments.','img'=>'doc2.png']
+        ['name'=>'Dr. Usha Armo','degrees'=>'MBBS, MS - ENT','bio'=>'Senior ENT Consultant proficient in endoscopic sinus surgeries and micro-ear treatments.','img'=>'usha-armo.jpg']
     ],
     'anesthesia'  =>[
         ['name'=>'On-Call Anesthesia Specialists','degrees'=>'Consultant Anaesthetists','bio'=>'Qualified anesthesiologists available for surgical sedation and pain management protocols.','img'=>'dp']

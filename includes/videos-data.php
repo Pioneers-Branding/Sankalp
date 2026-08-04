@@ -2,7 +2,7 @@
 /**
  * Sankalp Hospital — central YouTube video catalog + embed helpers.
  * Channel: SANKALP HOSPITAL AMBIKAPUR (UCWGjgpakHsg7z4qMbXBSK_w)
- * 185 videos catalogued Aug 2026, tagged by clinical topic so the
+ * 186 videos catalogued Aug 2026, tagged by clinical topic so the
  * right videos can be embedded on service pages, blog posts and the gallery.
  *
  * Update videos HERE (never inline on a page). Helpers:
@@ -115,6 +115,7 @@ function sankalp_all_videos() {
   ['id'=>'nW6etqnTKHA','t'=>'v','tags'=>['infection'],'title'=>'Dr.Lata Goyal Talks About Corona Virus || Sankalp Hospital Ambikapur'],
   ['id'=>'v4c51_99LiE','t'=>'v','tags'=>['laparoscopy'],'title'=>'Advanced Laparoscopy Surgery @ Sankalp Hospital Ambikapur'],
   ['id'=>'r5hNS7o6h7c','t'=>'v','tags'=>['laparoscopy'],'title'=>'Advanced Laparoscopic Surgery @ Sankalp Hospital, Ambikapur'],
+  ['id'=>'FCHuhS2jRBo','t'=>'s','tags'=>['pregnancy'],'title'=>'Pregnancy में ये 4 Scans Miss किए तो हो सकती है बड़ी गलती! | Dr Ankita Bansal Goyal'],
   ['id'=>'7IWkZOo4OQg','t'=>'s','tags'=>['gynecology','ivf','pediatrics'],'title'=>'क्या बिना बच्चेदानी के भी माँ बनना संभव है | Fertility Options Explained | Dr Ankita'],
   ['id'=>'ExDkXYWqb6Y','t'=>'s','tags'=>['pregnancy'],'title'=>'July-August में Pregnant हैं? | क्या आप Rainy Season में Pregnant हैं? | Dr Ankita Goyal'],
   ['id'=>'6rglaNdpgOQ','t'=>'s','tags'=>['gynecology'],'title'=>'Periods Pain का असली कारण क्या है? | Period Cramps | Period pain'],
