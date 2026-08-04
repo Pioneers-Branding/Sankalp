@@ -4,10 +4,35 @@ $pageDesc = "Watch videos of Sankalp Hospital - virtual tours, patient testimoni
 
 include __DIR__ . '/includes/header.php';
 include __DIR__ . '/includes/navbar.php';
+require_once __DIR__ . '/includes/videos-data.php';
 
 // Featured channel details
 $channel_id = 'UCWGjgpakHsg7z4qMbXBSK_w';
-$rss_url = "https://www.youtube.com/feeds/videos.xml?channel_id=$channel_id";
+
+// Full local catalog (no RSS dependency — reliable & complete)
+$allVids = sankalp_all_videos();
+$totalVids = count($allVids);
+
+// Topic filters (key => label). Only show a filter if the catalog has matches.
+$gvCats = [
+  'gynecology'   => 'Gynecology',
+  'pregnancy'    => 'Pregnancy &amp; Delivery',
+  'ivf'          => 'IVF &amp; Fertility',
+  'orthopedics'  => 'Orthopedics',
+  'ophthalmology'=> 'Eye Care',
+  'pediatrics'   => 'Child Care',
+  'neurosurgery' => 'Neuro &amp; Brain',
+  'emergency'    => 'Emergency &amp; ICU',
+  'laparoscopy'  => 'Laparoscopy',
+  'diabetes'     => 'Diabetes',
+  'dialysis'     => 'Dialysis',
+  'japa'         => 'Japa Sakhi',
+  'testimonial'  => 'Patient Stories',
+];
+// keep only filters that have at least one video
+$tagCounts = [];
+foreach ($allVids as $v) foreach ($v['tags'] as $t) $tagCounts[$t] = ($tagCounts[$t] ?? 0) + 1;
+$gvCats = array_filter($gvCats, function($k) use ($tagCounts){ return !empty($tagCounts[$k]); }, ARRAY_FILTER_USE_KEY);
 ?>
 
 <style>
@@ -26,48 +51,17 @@ $rss_url = "https://www.youtube.com/feeds/videos.xml?channel_id=$channel_id";
   width: 100%;
   height: 100%;
 }
-.yt-card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border: 1px solid rgba(0,0,0,0.05);
+/* Filter pills */
+.gv-filter-btn{
+  border:1.5px solid #e2e8f0;background:#fff;color:#334155;
+  font-size:0.82rem;font-weight:700;padding:9px 18px;border-radius:50px;
+  cursor:pointer;transition:all .25s ease;white-space:nowrap;
 }
-.yt-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 30px rgba(0,0,0,0.08) !important;
-}
-.yt-thumb-wrapper {
-  position: relative;
-  padding-bottom: 56.25%;
-  overflow: hidden;
-}
-.yt-thumb-wrapper img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.yt-play-btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(225, 29, 72, 0.9);
-  color: #fff;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.25rem;
-  box-shadow: 0 5px 15px rgba(225, 29, 72, 0.4);
-  transition: background 0.2s, transform 0.2s;
-}
-.yt-card:hover .yt-play-btn {
-  background: rgba(225, 29, 72, 1);
-  transform: translate(-50%, -50%) scale(1.1);
-}
+.gv-filter-btn:hover{border-color:#e11d48;color:#e11d48;}
+.gv-filter-btn.active{background:#e11d48;border-color:#e11d48;color:#fff;box-shadow:0 8px 20px rgba(225,29,72,0.28);}
+.gv-item{min-width:0;}
+.gv-item.gv-hide{display:none;}
+.gv-count{font-size:0.85rem;color:#64748b;font-weight:600;}
 </style>
 
 <!-- SUBPAGE HERO BANNER -->
@@ -113,73 +107,68 @@ $rss_url = "https://www.youtube.com/feeds/videos.xml?channel_id=$channel_id";
       </div>
     </div>
 
-    <!-- YouTube Feed -->
-    <div class="row g-4 mt-2">
-      <div class="col-12 text-center mb-4">
-        <h3 class="fw-bold text-dark">Latest Videos from Our Channel</h3>
-        <p class="text-muted">Stay updated with fresh health content and clinical tips.</p>
-      </div>
+    <!-- Full Video Library (filterable, from local catalog) -->
+    <div class="text-center mb-4">
+      <h3 class="fw-bold text-dark">Explore Our Full Video Library</h3>
+      <p class="text-muted mb-1">Browse <?php echo $totalVids; ?> health videos by topic — tips, treatment explainers and real patient stories.</p>
+      <span class="gv-count" id="gvCount"></span>
+    </div>
 
-      <?php
-      // Fetch and parse RSS feed for individual video cards
-      $xml = @simplexml_load_file($rss_url);
+    <!-- Filter pills -->
+    <div class="gv-filters d-flex flex-wrap justify-content-center gap-2 mb-4">
+      <button type="button" class="gv-filter-btn active" data-filter="all">All Videos</button>
+      <?php foreach ($gvCats as $k => $label): ?>
+      <button type="button" class="gv-filter-btn" data-filter="<?php echo $k; ?>"><?php echo $label; ?></button>
+      <?php endforeach; ?>
+      <button type="button" class="gv-filter-btn" data-filter="short">Shorts</button>
+    </div>
 
-      if ($xml && isset($xml->entry)) {
-          $count = 0;
-          foreach ($xml->entry as $entry) {
-              if ($count >= 9) break;
-
-              $video_id = '';
-              foreach ($entry->link as $link) {
-                  if ($link['rel'] == 'alternate') {
-                      parse_str(parse_url($link['href'], PHP_URL_QUERY), $url_params);
-                      $video_id = $url_params['v'] ?? '';
-                      break;
-                  }
-              }
-
-              if (!$video_id) {
-                  $video_id = str_replace('yt:video:', '', (string)$entry->id);
-              }
-
-              $title = (string)$entry->title;
-              $published = date('M d, Y', strtotime((string)$entry->published));
-              $thumbnail = "https://img.youtube.com/vi/$video_id/maxresdefault.jpg";
-              ?>
-              <div class="col-md-6 col-lg-4">
-                <div class="card h-100 yt-card rounded-4 bg-white overflow-hidden shadow-sm border-0">
-                  <div class="yt-thumb-wrapper">
-                    <img src="<?php echo $thumbnail; ?>" alt="<?php echo htmlspecialchars($title); ?>">
-                    <a href="https://www.youtube.com/watch?v=<?php echo $video_id; ?>" target="_blank" class="yt-play-btn" aria-label="Play Video">
-                      <i class="fas fa-play"></i>
-                    </a>
-                  </div>
-                  <div class="card-body p-4">
-                    <span class="text-primary small fw-bold mb-2 d-inline-block"><i class="far fa-calendar-alt me-1"></i> <?php echo $published; ?></span>
-                    <h5 class="fw-bold text-dark lh-base" style="font-size: 1.05rem;"><?php echo htmlspecialchars($title); ?></h5>
-                  </div>
-                </div>
-              </div>
-              <?php
-              $count++;
-          }
-      } else {
-          // Fallback if RSS fails
-          ?>
-          <div class="col-12 text-center py-5">
-            <i class="fab fa-youtube fs-1 text-danger mb-3"></i>
-            <h5 class="fw-bold">Visit Our YouTube Channel</h5>
-            <p class="text-muted">Could not load feed. You can explore all our videos directly on YouTube.</p>
-            <a href="https://www.youtube.com/channel/UCWGjgpakHsg7z4qMbXBSK_w" target="_blank" class="btn btn-danger py-3 px-5 rounded-pill border-0 shadow"><i class="fab fa-youtube me-2"></i> Subscribe Now</a>
-          </div>
-          <?php
-      }
+    <?php echo sankalp_video_assets(); ?>
+    <div class="sk-vid-grid gv-grid">
+      <?php foreach ($allVids as $v):
+        $tagAttr = implode(' ', $v['tags']) . ' ' . ($v['t'] === 's' ? 'short' : 'longform');
       ?>
+      <div class="gv-item" data-tags="<?php echo htmlspecialchars($tagAttr, ENT_QUOTES); ?>">
+        <?php echo sankalp_video_facade($v['id'], $v['title']); ?>
+      </div>
+      <?php endforeach; ?>
+    </div>
+
+    <div class="text-center mt-5">
+      <a href="<?php echo sankalp_channel_url(); ?>" target="_blank" rel="noopener" class="btn btn-danger py-3 px-5 rounded-pill border-0 shadow">
+        <i class="fab fa-youtube me-2"></i> Subscribe on YouTube
+      </a>
     </div>
   </div>
 </section>
 
-<!-- YouTube Subscribe script -->
+<script>
+(function(){
+  var buttons = document.querySelectorAll('.gv-filter-btn');
+  var items = Array.prototype.slice.call(document.querySelectorAll('.gv-item'));
+  var countEl = document.getElementById('gvCount');
+  function apply(filter){
+    var shown = 0;
+    items.forEach(function(it){
+      var tags = ' ' + (it.getAttribute('data-tags') || '') + ' ';
+      var match = (filter === 'all') || tags.indexOf(' ' + filter + ' ') !== -1;
+      it.classList.toggle('gv-hide', !match);
+      if (match) shown++;
+    });
+    if (countEl) countEl.textContent = 'Showing ' + shown + ' video' + (shown === 1 ? '' : 's');
+  }
+  buttons.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      buttons.forEach(function(b){ b.classList.remove('active'); });
+      btn.classList.add('active');
+      apply(btn.getAttribute('data-filter'));
+    });
+  });
+  apply('all');
+})();
+</script>
+
+<!-- YouTube platform script (subscribe widgets) -->
 <script src="https://apis.google.com/js/platform.js"></script>
 
 <?php include __DIR__ . '/includes/footer.php'; ?>

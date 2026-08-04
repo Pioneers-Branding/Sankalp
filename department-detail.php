@@ -4,6 +4,23 @@ require_once __DIR__.'/includes/departments-data.php';
 if(!isset($departments[$deptKey])){$deptKey='ophthalmology';}
 $dept=$departments[$deptKey];
 
+// ---- Related YouTube videos (central catalog: includes/videos-data.php) ----
+require_once __DIR__ . '/includes/videos-data.php';
+$deptVideoCats = [
+    'gynecology'   => ['gynecology','pregnancy'],
+    'ivf'          => ['ivf'],
+    'surgery'      => ['laparoscopy','gastro'],
+    'pediatrics'   => ['pediatrics'],
+    'orthopedics'  => ['orthopedics'],
+    'urology'      => ['urology','dialysis'],
+    'dialysis'     => ['dialysis'],
+    'ophthalmology'=> ['ophthalmology'],
+    'emergency'    => ['emergency'],
+    'neurosurgery' => ['neurosurgery'],
+    'oncology'     => ['cancer'],
+];
+$deptVids = isset($deptVideoCats[$deptKey]) ? sankalp_videos_by_cat($deptVideoCats[$deptKey], 3, true) : [];
+
 $doctorsList=[
     'gynecology'  =>[
         ['name'=>'Dr. Lata Goyal','degrees'=>'MBBS, MS - Obs & Gynaecology','bio'=>'Senior Consultant & IVF Specialist with 15+ years of care in high-risk obstetrics and reproductive endocrinology.','img'=>'lata-goyal.jpg'],
@@ -771,6 +788,7 @@ include __DIR__.'/includes/navbar.php';
         <li><a href="#procedures">Procedures</a></li>
         <li><a href="#why-choose">Why Us</a></li>
         <li><a href="#doctors">Doctors</a></li>
+        <?php if(!empty($deptVids)): ?><li><a href="#videos">Videos</a></li><?php endif; ?>
         <li><a href="#faqs">FAQs</a></li>
         <li><a href="#appointment">Appointment</a></li>
     </ul>
@@ -1068,6 +1086,29 @@ if (!empty($relatedArticles)): ?>
     </div>
 </section>
 <style>#related-articles .dd-article-card:hover{transform:translateY(-4px);box-shadow:0 14px 34px rgba(0,0,0,0.09);}</style>
+<?php endif; ?>
+
+<!-- DOCTOR VIDEOS (central catalog: includes/videos-data.php) -->
+<?php if(!empty($deptVids)): ?>
+<section class="dd-section dd-bg-light" id="videos">
+    <div class="container">
+        <div class="dd-eyebrow"><div class="bar"></div> Video Library</div>
+        <h2 class="dd-h2">Watch: <?php echo htmlspecialchars($dept['title']); ?> Videos</h2>
+        <p class="dd-sub">Treatment explainers, health tips and real patient stories from our <?php echo htmlspecialchars($dept['title']); ?> specialists.</p>
+        <?php echo sankalp_video_assets(); ?>
+        <div class="sk-vid-grid mt-4">
+            <?php foreach($deptVids as $v) echo sankalp_video_facade($v['id'], $v['title']); ?>
+        </div>
+        <div class="mt-4 d-flex flex-wrap gap-2">
+            <a href="<?php echo sankalp_channel_url(); ?>" target="_blank" rel="noopener" class="dd-doc-btn" style="width:auto;background:<?php echo $grad;?>;color:#fff;border-color:transparent;">
+                <i class="fab fa-youtube"></i> More on YouTube
+            </a>
+            <a href="/video-gallery" class="dd-doc-btn" style="width:auto;">
+                <i class="fas fa-photo-video"></i> Full Video Gallery
+            </a>
+        </div>
+    </div>
+</section>
 <?php endif; ?>
 
 <!-- APPOINTMENT -->

@@ -1,6 +1,9 @@
 Options -Indexes -MultiViews
 ServerSignature Off
 
+# Custom Error Pages
+ErrorDocument 404 /404.php
+
 <IfModule mod_headers.c>
     Header set X-Content-Type-Options "nosniff"
     Header set X-Frame-Options "SAMEORIGIN"

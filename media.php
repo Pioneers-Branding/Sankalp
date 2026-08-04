@@ -6,7 +6,7 @@
   <?php include 'includes/header-code.php'; ?>
 </head>
 <body>
-<?php include 'includes/header.php'; ?>
+<?php include 'includes/header.php'; require_once __DIR__ . '/includes/videos-data.php'; ?>
 <!-- PAGE HERO -->
 <section class="page-hero">
   <div class="container">
@@ -93,6 +93,28 @@
     </div>
   </div>
 </section>
+
+<!-- VIDEO COVERAGE STRIP (central catalog: includes/videos-data.php) -->
+<?php $featVids = sankalp_featured_videos(6); if (!empty($featVids)): ?>
+<section class="py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="badge bg-primary-soft text-primary px-3 py-2 rounded-pill text-uppercase mb-3"><i class="fab fa-youtube me-1"></i> Video Coverage</span>
+      <h2 class="section-title">Watch Sankalp Hospital in Action</h2>
+      <span class="section-divider"></span>
+      <p class="text-muted mt-3">Doctor interviews, treatment explainers and patient success stories from our YouTube channel.</p>
+    </div>
+    <?php echo sankalp_video_assets(); ?>
+    <div class="sk-vid-grid">
+      <?php foreach ($featVids as $v) echo sankalp_video_facade($v['id'], $v['title']); ?>
+    </div>
+    <div class="text-center mt-5">
+      <a href="/video-gallery" class="btn btn-primary px-4 py-3 rounded-pill me-2"><i class="fas fa-photo-video me-2"></i> Full Video Gallery</a>
+      <a href="<?php echo sankalp_channel_url(); ?>" target="_blank" rel="noopener" class="btn btn-danger px-4 py-3 rounded-pill border-0"><i class="fab fa-youtube me-2"></i> Subscribe</a>
+    </div>
+  </div>
+</section>
+<?php endif; ?>
 
 <!-- PRESS RELEASES -->
 <section class="py-5 bg-light">

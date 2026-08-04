@@ -3,6 +3,8 @@ $pageTitle = "Japa Sakhi – Empowering Women, Nurturing New Beginnings | Sankal
 $pageDesc  = "Japa Sakhi is a women empowerment initiative that trains underprivileged women as skilled postnatal care assistants, creating sustainable livelihoods while improving maternal and newborn care.";
 include __DIR__ . '/includes/header.php';
 include __DIR__ . '/includes/navbar.php';
+require_once __DIR__ . '/includes/videos-data.php';
+$japaVids = sankalp_videos_by_cat(['japa'], 3, true);
 ?>
 
 <style>
@@ -1145,6 +1147,28 @@ include __DIR__ . '/includes/navbar.php';
         </div>
     </div>
 </section>
+
+<!-- JAPA SAKHI VIDEOS (central catalog: includes/videos-data.php) -->
+<?php if(!empty($japaVids)): ?>
+<section class="js-section" id="videos">
+    <div class="container">
+        <div class="text-center mb-5 js-reveal">
+            <div class="js-eyebrow" style="justify-content:center;"><div class="bar"></div> Watch &amp; Learn</div>
+            <h2 class="js-h2">Japa Sakhi in Action</h2>
+            <p class="js-p" style="max-width:600px;margin:0 auto;">See our training program and the women it empowers — straight from the Sankalp Hospital YouTube channel.</p>
+        </div>
+        <?php echo sankalp_video_assets(); ?>
+        <div class="sk-vid-grid js-reveal dd-d1">
+            <?php foreach($japaVids as $v) echo sankalp_video_facade($v['id'], $v['title']); ?>
+        </div>
+        <div class="text-center mt-4 js-reveal">
+            <a href="<?php echo sankalp_channel_url(); ?>" target="_blank" rel="noopener" class="js-btn-primary" style="background:var(--js-teal);color:#fff;">
+                <i class="fab fa-youtube"></i> More Videos on YouTube
+            </a>
+        </div>
+    </div>
+</section>
+<?php endif; ?>
 
 <!-- BENEFITS -->
 <section class="js-section" id="benefits">

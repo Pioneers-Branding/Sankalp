@@ -79,6 +79,26 @@ $blog_date = "July 11, 2026"; include '../includes/header.php'; ?>
   </div>
 </div>
 
+<!-- SANKALP-VIDEO-EMBED (auto: includes/videos-data.php) -->
+<?php
+require_once __DIR__ . '/../includes/videos-data.php';
+$blogVids = sankalp_videos_by_cat(sankalp_blog_video_cats($blog_category ?? '', basename(__FILE__, '.php')), 2, true);
+if (!empty($blogVids)): ?>
+<div style="max-width:800px;margin:0 auto;padding:0 15px 45px;">
+  <div style="border-top:2px solid #eee;padding-top:26px;">
+    <h2 style="color:var(--primary,#0f5cad);font-size:1.5rem;font-weight:700;margin-bottom:6px;"><i class="fab fa-youtube" style="color:#e11d48;"></i> Watch: Related Videos</h2>
+    <p style="color:#666;font-size:15px;margin-bottom:20px;">Explainers and real patient stories from Sankalp Hospital doctors.</p>
+    <?php echo sankalp_video_assets(); ?>
+    <div class="sk-vid-grid">
+      <?php foreach ($blogVids as $v) echo sankalp_video_facade($v['id'], $v['title']); ?>
+    </div>
+    <div style="margin-top:16px;">
+      <a href="<?php echo sankalp_channel_url(); ?>" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:14px;color:var(--primary,#0f5cad);text-decoration:none;"><i class="fab fa-youtube"></i> More health videos on our YouTube channel</a>
+    </div>
+  </div>
+</div>
+<?php endif; ?>
+
 <?php include '../includes/footer.php'; ?>
 </body>
 </html>

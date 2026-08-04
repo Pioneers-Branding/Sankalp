@@ -123,6 +123,7 @@ $pageDesc = "Sankalp Hospital is a premier multi-specialist healthcare facility 
 
 include __DIR__ . '/includes/header.php';
 include __DIR__ . '/includes/navbar.php';
+require_once __DIR__ . '/includes/videos-data.php';
 ?>
   <!-- HERO SECTION WITH QUICK APPOINTMENT WIDGET -->
   <section id="home" class="hero-slider">
@@ -1316,6 +1317,28 @@ include __DIR__ . '/includes/navbar.php';
       </div>
     </div>
   </section>
+
+  <!-- FEATURED VIDEOS STRIP (central catalog: includes/videos-data.php) -->
+  <?php $featVids = sankalp_featured_videos(8); if (!empty($featVids)): ?>
+  <section id="videos" class="py-5 bg-light border-top">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="badge bg-primary-soft text-primary px-3 py-2 rounded-pill text-uppercase mb-3"><i class="fab fa-youtube me-1"></i> From Our YouTube Channel</span>
+        <h2 class="section-title">Health Videos &amp; Patient Stories</h2>
+        <span class="section-divider"></span>
+        <p class="text-muted mt-3">Doctor-led explainers, treatment guides and real recovery stories from Sankalp Hospital.</p>
+      </div>
+      <?php echo sankalp_video_assets(); ?>
+      <div class="sk-vid-grid">
+        <?php foreach ($featVids as $v) echo sankalp_video_facade($v['id'], $v['title']); ?>
+      </div>
+      <div class="text-center mt-5">
+        <a href="/video-gallery" class="btn btn-primary px-4 py-3 rounded-pill me-2"><i class="fas fa-photo-video me-2"></i> View Full Video Gallery</a>
+        <a href="<?php echo sankalp_channel_url(); ?>" target="_blank" rel="noopener" class="btn btn-danger px-4 py-3 rounded-pill border-0"><i class="fab fa-youtube me-2"></i> Subscribe</a>
+      </div>
+    </div>
+  </section>
+  <?php endif; ?>
 
   <!-- APPOINTMENT SECTION -->
   <section id="appointment" class="booking-section">

@@ -5,6 +5,12 @@
 $pageTitle = (isset($blog_title) ? $blog_title . ' | ' : '') . 'Sankalp Hospital Health Blog';
 $pageDesc = isset($blog_desc) ? $blog_desc : 'Expert health advice and medical information from Sankalp Hospital doctors.';
 
+// Related YouTube videos matched to this post's topic (central catalog).
+require_once __DIR__ . '/../includes/videos-data.php';
+$blogSlug = (!empty($pageCanonical)) ? basename(parse_url($pageCanonical, PHP_URL_PATH)) : '';
+$blogVideoCats = sankalp_blog_video_cats($blog_category ?? '', $blogSlug);
+$blogVids = $blogVideoCats ? sankalp_videos_by_cat($blogVideoCats, 2, true) : [];
+
 include __DIR__ . '/../includes/header.php';
 ?>
   <!-- Blog-specific inline styles -->
@@ -346,6 +352,23 @@ include __DIR__ . '/../includes/header.php';
     <div class="col-lg-8">
       <div class="blog-body-content">
         <?php echo isset($blog_content) ? $blog_content : ''; ?>
+
+        <!-- Related doctor videos (central catalog: includes/videos-data.php) -->
+        <?php if (!empty($blogVids)): ?>
+        <div class="blog-video-embed mt-5 pt-4" style="border-top:2px solid #eee;">
+          <h2 style="color:var(--primary);font-size:1.8rem;font-weight:700;margin-bottom:6px;"><i class="fab fa-youtube" style="color:#e11d48;"></i> Watch: Related Videos</h2>
+          <p style="color:#666;font-size:15px;margin-bottom:22px;">Explainers and real patient stories from Sankalp Hospital doctors.</p>
+          <?php echo sankalp_video_assets(); ?>
+          <div class="sk-vid-grid">
+            <?php foreach ($blogVids as $v) echo sankalp_video_facade($v['id'], $v['title']); ?>
+          </div>
+          <div style="margin-top:18px;">
+            <a href="<?php echo sankalp_channel_url(); ?>" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:14px;color:var(--primary);text-decoration:none;">
+              <i class="fab fa-youtube"></i> More health videos on our YouTube channel <i class="fas fa-arrow-right" style="font-size:12px;"></i>
+            </a>
+          </div>
+        </div>
+        <?php endif; ?>
 
         <?php if (isset($blog_faqs) && is_array($blog_faqs) && count($blog_faqs) > 0): ?>
         <div class="blog-faqs mt-5 pt-4" style="border-top: 2px solid #eee;">
