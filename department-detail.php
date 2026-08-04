@@ -787,7 +787,7 @@ include __DIR__.'/includes/navbar.php';
         <li><a href="#services">Services</a></li>
         <li><a href="#procedures">Procedures</a></li>
         <li><a href="#why-choose">Why Us</a></li>
-        <li><a href="#doctors">Doctors</a></li>
+
         <?php if(!empty($deptVids)): ?><li><a href="#videos">Videos</a></li><?php endif; ?>
         <li><a href="#faqs">FAQs</a></li>
         <li><a href="#appointment">Appointment</a></li>
@@ -948,49 +948,7 @@ include __DIR__.'/includes/navbar.php';
     </div>
 </section>
 
-<!-- DOCTORS -->
-<section class="dd-section dd-bg-white" id="doctors">
-    <div class="container">
-        <div class="row mb-2 align-items-end">
-            <div class="col-lg-6 dd-reveal">
-                <div class="dd-eyebrow"><div class="bar"></div> Our Specialists</div>
-                <h2 class="dd-h2">Meet the Medical Experts</h2>
-            </div>
-            <div class="col-lg-6 dd-reveal dd-d1">
-                <p class="dd-sub">Experienced clinicians dedicated to the highest standard of <?php echo $dept['title']; ?> care.</p>
-            </div>
-        </div>
-        <div class="row g-4 justify-content-center mt-2">
-            <?php foreach($deptDocs as $di=>$doc): ?>
-            <div class="col-lg-4 col-md-6 dd-reveal" style="transition-delay:<?php echo $di*0.1;?>s;">
-                <div class="dd-doc-card">
-                    <div class="dd-doc-img-wrap">
-                        <?php if($doc['img']==='dp'): ?>
-                        <div class="dd-doc-placeholder"><i class="fas fa-hospital-user"></i></div>
-                        <?php else: ?>
-                        <img src="images/<?php echo $doc['img'];?>" alt="<?php echo $doc['name'];?>">
-                        <?php endif; ?>
-                        <div class="dd-doc-status"><span></span> Available Today</div>
-                        <div class="dd-doc-overlay">
-                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="mailto:info.sankalpslms@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
-                        </div>
-                    </div>
-                    <div class="dd-doc-info">
-                        <div class="dd-doc-dept"><?php echo $dept['title'];?></div>
-                        <div class="dd-doc-name"><?php echo $doc['name'];?></div>
-                        <div class="dd-doc-deg"><?php echo $doc['degrees'];?></div>
-                        <p class="dd-doc-bio"><?php echo $doc['bio'];?></p>
-                        <a href="#appointment" class="dd-doc-btn">
-                            <i class="far fa-calendar-check"></i> Book Appointment
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <?php endforeach; ?>
-        </div>
-    </div>
-</section>
+
 
 <!-- FAQS -->
 <section class="dd-section dd-bg-light" id="faqs">
