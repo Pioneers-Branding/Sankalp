@@ -116,6 +116,21 @@ $blog_content = <<<'HTML'
 
 <h2>निष्कर्ष</h2>
 <p>खट्टी डकार और एसिडिटी ज्यादातर मामलों में खान-पान और जीवनशैली से जुड़ी समस्या है, जिसे सही आदतों, संतुलित भोजन और तनाव प्रबंधन से आसानी से नियंत्रित किया जा सकता है। ठंडा दूध, सौंफ और जीरा-अजवाइन जैसे घरेलू उपाय तुरंत राहत देते हैं, लेकिन बार-बार होने वाली या तेज एसिडिटी को नजरअंदाज नहीं करना चाहिए। अगर समस्या लगातार बनी रहे या ऊपर बताए गए चेतावनी संकेत दिखें, तो संकल्प हॉस्पिटल (अंबिकापुर) के जनरल मेडिसिन एवं गैस्ट्रोएंटरोलॉजी विभाग में अनुभवी डॉक्टरों से परामर्श लें। सही जांच और इलाज से एसिडिटी की जड़ को समझकर स्थायी राहत पाई जा सकती है।</p>
+
+<div class="mt-5 p-4 bg-light rounded">
+  <h3 class="h5 mb-3 border-bottom pb-2">Related Services & Quick Links</h3>
+  <ul class="list-unstyled mb-0" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px;">
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ent-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">ENT & Sinus Treatment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/contact.php" class="text-decoration-none text-dark hover-primary">Book an Appointment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/neurosurgery-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Neurosurgery & Spine Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/dialysis-center-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Dialysis Center</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/orthopedic-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Orthopedics & Joint Replacement</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/emergency-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">24/7 Emergency & Trauma Center</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ivf-treatment-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">IVF & Infertility Treatment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/urology-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Urology & Kidney Stones</a></li>
+  </ul>
+</div>
+
 HTML;
 
 $blog_faqs = [

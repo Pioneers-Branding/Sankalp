@@ -78,6 +78,19 @@ $blog_content = <<<'HTML'
 <h2>Conclusion: Your Heart, Your Responsibility</h2>
 <p>Your heart deserves the utmost care and attention. Transitioning to a heart-healthy lifestyle does not have to happen overnight. Begin by making small, sustainable changes: swap out a sugary drink for water, take a 15-minute walk after dinner, or schedule a comprehensive check-up with your doctor.</p>
 <p>At <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a>, our dedicated cardiology department is equipped with state-of-the-art diagnostic tools to assess your cardiovascular risk. From routine EKGs and echocardiograms to advanced stress testing and personalized prevention plans, our team of experts is here to partner with you in achieving lifelong heart health.</p>
+
+<div class="mt-5 p-4 bg-light rounded">
+  <h3 class="h5 mb-3 border-bottom pb-2">Related Services & Quick Links</h3>
+  <ul class="list-unstyled mb-0" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px;">
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/gynecology-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Gynecology & Maternity Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/urology-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Urology & Kidney Stones</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/doctors.php" class="text-decoration-none text-dark hover-primary">Our Expert Doctors</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/chemotherapy-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Oncology & Chemotherapy</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/dialysis-center-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Dialysis Center</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ent-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">ENT & Sinus Treatment</a></li>
+  </ul>
+</div>
+
 HTML;
 
 $blog_faqs = [

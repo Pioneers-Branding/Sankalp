@@ -100,6 +100,17 @@ $blog_content = <<<'HTML'
 <p><strong>Heart Attack</strong> का <strong>Genetic Predisposition</strong> एक वास्तविक और महत्वपूर्ण कारक है, लेकिन यह आपकी नियति नहीं है। <strong>Family History</strong> होने का मतलब यह नहीं कि आपको जरूर <strong>Heart Attack</strong> होगा — इसका मतलब है कि आपको अपने <strong>Heart Health</strong> पर अधिक ध्यान देना चाहिए।</p>
 <p><strong>Sankalp Hospital, अंबिकापुर</strong> का कार्डियोलॉजी विभाग <strong>ECG, 2D Echo, Stress Test</strong> और <strong>Cardiac Health Packages</strong> के माध्यम से आपके हृदय स्वास्थ्य का व्यापक मूल्यांकन करता है। <a href="/blog/heart-attack-vs-cardiac-arrest">दिल के दौरे और कार्डियक अरेस्ट में अंतर</a> जानना भी आपके लिए महत्वपूर्ण है।</p>
 <p><strong>अपने परिवार के इतिहास को जानें, अपने डॉक्टर से बात करें और आज ही अपने हृदय की जांच करें।</strong></p>
+
+<div class="mt-5 p-4 bg-light rounded">
+  <h3 class="h5 mb-3 border-bottom pb-2">Related Services & Quick Links</h3>
+  <ul class="list-unstyled mb-0" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px;">
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/pediatric-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Pediatric & Child Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/contact.php" class="text-decoration-none text-dark hover-primary">Book an Appointment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/doctors.php" class="text-decoration-none text-dark hover-primary">Our Expert Doctors</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ivf-treatment-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">IVF & Infertility Treatment</a></li>
+  </ul>
+</div>
+
 HTML;
 
 $blog_faqs = [

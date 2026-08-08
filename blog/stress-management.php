@@ -115,6 +115,21 @@ $blog_content = <<<'HTML'
 </ul>
 
 <p>Managing stress is an ongoing process. If stress is significantly impacting your life, consider reaching out to our mental health professionals at <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a> for support and guidance.</p>
+
+<div class="mt-5 p-4 bg-light rounded">
+  <h3 class="h5 mb-3 border-bottom pb-2">Related Services & Quick Links</h3>
+  <ul class="list-unstyled mb-0" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px;">
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ent-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">ENT & Sinus Treatment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/chemotherapy-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Oncology & Chemotherapy</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/contact.php" class="text-decoration-none text-dark hover-primary">Book an Appointment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/urology-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Urology & Kidney Stones</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/emergency-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">24/7 Emergency & Trauma Center</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ivf-treatment-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">IVF & Infertility Treatment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/gynecology-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Gynecology & Maternity Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/pediatric-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Pediatric & Child Care</a></li>
+  </ul>
+</div>
+
 HTML;
 
 $related_posts = [

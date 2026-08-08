@@ -123,6 +123,21 @@ $blog_content = <<<'HTML'
 <h2>निष्कर्ष</h2>
 <p>पेशाब में जलन एक आम समस्या जरूर है, लेकिन इसे हल्के में लेना ठीक नहीं। ज्यादा पानी पीना, साफ-सफाई रखना और पेशाब न रोकना जैसे उपाय हल्की जलन में राहत दे सकते हैं, पर यदि जलन बार-बार हो रही है, दर्द या बुखार के साथ है, या घरेलू उपायों से ठीक नहीं हो रही, तो यह यूरिन इन्फेक्शन या पथरी का संकेत हो सकता है जिसे उचित जांच और सही दवा की जरूरत होती है।</p>
 <p>संकल्प हॉस्पिटल (अंबिकापुर) का यूरोलॉजी और इंटरनल मेडिसिन विभाग पेशाब से जुड़ी हर समस्या — यूरिन इन्फेक्शन, पथरी और प्रोस्टेट — के सटीक निदान (Urine Test, Ultrasound) और आधुनिक इलाज के लिए पूरी तरह सक्षम है। यदि आपको बार-बार पेशाब में जलन या दर्द की शिकायत है, तो खुद दवा लेने के बजाय आज ही हमारे विशेषज्ञ डॉक्टरों से परामर्श लें और समय रहते सही इलाज पाएं।</p>
+
+<div class="mt-5 p-4 bg-light rounded">
+  <h3 class="h5 mb-3 border-bottom pb-2">Related Services & Quick Links</h3>
+  <ul class="list-unstyled mb-0" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px;">
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ent-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">ENT & Sinus Treatment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/neurosurgery-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Neurosurgery & Spine Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/pediatric-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Pediatric & Child Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/emergency-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">24/7 Emergency & Trauma Center</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/orthopedic-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Orthopedics & Joint Replacement</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/chemotherapy-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Oncology & Chemotherapy</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/dialysis-center-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Dialysis Center</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/contact.php" class="text-decoration-none text-dark hover-primary">Book an Appointment</a></li>
+  </ul>
+</div>
+
 HTML;
 
 $blog_faqs = [

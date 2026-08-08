@@ -89,6 +89,17 @@ $blog_content = <<<'HTML'
 <p>You can actively protect your joints through lifestyle choices. Maintaining a healthy body weight is paramount; every extra pound of weight places up to four pounds of excess pressure on your knees. Engage in regular, low-impact exercise to keep joints lubricated and supporting muscles strong. Ensure your diet is rich in anti-inflammatory foods like Omega-3 fatty acids, turmeric, and fresh vegetables.</p>
 
 <p>If persistent joint pain is holding you back, do not suffer in silence. Contact the highly experienced Orthopedics and Joint Replacement department at Sankalp Hospital in Ambikapur. Our specialists will craft a personalized treatment plan to help you move freely and live fully once again.</p>
+
+<div class="mt-5 p-4 bg-light rounded">
+  <h3 class="h5 mb-3 border-bottom pb-2">Related Services & Quick Links</h3>
+  <ul class="list-unstyled mb-0" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px;">
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ophthalmology-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Ophthalmology & Eye Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ivf-treatment-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">IVF & Infertility Treatment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/neurosurgery-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Neurosurgery & Spine Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/urology-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Urology & Kidney Stones</a></li>
+  </ul>
+</div>
+
 HTML;
 
 $blog_faqs = [

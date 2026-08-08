@@ -133,6 +133,15 @@ $blog_content = <<<'HTML'
 <p>The relationship between low blood pressure and heart attacks is far more complex than most people realize. While low BP itself does not cause heart attacks, it can signal underlying cardiac conditions that, if left untreated, may increase cardiovascular risk. The key is not to panic at low numbers — but also not to ignore persistent hypotension with concerning symptoms.</p>
 <p>If you have been experiencing symptoms like frequent dizziness, fainting, chest discomfort, or fatigue alongside low blood pressure readings, don't wait. Early evaluation by a cardiologist can make the difference between managing a condition effectively and facing a serious cardiac event.</p>
 <p><strong><a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a>'s Cardiology Department</strong> in Ambikapur offers comprehensive heart health evaluations including ECG, echocardiography, Holter monitoring, and stress tests. Our experienced cardiologists provide personalized care for conditions ranging from hypotension to complex heart disease. <a href="/index#appointment" style="color:var(--primary);font-weight:600;">Book an appointment today</a> and take control of your heart health.</p>
+
+<div class="mt-5 p-4 bg-light rounded">
+  <h3 class="h5 mb-3 border-bottom pb-2">Related Services & Quick Links</h3>
+  <ul class="list-unstyled mb-0" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px;">
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/contact.php" class="text-decoration-none text-dark hover-primary">Book an Appointment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/pediatric-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Pediatric & Child Care</a></li>
+  </ul>
+</div>
+
 HTML;
 
 $blog_faqs = [

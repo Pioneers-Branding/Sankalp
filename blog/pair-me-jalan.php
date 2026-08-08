@@ -101,6 +101,21 @@ $blog_content = <<<'HTML'
 <h2>निष्कर्ष</h2>
 <p>पैरों में जलन एक ऐसी समस्या है जिसे नजरअंदाज करने से यह आपकी रातों की नींद हराम कर सकती है। यदि आपको या आपके परिवार में किसी को यह समस्या है, तो सबसे पहले अपने ब्लड शुगर और विटामिन लेवल की जांच कराएं।</p>
 <p>संकल्प हॉस्पिटल (अंबिकापुर) का जनरल मेडिसिन और न्यूरोलॉजी विभाग डायबिटिक न्यूरोपैथी और तंत्रिका संबंधी रोगों के इलाज के लिए अत्याधुनिक सुविधाओं से लैस है। हमारे विशेषज्ञ डॉक्टर आपकी समस्या के मूल कारण (Root cause) का पता लगाकर आपको बेहतरीन चिकित्सा और परामर्श प्रदान करेंगे।</p>
+
+<div class="mt-5 p-4 bg-light rounded">
+  <h3 class="h5 mb-3 border-bottom pb-2">Related Services & Quick Links</h3>
+  <ul class="list-unstyled mb-0" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px;">
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ent-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">ENT & Sinus Treatment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ivf-treatment-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">IVF & Infertility Treatment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/doctors.php" class="text-decoration-none text-dark hover-primary">Our Expert Doctors</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/dialysis-center-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Dialysis Center</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/neurosurgery-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Neurosurgery & Spine Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/gynecology-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Gynecology & Maternity Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/orthopedic-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Orthopedics & Joint Replacement</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/pediatric-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Pediatric & Child Care</a></li>
+  </ul>
+</div>
+
 HTML;
 
 $blog_faqs = [

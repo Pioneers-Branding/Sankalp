@@ -78,6 +78,19 @@ $blog_content = <<<'HTML'
 <h2>निष्कर्ष</h2>
 <p>सर्वाइकल पेन एक ऐसी समस्या है जिसे हम अपनी कुछ बुरी आदतों को बदलकर आसानी से नियंत्रित कर सकते हैं। अपनी रीढ़ की हड्डी के प्रति जागरूक रहें, सही पोस्चर अपनाएं और नियमित रूप से व्यायाम करें।</p>
 <p>यदि आप या आपके परिवार का कोई सदस्य लगातार गर्दन दर्द, हाथों में सुन्नपन या चक्कर आने की समस्या से परेशान है, तो इसे नज़रअंदाज़ न करें। संकल्प हॉस्पिटल, अंबिकापुर का ऑर्थोपेडिक्स विभाग सर्वाइकल स्पोंडिलोसिस के निदान और उपचार के लिए अत्याधुनिक सुविधाओं से लैस है। हमारे विशेषज्ञ डॉक्टरों की टीम आपको दर्द-मुक्त और स्वस्थ जीवन जीने में मदद करने के लिए हमेशा तत्पर है।</p>
+
+<div class="mt-5 p-4 bg-light rounded">
+  <h3 class="h5 mb-3 border-bottom pb-2">Related Services & Quick Links</h3>
+  <ul class="list-unstyled mb-0" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px;">
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/dialysis-center-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Dialysis Center</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ivf-treatment-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">IVF & Infertility Treatment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/pediatric-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Pediatric & Child Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/gynecology-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Gynecology & Maternity Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/emergency-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">24/7 Emergency & Trauma Center</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/urology-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Urology & Kidney Stones</a></li>
+  </ul>
+</div>
+
 HTML;
 
 $blog_faqs = [

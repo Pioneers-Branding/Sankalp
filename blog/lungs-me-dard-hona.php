@@ -87,6 +87,21 @@ $blog_content = <<<'HTML'
 <h2>निष्कर्ष</h2>
 <p>फेफड़ों या सीने में दर्द एक ऐसा लक्षण है जिसका खुद घर पर अनुमान लगाना खतरनाक हो सकता है। छोटी सी लगने वाली समस्या जैसे पसलियों का दर्द हो या फिर निमोनिया और ब्लड क्लॉट जैसी गंभीर बीमारी, सही डायग्नोसिस ही इलाज की कुंजी है।</p>
 <p>संकल्प हॉस्पिटल (अंबिकापुर) का पल्मोनोलॉजी (श्वसन रोग) और क्रिटिकल केयर विभाग 24/7 किसी भी प्रकार की श्वास संबंधी इमरजेंसी से निपटने के लिए तैयार है। यदि आपको सांस लेने में तकलीफ या सीने में दर्द की शिकायत है, तो हमारे विशेषज्ञ डॉक्टरों से तुरंत परामर्श लें।</p>
+
+<div class="mt-5 p-4 bg-light rounded">
+  <h3 class="h5 mb-3 border-bottom pb-2">Related Services & Quick Links</h3>
+  <ul class="list-unstyled mb-0" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px;">
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/chemotherapy-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Oncology & Chemotherapy</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/contact.php" class="text-decoration-none text-dark hover-primary">Book an Appointment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/emergency-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">24/7 Emergency & Trauma Center</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ivf-treatment-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">IVF & Infertility Treatment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/doctors.php" class="text-decoration-none text-dark hover-primary">Our Expert Doctors</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/neurosurgery-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Neurosurgery & Spine Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/gynecology-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Gynecology & Maternity Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/urology-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Urology & Kidney Stones</a></li>
+  </ul>
+</div>
+
 HTML;
 
 $blog_faqs = [

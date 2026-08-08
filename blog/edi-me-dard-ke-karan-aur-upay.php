@@ -99,6 +99,21 @@ $blog_content = <<<'HTML'
 <h2>निष्कर्ष</h2>
 <p>एड़ी में दर्द (Heel Pain) एक आम पर परेशान करने वाली समस्या है, जिसका ज्यादातर मामलों में कारण प्लांटर फैसिआइटिस, हील स्पर, विटामिन D की कमी या गलत फुटवियर होता है। अच्छी बात यह है कि समय पर आराम, बर्फ की सिकाई, स्ट्रेचिंग और सही जूतों से अधिकांश मरीज बिना सर्जरी के ठीक हो जाते हैं। लेकिन दर्द को लगातार अनदेखा करना इसे पुराना (Chronic) बना सकता है।</p>
 <p>यदि आपकी एड़ी का दर्द घरेलू उपायों से ठीक नहीं हो रहा, बार-बार लौट रहा है या रोजमर्रा के काम मुश्किल कर रहा है, तो सही जांच और इलाज जरूरी है। संकल्प हॉस्पिटल (अंबिकापुर) का हड्डी रोग (Orthopedics) विभाग एड़ी दर्द, प्लांटर फैसिआइटिस, हील स्पर और जोड़ों की समस्याओं के सटीक निदान (X-ray, ब्लड टेस्ट) और आधुनिक इलाज के लिए पूरी तरह तैयार है। आज ही हमारे अनुभवी विशेषज्ञ डॉक्टरों से परामर्श लें और दर्द-मुक्त जीवन की ओर पहला कदम बढ़ाएं।</p>
+
+<div class="mt-5 p-4 bg-light rounded">
+  <h3 class="h5 mb-3 border-bottom pb-2">Related Services & Quick Links</h3>
+  <ul class="list-unstyled mb-0" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px;">
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/emergency-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">24/7 Emergency & Trauma Center</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/urology-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Urology & Kidney Stones</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ophthalmology-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Ophthalmology & Eye Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/pediatric-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Pediatric & Child Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/gynecology-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Gynecology & Maternity Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/contact.php" class="text-decoration-none text-dark hover-primary">Book an Appointment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/chemotherapy-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Oncology & Chemotherapy</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ivf-treatment-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">IVF & Infertility Treatment</a></li>
+  </ul>
+</div>
+
 HTML;
 
 $blog_faqs = [

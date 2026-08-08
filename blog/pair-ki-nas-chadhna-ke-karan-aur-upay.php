@@ -109,6 +109,21 @@ $blog_content = <<<'HTML'
 <h2>निष्कर्ष</h2>
 <p>पैर की नस चढ़ना ज्यादातर मामलों में एक अस्थायी और सामान्य समस्या है, जो पानी की कमी, मिनरल असंतुलन या थकान से होती है और स्ट्रेचिंग, मालिश व सही खानपान से आसानी से नियंत्रित हो जाती है। लेकिन यदि यह बार-बार हो, रात की नींद खराब करे या किसी एक पैर में सूजन-दर्द के साथ हो, तो इसे नजरअंदाज न करें — यह किसी गहरे कारण का संकेत हो सकता है।</p>
 <p>संकल्प हॉस्पिटल (अंबिकापुर) का ऑर्थोपेडिक्स और जनरल मेडिसिन विभाग मांसपेशियों की ऐंठन, नसों की समस्या और रक्त संचार से जुड़ी बीमारियों की सटीक जांच (Blood Tests, Doppler, MRI) और इलाज के लिए पूरी तरह तैयार है। यदि आपको बार-बार नस चढ़ने की शिकायत है, तो आज ही हमारे अनुभवी डॉक्टरों से परामर्श लें और सही कारण जानकर स्थायी राहत पाएं।</p>
+
+<div class="mt-5 p-4 bg-light rounded">
+  <h3 class="h5 mb-3 border-bottom pb-2">Related Services & Quick Links</h3>
+  <ul class="list-unstyled mb-0" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px;">
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/urology-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Urology & Kidney Stones</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/chemotherapy-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Oncology & Chemotherapy</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/contact.php" class="text-decoration-none text-dark hover-primary">Book an Appointment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ophthalmology-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Ophthalmology & Eye Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/dialysis-center-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Dialysis Center</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/neurosurgery-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Neurosurgery & Spine Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/emergency-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">24/7 Emergency & Trauma Center</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ivf-treatment-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">IVF & Infertility Treatment</a></li>
+  </ul>
+</div>
+
 HTML;
 
 $blog_faqs = [

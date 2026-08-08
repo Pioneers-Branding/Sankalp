@@ -79,6 +79,17 @@ $blog_content = <<<'HTML'
 
 <h2>Conclusion: Embrace the Journey</h2>
 <p>Every pregnancy is a unique and personal experience. By staying informed, attending your prenatal appointments, and listening to your body, you can navigate the challenges and joys of these nine months with confidence. The expert team of gynecologists and support staff at <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a> is here to partner with you every step of the way, providing comprehensive and compassionate care for you and your growing family.</p>
+
+<div class="mt-5 p-4 bg-light rounded">
+  <h3 class="h5 mb-3 border-bottom pb-2">Related Services & Quick Links</h3>
+  <ul class="list-unstyled mb-0" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px;">
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/dialysis-center-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Dialysis Center</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/emergency-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">24/7 Emergency & Trauma Center</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/doctors.php" class="text-decoration-none text-dark hover-primary">Our Expert Doctors</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/contact.php" class="text-decoration-none text-dark hover-primary">Book an Appointment</a></li>
+  </ul>
+</div>
+
 HTML;
 
 $blog_faqs = [

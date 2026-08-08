@@ -141,6 +141,19 @@ $blog_content = <<<'HTML'
 <p class="mb-3">क्या आपको अक्सर थकान, सांस फूलना, या छाती में असुविधा महसूस होती है? दिल की जांच अब केवल बुजुर्गों के लिए नहीं है — 30+ उम्र के हर व्यक्ति को नियमित जांच करवानी चाहिए।</p>
 <a href="/contact" class="btn btn-light text-primary fw-bold px-4 py-2">अपॉइंटमेंट बुक करें</a>
 </div>
+
+<div class="mt-5 p-4 bg-light rounded">
+  <h3 class="h5 mb-3 border-bottom pb-2">Related Services & Quick Links</h3>
+  <ul class="list-unstyled mb-0" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px;">
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/dialysis-center-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Dialysis Center</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/neurosurgery-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Neurosurgery & Spine Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ivf-treatment-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">IVF & Infertility Treatment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/orthopedic-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Orthopedics & Joint Replacement</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/contact.php" class="text-decoration-none text-dark hover-primary">Book an Appointment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ent-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">ENT & Sinus Treatment</a></li>
+  </ul>
+</div>
+
 HTML;
 
 $blog_faqs = [

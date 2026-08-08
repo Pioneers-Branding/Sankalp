@@ -100,6 +100,21 @@ $blog_content = <<<'HTML'
 <h2>निष्कर्ष</h2>
 <p>सुबह उठते ही चक्कर आना अक्सर पानी की कमी या अचानक खड़े होने पर बीपी गिरने जैसी साधारण वजहों से होता है, और धीरे-धीरे उठने व पर्याप्त पानी पीने जैसी छोटी आदतों से इसे काफी हद तक रोका जा सकता है। फिर भी, बार-बार आने वाला, तेज़, या कमजोरी और अन्य लक्षणों के साथ आने वाला चक्कर नज़रअंदाज़ न करें।</p>
 <p>संकल्प हॉस्पिटल (अंबिकापुर) का इंटरनल मेडिसिन (जनरल मेडिसिन) विभाग चक्कर के असली कारण — जैसे लो बीपी, एनीमिया, शुगर या कान/तंत्रिका संबंधी समस्या — की सटीक जाँच और इलाज के लिए पूरी तरह सक्षम है, और हमारी 24/7 इमरजेंसी सेवा स्ट्रोक जैसी आपात स्थितियों के लिए हमेशा तैयार है। यदि आपको बार-बार चक्कर आते हैं, तो देर न करें और आज ही <a href="/contact">हमारे विशेषज्ञ डॉक्टर से परामर्श लें</a>।</p>
+
+<div class="mt-5 p-4 bg-light rounded">
+  <h3 class="h5 mb-3 border-bottom pb-2">Related Services & Quick Links</h3>
+  <ul class="list-unstyled mb-0" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px;">
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/gynecology-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Gynecology & Maternity Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/orthopedic-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Orthopedics & Joint Replacement</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/chemotherapy-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Oncology & Chemotherapy</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ivf-treatment-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">IVF & Infertility Treatment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/pediatric-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Pediatric & Child Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/dialysis-center-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Dialysis Center</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ent-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">ENT & Sinus Treatment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/urology-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Urology & Kidney Stones</a></li>
+  </ul>
+</div>
+
 HTML;
 
 $blog_faqs = [

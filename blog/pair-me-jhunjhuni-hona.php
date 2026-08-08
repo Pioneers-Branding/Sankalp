@@ -144,6 +144,19 @@ $blog_content = <<<'HTML'
 <h2>निष्कर्ष</h2>
 <p>इस लेख में हमने पैर में झनझनाहट के कारण और उपाय — दोनों को विस्तार से समझा। पैर में झनझनाहट या झुनझुनी होना एक ऐसी समस्या है जो आपके रोजमर्रा के जीवन को गहराई से प्रभावित कर सकती है। यदि यह समस्या जीवनशैली में बदलाव, घरेलू उपचार या आराम करने से ठीक नहीं होती है, तो इसका मतलब है कि आपकी नसें मदद मांग रही हैं।</p>
 <p>संकल्प हॉस्पिटल (अंबिकापुर) का न्यूरोलॉजी और इंटरनल मेडिसिन विभाग नसों से जुड़ी हर प्रकार की बीमारी के सटीक डायग्नोसिस (NCV, EMG, MRI) और उन्नत इलाज के लिए पूरी तरह से तैयार है। यदि आपको सुन्नपन, झनझनाहट या साइटिका की समस्या है, तो आज ही हमारे विशेषज्ञ डॉक्टरों से परामर्श लें और अपनी नसों को स्थायी डैमेज से बचाएं।</p>
+
+<div class="mt-5 p-4 bg-light rounded">
+  <h3 class="h5 mb-3 border-bottom pb-2">Related Services & Quick Links</h3>
+  <ul class="list-unstyled mb-0" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px;">
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/orthopedic-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Orthopedics & Joint Replacement</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/contact.php" class="text-decoration-none text-dark hover-primary">Book an Appointment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ivf-treatment-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">IVF & Infertility Treatment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ent-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">ENT & Sinus Treatment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/neurosurgery-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Neurosurgery & Spine Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/emergency-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">24/7 Emergency & Trauma Center</a></li>
+  </ul>
+</div>
+
 HTML;
 
 $blog_faqs = [

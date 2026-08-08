@@ -101,6 +101,21 @@ $blog_content = <<<'HTML'
 <h2>निष्कर्ष</h2>
 <p>पैरों में सूजन एक चेतावनी हो सकती है कि आपके शरीर की आंतरिक प्रणालियाँ ठीक से काम नहीं कर रही हैं। अपनी जीवनशैली में सुधार करें, नमक का सेवन कम करें और नियमित रूप से व्यायाम करें।</p>
 <p>यदि आपको बार-बार पैरों में सूजन की शिकायत रहती है, तो इसे नजरअंदाज न करें। संकल्प हॉस्पिटल (अंबिकापुर) का जनरल मेडिसिन और कार्डियोलॉजी विभाग इस समस्या के सटीक निदान और उपचार के लिए अत्याधुनिक सुविधाओं से लैस है। आज ही हमारे विशेषज्ञ डॉक्टरों से परामर्श लें और एक स्वस्थ जीवन की ओर कदम बढ़ाएं।</p>
+
+<div class="mt-5 p-4 bg-light rounded">
+  <h3 class="h5 mb-3 border-bottom pb-2">Related Services & Quick Links</h3>
+  <ul class="list-unstyled mb-0" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px;">
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/urology-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Urology & Kidney Stones</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/chemotherapy-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Oncology & Chemotherapy</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ent-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">ENT & Sinus Treatment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/dialysis-center-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Dialysis Center</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ivf-treatment-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">IVF & Infertility Treatment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/contact.php" class="text-decoration-none text-dark hover-primary">Book an Appointment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/doctors.php" class="text-decoration-none text-dark hover-primary">Our Expert Doctors</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/orthopedic-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Orthopedics & Joint Replacement</a></li>
+  </ul>
+</div>
+
 HTML;
 
 $blog_faqs = [

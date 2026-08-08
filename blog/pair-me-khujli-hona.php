@@ -92,6 +92,21 @@ $blog_content = <<<'HTML'
 <h2>निष्कर्ष</h2>
 <p>पैरों में खुजली एक ऐसी समस्या है जिसे सही स्वच्छता (Hygiene) और त्वचा की नमी बनाए रखकर काफी हद तक रोका जा सकता है। लेकिन इसे कभी हल्के में नहीं लेना चाहिए, खासकर अगर यह आपकी नींद हराम कर रही हो।</p>
 <p>संकल्प हॉस्पिटल (अंबिकापुर) का डर्मेटोलॉजी (त्वचा रोग) और जनरल मेडिसिन विभाग त्वचा के संक्रमण और उससे जुड़ी अंदरूनी बीमारियों के इलाज के लिए पूरी तरह सुसज्जित है। अपनी समस्या के सही निदान के लिए आज ही हमारे विशेषज्ञों से संपर्क करें।</p>
+
+<div class="mt-5 p-4 bg-light rounded">
+  <h3 class="h5 mb-3 border-bottom pb-2">Related Services & Quick Links</h3>
+  <ul class="list-unstyled mb-0" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px;">
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ophthalmology-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Ophthalmology & Eye Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ent-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">ENT & Sinus Treatment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/chemotherapy-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Oncology & Chemotherapy</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/gynecology-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Gynecology & Maternity Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/doctors.php" class="text-decoration-none text-dark hover-primary">Our Expert Doctors</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/orthopedic-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Orthopedics & Joint Replacement</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/pediatric-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Pediatric & Child Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ivf-treatment-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">IVF & Infertility Treatment</a></li>
+  </ul>
+</div>
+
 HTML;
 
 $blog_faqs = [

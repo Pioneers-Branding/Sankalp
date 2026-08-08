@@ -158,6 +158,15 @@ $blog_content = <<<'HTML'
 <h2>निष्कर्ष</h2>
 <p>उच्च रक्तचाप एक ऐसी स्थिति है जिसके साथ आप लंबा और स्वस्थ जीवन जी सकते हैं, बशर्ते आप अपनी जीवनशैली और खानपान के प्रति अनुशासित रहें। दवाइयां अपने मन से कभी बंद न करें, चाहे आपका बीपी नॉर्मल ही क्यों न आ रहा हो।</p>
 <p>संकल्प हॉस्पिटल (अंबिकापुर) का इंटरनल मेडिसिन और कार्डियोलॉजी विभाग हाई ब्लड प्रेशर के सटीक निदान और प्रबंधन के लिए पूरी तरह सुसज्जित है, और हमारी <a href="/emergency-hospital-in-ambikapur">24/7 इमरजेंसी सेवा</a> हाइपरटेंसिव क्राइसिस जैसी स्थितियों के लिए हमेशा तैयार है। यदि आपको बार-बार सिरदर्द, घबराहट या सीने में भारीपन महसूस होता है, तो आज ही <a href="/contact">हमारे विशेषज्ञों से परामर्श लें</a> और अपने हृदय को सुरक्षित करें।</p>
+
+<div class="mt-5 p-4 bg-light rounded">
+  <h3 class="h5 mb-3 border-bottom pb-2">Related Services & Quick Links</h3>
+  <ul class="list-unstyled mb-0" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px;">
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/chemotherapy-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Oncology & Chemotherapy</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/neurosurgery-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Neurosurgery & Spine Care</a></li>
+  </ul>
+</div>
+
 HTML;
 
 $blog_faqs = [

@@ -113,6 +113,21 @@ $blog_content = <<<'HTML'
 <h2>निष्कर्ष</h2>
 <p>आंखों के नीचे की ज्यादातर सूजन नींद, नमक, रोने या तरल के जमाव जैसी सामान्य वजहों से होती है और ठंडी सिकाई, नमक कम करने, पर्याप्त पानी व अच्छी नींद जैसे साधारण उपायों से ठीक हो जाती है। लेकिन जब यही सूजन बार-बार लौटे, या चेहरे-पैरों की सूजन, पेशाब में झाग, वजन बढ़ने या सांस फूलने के साथ जुड़ जाए, तो यह किडनी, थायरॉयड या हृदय से जुड़ी बीमारी का संकेत हो सकती है — जिसे नजरअंदाज करना ठीक नहीं।</p>
 <p>संकल्प हॉस्पिटल (अंबिकापुर) का इंटरनल मेडिसिन विभाग आंखों के नीचे की सूजन के सही कारण का पता लगाने के लिए जरूरी जांचों (यूरिन टेस्ट, किडनी फंक्शन टेस्ट, थायरॉयड प्रोफाइल) और उपचार की पूरी सुविधा प्रदान करता है। यदि आपकी सूजन लगातार बनी रहती है या ऊपर बताए गए चेतावनी लक्षणों के साथ है, तो आज ही हमारे विशेषज्ञ डॉक्टरों से परामर्श लें और सही समय पर सही जांच करवाकर निश्चिंत रहें।</p>
+
+<div class="mt-5 p-4 bg-light rounded">
+  <h3 class="h5 mb-3 border-bottom pb-2">Related Services & Quick Links</h3>
+  <ul class="list-unstyled mb-0" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px;">
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/contact.php" class="text-decoration-none text-dark hover-primary">Book an Appointment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/orthopedic-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Orthopedics & Joint Replacement</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/emergency-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">24/7 Emergency & Trauma Center</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ophthalmology-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Ophthalmology & Eye Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/urology-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Urology & Kidney Stones</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/gynecology-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Gynecology & Maternity Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ivf-treatment-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">IVF & Infertility Treatment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/neurosurgery-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Neurosurgery & Spine Care</a></li>
+  </ul>
+</div>
+
 HTML;
 
 $blog_faqs = [

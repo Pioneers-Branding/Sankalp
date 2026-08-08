@@ -106,6 +106,21 @@ $blog_content = <<<'HTML'
 <h2>निष्कर्ष</h2>
 <p>अनिद्रा को नज़रअंदाज़ करना पूरे शरीर पर भारी पड़ सकता है, लेकिन अच्छी खबर यह है कि ज़्यादातर मामलों में सही दिनचर्या, स्लीप हाइजीन और तनाव प्रबंधन से गहरी नींद वापस पाई जा सकती है — वह भी बिना दवा के। नींद की गोली हमेशा अंतिम विकल्प है और सिर्फ डॉक्टर की देखरेख में ही लेनी चाहिए।</p>
 <p>अगर आपकी नींद की समस्या लंबे समय से बनी हुई है या किसी बीमारी से जुड़ी लगती है, तो <strong>संकल्प हॉस्पिटल (अंबिकापुर)</strong> का जनरल मेडिसिन विभाग इसके सही कारण की जाँच और सुरक्षित इलाज में आपकी मदद कर सकता है। बेहतर नींद का पहला कदम आज ही उठाएँ और ज़रूरत होने पर <a href="/contact">हमारे विशेषज्ञों से परामर्श लें</a>।</p>
+
+<div class="mt-5 p-4 bg-light rounded">
+  <h3 class="h5 mb-3 border-bottom pb-2">Related Services & Quick Links</h3>
+  <ul class="list-unstyled mb-0" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px;">
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/neurosurgery-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Neurosurgery & Spine Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ivf-treatment-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">IVF & Infertility Treatment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/chemotherapy-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Oncology & Chemotherapy</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/emergency-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">24/7 Emergency & Trauma Center</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/urology-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Urology & Kidney Stones</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/doctors.php" class="text-decoration-none text-dark hover-primary">Our Expert Doctors</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/contact.php" class="text-decoration-none text-dark hover-primary">Book an Appointment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/dialysis-center-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Dialysis Center</a></li>
+  </ul>
+</div>
+
 HTML;
 
 $blog_faqs = [

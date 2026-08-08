@@ -122,6 +122,21 @@ $blog_content = <<<'HTML'
 <h2>निष्कर्ष</h2>
 <p>हाथों और पैरों में ज्यादा पसीना आना अक्सर हानिरहित होता है, लेकिन यह आत्मविश्वास और रोजमर्रा के कामों को प्रभावित कर सकता है — और कभी-कभी यह शरीर के अंदर की किसी समस्या का संकेत भी हो सकता है। अच्छी बात यह है कि सही कारण पहचानकर और उचित उपाय अपनाकर अधिकांश लोगों को अच्छी राहत मिल जाती है। साफ-सफाई, सूखापन, तनाव प्रबंधन और जरूरत पड़ने पर सही मेडिकल इलाज इस समस्या को काफी हद तक संभाल सकते हैं।</p>
 <p>अगर आपका पसीना लंबे समय से बना हुआ है, अचानक बढ़ गया है या साथ में अन्य लक्षण हैं, तो संकल्प हॉस्पिटल (अंबिकापुर) के <strong>जनरल मेडिसिन और त्वचा रोग विभाग</strong> के विशेषज्ञ आपकी सही जांच और इलाज में मदद कर सकते हैं। बेहतर सलाह के लिए आज ही <a href="/contact">हमारे डॉक्टरों से परामर्श लें</a> और बेझिझक जीवन जिएं।</p>
+
+<div class="mt-5 p-4 bg-light rounded">
+  <h3 class="h5 mb-3 border-bottom pb-2">Related Services & Quick Links</h3>
+  <ul class="list-unstyled mb-0" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px;">
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/dialysis-center-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Dialysis Center</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ivf-treatment-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">IVF & Infertility Treatment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ent-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">ENT & Sinus Treatment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/contact.php" class="text-decoration-none text-dark hover-primary">Book an Appointment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ophthalmology-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Ophthalmology & Eye Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/orthopedic-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Orthopedics & Joint Replacement</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/emergency-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">24/7 Emergency & Trauma Center</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/gynecology-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Gynecology & Maternity Care</a></li>
+  </ul>
+</div>
+
 HTML;
 
 $blog_faqs = [

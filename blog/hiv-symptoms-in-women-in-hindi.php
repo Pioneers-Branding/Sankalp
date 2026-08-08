@@ -75,6 +75,19 @@ $blog_content = <<<'HTML'
 <p>एचआईवी से बचने के लिए हमेशा सुरक्षित यौन संबंध बनाएं (कंडोम का उपयोग करें) और नशीली दवाओं की सुइयों को कभी साझा न करें। यदि कोई महिला एचआईवी पॉजिटिव है, तो आज के समय में एआरटी (Antiretroviral Therapy) दवाइयों के ज़रिए वायरस को शरीर में बढ़ने से रोका जा सकता है। एआरटी के नियमित सेवन से ब्लड में वायरस का स्तर इतना कम (Undetectable) हो जाता है कि वह पार्टनर को ट्रांसफर नहीं होता (U=U: Undetectable = Untransmittable)। इसके अलावा, गर्भवती महिला सही इलाज से अपने होने वाले बच्चे को एचआईवी से पूरी तरह सुरक्षित रख सकती है।</p>
 
 <p>संकल्प हॉस्पिटल में हम पूरी गोपनीयता (Privacy) के साथ एचआईवी की काउंसलिंग, जांच और इलाज की सुविधाएं प्रदान करते हैं। हमारे विशेषज्ञ आपको इस बीमारी के साथ एक स्वस्थ और सुरक्षित जीवन जीने के लिए पूरा मार्गदर्शन प्रदान करते हैं।</p>
+
+<div class="mt-5 p-4 bg-light rounded">
+  <h3 class="h5 mb-3 border-bottom pb-2">Related Services & Quick Links</h3>
+  <ul class="list-unstyled mb-0" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px;">
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ophthalmology-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Ophthalmology & Eye Care</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/dialysis-center-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">Dialysis Center</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/emergency-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">24/7 Emergency & Trauma Center</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ent-hospital-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">ENT & Sinus Treatment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/ivf-treatment-in-ambikapur.php" class="text-decoration-none text-dark hover-primary">IVF & Infertility Treatment</a></li>
+    <li><i class="fas fa-chevron-right text-primary me-2" style="font-size: 0.8em;"></i><a href="/contact.php" class="text-decoration-none text-dark hover-primary">Book an Appointment</a></li>
+  </ul>
+</div>
+
 HTML;
 
 $blog_faqs = [
