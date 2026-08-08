@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Kidney Stone Symptoms in Women | Sankalp Hospital</title>
+  <title><a href="/urology-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Kidney Stone</a> Symptoms in Women | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
   <meta name="description" content="Comprehensive guide to kidney stone symptoms in women. Learn about causes, risk factors, warning signs, prevention tips, and treatment options at Sankalp Hospital Ambikapur.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/kidney-stone-symptoms-in-women">
   <?php include '../includes/header-code.php'; ?>
@@ -57,7 +57,7 @@ $blog_date = "July 15, 2026"; include '../includes/header.php'; ?>
 
     <h2>What Are Kidney Stones?</h2>
     <p>Kidney stones are hard deposits made of minerals and salts that form inside your kidneys. They develop when your urine contains more crystal-forming substances—like calcium, oxalate, and uric acid—than the fluid in your urine can dilute. These crystals accumulate over time, gradually forming stones that can be as small as a grain of sand or as large as a golf ball.</p>
-    <p>For women, kidney stones can be particularly challenging to diagnose because the symptoms often overlap with gynecological conditions like menstrual cramps, ovarian cysts, or even pregnancy-related discomfort. This is why paying close attention to your body's signals is so important.</p>
+    <p>For women, kidney stones can be particularly challenging to diagnose because the symptoms often overlap with gynecological conditions like menstrual cramps, ovarian cysts, or even <a href="/gynecology-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">pregnancy</a>-related discomfort. This is why paying close attention to your body's signals is so important.</p>
 
     <h2>Understanding the Types of Kidney Stones</h2>
     <p>Not all kidney stones are the same. Understanding the different types can help you understand why they form and how to prevent them:</p>
@@ -111,7 +111,7 @@ $blog_date = "July 15, 2026"; include '../includes/header.php'; ?>
     <p>If a kidney stone is causing an infection in your urinary tract, you may develop fever, chills, and general malaise. This is a serious symptom that requires prompt medical care, as it could indicate a kidney infection (pyelonephritis) that needs immediate treatment.</p>
 
     <h3>8. Inability to Urinate</h3>
-    <p>If a stone becomes lodged in the urinary tract and completely blocks the flow of urine, this is a medical emergency. You may feel intense pressure in your lower abdomen but be unable to urinate. Seek immediate medical attention if this occurs.</p>
+    <p>If a stone becomes lodged in the urinary tract and completely blocks the flow of urine, this is a medical <a href="/emergency-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">emergency</a>. You may feel intense pressure in your lower abdomen but be unable to urinate. Seek immediate medical attention if this occurs.</p>
 
     <div class="warning-box">
       <h4>Emergency Warning Signs</h4>

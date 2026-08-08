@@ -9,7 +9,7 @@ $blog_author_desc = "Senior Physician & Heart Specialist, Sankalp Hospital, Ambi
 $blog_image = "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=400&fit=crop";
 $pageCanonical = "https://www.sankalphospital.com/blog/can-depression-cause-a-heart-attack";
 $blog_content = <<<'HTML'
-<p class="lead">We tend to think of the heart and the mind as two separate systems — one physical, one emotional. But decades of research now show they are deeply connected. If you have ever asked <strong>"can depression cause a heart attack?"</strong>, the honest answer is: depression doesn't block an artery the way a fatty plaque does, but it measurably raises your risk of heart disease and heart attack — and it can worsen the outcome if one occurs.</p>
+<p class="lead">We tend to think of the heart and the mind as two separate systems — one physical, one emotional. But decades of research now show they are deeply connected. If you have ever asked <strong>"can depression cause a <a href="/emergency-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">heart attack</a>?"</strong>, the honest answer is: depression doesn't block an artery the way a fatty plaque does, but it measurably raises your risk of heart disease and heart attack — and it can worsen the outcome if one occurs.</p>
 
 <p>Depression is far more than feeling sad. It is a serious medical condition that changes how the body works — affecting hormones, inflammation, blood pressure, sleep, and behaviour. Each of these has a direct impact on the cardiovascular system. Understanding this hidden connection is the first step to protecting both your mental and heart health.</p>
 
@@ -107,7 +107,7 @@ $blog_content = <<<'HTML'
 <p>Seek help if you experience persistent low mood, loss of interest in activities, hopelessness, changes in sleep or appetite, or thoughts of self-harm — especially alongside heart disease or its risk factors. And always seek emergency care for sudden chest pain, breathlessness, or other heart attack warning signs. Ideally, care should involve both a physician or cardiologist and a mental health professional working together.</p>
 
 <h2>How Sankalp Hospital Can Help</h2>
-<p>At <a href="/"><strong>Sankalp Hospital, Ambikapur</strong></a>, our cardiology, internal medicine, and psychiatry teams work together to care for the whole person — heart and mind. We offer heart health screening, management of blood pressure, diabetes, and cholesterol, mental health support for depression and anxiety, and 24x7 emergency care. If you are living with depression and worried about your heart, or recovering from a cardiac event and struggling emotionally, our specialists can help you address both together.</p>
+<p>At <a href="/"><strong>Sankalp Hospital, Ambikapur</strong></a>, our cardiology, internal medicine, and psychiatry teams work together to care for the whole person — heart and mind. We offer heart health screening, management of blood pressure, diabetes, and cholesterol, mental health support for depression and anxiety, and 24x7 emergency care. If you are living with depression and worried about your heart, or recovering from a cardiac event and struggling emotionally, our <a href="/doctors.php" class="text-primary text-decoration-none fw-medium">specialists</a> can help you address both together.</p>
 
 <p>You don't have to choose between your mental health and your heart health — book a consultation and let our team support both.</p>
 HTML;

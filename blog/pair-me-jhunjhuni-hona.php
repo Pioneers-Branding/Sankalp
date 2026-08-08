@@ -67,8 +67,8 @@ $blog_content = <<<'HTML'
 <h2>अन्य महत्वपूर्ण कारण</h2>
 <ul>
 <li><strong>अत्यधिक शराब का सेवन:</strong> लंबे समय तक भारी मात्रा में शराब पीने से नसों में विषाक्तता (Toxicity) फैलती है जिसे अल्कोहलिक न्यूरोपैथी कहते हैं।</li>
-<li><strong>दवाइयों के साइड इफेक्ट्स:</strong> कैंसर की कीमोथेरेपी (Chemotherapy), कुछ एंटीबायोटिक्स और हाई ब्लड प्रेशर की दवाइयां नसों पर असर डाल सकती हैं।</li>
-<li><strong>किडनी की विफलता (Kidney Failure):</strong> रक्त में यूरिया और अन्य टॉक्सिन्स के जमा होने (यूरेमिया) से भी नसों को नुकसान पहुंचता है।</li>
+<li><strong>दवाइयों के साइड इफेक्ट्स:</strong> कैंसर की कीमोथेरेपी (<a href="/chemotherapy-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Chemotherapy</a>), कुछ एंटीबायोटिक्स और हाई ब्लड प्रेशर की दवाइयां नसों पर असर डाल सकती हैं।</li>
+<li><strong>किडनी की विफलता (<a href="/urology-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Kidney Failure</a>):</strong> रक्त में यूरिया और अन्य टॉक्सिन्स के जमा होने (यूरेमिया) से भी नसों को नुकसान पहुंचता है।</li>
 </ul>
 
 <h2>पैर के तलवे में झनझनाहट या झुनझुनी क्यों होती है?</h2>

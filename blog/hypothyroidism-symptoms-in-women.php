@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Hypothyroidism Symptoms in Women | Sankalp Hospital</title>
+  <title>Hypothyroidism Symptoms in Women | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
   <meta name="description" content="Common signs, symptoms, and causes of hypothyroidism in women. Learn about thyroid health and treatment options at Sankalp Hospital Ambikapur.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/hypothyroidism-symptoms-in-women">
   <?php include '../includes/header-code.php'; ?>
@@ -61,11 +61,11 @@ $blog_date = "July 19, 2026"; include '../includes/header.php'; ?>
     <p>You may notice that your skin becomes dry and pale, and your hair may become thin, brittle, or start falling out. Brittle nails are also a common symptom.</p>
 
     <div class="info-box">
-      <h4>Women's Health and the Thyroid</h4>
+      <h4><a href="/gynecology-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Women's Health</a> and the Thyroid</h4>
       <p>Thyroid hormones play a crucial role in the female reproductive system. Hypothyroidism can lead to irregular menstrual periods, heavy bleeding, or difficulty conceiving.</p>
     </div>
 
-    <h3>5. Muscle Aches and Joint Pain</h3>
+    <h3>5. Muscle Aches and <a href="/orthopedic-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Joint Pain</a></h3>
     <p>Vague aches and pains in the muscles or stiffness in the joints can often be linked to low thyroid function.</p>
 
     <h2>Diagnosis and Treatment</h2>

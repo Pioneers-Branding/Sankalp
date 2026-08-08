@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Hormonal Imbalance in Women: Symptoms and Signs | Sankalp Hospital</title>
+  <title><a href="/gynecology-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Hormonal Imbalance</a> in Women: Symptoms and Signs | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
   <meta name="description" content="Common symptoms, causes, and effects of hormonal imbalance in women. Learn how to manage hormonal health with expert care at Sankalp Hospital.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/symptoms-of-hormonal-imbalance-in-women">
   <?php include '../includes/header-code.php'; ?>

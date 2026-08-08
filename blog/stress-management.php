@@ -114,13 +114,13 @@ $blog_content = <<<'HTML'
 <li>Learn to accept what you cannot change</li>
 </ul>
 
-<p>Managing stress is an ongoing process. If stress is significantly impacting your life, consider reaching out to our mental health professionals at Sankalp Hospital for support and guidance.</p>
+<p>Managing stress is an ongoing process. If stress is significantly impacting your life, consider reaching out to our mental health professionals at <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a> for support and guidance.</p>
 HTML;
 
 $related_posts = [
     ['title' => '5 Simple Steps to Keep Your Heart Healthy', 'url' => 'heart-health', 'date' => 'Jan 5, 2024', 'image' => 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=300&fit=crop'],
     ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'Dec 10, 2023', 'image' => 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&h=300&fit=crop'],
-    ['title' => 'Managing Joint Pain', 'url' => 'joint-pain', 'date' => 'Dec 20, 2023', 'image' => 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop']
+    ['title' => 'Managing <a href="/orthopedic-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Joint Pain</a>', 'url' => 'joint-pain', 'date' => 'Dec 20, 2023', 'image' => 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop']
 ];
 
 include 'blog-post.php';

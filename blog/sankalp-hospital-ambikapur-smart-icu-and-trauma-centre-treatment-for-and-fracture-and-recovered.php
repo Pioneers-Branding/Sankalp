@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Smart ICU and Trauma Centre in Ambikapur | Sankalp Hospital</title>
+  <title>Smart ICU and Trauma Centre in Ambikapur | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
   <meta name="description" content="Discover Sankalp Hospital's Smart ICU and advanced Trauma Centre for emergency care, fracture treatment, and rapid recovery in Ambikapur.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/sankalp-hospital-ambikapur-smart-icu-and-trauma-centre-treatment-for-and-fracture-and-recovered">
   <?php include '../includes/header-code.php'; ?>
@@ -46,7 +46,7 @@ $blog_date = "July 09, 2026"; include '../includes/header.php'; ?>
     <p class="lead">In critical situations, every second counts. Sankalp Hospital Ambikapur features a state-of-the-art Smart ICU and a 24/7 Trauma Centre dedicated to providing immediate, life-saving care for emergencies and severe injuries.</p>
 
     <h2>What Makes an ICU "Smart"?</h2>
-    <p>Our Smart ICU integrates advanced monitoring systems with real-time data analytics, allowing our medical team to track patient vitals with unprecedented precision. This ensures that even the slightest change in a patient's condition is detected and addressed immediately.</p>
+    <p>Our Smart ICU integrates advanced monitoring systems with real-time data analytics, allowing our <a href="/doctors.php" class="text-primary text-decoration-none fw-medium">medical team</a> to track patient vitals with unprecedented precision. This ensures that even the slightest change in a patient's condition is detected and addressed immediately.</p>
 
     <div class="icu-box">
       <h4>Advanced Trauma & Fracture Care</h4>
@@ -55,12 +55,12 @@ $blog_date = "July 09, 2026"; include '../includes/header.php'; ?>
         <li><strong>Multi-system Trauma:</strong> Comprehensive care for patients with multiple injuries.</li>
         <li><strong>Advanced Fracture Management:</strong> Immediate surgical and non-surgical treatment for broken bones.</li>
         <li><strong>Head and Spinal Injuries:</strong> Specialized neuro-trauma care.</li>
-        <li><strong>Emergency Resuscitation:</strong> Life-saving stabilization for critical patients.</li>
+        <li><strong><a href="/emergency-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Emergency</a> Resuscitation:</strong> Life-saving stabilization for critical patients.</li>
       </ul>
     </div>
 
     <h2>The Journey from Fracture to Recovery</h2>
-    <p>Recovery from a severe injury or fracture requires more than just surgery. Our multidisciplinary team—including orthopedic surgeons, critical care specialists, and physiotherapists—works together to create a customized recovery path for every patient.</p>
+    <p>Recovery from a severe injury or fracture requires more than just surgery. Our multidisciplinary team—including <a href="/orthopedic-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">orthopedic</a> surgeons, critical care specialists, and physiotherapists—works together to create a customized recovery path for every patient.</p>
     <p>We take pride in our high recovery rates, helping patients regain their mobility and return to their lives as quickly and safely as possible.</p>
 
     <h2>24/7 Emergency Availability</h2>

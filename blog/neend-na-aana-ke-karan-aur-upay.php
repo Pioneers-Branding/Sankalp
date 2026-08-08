@@ -138,7 +138,7 @@ $blog_faqs = [
 $related_posts = [
   ['title' => 'हृदय को स्वस्थ रखने के लिए क्या करें? जानें 10 प्रभावी उपाय', 'url' => 'hriday-ko-swasth-rakhne-ke-liye-kya-kare', 'date' => 'June 03, 2026', 'image' => 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=300&fit=crop'],
   ['title' => 'BP High होने पर क्या करें? तुरंत बीपी कम करने के उपाय और इलाज', 'url' => 'bp-high-hone-par-kya-kare', 'date' => 'May 07, 2026', 'image' => 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop'],
-  ['title' => 'Sankalp Hospital Health Care Packages — किफायती जाँच पैकेज', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'May 04, 2026', 'image' => 'https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=400&h=300&fit=crop']
+  ['title' => '<a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a> Health Care Packages — किफायती जाँच पैकेज', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'May 04, 2026', 'image' => 'https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=400&h=300&fit=crop']
 ];
 
 include 'blog-post.php';

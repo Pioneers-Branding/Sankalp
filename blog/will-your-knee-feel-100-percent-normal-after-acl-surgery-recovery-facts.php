@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Will Your Knee Feel 100% Normal After ACL Surgery? | Sankalp Hospital</title>
+  <title>Will Your <a href="/orthopedic-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Knee</a> Feel 100% Normal After ACL Surgery? | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
   <meta name="description" content="Expert guide on ACL surgery recovery expectations, timeline, and what you can realistically expect for knee function after reconstruction surgery.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/will-your-knee-feel-100-percent-normal-after-acl-surgery-recovery-facts">
   <?php include '../includes/header-code.php'; ?>
@@ -383,7 +383,7 @@ $blog_date = "June 29, 2026"; include '../includes/header.php'; ?>
     <ul>
       <li>Realistic expectations about recovery timeline</li>
       <li>Dedicated rehabilitation (don't skip those exercises!)</li>
-      <li>Working with experienced orthopedic and rehabilitation specialists</li>
+      <li>Working with experienced orthopedic and rehabilitation <a href="/doctors.php" class="text-primary text-decoration-none fw-medium">specialists</a></li>
       <li>Being patient with the healing process</li>
       <li>Addressing psychological barriers</li>
       <li>Not rushing back to activity before your body is ready</li>

@@ -9,7 +9,7 @@ $blog_author_desc = "MBBS, MS (Orthopedics) - Orthopedic Surgeon, Sankalp Hospit
 $blog_image = "https://images.unsplash.com/photo-1606166325683-e6deb697d301?w=400&h=400&fit=crop";
 $pageCanonical = "https://www.sankalphospital.com/blog/knee-treatment-without-surgery";
 $blog_content = <<<'HTML'
-<p class="lead">घुटने का दर्द (Knee Pain) एक ऐसी समस्या है जो हर उम्र के लोगों को प्रभावित करती है। जब दर्द बढ़ने लगता है, तो अधिकांश लोग सोचते हैं कि सर्जरी ही एकमात्र विकल्प है। लेकिन सच्चाई यह है कि <strong>बिना सर्जरी के घुटने के अधिकांश रोगों का सफल इलाज</strong> संभव है। आधुनिक चिकित्सा में कई ऐसी तकनीकें और उपचार उपलब्ध हैं जो सर्जरी की जरूरत को काफी हद तक कम कर देते हैं। इस ब्लॉग में हम विस्तार से जानेंगे कि कैसे बिना सर्जरी के घुटने के दर्द से राहत पाई जा सकती है।</p>
+<p class="lead">घुटने का दर्द (<a href="/orthopedic-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Knee Pain</a>) एक ऐसी समस्या है जो हर उम्र के लोगों को प्रभावित करती है। जब दर्द बढ़ने लगता है, तो अधिकांश लोग सोचते हैं कि सर्जरी ही एकमात्र विकल्प है। लेकिन सच्चाई यह है कि <strong>बिना सर्जरी के घुटने के अधिकांश रोगों का सफल इलाज</strong> संभव है। आधुनिक चिकित्सा में कई ऐसी तकनीकें और उपचार उपलब्ध हैं जो सर्जरी की जरूरत को काफी हद तक कम कर देते हैं। इस ब्लॉग में हम विस्तार से जानेंगे कि कैसे बिना सर्जरी के घुटने के दर्द से राहत पाई जा सकती है।</p>
 
 <blockquote>"सर्जरी हमेशा अंतिम विकल्प होनी चाहिए, पहला नहीं। अधिकांश घुटने के रोगों को दवाइयों, फिजियोथेरेपी और जीवनशैली में बदलाव से सफलतापूर्वक नियंत्रित किया जा सकता है। सही समय पर सही इलाज शुरू करने से सर्जरी की जरूरत ही नहीं पड़ती।"</blockquote>
 
@@ -154,7 +154,7 @@ $blog_content = <<<'HTML'
 
 <div class="text-center mt-5 p-4 rounded" style="background:var(--bg-soft)">
 <h4>क्या आप भी बिना सर्जरी के घुटने के दर्द से राहत चाहते हैं?</h4>
-<p class="text-muted mb-4">Sankalp Hospital, अंबिकापुर के अनुभवी <a href="orthopedic-hospital-in-ambikapur">ऑर्थोपेडिक विशेषज्ञ</a> आपकी स्थिति का आकलन करके सबसे उपयुक्त गैर-सर्जिकल इलाज योजना बना सकते हैं।</p>
+<p class="text-muted mb-4"><a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a>, अंबिकापुर के अनुभवी <a href="orthopedic-hospital-in-ambikapur">ऑर्थोपेडिक विशेषज्ञ</a> आपकी स्थिति का आकलन करके सबसे उपयुक्त गैर-सर्जिकल इलाज योजना बना सकते हैं।</p>
 <a href="index#appointment" class="btn btn-primary"><i class="fas fa-calendar-check me-2"></i>अपॉइंटमेंट बुक करें</a>
 </div>
 HTML;

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>How to Reduce Knee Swelling Fast | Sankalp Hospital</title>
+  <title>How to Reduce <a href="/orthopedic-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Knee</a> Swelling Fast | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
   <meta name="description" content="Proven home remedies and medical treatments to reduce knee swelling (effusion) fast. Learn when to see a doctor for knee swelling at Sankalp Hospital.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/how-to-reduce-knee-swelling-fast-proven-remedies">
   <?php include '../includes/header-code.php'; ?>
@@ -65,7 +65,7 @@ $blog_date = "July 20, 2026"; include '../includes/header.php'; ?>
     </div>
 
     <h2>Medical Treatments for Severe Swelling</h2>
-    <p>If home remedies aren't enough, our orthopedic specialists may recommend:</p>
+    <p>If home remedies aren't enough, our orthopedic <a href="/doctors.php" class="text-primary text-decoration-none fw-medium">specialists</a> may recommend:</p>
     <ul>
       <li><strong>Arthrocentesis:</strong> A procedure to remove excess fluid from the joint using a needle, providing instant relief from pressure.</li>
       <li><strong>Corticosteroid Injections:</strong> Powerful anti-inflammatory medications injected directly into the joint.</li>

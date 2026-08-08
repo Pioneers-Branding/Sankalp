@@ -35,7 +35,7 @@ $blog_content = <<<'HTML'
 <li><strong>लिम्फेडेमा (Lymphedema):</strong> लिम्फैटिक सिस्टम में रुकावट के कारण लसीका द्रव (Lymph fluid) का जमाव होने से ऊतकों में भारी सूजन आ जाती है।</li>
 </ul>
 
-<h3>3. गर्भावस्था (Pregnancy)</h3>
+<h3>3. गर्भावस्था (<a href="/gynecology-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Pregnancy</a>)</h3>
 <p>गर्भावस्था के दौरान शरीर में तरल पदार्थ का उत्पादन बढ़ जाता है और बढ़ता हुआ गर्भाशय पेल्विस की नसों पर दबाव डालता है। इससे पैरों में हल्की सूजन आना सामान्य है। लेकिन अचानक और बहुत ज्यादा सूजन 'प्री-एक्लेमप्सिया' (Preeclampsia) नामक खतरनाक स्थिति का संकेत हो सकती है।</p>
 
 <h2>पैरों में सूजन के लक्षण (Symptoms of Edema)</h2>

@@ -9,7 +9,7 @@ $blog_author_desc = "MBBS, MS (Orthopedics) - Orthopedic Surgeon, Sankalp Hospit
 $blog_image = "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop";
 $pageCanonical = "https://www.sankalphospital.com/blog/why-does-my-knee-hurt-when-i-straighten-it-causes-relief";
 $blog_content = <<<'HTML'
-<p class="lead">Experiencing a sharp catch, a dull ache, or a feeling of extreme tightness when trying to fully straighten your leg is a highly common orthopedic complaint. Your knee is one of the largest and most complex hinge joints in your body, designed to bear massive amounts of weight while moving fluidly through extension (straightening) and flexion (bending). When pain interrupts this natural mechanism, it is usually a sign that an underlying structure—whether it be cartilage, a ligament, a tendon, or the joint capsule itself—has been injured, inflamed, or degraded over time.</p>
+<p class="lead">Experiencing a sharp catch, a dull ache, or a feeling of extreme tightness when trying to fully straighten your leg is a highly common <a href="/orthopedic-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">orthopedic</a> complaint. Your knee is one of the largest and most complex hinge joints in your body, designed to bear massive amounts of weight while moving fluidly through extension (straightening) and flexion (bending). When pain interrupts this natural mechanism, it is usually a sign that an underlying structure—whether it be cartilage, a ligament, a tendon, or the joint capsule itself—has been injured, inflamed, or degraded over time.</p>
 
 <blockquote>"Knee pain upon extension is often your body's mechanical warning system. Pushing through a 'locked' or painful knee can turn a minor, treatable issue into a complex surgical problem. Understanding the root cause is the first step toward lasting relief."</blockquote>
 
@@ -44,7 +44,7 @@ $blog_content = <<<'HTML'
 <p>The IT band is a thick band of fascia that runs down the outside of your thigh, from your hip to the outside of your knee. If it becomes tight or inflamed—often due to repetitive running or cycling—it causes severe pain on the lateral (outer) side of the knee.</p>
 <p><strong>Why it hurts to straighten:</strong> As the knee bends and straightens, the tight IT band snaps back and forth over a bony bump on the outside of the knee joint, causing friction, inflammation, and sharp pain during extension.</p>
 
-<h2>When Is It a Medical Emergency?</h2>
+<h2>When Is It a Medical <a href="/emergency-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Emergency</a>?</h2>
 <p>While some knee pain can be managed at home, certain symptoms demand an immediate visit to an orthopedic specialist. <strong>Do not delay medical care if you experience:</strong></p>
 <ul>
 <li>A knee that is physically "locked" and absolutely cannot be straightened or bent.</li>
@@ -68,7 +68,7 @@ $blog_content = <<<'HTML'
 </div>
 
 <h3>Professional Medical Interventions</h3>
-<p>Once you are evaluated at a facility like Sankalp Hospital, your orthopedic surgeon may recommend:</p>
+<p>Once you are evaluated at a facility like <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a>, your orthopedic surgeon may recommend:</p>
 <ul>
 <li><strong>Physical Therapy:</strong> The cornerstone of knee recovery. A customized program will focus on stretching tight structures (like the hamstrings and IT band) and strengthening the quadriceps and glutes to improve kneecap tracking and take the load off the joint.</li>
 <li><strong>Medications and Injections:</strong> Non-steroidal anti-inflammatory drugs (NSAIDs) can reduce swelling. For severe pain, a targeted corticosteroid injection into the knee joint can provide rapid relief. If a Baker's cyst is present, the doctor may drain the fluid using a needle (aspiration).</li>

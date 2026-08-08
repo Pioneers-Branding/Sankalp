@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Symptoms of AIDS in Women: Signs and Risks | Sankalp Hospital</title>
+  <title>Symptoms of AIDS in Women: Signs and Risks | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
   <meta name="description" content="Detailed guide on the symptoms of AIDS in women, from early signs of HIV to advanced stages. Understand the health risks and care options at Sankalp Hospital.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/symptoms-of-aids-in-women-early-signs-and-health-risks-explained">
   <?php include '../includes/header-code.php'; ?>
@@ -60,7 +60,7 @@ $blog_date = "July 07, 2026"; include '../includes/header.php'; ?>
 
     <div class="risk-box">
       <h4>Opportunistic Infections</h4>
-      <p>AIDS-defining conditions include pneumonia (Pneumocystis jirovecii), tuberculosis, certain types of meningitis, and cancers like Kaposi's sarcoma. Women with AIDS are also at a significantly higher risk for advanced cervical cancer.</p>
+      <p>AIDS-defining conditions include pneumonia (Pneumocystis jirovecii), tuberculosis, certain types of meningitis, and cancers like Kaposi's sarcoma. Women with AIDS are also at a significantly higher risk for advanced cervical <a href="/chemotherapy-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">cancer</a>.</p>
     </div>
 
     <h2>Unique Health Risks for Women</h2>

@@ -65,7 +65,7 @@ $blog_content = <<<'HTML'
 </div>
 
 <h2>डॉक्टर के पास जाने पर क्या-क्या जांच होती है?</h2>
-<p>Sankalp Hospital में <a href="orthopedic-hospital-in-ambikapur">ऑर्थोपेडिक विशेषज्ञ</a> आपकी समस्या को समझने के लिए कई स्तरों पर जांच करते हैं:</p>
+<p><a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a> में <a href="orthopedic-hospital-in-ambikapur">ऑर्थोपेडिक विशेषज्ञ</a> आपकी समस्या को समझने के लिए कई स्तरों पर जांच करते हैं:</p>
 
 <h3>1. शारीरिक परीक्षण</h3>
 <p>डॉक्टर आपके घुटने को छूकर देखेंगे, दर्द के स्थान की पहचान करेंगे, जोड़ की गति की सीमा (range of motion) जांचेंगे, और लिगामेंट की स्थिरता का परीक्षण करेंगे।</p>
@@ -133,7 +133,7 @@ HTML;
 $related_posts = [
     ['title' => 'बिना सर्जरी के घुटने का इलाज', 'url' => 'knee-treatment-without-surgery', 'date' => 'May 25, 2026', 'image' => 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop'],
     ['title' => 'घुटने की रिप्लेसमेंट सर्जरी की अवधि', 'url' => 'how-long-does-a-knee-replacement-surgery-take-procedure-duration-recovery-guide', 'date' => 'May 15, 2026', 'image' => 'https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?w=400&h=300&fit=crop'],
-    ['title' => 'सर्दियों में जोड़ों का दर्द', 'url' => 'joint-pain-in-winter-causes-home-remedies-when-to-see-an-orthopedic-doctor', 'date' => 'May 19, 2026', 'image' => 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop']
+    ['title' => 'सर्दियों में जोड़ों का दर्द', 'url' => 'joint-pain-in-winter-causes-home-remedies-when-to-see-an-<a href="/orthopedic-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">orthopedic</a>-doctor', 'date' => 'May 19, 2026', 'image' => 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop']
 ];
 
 include 'blog-post.php';

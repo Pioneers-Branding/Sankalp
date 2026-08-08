@@ -9,7 +9,7 @@ $blog_author_desc = "Consultant Neurosurgeon, Sankalp Hospital";
 $blog_image = "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800&h=400&fit=crop";
 $pageCanonical = "https://www.sankalphospital.com/blog/heart-attack-vs-cardiac-arrest";
 $blog_content = <<<'HTML'
-<p class="lead">The terms "heart attack" and "cardiac arrest" are often used interchangeably in everyday conversation, but they represent two very different medical emergencies with distinct causes, symptoms, and treatments. Understanding these differences could mean the difference between life and death for you or a loved one.</p>
+<p class="lead">The terms "<a href="/emergency-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">heart attack</a>" and "cardiac arrest" are often used interchangeably in everyday conversation, but they represent two very different medical emergencies with distinct causes, symptoms, and treatments. Understanding these differences could mean the difference between life and death for you or a loved one.</p>
 
 <p>Every year, millions of people experience these cardiac events worldwide. Yet, most people cannot correctly distinguish between them. This guide will help you understand both conditions, recognize warning signs, and learn what to do in an emergency situation.</p>
 
@@ -42,7 +42,7 @@ $blog_content = <<<'HTML'
 </ul>
 
 <div class="alert alert-warning mt-3 mb-4 shadow-sm border-0" style="background-color: #fff3cd; border-left: 5px solid #ffc107 !important;">
-  <strong>Important:</strong> Symptoms can vary between individuals. Women may experience subtler symptoms like fatigue, nausea, or back pain. Don't ignore any unusual symptoms - act fast.
+  <strong>Important:</strong> Symptoms can vary between individuals. Women may experience subtler symptoms like fatigue, nausea, or <a href="/orthopedic-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">back pain</a>. Don't ignore any unusual symptoms - act fast.
 </div>
 
 <h2>What is Cardiac Arrest?</h2>
@@ -221,7 +221,7 @@ $blog_content = <<<'HTML'
   <li><a href="/sankalp-hospital-health-care-packages"><strong>Health Checkup Packages:</strong></a> Regular health screenings can detect heart issues early.</li>
 </ul>
 
-<h2>When to Seek Medical Help</h2>
+<h2>When to <a href="/contact.php" class="text-primary text-decoration-none fw-medium">Seek Medical Help</a></h2>
 <p>Don't ignore these warning signs. Seek immediate medical attention if you experience:</p>
 <ul>
   <li>Chest pain or pressure that lasts more than a few minutes</li>

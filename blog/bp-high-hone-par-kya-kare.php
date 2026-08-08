@@ -205,7 +205,7 @@ $blog_faqs = [
 
 $related_posts = [
   ['title' => 'हृदय को स्वस्थ रखने के लिए क्या करें? जानें 10 प्रभावी उपाय', 'url' => 'hriday-ko-swasth-rakhne-ke-liye-kya-kare', 'date' => 'June 03, 2026', 'image' => 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=300&fit=crop'],
-  ['title' => 'Does Low BP Cause Heart Attack? Myths vs Facts Explained', 'url' => 'does-low-bp-cause-heart-attack-myths-vs-facts', 'date' => 'May 19, 2026', 'image' => 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop'],
+  ['title' => 'Does Low BP Cause <a href="/emergency-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Heart Attack</a>? Myths vs Facts Explained', 'url' => 'does-low-bp-cause-heart-attack-myths-vs-facts', 'date' => 'May 19, 2026', 'image' => 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop'],
   ['title' => 'A Comprehensive Guide to Stress Management', 'url' => 'stress-management', 'date' => 'May 04, 2026', 'image' => 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=300&fit=crop']
 ];
 

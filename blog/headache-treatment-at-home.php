@@ -9,7 +9,7 @@ $blog_author_desc = "Consultant Physician & Internal Medicine, Sankalp Hospital,
 $blog_image = "https://images.unsplash.com/photo-1494869042583-f6c911f04b4c?w=400&h=400&fit=crop";
 $pageCanonical = "https://www.sankalphospital.com/blog/headache-treatment-at-home";
 $blog_content = <<<'HTML'
-<p class="lead">Almost everyone gets a headache from time to time — that dull throb, tight band, or pounding pressure that makes it hard to focus. The good news is that most everyday headaches can be eased at home without rushing for a pill. This guide shares <strong>10 effective home remedies for headache relief</strong>, the common triggers to avoid, and the warning signs that mean a headache needs a doctor.</p>
+<p class="lead">Almost everyone gets a <a href="/neurosurgery-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">headache</a> from time to time — that dull throb, tight band, or pounding pressure that makes it hard to focus. The good news is that most everyday headaches can be eased at home without rushing for a pill. This guide shares <strong>10 effective home remedies for headache relief</strong>, the common triggers to avoid, and the warning signs that mean a headache needs a doctor.</p>
 
 <p>Most headaches are "tension headaches," caused by muscle tightness, stress, dehydration, poor posture, eye strain, or lack of sleep. These respond very well to simple, natural measures. Understanding what's driving your headache is the first step to relieving it — and preventing the next one.</p>
 
@@ -78,7 +78,7 @@ $blog_content = <<<'HTML'
 <ul>
 <li><strong>Tension headache:</strong> A dull, tight, band-like pressure around the head — the most common type, driven by stress and muscle tension.</li>
 <li><strong>Migraine:</strong> Throbbing pain, usually on one side, often with nausea and sensitivity to light and sound. May be preceded by visual "aura."</li>
-<li><strong>Sinus headache:</strong> Pressure across the forehead and cheeks with nasal congestion — see our detailed guide on <a href="/blog/how-to-cure-a-sinus-headache"><strong>how to cure a sinus headache</strong></a>.</li>
+<li><strong><a href="/ent-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Sinus</a> headache:</strong> Pressure across the forehead and cheeks with nasal congestion — see our detailed guide on <a href="/blog/how-to-cure-a-sinus-headache"><strong>how to cure a sinus headache</strong></a>.</li>
 <li><strong>Cluster headache:</strong> Severe, sharp pain around one eye, occurring in clusters — needs medical evaluation.</li>
 <li><strong>Cervicogenic headache:</strong> Pain that starts in the neck and spreads to the head, often from posture or spine issues.</li>
 </ul>
@@ -98,7 +98,7 @@ $blog_content = <<<'HTML'
 </ul>
 
 <h2>When to See a Doctor for a Headache</h2>
-<p>Most headaches are harmless, but some signal a more serious problem. See a doctor promptly, or seek emergency care, if you have:</p>
+<p>Most headaches are harmless, but some signal a more serious problem. See a doctor promptly, or seek <a href="/emergency-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">emergency</a> care, if you have:</p>
 <ul>
 <li>A sudden, severe headache — the "worst headache of your life"</li>
 <li>Headache with fever, stiff neck, confusion, or a rash</li>
@@ -140,7 +140,7 @@ $blog_faqs = [
     ],
     [
         "question" => "When should I worry about a headache?",
-        "answer" => "Seek medical help urgently if you have a sudden severe headache (the 'worst of your life'), a headache with fever and stiff neck, confusion, weakness, numbness, slurred speech, or vision loss, a headache after a head injury, or headaches that keep worsening or change in pattern. These can indicate serious conditions such as infection, stroke, or bleeding and need immediate evaluation."
+        "answer" => "<a href="/contact.php" class="text-primary text-decoration-none fw-medium">Seek medical help</a> urgently if you have a sudden severe headache (the 'worst of your life'), a headache with fever and stiff neck, confusion, weakness, numbness, slurred speech, or vision loss, a headache after a head injury, or headaches that keep worsening or change in pattern. These can indicate serious conditions such as infection, stroke, or bleeding and need immediate evaluation."
     ],
     [
         "question" => "Can dehydration really cause headaches?",

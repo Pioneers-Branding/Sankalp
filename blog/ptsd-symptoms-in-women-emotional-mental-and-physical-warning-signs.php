@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>PTSD Symptoms in Women: Warning Signs | Sankalp Hospital</title>
+  <title>PTSD Symptoms in Women: Warning Signs | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
   <meta name="description" content="Understand the emotional, mental, and physical symptoms of PTSD in women. Learn about warning signs and how to seek help at Sankalp Hospital.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/ptsd-symptoms-in-women-emotional-mental-and-physical-warning-signs">
   <?php include '../includes/header-code.php'; ?>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Causes, Symptoms, and Treatment of IVF | Sankalp Hospital</title>
+  <title>Causes, Symptoms, and Treatment of <a href="/ivf-treatment-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">IVF</a> | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
   <meta name="description" content="A comprehensive guide to IVF: understanding the causes of infertility, symptoms that indicate a need for IVF, and the step-by-step treatment process.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/causes-symptoms-and-treatment-of-ivf">
   <?php include '../includes/header-code.php'; ?>

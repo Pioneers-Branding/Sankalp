@@ -106,8 +106,8 @@ $blog_faqs = [
 
 $related_posts = [
   ['title' => 'Lower Abdominal Pain in Women', 'url' => 'lower-abdominal-pain-in-women-common-causes-and-when-to-seek-medical-help', 'date' => 'May 11, 2026', 'image' => 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=300&fit=crop'],
-  ['title' => 'Early Warning Signs of Cancer in Women', 'url' => 'symptoms-of-cancer-in-women-early-warning-signs-you-should-not-ignore', 'date' => 'May 11, 2026', 'image' => 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=300&fit=crop'],
-  ['title' => 'The Ultimate Guide to a Healthy Pregnancy', 'url' => 'pregnancy-tips', 'date' => 'April 30, 2026', 'image' => 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=300&fit=crop']
+  ['title' => 'Early Warning Signs of <a href="/chemotherapy-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Cancer</a> in Women', 'url' => 'symptoms-of-cancer-in-women-early-warning-signs-you-should-not-ignore', 'date' => 'May 11, 2026', 'image' => 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=300&fit=crop'],
+  ['title' => 'The Ultimate Guide to a Healthy <a href="/gynecology-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Pregnancy</a>', 'url' => 'pregnancy-tips', 'date' => 'April 30, 2026', 'image' => 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=300&fit=crop']
 ];
 
 include 'blog-post.php';

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Health Care Packages in Ambikapur | Sankalp Hospital</title>
+  <title>Health Care Packages in Ambikapur | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
   <meta name="description" content="Affordable and comprehensive health checkup packages at Sankalp Hospital Ambikapur. Preventive health screenings for every age and need.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/sankalp-hospital-health-care-packages">
   <?php include '../includes/header-code.php'; ?>
@@ -53,14 +53,14 @@ $blog_date = "July 08, 2026"; include '../includes/header.php'; ?>
       <ul>
         <li><strong>Basic Health Screening:</strong> Includes complete blood count, blood sugar, and basic urine analysis. Ideal for annual checkups.</li>
         <li><strong>Executive Wellness Package:</strong> A comprehensive screen including kidney function, liver function, and lipid profile.</li>
-        <li><strong>Women's Health Special:</strong> Focused on female-specific wellness, including thyroid profile and gynecological consultation.</li>
+        <li><strong><a href="/gynecology-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Women's Health</a> Special:</strong> Focused on female-specific wellness, including thyroid profile and gynecological consultation.</li>
         <li><strong>Senior Citizen Package:</strong> Tailored for the elderly, focusing on bone health, cardiac monitoring, and overall wellness.</li>
         <li><strong>Heart Health Package:</strong> Specialized screening including ECG and specialized cardiac markers.</li>
       </ul>
     </div>
 
     <h2>State-of-the-Art Laboratory Services</h2>
-    <p>Our in-house pathology lab is equipped with the latest diagnostic technology, ensuring accurate and timely results for all our health packages. Most reports are available within the same day, allowing for immediate consultation with our expert doctors.</p>
+    <p>Our in-house pathology lab is equipped with the latest diagnostic technology, ensuring accurate and timely results for all our health packages. Most reports are available within the same day, allowing for immediate consultation with our <a href="/doctors.php" class="text-primary text-decoration-none fw-medium">expert doctors</a>.</p>
 
     <h2>How to Prepare for Your Checkup</h2>
     <p>For most comprehensive packages, we recommend a 10-12 hour fast (overnight) for accurate blood sugar and lipid results. Our care coordinators can provide specific instructions based on the package you choose.</p>

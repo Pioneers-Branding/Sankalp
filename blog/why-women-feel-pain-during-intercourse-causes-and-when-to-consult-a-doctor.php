@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Pain During Intercourse in Women: Causes and Care | Sankalp Hospital</title>
+  <title>Pain During Intercourse in Women: Causes and Care | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
   <meta name="description" content="Understand the physical and psychological causes of painful intercourse (dyspareunia) in women and when to consult a gynecologist at Sankalp Hospital.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/why-women-feel-pain-during-intercourse-causes-and-when-to-consult-a-doctor">
   <?php include '../includes/header-code.php'; ?>
@@ -33,7 +33,7 @@ $blog_date = "June 30, 2026"; include '../includes/header.php'; ?>
 <!-- BLOG HERO -->
 <section class="blog-hero text-center">
   <div class="container">
-    <p class="blog-meta"><a href="../index" class="text-white">Home</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="index" class="text-white">Health Blog</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> Women's Health</p>
+    <p class="blog-meta"><a href="../index" class="text-white">Home</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="index" class="text-white">Health Blog</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="/gynecology-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Women's Health</a></p>
     <div class="blog-hero-img"><img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=400&fit=crop" alt="Women's Health and Pain Relief"></div>
     <h1>Why Women Feel Pain During Intercourse: Causes and Care</h1>
     <p class="blog-meta"><i class="far fa-calendar"></i> May 11, 2026 &nbsp;&nbsp; <i class="far fa-clock"></i> 9 min read</p>

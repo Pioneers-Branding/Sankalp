@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Thyroid Symptoms in Women: Signs and Causes | Sankalp Hospital</title>
+  <title>Thyroid Symptoms in Women: Signs and Causes | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
   <meta name="description" content="A detailed look at thyroid symptoms in women, including early warning signs, common causes like Hashimoto's, and when to consult a specialist at Sankalp Hospital.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/thyroid-symptoms-in-women-signs-causes-and-when-to-see-a-doctor">
   <?php include '../includes/header-code.php'; ?>
@@ -60,7 +60,7 @@ $blog_date = "July 03, 2026"; include '../includes/header.php'; ?>
       <ul>
         <li><strong>Hashimoto's Disease:</strong> An autoimmune disorder where the immune system attacks the thyroid, the leading cause of hypothyroidism.</li>
         <li><strong>Graves' Disease:</strong> An autoimmune condition that leads to hyperthyroidism.</li>
-        <li><strong>Thyroiditis:</strong> Inflammation of the thyroid gland, often after pregnancy or viral infection.</li>
+        <li><strong>Thyroiditis:</strong> Inflammation of the thyroid gland, often after <a href="/gynecology-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">pregnancy</a> or viral infection.</li>
         <li><strong>Iodine Deficiency:</strong> While less common today, adequate iodine is essential for thyroid function.</li>
       </ul>
     </div>

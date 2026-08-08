@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Kidney Failure Symptoms in Women | Sankalp Hospital</title>
+  <title><a href="/urology-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Kidney Failure</a> Symptoms in Women | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
   <meta name="description" content="Early signs, symptoms, and risk factors of kidney failure in women. Learn how to protect your kidney health with Sankalp Hospital.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/kidney-failure-symptoms-in-women-early-signs-and-risk-factors">
   <?php include '../includes/header-code.php'; ?>
@@ -67,7 +67,7 @@ $blog_date = "July 17, 2026"; include '../includes/header.php'; ?>
 
     <h2>Risk Factors Specific to Women</h2>
     <ul>
-      <li><strong>Pregnancy Complications:</strong> Conditions like preeclampsia can increase the risk of developing kidney disease later in life.</li>
+      <li><strong><a href="/gynecology-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Pregnancy</a> Complications:</strong> Conditions like preeclampsia can increase the risk of developing kidney disease later in life.</li>
       <li><strong>Autoimmune Diseases:</strong> Women are more likely to have conditions like Lupus or Rheumatoid Arthritis, which can affect kidney function.</li>
       <li><strong>Frequent UTIs:</strong> Recurrent or untreated urinary tract infections can lead to kidney scarring and damage.</li>
     </ul>

@@ -9,7 +9,7 @@ $blog_author_desc = "Senior ENT Consultant, Sankalp Hospital, Ambikapur";
 $blog_image = "https://images.unsplash.com/photo-1512069772995-ec65ed45afd6?w=400&h=400&fit=crop";
 $pageCanonical = "https://www.sankalphospital.com/blog/how-to-cure-a-sinus-headache";
 $blog_content = <<<'HTML'
-<p class="lead">A sinus headache brings a deep, throbbing pressure across your forehead, cheeks, and behind your eyes — pain that often gets worse when you bend forward or first wake up. If a blocked, heavy face is making it hard to think, this guide explains exactly <strong>how to cure a sinus headache</strong>, which home remedies genuinely help, which medicines work, and — importantly — when your "sinus headache" might actually be something else.</p>
+<p class="lead">A <a href="/ent-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">sinus</a> <a href="/neurosurgery-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">headache</a> brings a deep, throbbing pressure across your forehead, cheeks, and behind your eyes — pain that often gets worse when you bend forward or first wake up. If a blocked, heavy face is making it hard to think, this guide explains exactly <strong>how to cure a sinus headache</strong>, which home remedies genuinely help, which medicines work, and — importantly — when your "sinus headache" might actually be something else.</p>
 
 <p>Sinus headaches happen when the sinuses — the air-filled spaces behind your forehead, cheeks, and nose — become inflamed and congested, usually due to a cold, allergies, or a sinus infection (sinusitis). The swollen lining traps mucus and builds pressure, which your brain feels as a dull, aching headache concentrated over the face.</p>
 
@@ -116,7 +116,7 @@ $blog_content = <<<'HTML'
 <li>A high fever, or thick green/yellow discharge with severe facial pain</li>
 <li>Frequent, recurring sinus infections</li>
 <li>Swelling or redness around the eyes, vision changes, or a stiff neck (seek urgent care)</li>
-<li>Severe headache unlike your usual pattern, or the "worst headache of your life" (emergency)</li>
+<li>Severe headache unlike your usual pattern, or the "worst headache of your life" (<a href="/emergency-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">emergency</a>)</li>
 </ul>
 
 <div class="alert alert-danger mt-3 mb-4 shadow-sm border-0" style="background-color: #f8d7da; border-left: 5px solid #dc3545 !important;">
@@ -126,7 +126,7 @@ $blog_content = <<<'HTML'
 <blockquote>"Occasional sinus pressure is normal with a cold. But recurring sinus headaches, or ones that never fully clear, deserve a proper ENT evaluation — the cause is often treatable."</blockquote>
 
 <h2>How Sankalp Hospital Can Help</h2>
-<p>At <a href="/"><strong>Sankalp Hospital, Ambikapur</strong></a>, our <a href="/ent-hospital-in-ambikapur"><strong>ENT department</strong></a> diagnoses and treats sinusitis, allergies, and chronic nasal problems using nasal endoscopy, medical therapy, and, when needed, minimally invasive sinus surgery. If your sinus headaches keep returning, don't fully clear, or are affecting your daily life, our ENT specialists can find the underlying cause and give you lasting relief.</p>
+<p>At <a href="/"><strong>Sankalp Hospital, Ambikapur</strong></a>, our <a href="/ent-hospital-in-ambikapur"><strong>ENT department</strong></a> diagnoses and treats sinusitis, allergies, and chronic nasal problems using nasal endoscopy, medical therapy, and, when needed, minimally invasive sinus surgery. If your sinus headaches keep returning, don't fully clear, or are affecting your daily life, our ENT <a href="/doctors.php" class="text-primary text-decoration-none fw-medium">specialists</a> can find the underlying cause and give you lasting relief.</p>
 
 <p>Tired of recurring sinus headaches? Book a consultation with our ENT team and breathe easier.</p>
 HTML;

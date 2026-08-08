@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Why Do My Knees Hurt When I Run? | Sankalp Hospital</title>
+  <title>Why Do My <a href="/orthopedic-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Knees</a> Hurt When I Run? | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
   <meta name="description" content="Explore common causes of knee pain during running, from runner's knee to IT band syndrome, and learn effective prevention tips at Sankalp Hospital.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/why-do-my-knees-hurt-when-i-run-prevention-tips">
   <?php include '../includes/header-code.php'; ?>

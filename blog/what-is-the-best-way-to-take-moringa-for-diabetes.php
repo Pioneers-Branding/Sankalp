@@ -224,7 +224,7 @@ $blog_content = <<<'HTML'
     <tr>
       <td>Pregnant Women</td>
       <td>May affect uterine contractions</td>
-      <td>Avoid during pregnancy</td>
+      <td>Avoid during <a href="/gynecology-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">pregnancy</a></td>
     </tr>
     <tr>
       <td>Breastfeeding Mothers</td>

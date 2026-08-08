@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-  <title>गर्भावस्था के पहले सप्ताह के लक्षण | Pregnancy Symptoms in Hindi</title>
+  <title>गर्भावस्था के पहले सप्ताह के लक्षण | <a href="/gynecology-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Pregnancy</a> Symptoms in Hindi</title>
   <meta name="description" content="प्रेग्नेंसी के पहले सप्ताह के शुरुआती लक्षण (First Week Pregnancy Symptoms) और सावधानियां। जानें शरीर में होने वाले महत्वपूर्ण बदलावों के बारे में।">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/pregnancy-ke-pehle-week-ke-symptoms">
   <?php include '../includes/header-code.php'; ?>
@@ -81,7 +81,7 @@ if (!empty($blogVids)): ?>
 <div style="max-width:800px;margin:0 auto;padding:0 15px 45px;">
   <div style="border-top:2px solid #eee;padding-top:26px;">
     <h2 style="color:var(--primary,#0f5cad);font-size:1.5rem;font-weight:700;margin-bottom:6px;"><i class="fab fa-youtube" style="color:#e11d48;"></i> Watch: Related Videos</h2>
-    <p style="color:#666;font-size:15px;margin-bottom:20px;">Explainers and real patient stories from Sankalp Hospital doctors.</p>
+    <p style="color:#666;font-size:15px;margin-bottom:20px;">Explainers and real patient stories from <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a> doctors.</p>
     <?php echo sankalp_video_assets(); ?>
     <div class="sk-vid-grid">
       <?php foreach ($blogVids as $v) echo sankalp_video_facade($v['id'], $v['title']); ?>

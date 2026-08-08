@@ -65,7 +65,7 @@ $blog_content = <<<'HTML'
 </div>
 
 <h2>कमर दर्द का निदान कैसे होता है?</h2>
-<p>Sankalp Hospital में <a href="orthopedic-hospital-in-ambikapur">ऑर्थोपेडिक विशेषज्ञ</a> आपकी कमर दर्द की पहचान करने के लिए निम्नलिखित जांच करते हैं:</p>
+<p><a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a> में <a href="orthopedic-hospital-in-ambikapur">ऑर्थोपेडिक विशेषज्ञ</a> आपकी कमर दर्द की पहचान करने के लिए निम्नलिखित जांच करते हैं:</p>
 
 <h3>1. विस्तृत शारीरिक परीक्षण</h3>
 <p>डॉक्टर आपकी मुद्रा, चाल-ढाल, मांसपेशियों की ताकत, और रिफ्लेक्सेस की जांच करते हैं। वे विशेष परीक्षणों (Straight Leg Raise Test आदि) से यह पता लगाते हैं कि कौन सी नस प्रभावित है।</p>
@@ -83,7 +83,7 @@ $blog_content = <<<'HTML'
 
 <h2>कमर दर्द के प्रकार और उनके उपचार</h2>
 
-<h3>तीव्र कमर दर्द (Acute Back Pain)</h3>
+<h3>तीव्र कमर दर्द (Acute <a href="/orthopedic-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Back Pain</a>)</h3>
 <p>यह अचानक शुरू होता है और आमतौर पर कुछ दिनों से लेकर 6 सप्ताह तक रहता है। इसमें आराम, बर्फ या गर्म सिंकाई, हल्के दर्द निवारक, और धीरे-धीरे सामान्य गतिविधियां शुरू करना सबसे कारगर उपचार है।</p>
 
 <h3>उप-तीव्र कमर दर्द (Sub-Acute Back Pain)</h3>

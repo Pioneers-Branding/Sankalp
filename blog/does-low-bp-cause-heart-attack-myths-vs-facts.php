@@ -9,7 +9,7 @@ $blog_author_desc = "MBBS, MD, DM (Cardiology) - Senior Cardiologist, Sankalp Ho
 $blog_image = "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=400&fit=crop";
 $pageCanonical = "https://www.sankalphospital.com/blog/does-low-bp-cause-heart-attack-myths-vs-facts";
 $blog_content = <<<'HTML'
-<p class="lead">You've probably heard that high blood pressure is dangerous — and that's true. But what about the other extreme? Can low blood pressure cause a heart attack? This question sparks widespread confusion, with many people mistakenly believing that hypotension is just as deadly as hypertension. The truth is far more nuanced. While severely low blood pressure can be a sign of underlying heart problems, the relationship between low BP and heart attacks is often misunderstood. Let's separate myths from facts so you can protect your heart the right way.</p>
+<p class="lead">You've probably heard that high blood pressure is dangerous — and that's true. But what about the other extreme? Can low blood pressure cause a <a href="/emergency-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">heart attack</a>? This question sparks widespread confusion, with many people mistakenly believing that hypotension is just as deadly as hypertension. The truth is far more nuanced. While severely low blood pressure can be a sign of underlying heart problems, the relationship between low BP and heart attacks is often misunderstood. Let's separate myths from facts so you can protect your heart the right way.</p>
 
 <blockquote>"Low blood pressure is not a direct cause of heart attack, but it can be a warning sign of an underlying cardiac condition. The real danger lies in ignoring persistent hypotension or confusing it with general weakness."</blockquote>
 
@@ -47,7 +47,7 @@ $blog_content = <<<'HTML'
 
 <h3>Myth 5: "Young people don't need to worry about low BP"</h3>
 <p><strong>FACT:</strong> Low blood pressure can affect anyone, including young, healthy individuals. In fact, young women are particularly prone to hypotension due to hormonal factors and lower muscle mass. However, certain <a href="hypothyroidism-symptoms-in-women.php" style="color:var(--primary);font-weight:600;">hormonal conditions like hypothyroidism</a> can also cause low BP in younger patients.</p>
-<p>For most young people, mild hypotension is not dangerous and may even be beneficial (associated with lower risk of heart disease). However, if you experience frequent fainting episodes, extreme fatigue, or chest discomfort alongside low BP, consult a doctor to rule out underlying conditions.</p>
+<p>For most young people, mild hypotension is not dangerous and may even be beneficial (associated with lower risk of heart disease). However, if you experience frequent fainting episodes, extreme fatigue, or chest discomfort alongside low BP, <a href="/doctors.php" class="text-primary text-decoration-none fw-medium">consult a doctor</a> to rule out underlying conditions.</p>
 
 <h3>Myth 6: "Drinking more water will fix low BP"</h3>
 <p><strong>FACT:</strong> Hydration is important, and dehydration can certainly cause or worsen low blood pressure. Drinking adequate water helps maintain blood volume, which supports healthy BP levels. However, simply drinking more water is rarely a complete solution if the underlying cause is cardiac, endocrine, or neurological.</p>
@@ -68,7 +68,7 @@ $blog_content = <<<'HTML'
 <p>After a heart attack, the affected portion of the heart muscle becomes weak. This can lead to <strong>low ejection fraction</strong> (the amount of blood the heart pumps out) and consequently, low blood pressure. This post-heart-attack hypotension is a serious sign that the heart's pumping ability is compromised and needs close medical monitoring.</p>
 
 <h3>3. Bradycardia (Slow Heart Rate) Induced Hypotension</h3>
-<p>If the heart beats too slowly — such as in conditions like <strong>heart block</strong> or sick sinus syndrome — not enough blood reaches the tissues, causing BP to drop. This combination of slow heart rate and low BP can cause dizziness, falls, and in severe cases, cardiac arrest.</p>
+<p>If the heart beats too slowly — such as in conditions like <strong>heart block</strong> or sick <a href="/ent-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">sinus</a> syndrome — not enough blood reaches the tissues, causing BP to drop. This combination of slow heart rate and low BP can cause dizziness, falls, and in severe cases, cardiac arrest.</p>
 
 <h3>4. Blood Pressure Drop During Cardiac Procedures</h3>
 <p>During cardiac catheterization, angiography, or even stress tests, some patients experience significant BP drops. While usually temporary, these drops can be dangerous for individuals with pre-existing heart disease. This is why such procedures are always performed under medical supervision with continuous monitoring.</p>
@@ -132,7 +132,7 @@ $blog_content = <<<'HTML'
 <h2>Conclusion</h2>
 <p>The relationship between low blood pressure and heart attacks is far more complex than most people realize. While low BP itself does not cause heart attacks, it can signal underlying cardiac conditions that, if left untreated, may increase cardiovascular risk. The key is not to panic at low numbers — but also not to ignore persistent hypotension with concerning symptoms.</p>
 <p>If you have been experiencing symptoms like frequent dizziness, fainting, chest discomfort, or fatigue alongside low blood pressure readings, don't wait. Early evaluation by a cardiologist can make the difference between managing a condition effectively and facing a serious cardiac event.</p>
-<p><strong>Sankalp Hospital's Cardiology Department</strong> in Ambikapur offers comprehensive heart health evaluations including ECG, echocardiography, Holter monitoring, and stress tests. Our experienced cardiologists provide personalized care for conditions ranging from hypotension to complex heart disease. <a href="/index#appointment" style="color:var(--primary);font-weight:600;">Book an appointment today</a> and take control of your heart health.</p>
+<p><strong><a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a>'s Cardiology Department</strong> in Ambikapur offers comprehensive heart health evaluations including ECG, echocardiography, Holter monitoring, and stress tests. Our experienced cardiologists provide personalized care for conditions ranging from hypotension to complex heart disease. <a href="/index#appointment" style="color:var(--primary);font-weight:600;">Book an appointment today</a> and take control of your heart health.</p>
 HTML;
 
 $blog_faqs = [

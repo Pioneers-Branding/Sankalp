@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Joint Pain in Winter: Causes and Remedies | Sankalp Hospital</title>
+  <title><a href="/orthopedic-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Joint Pain</a> in Winter: Causes and Remedies | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
   <meta name="description" content="Discover why joint pain increases in winter, effective home remedies, and when to consult an orthopedic specialist at Sankalp Hospital.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/joint-pain-in-winter-causes-home-remedies-when-to-see-an-orthopedic-doctor">
   <?php include '../includes/header-code.php'; ?>

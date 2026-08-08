@@ -9,7 +9,7 @@ $blog_author_desc = "MBBS, DGO - Senior Gynecologist, Sankalp Hospital";
 $blog_image = "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=400&h=400&fit=crop";
 $pageCanonical = "https://www.sankalphospital.com/blog/pregnancy-tips";
 $blog_content = <<<'HTML'
-<p class="lead">Pregnancy is a profound journey of transformation, a time of incredible physical and emotional change for an expectant mother. A healthy pregnancy begins with informed choices. From the moment you discover you're expecting, every decision you make contributes to your baby's healthy development and your own well-being. This comprehensive guide breaks down the essentials trimester by trimester, helping you navigate this beautiful journey with confidence.</p>
+<p class="lead"><a href="/gynecology-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Pregnancy</a> is a profound journey of transformation, a time of incredible physical and emotional change for an expectant mother. A healthy pregnancy begins with informed choices. From the moment you discover you're expecting, every decision you make contributes to your baby's healthy development and your own well-being. This comprehensive guide breaks down the essentials trimester by trimester, helping you navigate this beautiful journey with confidence.</p>
 
 <blockquote>"Taking care of yourself is the first and most important step toward taking care of your baby. Every nutritious meal, every gentle walk, and every moment of peace is a gift you give to your child."</blockquote>
 
@@ -46,7 +46,7 @@ $blog_content = <<<'HTML'
 <li><strong>Small, Frequent Meals:</strong> As your baby takes up more space, your stomach has less room. Eating smaller meals can help with heartburn and feeling overly full.</li>
 </ul>
 <h3>Managing Discomfort:</h3>
-<p>Back pain, swelling in the feet and ankles, and difficulty sleeping are common. Use pillows to support your growing belly and sleep on your left side to improve blood flow. Stay hydrated to help with swelling, and continue gentle stretching.</p>
+<p><a href="/orthopedic-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Back pain</a>, swelling in the feet and ankles, and difficulty sleeping are common. Use pillows to support your growing belly and sleep on your left side to improve blood flow. Stay hydrated to help with swelling, and continue gentle stretching.</p>
 
 <h2>Prenatal Care: Your Health Partnership</h2>
 <p>Regular check-ups with your gynecologist are the cornerstone of a healthy pregnancy. These visits allow your doctor to monitor your health and your baby's development, and to address any concerns you may have.</p>
@@ -70,7 +70,7 @@ $blog_content = <<<'HTML'
 <ul class="mb-0">
 <li>Vaginal bleeding or leaking of fluid.</li>
 <li>Severe or persistent abdominal pain or cramping.</li>
-<li>A severe headache that doesn't go away, or vision changes (blurriness, flashing lights).</li>
+<li>A severe <a href="/neurosurgery-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">headache</a> that doesn't go away, or vision changes (blurriness, flashing lights).</li>
 <li>Sudden or severe swelling in your hands, face, or feet.</li>
 <li>A significant decrease in your baby's movement after 28 weeks.</li>
 <li>Fever or chills.</li>
@@ -78,7 +78,7 @@ $blog_content = <<<'HTML'
 </div>
 
 <h2>Conclusion: Embrace the Journey</h2>
-<p>Every pregnancy is a unique and personal experience. By staying informed, attending your prenatal appointments, and listening to your body, you can navigate the challenges and joys of these nine months with confidence. The expert team of gynecologists and support staff at Sankalp Hospital is here to partner with you every step of the way, providing comprehensive and compassionate care for you and your growing family.</p>
+<p>Every pregnancy is a unique and personal experience. By staying informed, attending your prenatal appointments, and listening to your body, you can navigate the challenges and joys of these nine months with confidence. The expert team of gynecologists and support staff at <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a> is here to partner with you every step of the way, providing comprehensive and compassionate care for you and your growing family.</p>
 HTML;
 
 $blog_faqs = [

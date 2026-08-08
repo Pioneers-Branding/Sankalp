@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Back Exercises for Women: Safe Stretches for Relief | Sankalp Hospital</title>
+  <title>Back Exercises for Women: Safe Stretches for Relief | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
   <meta name="description" content="Safe and effective back exercises and stretches for women to relieve back pain and improve spinal health. Expert guidance from Sankalp Hospital.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/back-exercises-for-women-with-back-pain-safe-stretches-for-relief">
   <?php include '../includes/header-code.php'; ?>
@@ -33,7 +33,7 @@ $blog_date = "July 24, 2026"; include '../includes/header.php'; ?>
 <!-- BLOG HERO -->
 <section class="blog-hero text-center">
   <div class="container">
-    <p class="blog-meta"><a href="../index" class="text-white">Home</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="index" class="text-white">Health Blog</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> Orthopedics</p>
+    <p class="blog-meta"><a href="../index" class="text-white">Home</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="index" class="text-white">Health Blog</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="/orthopedic-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Orthopedics</a></p>
     <div class="blog-hero-img"><img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=400&fit=crop" alt="Woman doing back stretches for relief"></div>
     <h1>Back Exercises for Women: Safe Stretches for Relief</h1>
     <p class="blog-meta"><i class="far fa-calendar"></i> May 11, 2026 &nbsp;&nbsp; <i class="far fa-clock"></i> 8 min read</p>
@@ -43,7 +43,7 @@ $blog_date = "July 24, 2026"; include '../includes/header.php'; ?>
 <!-- BLOG CONTENT -->
 <div class="container">
   <div class="blog-content">
-    <p class="lead">Back pain is an incredibly common issue for women, often stemming from sedentary lifestyles, pregnancy, or improper lifting techniques. Fortunately, incorporating specific stretches and strengthening exercises into your daily routine can significantly reduce discomfort and improve your spinal health.</p>
+    <p class="lead">Back pain is an incredibly common issue for women, often stemming from sedentary lifestyles, <a href="/gynecology-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">pregnancy</a>, or improper lifting techniques. Fortunately, incorporating specific stretches and strengthening exercises into your daily routine can significantly reduce discomfort and improve your spinal health.</p>
 
     <blockquote>"A strong back is the foundation of a healthy, active life. Prevention through regular stretching is far more effective than treating chronic pain later."</blockquote>
 
@@ -87,7 +87,7 @@ $blog_date = "July 24, 2026"; include '../includes/header.php'; ?>
     </ul>
 
     <h2>When to Seek Professional Help</h2>
-    <p>While stretching can help with mild discomfort, chronic or severe back pain should always be evaluated by a medical professional. At Sankalp Hospital, our orthopedic specialists are here to help diagnose and treat the root cause of your pain.</p>
+    <p>While stretching can help with mild discomfort, chronic or severe back pain should always be evaluated by a medical professional. At Sankalp Hospital, our orthopedic <a href="/doctors.php" class="text-primary text-decoration-none fw-medium">specialists</a> are here to help diagnose and treat the root cause of your pain.</p>
 
     <p>Seek medical attention if your back pain is accompanied by:</p>
     <ul>

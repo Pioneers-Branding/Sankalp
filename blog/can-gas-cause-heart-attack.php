@@ -9,14 +9,14 @@ $blog_author_desc = "Consultant Neurosurgeon, Sankalp Hospital";
 $blog_image = "https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=400&h=400&fit=crop";
 $pageCanonical = "https://www.sankalphospital.com/blog/can-gas-cause-heart-attack";
 $blog_content = <<<'HTML'
-<p class="lead">You're sitting comfortably when suddenly your chest starts hurting. Your mind races: "Is this gas or something worse?" You're not alone. Every year, millions of people rush to emergency rooms thinking they're having a <a href="/blog/heart-attack-vs-cardiac-arrest"><strong>heart attack</strong></a>, only to discover it was just painful gas. But here's the concerning part: some people dismiss real heart symptoms as "just gas" — with devastating consequences.</p>
+<p class="lead">You're sitting comfortably when suddenly your chest starts hurting. Your mind races: "Is this gas or something worse?" You're not alone. Every year, millions of people rush to <a href="/emergency-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">emergency</a> rooms thinking they're having a <a href="/blog/heart-attack-vs-cardiac-arrest"><strong>heart attack</strong></a>, only to discover it was just painful gas. But here's the concerning part: some people dismiss real heart symptoms as "just gas" — with devastating consequences.</p>
 
 <p>Understanding the difference between gas pain and heart problems isn't just medical knowledge — it could save your life or someone you love. This comprehensive guide will help you distinguish between these two very different conditions and know exactly when to seek help.</p>
 
 <blockquote>"Many patients I see have waited too long because they thought their chest pain was just gas. On the other hand, thousands of unnecessary ER visits happen yearly due to panic over normal gas pain. The key is knowing the difference."</blockquote>
 
 <h2>Can Gas Really Cause Chest Pain?</h2>
-<p>Yes, gas can absolutely cause significant <a href="/blog/gas-se-peeth-dard-kyun-hota-hai"><strong>chest pain</strong></a> that mimics heart problems. This condition, known medically as "non-cardiac chest pain," accounts for up to 25% of all chest pain complaints in emergency departments.</p>
+<p>Yes, gas can absolutely cause significant <a href="/blog/gas-se-peeth-dard-kyun-hota-hai"><strong>chest pain</strong></a> that mimics heart problems. This condition, known medically as "non-cardiac chest pain," accounts for up to 25% of all chest pain complaints in emergency <a href="/departments.php" class="text-primary text-decoration-none fw-medium">departments</a>.</p>
 
 <p>Gas-related chest pain typically occurs when:</p>
 <ul>
@@ -128,7 +128,7 @@ $blog_content = <<<'HTML'
 <ul>
   <li>Unusual fatigue (even after rest)</li>
   <li>Upper abdominal discomfort or nausea</li>
-  <li>Back pain or jaw pain without chest pressure</li>
+  <li><a href="/orthopedic-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Back pain</a> or jaw pain without chest pressure</li>
   <li>Shortness of breath without chest pain</li>
   <li>Sleep disturbances in the weeks before attack</li>
 </ul>
@@ -166,7 +166,7 @@ $blog_content = <<<'HTML'
 </ol>
 
 <div class="alert alert-info mt-3 mb-4 shadow-sm border-0" style="background-color: #d1ecf1; border-left: 5px solid #17a2b8 !important;">
-  <strong>Remember:</strong> Even if these "gas indicators" are present, don't ignore persistent or severe symptoms. When in doubt, seek medical help.
+  <strong>Remember:</strong> Even if these "gas indicators" are present, don't ignore persistent or severe symptoms. When in doubt, <a href="/contact.php" class="text-primary text-decoration-none fw-medium">seek medical help</a>.
 </div>
 
 <h2>When to Call Emergency Services (Ambulance)</h2>
@@ -308,7 +308,7 @@ $blog_faqs = [
     ],
     [
         "question" => "Can stress cause both gas and heart symptoms?",
-        "answer" => "Yes, stress can cause both gas and heart-related symptoms. Stress increases stomach acid production and can trigger irritable bowel syndrome (IBS), leading to gas, bloating, and chest discomfort. Stress also raises blood pressure and heart rate, potentially triggering angina (heart-related chest pain). Additionally, panic attacks can cause chest tightness, rapid heartbeat, and shortness of breath that mimic heart attacks. If stress-related symptoms are frequent, consult a doctor to rule out cardiac issues."
+        "answer" => "Yes, stress can cause both gas and heart-related symptoms. Stress increases stomach acid production and can trigger irritable bowel syndrome (IBS), leading to gas, bloating, and chest discomfort. Stress also raises blood pressure and heart rate, potentially triggering angina (heart-related chest pain). Additionally, panic attacks can cause chest tightness, rapid heartbeat, and shortness of breath that mimic heart attacks. If stress-related symptoms are frequent, <a href="/doctors.php" class="text-primary text-decoration-none fw-medium">consult a doctor</a> to rule out cardiac issues."
     ],
     [
         "question" => "What tests are done to differentiate gas pain from heart pain?",

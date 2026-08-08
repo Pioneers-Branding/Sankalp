@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Knee Replacement Surgery: Duration and Recovery Guide | Sankalp Hospital</title>
+  <title><a href="/orthopedic-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Knee Replacement</a> Surgery: Duration and Recovery Guide | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
   <meta name="description" content="Learn how long knee replacement surgery takes, the step-by-step procedure, and a comprehensive recovery timeline. Expert orthopedic care at Sankalp Hospital.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/how-long-does-a-knee-replacement-surgery-take-procedure-duration-recovery-guide">
   <?php include '../includes/header-code.php'; ?>

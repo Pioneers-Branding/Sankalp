@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Advanced Laparoscopic Surgery in Ambikapur | Sankalp Hospital</title>
+  <title>Advanced Laparoscopic Surgery in Ambikapur | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
   <meta name="description" content="Sankalp Hospital Ambikapur features state-of-the-art advanced laparoscopy machines for minimally invasive surgeries with faster recovery and less pain.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/sankalp-hospital-ambikapur-having-advaned-laproscopy-machine">
   <?php include '../includes/header-code.php'; ?>
@@ -66,7 +66,7 @@ $blog_date = "July 10, 2026"; include '../includes/header.php'; ?>
       <li><strong>Appendix Removal (Appendectomy)</strong></li>
       <li><strong>Hernia Repair</strong></li>
       <li><strong>Gynecological Surgeries (Hysterectomy, Ovarian Cyst Removal)</strong></li>
-      <li><strong>Diagnostic Laparoscopy for Infertility</strong></li>
+      <li><strong>Diagnostic Laparoscopy for <a href="/ivf-treatment-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Infertility</a></strong></li>
     </ul>
 
     <h2>Expert Surgeons in Ambikapur</h2>

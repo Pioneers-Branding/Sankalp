@@ -9,7 +9,7 @@ $blog_author_desc = "MBBS, MS (Orthopedics) - Orthopedic Surgeon, Sankalp Hospit
 $blog_image = "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop";
 $pageCanonical = "https://www.sankalphospital.com/blog/jodon-ke-dard-ka-sabse-accha-ilaj-kya-hai";
 $blog_content = <<<'HTML'
-<p class="lead">जोड़ों का दर्द (Joint Pain) आज के समय की सबसे आम स्वास्थ्य समस्याओं में से एक है। भारत में लगभग 15 करोड़ से अधिक लोग किसी न किसी प्रकार के जोड़ों के दर्द से पीड़ित हैं। यह समस्या न केवल बुजुर्गों को, बल्कि युवा वर्ग को भी प्रभावित कर रही है। खराब जीवनशैली, शारीरिक निष्क्रियता, और बढ़ते मोटापे के कारण यह समस्या तेजी से बढ़ रही है। इस ब्लॉग में हम विस्तार से जानेंगे कि <strong>जोड़ों के दर्द का सबसे अच्छा इलाज</strong> क्या है और किन तरीकों से आप जोड़ों को स्वस्थ रख सकते हैं।</p>
+<p class="lead">जोड़ों का दर्द (<a href="/orthopedic-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Joint Pain</a>) आज के समय की सबसे आम स्वास्थ्य समस्याओं में से एक है। भारत में लगभग 15 करोड़ से अधिक लोग किसी न किसी प्रकार के जोड़ों के दर्द से पीड़ित हैं। यह समस्या न केवल बुजुर्गों को, बल्कि युवा वर्ग को भी प्रभावित कर रही है। खराब जीवनशैली, शारीरिक निष्क्रियता, और बढ़ते मोटापे के कारण यह समस्या तेजी से बढ़ रही है। इस ब्लॉग में हम विस्तार से जानेंगे कि <strong>जोड़ों के दर्द का सबसे अच्छा इलाज</strong> क्या है और किन तरीकों से आप जोड़ों को स्वस्थ रख सकते हैं।</p>
 
 <blockquote>"जोड़ों के दर्द का सबसे अच्छा इलाज एक ही नहीं होता—यह रोग के प्रकार, गंभीरता और रोगी की उम्र पर निर्भर करता है। अक्सर दवाइयों, फिजियोथेरेपी और जीवनशैली में बदलाव का संयोजन सबसे प्रभावी साबित होता है।"</blockquote>
 
@@ -183,7 +183,7 @@ $blog_content = <<<'HTML'
 
 <div class="text-center mt-5 p-4 rounded" style="background:var(--bg-soft)">
 <h4>जोड़ों के दर्द से राहत पाना चाहते हैं?</h4>
-<p class="text-muted mb-4">Sankalp Hospital, अंबिकापुर के अनुभवी <a href="orthopedic-hospital-in-ambikapur">ऑर्थोपेडिक विशेषज्ञ</a> आपके जोड़ों के दर्द की विस्तृत जांच करके सबसे उपयुक्त इलाज योजना बना सकते हैं।</p>
+<p class="text-muted mb-4"><a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a>, अंबिकापुर के अनुभवी <a href="orthopedic-hospital-in-ambikapur">ऑर्थोपेडिक विशेषज्ञ</a> आपके जोड़ों के दर्द की विस्तृत जांच करके सबसे उपयुक्त इलाज योजना बना सकते हैं।</p>
 <a href="index#appointment" class="btn btn-primary"><i class="fas fa-calendar-check me-2"></i>अपॉइंटमेंट बुक करें</a>
 </div>
 HTML;

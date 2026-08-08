@@ -9,7 +9,7 @@ $blog_author_desc = "Senior Consultant Cardiologist, Sankalp Hospital";
 $blog_image = "https://images.unsplash.com/photo-1628595351029-c2bf17511435?w=400&h=400&fit=crop";
 $pageCanonical = "https://www.sankalphospital.com/blog/is-heart-attack-genetic";
 $blog_content = <<<'HTML'
-<p class="lead">"मेरे पापा को 50 साल की उम्र में दिल का दौरा पड़ा था... क्या मुझे भी होगा?" यह सवाल हर उस व्यक्ति के मन में उठता है जिसके परिवार में हृदय रोग (Heart Disease) का इतिहास रहा हो। आइए विज्ञान की नजर से समझें कि <strong>Heart Attack</strong> कितना आनुवंशिक (Genetic) है और आप अपने जोखिम को कैसे कम कर सकते हैं।</p>
+<p class="lead">"मेरे पापा को 50 साल की उम्र में दिल का दौरा पड़ा था... क्या मुझे भी होगा?" यह सवाल हर उस व्यक्ति के मन में उठता है जिसके परिवार में हृदय रोग (Heart Disease) का इतिहास रहा हो। आइए विज्ञान की नजर से समझें कि <strong><a href="/emergency-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Heart Attack</a></strong> कितना आनुवंशिक (Genetic) है और आप अपने जोखिम को कैसे कम कर सकते हैं।</p>
 
 <blockquote>"हृदय रोग (Heart Disease) का पारिवारिक इतिहास (Family History) एक महत्वपूर्ण जोखिम कारक है, लेकिन यह अंतिम निर्णय नहीं है। <a href="/blog/heart-attack-vs-cardiac-arrest">दिल के दौरे और कार्डियक अरेस्ट में अंतर</a> जानना भी उतना ही ज़रूरी है।"</blockquote>
 
@@ -79,7 +79,7 @@ $blog_content = <<<'HTML'
 <p><strong>BMI</strong> (Body Mass Index) 18.5-24.9 के बीच रखें। <strong>Waist Circumference</strong> पुरुषों में 40 इंच और महिलाओं में 35 इंच से कम होना चाहिए।</p>
 
 <h3>5. नियमित स्वास्थ्य जांच (Regular Health Check-ups)</h3>
-<p>40 साल से ऊपर के सभी व्यक्तियों को साल में कम से कम एक बार <strong>Full Body Check-up</strong> जरूर कराना चाहिए। <strong>Sankalp Hospital</strong> में हम विशेष <strong>Cardiac Health Packages</strong> प्रदान करते हैं।</p>
+<p>40 साल से ऊपर के सभी व्यक्तियों को साल में कम से कम एक बार <strong>Full Body Check-up</strong> जरूर कराना चाहिए। <strong><a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></strong> में हम विशेष <strong>Cardiac Health Packages</strong> प्रदान करते हैं।</p>
 
 <h3>6. तनाव प्रबंधन (Stress Management)</h3>
 <p>योग (Yoga), ध्यान (Meditation), गहरी सांस लेने के व्यायाम (Deep Breathing) और शौक (Hobbies) तनाव को कम करने में मदद करते हैं।</p>

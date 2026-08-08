@@ -182,7 +182,7 @@ $blog_content = <<<'HTML'
 
 <div class="text-center mt-5 p-4 rounded" style="background:var(--bg-soft)">
 <h4>अपने हृदय की सेहत का ख्याल रखें</h4>
-<p class="text-muted mb-4">Sankalp Hospital, अंबिकापुर के अनुभवी <a href="index#doctors">हृदय रोग विशेषज्ञ और फिजिशियन</a> आपके हृदय स्वास्थ्य की विस्तृत जांच करके सही सलाह और उपचार प्रदान कर सकते हैं।</p>
+<p class="text-muted mb-4"><a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a>, अंबिकापुर के अनुभवी <a href="index#doctors">हृदय रोग विशेषज्ञ और फिजिशियन</a> आपके हृदय स्वास्थ्य की विस्तृत जांच करके सही सलाह और उपचार प्रदान कर सकते हैं।</p>
 <a href="index#appointment" class="btn btn-primary"><i class="fas fa-calendar-check me-2"></i>हेल्थ चेकअप बुक करें</a>
 </div>
 HTML;

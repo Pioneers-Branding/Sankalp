@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Thyroid Problems in Women: A Comprehensive Guide | Sankalp Hospital</title>
+  <title>Thyroid Problems in Women: A Comprehensive Guide | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
   <meta name="description" content="Explore the different types of thyroid problems affecting women, from hypothyroidism to hyperthyroidism. Learn about diagnosis and care at Sankalp Hospital.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/thyroid-problems-in-women">
   <?php include '../includes/header-code.php'; ?>
@@ -62,14 +62,14 @@ $blog_date = "July 04, 2026"; include '../includes/header.php'; ?>
     <p>In some cases, the thyroid can become enlarged (goiter) or develop small lumps (nodules). While most nodules are non-cancerous, they should always be evaluated by a medical professional at Sankalp Hospital using ultrasound and sometimes a fine-needle biopsy.</p>
 
     <h2>The Impact on Female Health</h2>
-    <p>Thyroid problems can significantly impact a woman's reproductive health, leading to irregular periods, difficulties in becoming pregnant, and potential complications during pregnancy. Managing thyroid health is essential for women at every stage of life.</p>
+    <p>Thyroid problems can significantly impact a woman's reproductive health, leading to irregular periods, difficulties in becoming pregnant, and potential complications during <a href="/gynecology-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">pregnancy</a>. Managing thyroid health is essential for women at every stage of life.</p>
 
     <h2>Diagnosis and Expert Care</h2>
     <p>We use precise blood tests to measure levels of TSH, T3, and T4 hormones. Our endocrinology department in Ambikapur provides advanced diagnostic imaging and personalized treatment plans to help you regain your energy and balance.</p>
 
     <div class="text-center mt-5 p-4 rounded" style="background:var(--bg-soft)">
       <h4>Experiencing Symptoms of Thyroid Dysfunction?</h4>
-      <p class="text-muted mb-4">Our specialists are here to help you find the right treatment path.</p>
+      <p class="text-muted mb-4">Our <a href="/doctors.php" class="text-primary text-decoration-none fw-medium">specialists</a> are here to help you find the right treatment path.</p>
       <a href="../index#appointment" class="btn btn-primary"><i class="fas fa-calendar-check me-2"></i>Schedule an Evaluation</a>
     </div>
   </div>

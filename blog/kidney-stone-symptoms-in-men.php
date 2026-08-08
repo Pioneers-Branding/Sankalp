@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Kidney Stone Symptoms in Men | Sankalp Hospital</title>
+  <title><a href="/urology-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Kidney Stone</a> Symptoms in Men | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
   <meta name="description" content="Common symptoms, causes, and treatment options for kidney stones in men. Expert medical advice from Sankalp Hospital Ambikapur.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/kidney-stone-symptoms-in-men">
   <?php include '../includes/header-code.php'; ?>
@@ -45,7 +45,7 @@ $blog_date = "July 16, 2026"; include '../includes/header.php'; ?>
   <div class="blog-content">
     <p class="lead">Kidney stones are hard deposits made of minerals and salts that form inside your kidneys. Men are statistically more likely to develop kidney stones than women, making it crucial to understand the symptoms and early warning signs.</p>
 
-    <blockquote>"The pain from a kidney stone is often described as one of the most severe physical experiences. Early detection can help manage the condition before it becomes an emergency."</blockquote>
+    <blockquote>"The pain from a kidney stone is often described as one of the most severe physical experiences. Early detection can help manage the condition before it becomes an <a href="/emergency-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">emergency</a>."</blockquote>
 
     <h2>Common Symptoms in Men</h2>
     <p>While some kidney stones are small enough to pass unnoticed, others can cause significant pain and complications. Here are the most common symptoms men should look out for:</p>
@@ -77,7 +77,7 @@ $blog_date = "July 16, 2026"; include '../includes/header.php'; ?>
 
     <div class="text-center mt-5 p-4 rounded" style="background:var(--bg-soft)">
       <h4>Experiencing Symptoms of Kidney Stones?</h4>
-      <p class="text-muted mb-4">Our urology specialists at Sankalp Hospital provide advanced diagnostic and treatment options.</p>
+      <p class="text-muted mb-4">Our urology <a href="/doctors.php" class="text-primary text-decoration-none fw-medium">specialists</a> at Sankalp Hospital provide advanced diagnostic and treatment options.</p>
       <a href="../index#appointment" class="btn btn-primary"><i class="fas fa-calendar-check me-2"></i>Book an Appointment</a>
     </div>
   </div>

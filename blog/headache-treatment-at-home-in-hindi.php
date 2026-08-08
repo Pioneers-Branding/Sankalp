@@ -75,9 +75,9 @@ $blog_content = <<<'HTML'
 <h2>सिरदर्द के प्रकार — पहचानें कौन-सा है</h2>
 <p>हर सिरदर्द एक जैसा नहीं होता। सही इलाज के लिए उसका प्रकार पहचानना ज़रूरी है:</p>
 <ul>
-<li><strong>तनाव वाला सिरदर्द (Tension Headache):</strong> सिर के चारों ओर कसाव या भारीपन जैसा दर्द — सबसे आम प्रकार, तनाव और मांसपेशियों के खिंचाव से।</li>
+<li><strong>तनाव वाला सिरदर्द (Tension <a href="/neurosurgery-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Headache</a>):</strong> सिर के चारों ओर कसाव या भारीपन जैसा दर्द — सबसे आम प्रकार, तनाव और मांसपेशियों के खिंचाव से।</li>
 <li><strong>माइग्रेन (Migraine):</strong> आमतौर पर सिर के एक तरफ़ धड़कता हुआ दर्द, अक्सर मतली और रोशनी-आवाज़ के प्रति संवेदनशीलता के साथ।</li>
-<li><strong>साइनस सिरदर्द (Sinus Headache):</strong> माथे और गालों पर दबाव के साथ नाक बंद होना — विस्तार से पढ़ें <a href="/blog/how-to-cure-a-sinus-headache"><strong>साइनस सिरदर्द का इलाज (How to Cure a Sinus Headache)</strong></a>।</li>
+<li><strong>साइनस सिरदर्द (<a href="/ent-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Sinus</a> Headache):</strong> माथे और गालों पर दबाव के साथ नाक बंद होना — विस्तार से पढ़ें <a href="/blog/how-to-cure-a-sinus-headache"><strong>साइनस सिरदर्द का इलाज (How to Cure a Sinus Headache)</strong></a>।</li>
 <li><strong>क्लस्टर सिरदर्द (Cluster Headache):</strong> एक आँख के आसपास तेज़, चुभने वाला दर्द — डॉक्टर की जाँच ज़रूरी।</li>
 <li><strong>गर्दन से जुड़ा सिरदर्द:</strong> दर्द जो गर्दन से शुरू होकर सिर तक फैलता है, अक्सर ग़लत मुद्रा या रीढ़ की समस्या से।</li>
 </ul>

@@ -13,7 +13,7 @@ $blog_content = <<<'HTML'
 
 <p>The answer might surprise you. The physical sensations can feel almost identical, yet these two conditions come from completely different causes. And here's what most people don't realize: while <a href="/blog/heart-health"><strong>anxiety itself doesn't directly cause a heart attack</strong></a> the way a blocked artery does, chronic anxiety can take a serious toll on your cardiovascular system over time.</p>
 
-<p>In this comprehensive guide, we'll explore the real science behind the anxiety-heart connection, how to tell the difference between a panic attack and a heart attack, and what you can do to protect your heart when anxiety becomes a regular part of your life.</p>
+<p>In this comprehensive guide, we'll explore the real science behind the anxiety-heart connection, how to tell the difference between a panic attack and a <a href="/emergency-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">heart attack</a>, and what you can do to protect your heart when anxiety becomes a regular part of your life.</p>
 
 <blockquote>"Anxiety is not just 'in your head.' The physiological changes it triggers — racing heart, high blood pressure, inflammation — are very real and can affect your body for years if left unmanaged."</blockquote>
 
@@ -138,7 +138,7 @@ $blog_content = <<<'HTML'
 <h2>How Anxiety Affects Heart Rate and Rhythm</h2>
 <p>Anxiety can cause several types of heart rhythm abnormalities (arrhythmias):</p>
 
-<h3>1. Sinus Tachycardia</h3>
+<h3>1. <a href="/ent-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Sinus</a> Tachycardia</h3>
 <p>This is a normal, fast heart rate response to anxiety. Your heart's natural pacemaker (sinus node) fires rapidly in response to adrenaline. While usually harmless in a healthy heart, it can be distressing and may require treatment if it occurs frequently.</p>
 
 <h3>2. Premature Ventricular Contractions (PVCs)</h3>
@@ -225,7 +225,7 @@ Aim for at least 30 minutes of moderate exercise, 5 days a week.</p>
 <li>Takotsubo cardiomyopathy (broken heart syndrome) proves that extreme emotional stress can directly affect heart function</li>
 <li>Managing anxiety through therapy, exercise, and mindfulness can protect your heart</li>
 <li>Always seek emergency medical attention if you experience chest pain or severe symptoms — never assume it's "just anxiety"</li>
-<li>Working with both mental health and cardiac specialists ensures comprehensive care</li>
+<li>Working with both mental health and cardiac <a href="/doctors.php" class="text-primary text-decoration-none fw-medium">specialists</a> ensures comprehensive care</li>
 </ul>
 
 <h2>Conclusion</h2>

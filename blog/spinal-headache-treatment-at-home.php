@@ -9,7 +9,7 @@ $blog_author_desc = "Senior Physician & Internal Medicine, Sankalp Hospital, Amb
 $blog_image = "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=400&h=400&fit=crop";
 $pageCanonical = "https://www.sankalphospital.com/blog/spinal-headache-treatment-at-home";
 $blog_content = <<<'HTML'
-<p class="lead">A spinal headache is a very specific and often intense headache that can develop after a spinal anaesthetic, an epidural, or a lumbar puncture (spinal tap). Its hallmark is unmistakable: the pain is much worse when you sit or stand, and dramatically better when you lie down flat. If you are dealing with this after a recent procedure, this guide explains <strong>safe spinal headache treatment at home</strong>, why it happens, and — importantly — when home care is not enough and you need a doctor.</p>
+<p class="lead">A spinal <a href="/neurosurgery-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">headache</a> is a very specific and often intense headache that can develop after a spinal anaesthetic, an epidural, or a lumbar puncture (spinal tap). Its hallmark is unmistakable: the pain is much worse when you sit or stand, and dramatically better when you lie down flat. If you are dealing with this after a recent procedure, this guide explains <strong>safe spinal headache treatment at home</strong>, why it happens, and — importantly — when home care is not enough and you need a doctor.</p>
 
 <p>A spinal headache (medically called a <em>post-dural-puncture headache</em>, or PDPH) happens when the needle used in a spinal or epidural procedure creates a tiny hole in the membrane surrounding the spinal cord, allowing cerebrospinal fluid (CSF) to leak out. The drop in fluid pressure "tugs" on the brain's supporting structures when you are upright, causing the headache. The same mechanism explains why lying flat relieves it.</p>
 
@@ -81,7 +81,7 @@ $blog_content = <<<'HTML'
 </div>
 
 <h2>The Definitive Medical Treatment: Epidural Blood Patch</h2>
-<p>When a spinal headache is severe, disabling, or does not improve with a couple of days of home care, the most effective treatment is an <strong>epidural blood patch</strong>. In this quick procedure, a small amount of your own blood is injected into the epidural space near the leak. The blood clots and seals the hole, which usually relieves the headache within hours. It is a safe, commonly performed procedure with a high success rate — and it is why persistent spinal headaches should always be reviewed by your anaesthesia or medical team rather than simply endured at home.</p>
+<p>When a spinal headache is severe, disabling, or does not improve with a couple of days of home care, the most effective treatment is an <strong>epidural blood patch</strong>. In this quick procedure, a small amount of your own blood is injected into the epidural space near the leak. The blood clots and seals the hole, which usually relieves the headache within hours. It is a safe, commonly performed procedure with a high success rate — and it is why persistent spinal headaches should always be reviewed by your anaesthesia or <a href="/doctors.php" class="text-primary text-decoration-none fw-medium">medical team</a> rather than simply endured at home.</p>
 
 <h2>When to See a Doctor</h2>
 <p>Contact your doctor or the team that performed your procedure if:</p>
@@ -134,7 +134,7 @@ $blog_faqs = [
 
 $related_posts = [
     ['title' => 'Headache Treatment at Home: 10 Remedies for Relief', 'url' => 'headache-treatment-at-home', 'date' => 'July 25, 2026'],
-    ['title' => 'How to Cure a Sinus Headache', 'url' => 'how-to-cure-a-sinus-headache', 'date' => 'July 26, 2026'],
+    ['title' => 'How to Cure a <a href="/ent-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Sinus</a> Headache', 'url' => 'how-to-cure-a-sinus-headache', 'date' => 'July 26, 2026'],
     ['title' => 'Homeopathic Remedy for Headache: Natural Relief', 'url' => 'homeopathic-remedy-for-headache-natural-relief-guide', 'date' => 'July 24, 2026']
 ];
 

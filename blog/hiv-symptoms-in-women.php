@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>HIV Symptoms in Women | Sankalp Hospital</title>
+  <title>HIV Symptoms in Women | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
   <meta name="description" content="HIV symptoms in women - early signs, stages, and what to do if you think you may be infected. Expert guidance on HIV awareness and testing.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/hiv-symptoms-in-women">
   <?php include '../includes/header-code.php'; ?>
@@ -86,7 +86,7 @@ $blog_date = "July 22, 2026"; include '../includes/header.php'; ?>
     <ul>
       <li><strong>Unprotected sexual contact:</strong> Vaginal, anal, or oral sex without condoms</li>
       <li><strong>Sharing needles or syringes:</strong> Drug use equipment that contains blood</li>
-      <li><strong>Mother to child:</strong> During pregnancy, birth, or breastfeeding</li>
+      <li><strong>Mother to child:</strong> During <a href="/gynecology-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">pregnancy</a>, birth, or breastfeeding</li>
       <li><strong>Blood transfusion:</strong> Rare in countries with good blood screening</li>
     </ul>
 
@@ -143,8 +143,8 @@ $blog_date = "July 22, 2026"; include '../includes/header.php'; ?>
       <li><strong>Fatigue and weakness:</strong> Feeling extremely tired without reason</li>
       <li><strong>Sore throat:</strong> Pain or scratchiness in the throat</li>
       <li><strong>Swollen lymph nodes:</strong> Particularly in the neck, armpits, and groin</li>
-      <li><strong>Headache:</strong> Persistent or severe headaches</li>
-      <li><strong>Muscle aches and joint pain:</strong> Body pains similar to flu</li>
+      <li><strong><a href="/neurosurgery-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Headache</a>:</strong> Persistent or severe headaches</li>
+      <li><strong>Muscle aches and <a href="/orthopedic-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">joint pain</a>:</strong> Body pains similar to flu</li>
       <li><strong>Night sweats:</strong> Excessive sweating during sleep</li>
       <li><strong>Rash:</strong> Sometimes appears on the torso</li>
       <li><strong>Nausea, vomiting, and diarrhea:</strong> Gastrointestinal symptoms</li>
@@ -190,7 +190,7 @@ $blog_date = "July 22, 2026"; include '../includes/header.php'; ?>
     <ul>
       <li><strong>Human Papillomavirus (HPV) infection:</strong> More persistent and difficult to clear</li>
       <li><strong>Cervical dysplasia:</strong> Abnormal cell changes on the cervix</li>
-      <li><strong>Cervical cancer:</strong> Higher risk of progression to cancer</li>
+      <li><strong>Cervical <a href="/chemotherapy-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">cancer</a>:</strong> Higher risk of progression to cancer</li>
     </ul>
 
     <p>Regular Pap smears and cervical exams are especially important for women with HIV.</p>
@@ -274,7 +274,7 @@ $blog_date = "July 22, 2026"; include '../includes/header.php'; ?>
       <li>Requires regular HIV testing and monitoring</li>
     </ul>
 
-    <h3>PEP - For Emergency Situations:</h3>
+    <h3>PEP - For <a href="/emergency-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Emergency</a> Situations:</h3>
     <ul>
       <li>Emergency medicine taken after potential exposure</li>
       <li>Must be started within 72 hours (ideally within 24 hours)</li>
@@ -341,7 +341,7 @@ $blog_date = "July 22, 2026"; include '../includes/header.php'; ?>
 
     <div class="faq-item">
       <h4>Where can I get tested for HIV?</h4>
-      <p>HIV testing is available at hospitals, clinics, community health centers, and through home testing kits. Many places offer free or confidential testing. You can also find testing locations through local health departments or online resources. Remember, early detection saves lives.</p>
+      <p>HIV testing is available at hospitals, clinics, community health centers, and through home testing kits. Many places offer free or confidential testing. You can also find testing locations through local health <a href="/departments.php" class="text-primary text-decoration-none fw-medium">departments</a> or online resources. Remember, early detection saves lives.</p>
     </div>
 
     <div class="faq-item">

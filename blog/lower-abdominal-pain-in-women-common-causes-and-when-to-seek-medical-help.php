@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Lower Abdominal Pain in Women: Causes and Care | Sankalp Hospital</title>
+  <title>Lower Abdominal Pain in Women: Causes and Care | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
   <meta name="description" content="Understand common causes of lower abdominal pain in women, from digestive issues to gynecological concerns, and when to seek medical help at Sankalp Hospital.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/lower-abdominal-pain-in-women-common-causes-and-when-to-seek-medical-help">
   <?php include '../includes/header-code.php'; ?>
@@ -38,7 +38,7 @@ $blog_date = "July 13, 2026"; include '../includes/header.php'; ?>
 <!-- BLOG HERO -->
 <section class="blog-hero text-center">
   <div class="container">
-    <p class="blog-meta"><a href="../index" class="text-white">Home</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="index" class="text-white">Health Blog</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> Women's Health</p>
+    <p class="blog-meta"><a href="../index" class="text-white">Home</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="index" class="text-white">Health Blog</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="/gynecology-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Women's Health</a></p>
     <div class="blog-hero-img"><img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=400&fit=crop" alt="Lower Abdominal Pain in Women"></div>
     <h1>Lower Abdominal Pain in Women: Causes and When to Worry</h1>
     <p class="blog-meta"><i class="far fa-calendar"></i> May 19, 2026 &nbsp;&nbsp; <i class="far fa-clock"></i> 12 min read</p>
@@ -74,7 +74,7 @@ $blog_date = "July 13, 2026"; include '../includes/header.php'; ?>
 
     <h3>4. Endometriosis</h3>
     <p>Endometriosis is a chronic condition where tissue similar to the uterine lining (endometrium) grows outside the uterus, commonly on the ovaries, fallopian tubes, and pelvic lining. This tissue responds to hormonal changes each month, causing inflammation, bleeding, and scarring that leads to severe pelvic pain.</p>
-    <p>The pain of endometriosis often intensifies during menstruation but may persist throughout the month. Other symptoms include painful intercourse, heavy bleeding, and infertility. An estimated 176 million women worldwide suffer from endometriosis, making it a significant women's health concern that requires specialized treatment.</p>
+    <p>The pain of endometriosis often intensifies during menstruation but may persist throughout the month. Other symptoms include painful intercourse, heavy bleeding, and <a href="/ivf-treatment-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">infertility</a>. An estimated 176 million women worldwide suffer from endometriosis, making it a significant women's health concern that requires specialized treatment.</p>
 
     <h3>5. Pelvic Inflammatory Disease (PID)</h3>
     <p>PID is an infection of the female reproductive organs, typically caused by sexually transmitted bacteria that travel from the vagina to the uterus, fallopian tubes, or ovaries. If left untreated, PID can lead to chronic pain, ectopic pregnancy, and infertility.</p>
@@ -89,7 +89,7 @@ $blog_date = "July 13, 2026"; include '../includes/header.php'; ?>
 
     <h3>1. Irritable Bowel Syndrome (IBS)</h3>
     <p>IBS is a common functional gastrointestinal disorder affecting 10-15% of the global population, with women being twice as likely to develop it as men. The condition causes abdominal pain associated with changes in bowel habits, including diarrhea, constipation, or alternating between both.</p>
-    <p>The pain is often relieved by defecation and may be accompanied by bloating, mucus in stool, and a feeling of incomplete evacuation. While IBS doesn't cause inflammation or increase cancer risk, it significantly impacts quality of life and requires long-term management strategies.</p>
+    <p>The pain is often relieved by defecation and may be accompanied by bloating, mucus in stool, and a feeling of incomplete evacuation. While IBS doesn't cause inflammation or increase <a href="/chemotherapy-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">cancer</a> risk, it significantly impacts quality of life and requires long-term management strategies.</p>
 
     <h3>2. Constipation</h3>
     <p>Constipation is one of the most common digestive complaints, affecting approximately 15-20% of the global population. When stool remains in the colon for extended periods, it can cause abdominal cramping, bloating, and discomfort in the lower abdomen.</p>
@@ -97,7 +97,7 @@ $blog_date = "July 13, 2026"; include '../includes/header.php'; ?>
 
     <h3>3. Appendicitis</h3>
     <p>Appendicitis is inflammation of the appendix, a small pouch attached to the large intestine. It typically begins as pain around the navel that migrates to the lower right abdomen and becomes increasingly severe over 12-24 hours. Other symptoms include loss of appetite, nausea, vomiting, and fever.</p>
-    <p>Appendicitis is a medical emergency requiring immediate surgical intervention. If left untreated, the appendix can rupture, causing life-threatening infection. The condition is most common between ages 10-30, and prompt medical care is crucial for preventing complications.</p>
+    <p>Appendicitis is a medical <a href="/emergency-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">emergency</a> requiring immediate surgical intervention. If left untreated, the appendix can rupture, causing life-threatening infection. The condition is most common between ages 10-30, and prompt medical care is crucial for preventing complications.</p>
 
     <h3>4. Inflammatory Bowel Disease (IBD)</h3>
     <p>While less common than IBS, inflammatory bowel diseases like Crohn's disease and ulcerative colitis can cause significant lower abdominal pain. These conditions involve chronic inflammation of the digestive tract, leading to symptoms including severe diarrhea, rectal bleeding, weight loss, and fatigue.</p>
@@ -106,7 +106,7 @@ $blog_date = "July 13, 2026"; include '../includes/header.php'; ?>
 
     <h3>1. Urinary Tract Infection (UTI)</h3>
     <p>UTIs are bacterial infections affecting any part of the urinary system, though they're most common in the bladder and urethra. Women are particularly susceptible due to their shorter urethra, which allows bacteria easier access to the bladder.</p>
-    <p>Symptoms include pelvic pressure or pain, burning during urination, frequent urge to urinate, and cloudy or bloody urine. While mild UTIs can be treated with antibiotics at home, infections that spread to the kidneys (pyelonephritis) require more intensive treatment with fever, back pain, and nausea.</p>
+    <p>Symptoms include pelvic pressure or pain, burning during urination, frequent urge to urinate, and cloudy or bloody urine. While mild UTIs can be treated with antibiotics at home, infections that spread to the kidneys (pyelonephritis) require more intensive treatment with fever, <a href="/orthopedic-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">back pain</a>, and nausea.</p>
 
     <h3>2. Interstitial Cystitis (Painful Bladder Syndrome)</h3>
     <p>Interstitial cystitis is a chronic condition causing bladder pressure, bladder pain, and sometimes pelvic pain. The condition, which affects approximately 3-8% of women, occurs when the bladder wall becomes inflamed or irritated, leading to scarring and reduced bladder capacity.</p>
@@ -127,11 +127,11 @@ $blog_date = "July 13, 2026"; include '../includes/header.php'; ?>
 
     <div class="alert-box">
       <h4>When to Seek Immediate Medical Help:</h4>
-      <p>Consult a doctor immediately if you experience sudden and severe lower abdominal pain, especially if accompanied by fever (over 101°F), persistent vomiting, fainting or dizziness, rapid heartbeat, unusual vaginal bleeding or discharge, pain during pregnancy, or signs of internal bleeding (such as pale skin or cold, clammy skin).</p>
+      <p><a href="/doctors.php" class="text-primary text-decoration-none fw-medium">Consult a doctor</a> immediately if you experience sudden and severe lower abdominal pain, especially if accompanied by fever (over 101°F), persistent vomiting, fainting or dizziness, rapid heartbeat, unusual vaginal bleeding or discharge, pain during pregnancy, or signs of internal bleeding (such as pale skin or cold, clammy skin).</p>
     </div>
 
     <h2>Diagnosis at Sankalp Hospital</h2>
-    <p>Accurate diagnosis is essential for effective treatment. Our gynecology and general medicine departments work together to provide comprehensive evaluation using the latest diagnostic techniques:</p>
+    <p>Accurate diagnosis is essential for effective treatment. Our gynecology and general medicine <a href="/departments.php" class="text-primary text-decoration-none fw-medium">departments</a> work together to provide comprehensive evaluation using the latest diagnostic techniques:</p>
     <ul>
       <li><strong>Pelvic Examination:</strong> A physical examination to assess reproductive organs and identify areas of tenderness or abnormal growths.</li>
       <li><strong>Ultrasound Imaging:</strong> Transvaginal or abdominal ultrasound to visualize ovaries, uterus, and detect cysts, fibroids, or other abnormalities.</li>

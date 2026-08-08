@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Early Warning Signs of Cancer in Women | Sankalp Hospital</title>
+  <title>Early Warning Signs of <a href="/chemotherapy-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Cancer</a> in Women | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
   <meta name="description" content="Discover the early warning signs of cancer in women that should never be ignored. Learn about screenings and preventive care at Sankalp Hospital Ambikapur.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/symptoms-of-cancer-in-women-early-warning-signs-you-should-not-ignore">
   <?php include '../includes/header-code.php'; ?>
@@ -33,7 +33,7 @@ $blog_date = "July 06, 2026"; include '../includes/header.php'; ?>
 <!-- BLOG HERO -->
 <section class="blog-hero text-center">
   <div class="container">
-    <p class="blog-meta"><a href="../index" class="text-white">Home</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="index" class="text-white">Health Blog</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> Women's Health</p>
+    <p class="blog-meta"><a href="../index" class="text-white">Home</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="index" class="text-white">Health Blog</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="/gynecology-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Women's Health</a></p>
     <div class="blog-hero-img"><img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400&h=400&fit=crop" alt="Cancer Awareness in Women"></div>
     <h1>Early Warning Signs of Cancer in Women</h1>
     <p class="blog-meta"><i class="far fa-calendar"></i> May 11, 2026 &nbsp;&nbsp; <i class="far fa-clock"></i> 10 min read</p>

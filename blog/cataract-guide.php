@@ -11,7 +11,7 @@ $pageCanonical = "https://www.sankalphospital.com/blog/cataract-guide";
 $blog_content = <<<'HTML'
 <p class="lead">Cataracts are the leading cause of vision loss in adults over 40 and the primary cause of blindness worldwide. However, thanks to incredible advancements in medical technology, vision loss from cataracts is almost entirely reversible. Understanding this common condition—from its subtle early symptoms to the sophisticated treatment options available today—is the first step toward reclaiming clear, vibrant vision.</p>
 
-<blockquote>"A cataract is not a disease, but a natural aging process of the eye's lens. With modern, minimally invasive surgery, restoring clear vision is one of the safest and most successful procedures in all of medicine."</blockquote>
+<blockquote>"A <a href="/ophthalmology-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">cataract</a> is not a disease, but a natural aging process of the eye's lens. With modern, minimally invasive surgery, restoring clear vision is one of the safest and most successful procedures in all of medicine."</blockquote>
 
 <h2>Understanding the Eye's Lens and How Cataracts Form</h2>
 <p>To understand cataracts, you must first understand the eye's natural lens. Located just behind the iris (the colored part of your eye), the lens functions much like a camera lens. It is a transparent, flexible structure made primarily of water and precisely arranged proteins called crystallins. Its job is to focus light rays onto the retina at the back of the eye, which then sends visual signals to the brain.</p>
@@ -77,7 +77,7 @@ $blog_content = <<<'HTML'
 </div>
 
 <h2>Conclusion: A Brighter Outlook</h2>
-<p>If cloudy vision from cataracts is diminishing your quality of life, there has never been a better time to seek treatment. If you are experiencing any of the symptoms discussed, schedule a comprehensive eye examination with the expert ophthalmology team at Sankalp Hospital. We are dedicated to providing world-class eye care and helping you see the world with clarity and confidence once again.</p>
+<p>If cloudy vision from cataracts is diminishing your quality of life, there has never been a better time to seek treatment. If you are experiencing any of the symptoms discussed, schedule a comprehensive eye examination with the expert ophthalmology team at <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a>. We are dedicated to providing world-class eye care and helping you see the world with clarity and confidence once again.</p>
 HTML;
 
 $blog_faqs = [
@@ -110,7 +110,7 @@ $blog_faqs = [
 $related_posts = [
     ['title' => '5 Simple Steps to Keep Your Heart Healthy', 'url' => 'heart-health', 'date' => 'Jan 5, 2024', 'image' => 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=300&fit=crop'],
     ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'Dec 10, 2023', 'image' => 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&h=300&fit=crop'],
-    ['title' => 'Managing Joint Pain', 'url' => 'joint-pain', 'date' => 'Dec 20, 2023', 'image' => 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop']
+    ['title' => 'Managing <a href="/orthopedic-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Joint Pain</a>', 'url' => 'joint-pain', 'date' => 'Dec 20, 2023', 'image' => 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop']
 ];
 
 include 'blog-post.php';

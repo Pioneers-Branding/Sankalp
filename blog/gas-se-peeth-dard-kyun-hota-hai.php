@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-  <title>गैस से पीठ दर्द क्यों होता है? पीठ में गैस के लक्षण, उपाय और इलाज | Sankalp Hospital</title>
+  <title>गैस से पीठ दर्द क्यों होता है? पीठ में गैस के लक्षण, उपाय और इलाज | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
   <meta name="description" content="पीठ में गैस के लक्षण और उपाय जानें — गैस के कारण पीठ और कमर में दर्द क्यों होता है, पीठ में गैस बने या फंस जाए तो क्या करें, तुरंत राहत के घरेलू उपाय और इलाज।">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/gas-se-peeth-dard-kyun-hota-hai">
   <meta property="og:type" content="article">

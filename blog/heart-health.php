@@ -55,7 +55,7 @@ $blog_content = <<<'HTML'
 </ul>
 
 <h2>5. Know Your Numbers: The Importance of Regular Screenings</h2>
-<p>Heart disease is often referred to as a "silent killer" because many of its precursors—like high blood pressure and high cholesterol—present with zero physical symptoms until a catastrophic event, like a heart attack, occurs. Regular medical screenings are your first line of defense.</p>
+<p>Heart disease is often referred to as a "silent killer" because many of its precursors—like high blood pressure and high cholesterol—present with zero physical symptoms until a catastrophic event, like a <a href="/emergency-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">heart attack</a>, occurs. Regular medical screenings are your first line of defense.</p>
 <div class="table-wrapper"><table class="table mt-4 mb-4">
 <thead>
 <tr style="background: var(--primary); color: #fff;"><th>Cardiovascular Metric</th><th>Healthy Target / Optimal Range</th></tr>
@@ -77,7 +77,7 @@ $blog_content = <<<'HTML'
 
 <h2>Conclusion: Your Heart, Your Responsibility</h2>
 <p>Your heart deserves the utmost care and attention. Transitioning to a heart-healthy lifestyle does not have to happen overnight. Begin by making small, sustainable changes: swap out a sugary drink for water, take a 15-minute walk after dinner, or schedule a comprehensive check-up with your doctor.</p>
-<p>At Sankalp Hospital, our dedicated cardiology department is equipped with state-of-the-art diagnostic tools to assess your cardiovascular risk. From routine EKGs and echocardiograms to advanced stress testing and personalized prevention plans, our team of experts is here to partner with you in achieving lifelong heart health.</p>
+<p>At <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a>, our dedicated cardiology department is equipped with state-of-the-art diagnostic tools to assess your cardiovascular risk. From routine EKGs and echocardiograms to advanced stress testing and personalized prevention plans, our team of experts is here to partner with you in achieving lifelong heart health.</p>
 HTML;
 
 $blog_faqs = [
@@ -114,7 +114,7 @@ $blog_faqs = [
 $related_posts = [
     ['title' => 'Stress Management Techniques', 'url' => 'stress-management', 'date' => 'Dec 15, 2023', 'image' => 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=300&fit=crop'],
     ['title' => 'Health Care Packages in Ambikapur', 'url' => 'sankalp-hospital-health-care-packages', 'date' => 'Dec 10, 2023', 'image' => 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&h=300&fit=crop'],
-    ['title' => 'Managing Joint Pain', 'url' => 'joint-pain', 'date' => 'Dec 20, 2023', 'image' => 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop']
+    ['title' => 'Managing <a href="/orthopedic-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Joint Pain</a>', 'url' => 'joint-pain', 'date' => 'Dec 20, 2023', 'image' => 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop']
 ];
 
 include 'blog-post.php';

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Thyroid Symptoms in Women: Common Signs | Sankalp Hospital</title>
+  <title>Thyroid Symptoms in Women: Common Signs | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
   <meta name="description" content="Common thyroid symptoms in women, including fatigue, weight changes, and mood swings. Expert diagnosis and care at Sankalp Hospital Ambikapur.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/thyroid-symptoms-in-women">
   <?php include '../includes/header-code.php'; ?>
@@ -62,7 +62,7 @@ $blog_date = "July 02, 2026"; include '../includes/header.php'; ?>
     </ul>
 
     <h2>Reproductive Health and the Thyroid</h2>
-    <p>Thyroid hormones are essential for a healthy reproductive system. Imbalances can lead to irregular periods, heavy bleeding, and challenges with fertility or pregnancy.</p>
+    <p>Thyroid hormones are essential for a healthy reproductive system. Imbalances can lead to irregular periods, heavy bleeding, and challenges with fertility or <a href="/gynecology-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">pregnancy</a>.</p>
 
     <h2>When to Consult a Specialist</h2>
     <p>If you experience persistent symptoms, a simple blood test at Sankalp Hospital can provide clarity. Our endocrinology team is here to help you manage your thyroid health and improve your quality of life.</p>

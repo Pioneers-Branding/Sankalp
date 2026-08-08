@@ -9,7 +9,7 @@ $blog_author_desc = "Senior Physician & Heart Specialist, Sankalp Hospital, Ambi
 $blog_image = "https://images.unsplash.com/photo-1628348068343-c6a848a2c3b1?w=400&h=400&fit=crop";
 $pageCanonical = "https://www.sankalphospital.com/blog/what-causes-heart-attacks-in-young-people";
 $blog_content = <<<'HTML'
-<p class="lead">A heart attack was once considered a disease of older age. Not anymore. Today, cardiologists are seeing more and more patients in their 20s, 30s, and early 40s arriving at emergency departments with crushing chest pain and blocked arteries. If you have ever wondered <strong>why young people are suddenly getting heart attacks</strong> — often people who look fit, go to the gym, and have no obvious health problems — this guide explains exactly what is happening and, more importantly, how to protect yourself.</p>
+<p class="lead">A heart attack was once considered a disease of older age. Not anymore. Today, cardiologists are seeing more and more patients in their 20s, 30s, and early 40s arriving at <a href="/emergency-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">emergency</a> <a href="/departments.php" class="text-primary text-decoration-none fw-medium">departments</a> with crushing chest pain and blocked arteries. If you have ever wondered <strong>why young people are suddenly getting heart attacks</strong> — often people who look fit, go to the gym, and have no obvious health problems — this guide explains exactly what is happening and, more importantly, how to protect yourself.</p>
 
 <p>A heart attack (medically called a <em>myocardial infarction</em>) happens when blood flow to a part of the heart muscle is suddenly blocked, usually by a clot forming over a fatty plaque inside a coronary artery. When the muscle is starved of oxygen, it begins to die within minutes. In young people, the causes are often different from the classic picture we see in the elderly — and that difference is exactly why so many cases are missed until it is too late.</p>
 
@@ -120,7 +120,7 @@ $blog_content = <<<'HTML'
 <p>Book a cardiac evaluation if you have a family history of early heart disease, if you smoke or have diabetes, high blood pressure, or high cholesterol, or if you experience chest discomfort, breathlessness, palpitations, or fainting. A simple check-up — ECG, blood pressure, blood tests, and sometimes an echocardiogram or stress test — can reveal hidden risk long before a crisis. For a broader guide, see our article on <a href="/blog/heart-health"><strong>keeping your heart healthy</strong></a>.</p>
 
 <h2>How Sankalp Hospital Can Help</h2>
-<p>At <a href="/"><strong>Sankalp Hospital, Ambikapur</strong></a>, our cardiology and internal medicine team offers heart health screening, risk-factor assessment, ECG and echocardiography, and a fully equipped <a href="/emergency-hospital-in-ambikapur"><strong>24x7 emergency and trauma centre</strong></a> for cardiac emergencies. Whether you want a preventive heart check-up or urgent care for chest pain, our specialists are here to help you protect the years ahead.</p>
+<p>At <a href="/"><strong>Sankalp Hospital, Ambikapur</strong></a>, our cardiology and internal medicine team offers heart health screening, risk-factor assessment, ECG and echocardiography, and a fully equipped <a href="/emergency-hospital-in-ambikapur"><strong>24x7 emergency and trauma centre</strong></a> for cardiac emergencies. Whether you want a preventive heart check-up or urgent care for chest pain, our <a href="/doctors.php" class="text-primary text-decoration-none fw-medium">specialists</a> are here to help you protect the years ahead.</p>
 
 <p>Don't wait for a warning you can't ignore. If you have risk factors or a family history, schedule a heart health check-up with our team today.</p>
 HTML;
@@ -148,7 +148,7 @@ $blog_faqs = [
     ],
     [
         "question" => "Is chest pain in a young person always a heart attack?",
-        "answer" => "No. Most chest pain in young people is not a heart attack — it can be caused by acidity, muscle strain, anxiety, or lung problems. However, you cannot reliably tell the difference on your own, and heart attacks in the young are frequently dismissed as gas. If chest pain is severe, lasts more than a few minutes, or comes with sweating, breathlessness, or arm and jaw pain, treat it as an emergency and seek medical help immediately."
+        "answer" => "No. Most chest pain in young people is not a heart attack — it can be caused by acidity, muscle strain, anxiety, or lung problems. However, you cannot reliably tell the difference on your own, and heart attacks in the young are frequently dismissed as gas. If chest pain is severe, lasts more than a few minutes, or comes with sweating, breathlessness, or arm and jaw pain, treat it as an emergency and <a href="/contact.php" class="text-primary text-decoration-none fw-medium">seek medical help</a> immediately."
     ]
 ];
 

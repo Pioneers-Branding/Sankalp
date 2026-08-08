@@ -89,7 +89,7 @@ $blog_content = <<<'HTML'
 </div>
 
 <h2>गर्दन के दर्द का निदान</h2>
-<p>Sankalp Hospital में <a href="orthopedic-hospital-in-ambikapur">ऑर्थोपेडिक विशेषज्ञ</a> गर्दन के दर्द का सही कारण पता लगाने के लिए निम्नलिखित जांच करते हैं:</p>
+<p><a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a> में <a href="orthopedic-hospital-in-ambikapur">ऑर्थोपेडिक विशेषज्ञ</a> गर्दन के दर्द का सही कारण पता लगाने के लिए निम्नलिखित जांच करते हैं:</p>
 
 <h3>1. शारीरिक परीक्षण</h3>
 <p>डॉक्टर गर्दन की गतिशीलता, मांसपेशियों की ताकत, रिफ्लेक्सेस, और सुन्नपन की जांच करते हैं। विशेष न्यूरोलॉजिकल टेस्ट से यह पता लगाया जाता है कि कौन सी नस प्रभावित है।</p>
@@ -191,7 +191,7 @@ HTML;
 
 $related_posts = [
     ['title' => 'सर्वाइकल पेन के लक्षण और कारण', 'url' => 'cervical-pain-symptoms-in-hindi', 'date' => 'May 11, 2026', 'image' => 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=300&fit=crop'],
-    ['title' => 'सिरदर्द के लिए होम्योपैथिक उपचार', 'url' => 'homeopathic-remedy-for-headache-natural-relief-guide', 'date' => 'May 25, 2026', 'image' => 'https://images.unsplash.com/photo-1551601651-bc60f254d532?w=400&h=300&fit=crop'],
+    ['title' => 'सिरदर्द के लिए होम्योपैथिक उपचार', 'url' => 'homeopathic-remedy-for-<a href="/neurosurgery-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">headache</a>-natural-relief-guide', 'date' => 'May 25, 2026', 'image' => 'https://images.unsplash.com/photo-1551601651-bc60f254d532?w=400&h=300&fit=crop'],
     ['title' => 'तनाव प्रबंधन तकनीक', 'url' => 'stress-management', 'date' => 'Dec 15, 2023', 'image' => 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=300&fit=crop']
 ];
 
