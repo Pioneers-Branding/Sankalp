@@ -163,7 +163,7 @@ $doctorRegistry = [
         'specialty' => 'Haematology',
         'degrees' => 'MBBS, MS (Haematology) | Consultant Haematologist',
         'experience' => '10+ Years',
-        'img' => 'doc1.png',
+        'img' => 'ambar-garg.png',
         'filters' => ['medicine'],
     ],
     'dr-azad-bhagat' => [
@@ -171,7 +171,7 @@ $doctorRegistry = [
         'specialty' => 'Pathology',
         'degrees' => 'MBBS, Clinical Pathology | Consultant Pathologist',
         'experience' => '10+ Years',
-        'img' => 'doc1.png',
+        'img' => 'azad-bhagat.png',
         'filters' => ['pathology'],
     ],
     'dr-anoj-kumar' => [
@@ -179,7 +179,7 @@ $doctorRegistry = [
         'specialty' => 'Anaesthesiology',
         'degrees' => 'MBBS, DNB (Anaesthesiology) | Consultant Anaesthesiologist',
         'experience' => '10+ Years',
-        'img' => 'doc1.png',
+        'img' => 'anoj-kumar.png',
         'filters' => ['anesthesiology'],
     ],
     'dr-rajshree-verma' => [
@@ -195,7 +195,7 @@ $doctorRegistry = [
         'specialty' => 'Pathology',
         'degrees' => 'MBBS, MD (Pathology) | Consultant Pathologist',
         'experience' => '10+ Years',
-        'img' => 'doc1.png',
+        'img' => 'sonali-gupta.png',
         'filters' => ['pathology'],
     ],
     'dr-chetan-chaturvedi' => [
@@ -203,7 +203,7 @@ $doctorRegistry = [
         'specialty' => 'Cardiology',
         'degrees' => 'MBBS, DNB (Cardiology) | Consultant Cardiologist',
         'experience' => '10+ Years',
-        'img' => 'doc1.png',
+        'img' => 'chetan-chaturvedi.png',
         'filters' => ['cardiology'],
     ],
     'dr-shradha-kinkar' => [

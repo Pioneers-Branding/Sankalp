@@ -175,7 +175,7 @@
       <div class="col-lg-4 col-md-5">
         <div class="dp-photo-wrapper">
           <div class="dp-photo-card">
-            <img src="/images/doc1.png" alt="Dr. Anoj Kumar" onerror="this.src='/images/doc1.png'">
+            <img src="/images/anoj-kumar.png" alt="Dr. Anoj Kumar" onerror="this.src='/images/doc1.png'">
             <span class="dp-photo-badge"><i class="fas fa-award"></i> 10+ Years Exp</span>
           </div>
         </div>
