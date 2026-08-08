@@ -150,14 +150,7 @@ $doctorRegistry = [
         'img' => 'yuvan.jpg',
         'filters' => ['anesthesiology'],
     ],
-    'dr-rajesh-kr-agarwal' => [
-        'name' => 'Dr. Rajesh Kr Agarwal',
-        'specialty' => 'Urology',
-        'degrees' => 'MBBS, MS (Urology) | Consultant Urologist',
-        'experience' => '10+ Years',
-        'img' => 'doc1.png',
-        'filters' => ['urology'],
-    ],
+
     'dr-ambar-garg' => [
         'name' => 'Dr. Ambar Garg',
         'specialty' => 'Haematology',
