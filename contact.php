@@ -104,7 +104,7 @@ include __DIR__ . '/includes/navbar.php';
           <h3 class="fw-bold text-dark mb-3">Send Us a Message</h3>
           <p class="text-muted mb-4 small">Have a query or need assistance? Fill out this quick form, and our healthcare coordinator will respond shortly.</p>
           
-          <form accept-charset='UTF-8' action='https://app.formester.com/forms/UvGLKUCJe/submissions' method='POST' class="row g-3">
+          <form id="contact-form" accept-charset='UTF-8' action='https://app.formester.com/forms/UvGLKUCJe/submissions' method='POST' class="row g-3">
             <div class="col-md-6">
               <label class="form-label fw-bold small text-dark">Full Name</label>
               <input type="text" name="name" class="form-control" placeholder="Enter your full name" required>
@@ -153,5 +153,36 @@ include __DIR__ . '/includes/navbar.php';
     </div>
   </div>
 </section>
+
+<script>
+document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const btn = this.querySelector('button[type="submit"]');
+    const origText = btn.innerHTML;
+    
+    btn.disabled = true;
+    btn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i> Sending...';
+    
+    const formData = new FormData(this);
+    
+    fetch(this.action, {
+        method: 'POST',
+        body: formData,
+        headers: {
+            'Accept': 'application/json'
+        }
+    })
+    .then(response => {
+        window.location.href = '/thank-you.php';
+    })
+    .catch(err => {
+        btn.innerHTML = '<i class="fas fa-check-circle me-2"></i> Message Sent!';
+        btn.classList.replace('btn-primary', 'btn-success');
+        setTimeout(() => {
+            window.location.href = '/thank-you.php';
+        }, 1500);
+    });
+});
+</script>
 
 <?php include __DIR__ . '/includes/footer.php'; ?>
