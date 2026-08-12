@@ -148,7 +148,7 @@ $blog_faqs = [
     ],
     [
         "question" => "Is chest pain in a young person always a heart attack?",
-        "answer" => "No. Most chest pain in young people is not a heart attack — it can be caused by acidity, muscle strain, anxiety, or lung problems. However, you cannot reliably tell the difference on your own, and heart attacks in the young are frequently dismissed as gas. If chest pain is severe, lasts more than a few minutes, or comes with sweating, breathlessness, or arm and jaw pain, treat it as an emergency and <a href="/contact.php" class="text-primary text-decoration-none fw-medium">seek medical help</a> immediately."
+        "answer" => "No. Most chest pain in young people is not a heart attack — it can be caused by acidity, muscle strain, anxiety, or lung problems. However, you cannot reliably tell the difference on your own, and heart attacks in the young are frequently dismissed as gas. If chest pain is severe, lasts more than a few minutes, or comes with sweating, breathlessness, or arm and jaw pain, treat it as an emergency and <a href='/contact.php' class='text-primary text-decoration-none fw-medium'>seek medical help</a> immediately."
     ]
 ];
 
