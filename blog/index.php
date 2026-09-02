@@ -42,6 +42,10 @@ $catIcons = [
   'General Medicine' => 'fa-notes-medical',
   'Infectious Diseases' => 'fa-virus',
   'Rheumatology' => 'fa-bone',
+  'Neonatal Care' => 'fa-baby',
+  'Child Nutrition' => 'fa-apple-alt',
+  'Nutrition & Diabetes' => 'fa-syringe',
+  'Nutrition & Heart Health' => 'fa-heartbeat',
 ];
 
 ?>
