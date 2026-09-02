@@ -36,6 +36,12 @@ $catIcons = [
   'Diabetes' => 'fa-syringe',
   'Pulmonology' => 'fa-lungs',
   'Dermatology' => 'fa-hand-sparkles',
+  'Eye Care' => 'fa-eye',
+  'ENT' => 'fa-head-side-cough',
+  'General Surgery' => 'fa-user-md',
+  'General Medicine' => 'fa-notes-medical',
+  'Infectious Diseases' => 'fa-virus',
+  'Rheumatology' => 'fa-bone',
 ];
 
 ?>
@@ -80,7 +86,8 @@ $catIcons = [
         <a href="/blog/<?php echo $blog['url']; ?>" class="text-decoration-none">
           <div class="blog-card h-100">
             <div class="blog-img-wrapper">
-              <img src="/images/blog-placeholder.svg" alt="<?php echo htmlspecialchars($blog['title']); ?>" class="blog-img" loading="lazy">
+              <?php $cardImg = (!empty($blog['image']) && $blog['image'][0] === '/') ? $blog['image'] : '/images/blog-placeholder.svg'; ?>
+              <img src="<?php echo htmlspecialchars($cardImg); ?>" alt="<?php echo htmlspecialchars($blog['title']); ?>" class="blog-img" loading="lazy" onerror="this.onerror=null;this.src='/images/blog-placeholder.svg';">
               <span class="blog-category"><i class="fas <?php echo $icon; ?> me-1"></i> <?php echo htmlspecialchars($cat); ?></span>
             </div>
             <div class="blog-content">

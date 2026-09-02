@@ -341,7 +341,14 @@ include __DIR__ . '/../includes/header.php';
       <i class="far fa-clock"></i> <?php echo isset($blog_readtime) ? $blog_readtime : '5 min read'; ?>
     </p>
     <h1><?php echo isset($blog_title) ? $blog_title : ''; ?></h1>
-    <img src="/images/blog-placeholder.svg" alt="<?php echo isset($blog_title) ? htmlspecialchars($blog_title) : 'Sankalp Hospital Health Blog'; ?>" class="blog-featured-img">
+    <?php
+    // Featured image: use the post's own image when it is a local asset, otherwise
+    // fall back to the branded SVG. Remote hotlinks (e.g. Unsplash) are not used as
+    // the <img> src because dead hotlinks previously left blank space on the page.
+    $featured_img = (isset($blog_image) && $blog_image && $blog_image[0] === '/') ? $blog_image : '/images/blog-placeholder.svg';
+    $featured_alt = isset($blog_image_alt) ? $blog_image_alt : (isset($blog_title) ? $blog_title : 'Sankalp Hospital Health Blog');
+    ?>
+    <img src="<?php echo htmlspecialchars($featured_img); ?>" alt="<?php echo htmlspecialchars($featured_alt); ?>" class="blog-featured-img" width="1200" height="630" fetchpriority="high" onerror="this.onerror=null;this.src='/images/blog-placeholder.svg';">
   </div>
 </section>
 
@@ -422,7 +429,8 @@ include __DIR__ . '/../includes/header.php';
             <?php foreach ($related_posts as $post): ?>
             <div class="col-md-4">
               <div class="related-card">
-                <img src="/images/blog-placeholder.svg" alt="<?php echo htmlspecialchars($post['title']); ?>" class="related-card-img">
+                <?php $rel_img = (!empty($post['image']) && $post['image'][0] === '/') ? $post['image'] : '/images/blog-placeholder.svg'; ?>
+                <img src="<?php echo htmlspecialchars($rel_img); ?>" alt="<?php echo htmlspecialchars($post['title']); ?>" class="related-card-img" loading="lazy" onerror="this.onerror=null;this.src='/images/blog-placeholder.svg';">
                 <div class="related-card-body">
                   <h5><a href="<?php echo $post['url']; ?>"><?php echo $post['title']; ?></a></h5>
                   <span><?php echo isset($post['date']) ? $post['date'] : ''; ?></span>
