@@ -1172,6 +1172,18 @@ document.getElementById('dd-booking-form').addEventListener('submit',function(e)
     const btn=this.querySelector('.dd-submit');
     const orig=btn.innerHTML;
     
+    // Captcha validation (injected by script.js)
+    const expectedCaptcha = $(this).data('captcha');
+    if (expectedCaptcha !== undefined) {
+        const providedAnswer = parseInt(this.querySelector('.captcha-answer').value);
+        if (providedAnswer !== expectedCaptcha) {
+            alert("Incorrect security answer. Please try again.");
+            this.querySelector('.captcha-answer').value = '';
+            return false;
+        }
+    }
+
+    
     const specialty = this.querySelectorAll('select')[0].value;
     const doctor = this.querySelectorAll('select')[1].value;
     const name = this.querySelectorAll('input')[0].value;

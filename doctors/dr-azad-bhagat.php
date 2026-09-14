@@ -65,7 +65,7 @@
           <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
           <li class="nav-item"><a class="nav-link" href="/empanelments">Empanelments</a></li>
           <li class="nav-item"><a class="nav-link" href="/faq">FAQs</a></li>
-          <li class="nav-item"><a class="nav-link" href="/#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
         </ul>
       </div>
 
@@ -134,7 +134,7 @@
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/empanelments">Empanelments</a></li>
         <li><a href="/faq">FAQs</a></li>
-        <li><a href="/#contact">Contact Us</a></li>
+        <li><a href="contact.php">Contact Us</a></li>
       </ul>
       <div class="mt-5 pt-4 border-top">
         <h6 class="text-uppercase text-muted mb-3">Emergency Support</h6>
@@ -369,7 +369,7 @@
               <li><a href="/faq">Support & FAQs</a></li>
               <li><a href="/myths-facts">Myths & Facts</a></li>
               <li><a href="/glossary">Medical Glossary</a></li>
-              <li><a href="/contact">Contact Us</a></li>
+              <li><a href="contact.php">Contact Us</a></li>
             </ul>
           </div>
         </div>

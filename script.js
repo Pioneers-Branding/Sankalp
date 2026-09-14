@@ -199,11 +199,43 @@ $(document).ready(function () {
   /* ==========================================
      5. Interactive Form Submissions (Demo success)
      ========================================== */
+  
+  // Inject Captcha into all forms
+  $(document).ready(function() {
+    $('form').each(function() {
+      // Skip forms that already have their own captcha or shouldn't have one
+      if ($(this).attr('id') === 'contact-form') return;
+      if ($(this).find('.captcha-container').length > 0) return;
+      
+      var num1 = Math.floor(Math.random() * 10) + 1;
+      var num2 = Math.floor(Math.random() * 10) + 1;
+      $(this).data('captcha', num1 + num2);
+      
+      var captchaHtml = '<div class="form-group captcha-container" style="margin-bottom:15px;">' +
+        '<label style="font-weight:600;font-size:0.9em;">Security Check: What is ' + num1 + ' + ' + num2 + '?</label>' +
+        '<input type="number" class="form-control captcha-answer" placeholder="Enter answer" required>' +
+        '</div>';
+      
+      // Insert before the submit button
+      $(this).find('button[type="submit"]').before(captchaHtml);
+    });
+  });
+
   $("#hero-widget-form, #detailed-booking-form").submit(function (event) {
     event.preventDefault();
     var form = $(this);
     var submitBtn = form.find('button[type="submit"]');
     var originalText = submitBtn.html();
+
+    var expectedCaptcha = form.data('captcha');
+    if (expectedCaptcha !== undefined) {
+      var providedAnswer = parseInt(form.find('.captcha-answer').val());
+      if (providedAnswer !== expectedCaptcha) {
+        alert("Incorrect security answer. Please try again.");
+        form.find('.captcha-answer').val('');
+        return false;
+      }
+    }
 
     submitBtn
       .prop("disabled", true)

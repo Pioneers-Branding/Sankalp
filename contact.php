@@ -69,7 +69,7 @@ include __DIR__ . '/includes/navbar.php';
               <div>
                 <h6 class="fw-bold mb-1 text-dark">Email Address</h6>
                 <p class="text-muted mb-0 small">
-                  <a href="mailto:info@sankalphospital.org" class="text-decoration-none text-muted">info@sankalphospital.org</a>
+                  <a href="mailto:info@sankalphospital.com" class="text-decoration-none text-muted">info@sankalphospital.com</a>
                 </p>
               </div>
             </div>

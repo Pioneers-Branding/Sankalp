@@ -303,7 +303,7 @@ include __DIR__ . '/../includes/navbar.php';
             <p class="doc-degrees"><?php echo htmlspecialchars($doc['degrees']); ?></p>
             <div class="doc-card-actions">
               <a href="/doctors/<?php echo htmlspecialchars($slug); ?>" class="doc-action-btn is-outline">View Profile</a>
-              <a href="/contact" class="doc-action-btn is-solid">Book Appointment</a>
+              <a href="contact.php" class="doc-action-btn is-solid">Book Appointment</a>
             </div>
           </div>
         </div>

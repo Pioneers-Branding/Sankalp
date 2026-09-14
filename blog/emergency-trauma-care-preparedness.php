@@ -78,7 +78,7 @@ $blog_content = <<<'HTML'
 
 <h2>Preparing Before You Ever Need It</h2>
 <ul>
-  <li><strong>Save the hospital and ambulance numbers</strong> in every family phone now, and note the route. Our <a href="/contact">contact and location page</a> has both.</li>
+  <li><strong>Save the hospital and ambulance numbers</strong> in every family phone now, and note the route. Our <a href="contact.php">contact and location page</a> has both.</li>
   <li><strong>Keep a card or phone note</strong> with each family member's blood group, chronic illnesses, regular medicines, allergies and an emergency contact. This is especially important for anyone on blood thinners or with diabetes, epilepsy or heart disease.</li>
   <li><strong>Keep insurance details accessible.</strong> Check our <a href="/empanelments">insurance and government scheme empanelments</a> in advance so cashless admission is not delayed by paperwork.</li>
   <li><strong>Learn basic first aid.</strong> Bleeding control, the recovery position and CPR are learnable in an afternoon and used in a minute.</li>

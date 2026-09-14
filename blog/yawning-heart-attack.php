@@ -139,7 +139,7 @@ $blog_content = <<<'HTML'
 <div class="cta-box bg-primary text-white p-4 rounded mt-4 mb-4">
 <h3 class="text-white">अपने दिल की सेहत को आज ही जांचें</h3>
 <p class="mb-3">क्या आपको अक्सर थकान, सांस फूलना, या छाती में असुविधा महसूस होती है? दिल की जांच अब केवल बुजुर्गों के लिए नहीं है — 30+ उम्र के हर व्यक्ति को नियमित जांच करवानी चाहिए।</p>
-<a href="/contact" class="btn btn-light text-primary fw-bold px-4 py-2">अपॉइंटमेंट बुक करें</a>
+<a href="contact.php" class="btn btn-light text-primary fw-bold px-4 py-2">अपॉइंटमेंट बुक करें</a>
 </div>
 
 <div class="mt-5 p-4 bg-light rounded">

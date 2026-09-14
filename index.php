@@ -1537,7 +1537,7 @@ require_once __DIR__ . '/includes/videos-data.php';
         <div class="col-lg-6" id="contact">
           <div class="map-card">
             <!-- Google Map Embed - Centered on Sankalp Hospital, Ambikapur in Satellite View -->
-            <iframe class="map-iframe" src="https://maps.google.com/maps?q=Sankalp+Hospital+Ambikapur&amp;t=k&amp;z=18&amp;output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.4385172288075!2d83.18957811497918!3d23.62441998465191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398863f69aa24e8d%3A0xe54ef130ab7be352!2sSankalp%20Hospital%20Ambikapur!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <div class="map-info">
               <h4>Sankalp Hospital Contact Info</h4>
               <p><i class="fas fa-map-marked-alt text-primary"></i> <span>Near District Hospital, Manipur, Ambikapur, Chhattisgarh - 497001</span></p>
