@@ -130,6 +130,10 @@ include __DIR__ . '/includes/navbar.php';
               <label class="form-label fw-bold small text-dark">Message</label>
               <textarea name="message" class="form-control" rows="4" placeholder="How can we assist you?" required></textarea>
             </div>
+            <div class="col-md-12">
+              <label class="form-label fw-bold small text-dark" id="contact-captcha-label">Security Check: What is 3 + 4?</label>
+              <input type="number" id="contact-captcha-input" class="form-control" placeholder="Enter answer" required>
+            </div>
             <div class="col-md-12 mt-4">
               <button type="submit" class="btn btn-primary py-3 px-5 rounded-pill fw-bold border-0 shadow"><i class="fas fa-paper-plane me-2"></i> Send Message</button>
             </div>
@@ -155,8 +159,24 @@ include __DIR__ . '/includes/navbar.php';
 </section>
 
 <script>
+let contactCaptchaAnswer = 7;
+document.addEventListener('DOMContentLoaded', function() {
+    const num1 = Math.floor(Math.random() * 10) + 1;
+    const num2 = Math.floor(Math.random() * 10) + 1;
+    contactCaptchaAnswer = num1 + num2;
+    const label = document.getElementById('contact-captcha-label');
+    if(label) label.textContent = `Security Check: What is ${num1} + ${num2}?`;
+});
+
 document.getElementById('contact-form').addEventListener('submit', function(e) {
     e.preventDefault();
+    const captchaInput = document.getElementById('contact-captcha-input');
+    if (captchaInput && parseInt(captchaInput.value) !== contactCaptchaAnswer) {
+        alert("Incorrect security answer. Please try again.");
+        captchaInput.value = '';
+        return;
+    }
+
     const btn = this.querySelector('button[type="submit"]');
     const origText = btn.innerHTML;
     
@@ -173,13 +193,13 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
         }
     })
     .then(response => {
-        window.location.href = '/thank-you.php';
+        window.location.href = 'thank-you.php';
     })
     .catch(err => {
         btn.innerHTML = '<i class="fas fa-check-circle me-2"></i> Message Sent!';
         btn.classList.replace('btn-primary', 'btn-success');
         setTimeout(() => {
-            window.location.href = '/thank-you.php';
+            window.location.href = 'thank-you.php';
         }, 1500);
     });
 });

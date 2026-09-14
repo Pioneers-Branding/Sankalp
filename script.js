@@ -228,7 +228,7 @@ $(document).ready(function () {
         message: fullMessage
       },
       success: function () {
-        window.location.href = '/thank-you.php';
+        window.location.href = window.location.pathname.includes('/doctors/') ? '../thank-you.php' : 'thank-you.php';
       },
       error: function () {
         // Fallback demo success in case of network block or missing API endpoint

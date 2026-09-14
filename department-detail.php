@@ -1191,7 +1191,7 @@ document.getElementById('dd-booking-form').addEventListener('submit',function(e)
         body: formData
     })
     .then(response => {
-        window.location.href = '/thank-you.php';
+        window.location.href = 'thank-you.php';
     })
     .catch(err => {
         btn.innerHTML='<i class="fas fa-check-circle"></i> Appointment Registered!';
