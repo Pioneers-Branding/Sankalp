@@ -249,7 +249,7 @@ include __DIR__ . '/includes/navbar.php';
       <div class="col-lg-7">
         <div class="rounded-4 overflow-hidden shadow-sm h-100" style="min-height:360px;">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.4385172288075!2d83.18957811497918!3d23.62441998465191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398863f69aa24e8d%3A0xe54ef130ab7be352!2sSankalp%20Hospital%20Ambikapur!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.6856063261475!2d83.19235937589467!3d23.108602079113584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3989a3ba44e7fd0b%3A0x225dc335b0168d3b!2sSankalp%20Multispeciality%20Hospital%20%26%20Test%20Tube%20Baby%20Center!5e0!3m2!1sen!2sin!4v1789381798013!5m2!1sen!2sin"
             width="100%" height="100%" style="border:0;min-height:360px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Sankalp Hospital Ambikapur location map"></iframe>
         </div>
       </div>
