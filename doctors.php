@@ -218,6 +218,7 @@ include __DIR__ . '/includes/navbar.php';
       <button class="filter-tab-btn" data-filter="ophthalmology">Ophthalmology</button>
       <button class="filter-tab-btn" data-filter="pediatrics">Pediatrics & Neonatology</button>
       <button class="filter-tab-btn" data-filter="surgery">Surgery</button>
+      <button class="filter-tab-btn" data-filter="neurosurgery">Neurosurgery</button>
       <button class="filter-tab-btn" data-filter="ent">ENT</button>
       <button class="filter-tab-btn" data-filter="dentistry">Dentistry</button>
       <button class="filter-tab-btn" data-filter="medicine">Medicine & Cardiology</button>

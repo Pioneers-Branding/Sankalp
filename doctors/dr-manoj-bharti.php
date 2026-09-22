@@ -4,8 +4,8 @@
 <?php include_once __DIR__ . '/../includes/analytics.php'; ?>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dr. Manoj Bharti | Best General & Laparoscopic Surgery Specialist in Ambikapur | Sankalp Hospital</title>
-  <meta name="description" content="Consult Dr. Manoj Bharti, MBBS, MS (General & Laparoscopic Surgery) | Consultant Surgeon at Sankalp Hospital in Ambikapur. ">
+  <title>Dr. Manoj Bharti | Best General & Laparoscopic Surgeon in Ambikapur | Sankalp Hospital</title>
+  <meta name="description" content="Consult Dr. Manoj Bharti, MBBS, MS (General & Laparoscopic Surgery) | Consultant General & Laparoscopic Surgeon at Sankalp Hospital in Ambikapur. Specialized in advanced laparoscopic surgeries, hernia repair, gallbladder surgery, appendectomy, and gastrointestinal procedures.">
 
   <!-- CSS CDNs -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -188,8 +188,8 @@
             <i class="fas fa-stethoscope"></i> General &amp; Laparoscopic Surgery
           </span>
           <h1 class="dp-hero-name">Dr. Manoj Bharti</h1>
-          <p class="dp-hero-degrees">MBBS, MS (General &amp; Laparoscopic Surgery) | Consultant Surgeon</p>
-          <p class="dp-hero-bio"></p>
+          <p class="dp-hero-degrees">MBBS, MS (General &amp; Laparoscopic Surgery) | Consultant General &amp; Laparoscopic Surgeon</p>
+          <p class="dp-hero-bio">Dr. Manoj Bharti is an experienced General and Laparoscopic Surgeon at Sankalp Hospital, specializing in advanced minimally invasive abdominal procedures, hernia repairs, gallbladder surgeries, appendectomies, and emergency trauma surgical care.</p>
 
           <div class="dp-stats-row">
             <div class="dp-stat-chip">
@@ -231,7 +231,7 @@
           <!-- Professional Profile -->
           <span class="dp-section-label"><i class="fas fa-circle"></i> Professional Profile</span>
           <h2 class="dp-section-title">About Dr. Manoj Bharti</h2>
-          <p class="dp-profile-text"></p>
+          <p class="dp-profile-text">Dr. Manoj Bharti brings over a decade of clinical excellence in general and laparoscopic surgery. Known for his surgical precision and patient-centered approach, he specializes in cutting-edge minimally invasive keyhole procedures that ensure minimal scarring, reduced pain, and faster recovery. He is committed to providing comprehensive surgical solutions for complex gastrointestinal, abdominal, and soft tissue conditions across Surguja and Northern Chhattisgarh.</p>
 
           <div class="dp-divider"></div>
 
@@ -239,6 +239,14 @@
           <span class="dp-section-label"><i class="fas fa-circle"></i> Clinical Expertise</span>
           <h2 class="dp-section-title">Specializations & Services</h2>
           <div class="dp-expertise-grid">
+            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Laparoscopic Cholecystectomy (Gallbladder)</span>
+            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Laparoscopic Hernia Repair (Inguinal, Umbilical, Incisional)</span>
+            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Laparoscopic Appendectomy</span>
+            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Gastrointestinal &amp; Abdominal Surgery</span>
+            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Trauma &amp; Emergency Surgical Care</span>
+            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Anorectal Surgeries (Piles, Fissure, Fistula)</span>
+            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Soft Tissue &amp; Cyst Excision</span>
+            <span class="dp-exp-pill"><i class="fas fa-check-circle"></i> Diabetic Foot &amp; Wound Management</span>
           </div>
 
           <!-- Credentials & Qualifications -->
@@ -252,7 +260,7 @@
             <ul class="dp-qual-list">
                 <li>MBBS</li>
                 <li>MS (General &amp; Laparoscopic Surgery)</li>
-                <li>Consultant Surgeon</li>
+                <li>Consultant General &amp; Laparoscopic Surgeon</li>
             </ul>
           </div>
         </div>
@@ -266,7 +274,7 @@
             <h3><i class="far fa-calendar-check me-2"></i> Request a Callback</h3>
             <p class="dp-book-sub">Schedule a consultation with Dr. Manoj Bharti. Our coordinator will reach out to confirm.</p>
             <form id="detailed-booking-form" class="appointment-form">
-              <input type="hidden" id="book-dept" value="general">
+              <input type="hidden" id="book-dept" value="surgery">
               <input type="hidden" id="book-doc" value="Dr. Manoj Bharti">
               <div class="mb-3">
                 <label for="book-name" class="form-label">Patient Name</label>

@@ -79,26 +79,43 @@
             "Trauma Surgery"
         ]
     },
+    "dr-manoj-bharti": {
+        "name": "Dr. Manoj Bharti",
+        "specialty": "General & Laparoscopic Surgery",
+        "degrees": "MBBS, MS (General & Laparoscopic Surgery) | Consultant General & Laparoscopic Surgeon",
+        "experience": "10+ Years",
+        "img": "manoj-bharti.jpg",
+        "bio": "Dr. Manoj Bharti is an experienced General and Laparoscopic Surgeon at Sankalp Hospital, specializing in advanced minimally invasive abdominal procedures, hernia repairs, gallbladder surgeries, appendectomies, and emergency trauma surgical care.",
+        "long_bio": "Dr. Manoj Bharti brings over a decade of clinical excellence in general and laparoscopic surgery. Known for his surgical precision and patient-centered approach, he specializes in cutting-edge minimally invasive keyhole procedures that ensure minimal scarring, reduced pain, and faster recovery. He is committed to providing comprehensive surgical solutions for complex gastrointestinal, abdominal, and soft tissue conditions across Surguja and Northern Chhattisgarh.",
+        "expertise": [
+            "Laparoscopic Cholecystectomy (Gallbladder)",
+            "Laparoscopic Hernia Repair",
+            "Laparoscopic Appendectomy",
+            "Gastrointestinal & Abdominal Surgery",
+            "Trauma & Emergency Surgical Care",
+            "Anorectal Surgeries (Piles, Fissure, Fistula)"
+        ]
+    },
     "dr-ankit-sharma": {
         "name": "Dr. Ankit Sharma",
-        "specialty": "Pediatrics",
-        "degrees": "MBBS, MD (Pediatrics) | Consultant Pediatrician",
+        "specialty": "Psychiatry",
+        "degrees": "MBBS, MD (Psychiatry) | Consultant Psychiatrist",
         "experience": "8+ Years",
         "img": "ankit-sharma.jpg",
-        "bio": "Dr. Ankit Sharma is a dedicated Consultant Pediatrician, providing compassionate and comprehensive healthcare for newborns, children, and adolescents.",
-        "long_bio": "Dr. Sharma is passionate about child health and development, offering expert care in everything from routine immunizations to managing acute childhood illnesses. He works closely with parents to guide them through developmental milestones and pediatric nutrition. His gentle approach and clinical acumen make him a trusted healthcare partner for families in the region.",
+        "bio": "Dr. Ankit Sharma is a dedicated Consultant Psychiatrist at Sankalp Hospital, offering compassionate, evidence-based mental healthcare, clinical psychiatry, counseling, and psychotherapy for patients of all age groups.",
+        "long_bio": "Dr. Ankit Sharma brings specialized clinical expertise in adult and adolescent psychiatry, mood and anxiety disorders, stress management, sleep medicine, and psychological counseling. Combining modern pharmacological therapies with supportive psychotherapy, Dr. Sharma works dedicatedly to eliminate the stigma surrounding mental health and guide individuals and families toward holistic emotional well-being and recovery.",
         "expertise": [
-            "Child Vaccination & Immunization",
-            "Growth & Development Monitoring",
-            "Pediatric Nutrition",
-            "Neonatal Care",
-            "Management of Acute Infections"
+            "Depression & Mood Disorders",
+            "Anxiety, Panic & Phobias",
+            "Stress & Burnout Counseling",
+            "Obsessive-Compulsive Disorder (OCD)",
+            "Bipolar Disorder Management"
         ]
     },
     "dr-ankita-bansal-goyal": {
         "name": "Dr. Ankita Bansal Goyal",
         "specialty": "Obstetrics & Gynaecology",
-        "degrees": "MD (Obstetrics & Gynaecology) - PGIMER CHD, FMAS | Consultant Laparoscopic Surgeon & Gynaecologist",
+        "degrees": "MS (Obs & Gynec) - PGIMER CHD, FMAS | Consultant Laparoscopic Surgeon & Gynaecologist",
         "experience": "8+ Years",
         "img": "ankita-goyal.jpg",
         "bio": "Dr. Ankita Bansal Goyal is a gold-medalist from PGIMER Chandigarh and a pioneer in 3D Laparoscopic Surgery in Ambikapur. She specializes in minimally invasive gynecological procedures, including laparoscopic hysterectomy and myomectomy, providing advanced surgical care for women.",
@@ -210,6 +227,23 @@
             "Pediatric Nutrition",
             "Child Growth Monitoring",
             "Infectious Diseases"
+        ]
+    },
+    "dr-chandra-mukesh-dhawde": {
+        "name": "Dr. Chandra Mukesh Dhawde",
+        "specialty": "Neurosurgery",
+        "degrees": "MBBS, MS (Neurosurgery) | Consultant Neurosurgeon",
+        "experience": "10+ Years",
+        "img": "chandra-dhawde.jpg",
+        "bio": "Dr. Chandra Mukesh Dhawde is a leading Neurosurgeon at Sankalp Hospital, renowned for his surgical expertise in treating complex brain tumors, spinal trauma, disc herniation, and severe neurological emergencies.",
+        "long_bio": "Dr. Chandra Mukesh Dhawde brings years of specialized experience in neurosurgery, focusing on brain tumors, spinal trauma, and degenerative spine conditions. Utilizing modern intra-operative imaging, microsurgical instrumentation, and neuro-navigation techniques, Dr. Dhawde delivers precision-guided surgical care that ensures safety and rapid patient recovery.",
+        "expertise": [
+            "Brain Tumor Microsurgery",
+            "Spinal Trauma & Fusion",
+            "Minimally Invasive Microdiscectomy",
+            "Head Injury & Emergency Neuro-Trauma",
+            "Hydrocephalus & VP Shunt Surgery",
+            "Peripheral Nerve Surgery"
         ]
     },
     "dr-sukirti-chauhan": {

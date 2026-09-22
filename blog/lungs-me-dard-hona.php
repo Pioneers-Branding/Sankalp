@@ -6,7 +6,7 @@ $blog_date = "May 07, 2026";
 $blog_modified = "Jul 20, 2026";
 $blog_readtime = "11 min read";
 $blog_author = "Dr. Ankita Bansal Goyal";
-$blog_author_desc = "MD(PGIMER CHD) - Consultant Specialist, Sankalp Hospital";
+$blog_author_desc = "MS (Obs & Gynec) PGIMER CHD - Consultant Specialist, Sankalp Hospital";
 $blog_image = "https://images.unsplash.com/photo-1519824145371-296894a0daa9?w=400&h=400&fit=crop";
 $pageCanonical = "https://www.sankalphospital.com/blog/lungs-me-dard-hona";
 $blog_content = <<<'HTML'

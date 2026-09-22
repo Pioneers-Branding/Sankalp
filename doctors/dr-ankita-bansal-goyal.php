@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dr. Ankita Bansal Goyal | Best Obstetrics & Gynaecology Specialist in Ambikapur | Sankalp Hospital</title>
-  <meta name="description" content="Consult Dr. Ankita Bansal Goyal, MD (Obstetrics & Gynaecology) - PGIMER CHD, FMAS | Consultant Laparoscopic Surgeon & Gynaecologist at Sankalp Hospital in Ambikapur. Dr. Ankita Bansal Goyal is a gold-medalist from PGIMER Chandigarh and a pioneer in 3D Laparoscopic Surgery in Ambikapur. She specializes in minimally invasive gynecological procedures, including laparoscopic hysterectomy and myomectomy, providing advanced surgical care for women.">
+  <meta name="description" content="Consult Dr. Ankita Bansal Goyal, MS (Obs & Gynec) - PGIMER CHD, FMAS | Consultant Laparoscopic Surgeon & Gynaecologist at Sankalp Hospital in Ambikapur. Dr. Ankita Bansal Goyal is a gold-medalist from PGIMER Chandigarh and a pioneer in 3D Laparoscopic Surgery in Ambikapur. She specializes in minimally invasive gynecological procedures, including laparoscopic hysterectomy and myomectomy, providing advanced surgical care for women.">
 
   <!-- CSS CDNs -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -188,7 +188,7 @@
             <i class="fas fa-stethoscope"></i> Obstetrics &amp; Gynaecology
           </span>
           <h1 class="dp-hero-name">Dr. Ankita Bansal Goyal</h1>
-          <p class="dp-hero-degrees">MD (Obstetrics &amp; Gynaecology) - PGIMER CHD, FMAS | Consultant Laparoscopic Surgeon &amp; Gynaecologist</p>
+          <p class="dp-hero-degrees">MS (Obs &amp; Gynec) - PGIMER CHD, FMAS | Consultant Laparoscopic Surgeon &amp; Gynaecologist</p>
           <p class="dp-hero-bio">Dr. Ankita Bansal Goyal is a gold-medalist from PGIMER Chandigarh and a pioneer in 3D Laparoscopic Surgery in Ambikapur. She specializes in minimally invasive gynecological procedures, including laparoscopic hysterectomy and myomectomy, providing advanced surgical care for women.</p>
 
           <div class="dp-stats-row">
@@ -231,7 +231,7 @@
           <!-- Professional Profile -->
           <span class="dp-section-label"><i class="fas fa-circle"></i> Professional Profile</span>
           <h2 class="dp-section-title">About Dr. Ankita Bansal Goyal</h2>
-          <p class="dp-profile-text"></p>
+          <p class="dp-profile-text">Dr. Ankita Bansal Goyal is an accomplished Gynaecologist, Obstetrician, and pioneer in 3D laparoscopic keyhole surgery in Ambikapur. An alumnus and gold-medalist from PGIMER Chandigarh with FMAS certification, she brings high-level surgical expertise and empathetic maternal care to Surguja. She specializes in advanced laparoscopic hysterectomy, ovarian cyst removal, endometriosis, PCOS, and high-risk pregnancy management, dedicated to empowering women's health at every stage of life.</p>
 
           <div class="dp-divider"></div>
 
@@ -255,7 +255,7 @@
               <h3 class="mb-0" style="font-size: 1.1rem; font-weight: 700; color: var(--text-dark);">Credentials & Certifications</h3>
             </div>
             <ul class="dp-qual-list">
-                <li>MD (Obstetrics &amp; Gynaecology) - PGIMER CHD</li>
+                <li>MS (Obs &amp; Gynec) - PGIMER CHD</li>
                 <li>FMAS</li>
                 <li>Consultant Laparoscopic Surgeon &amp; Gynaecologist</li>
             </ul>

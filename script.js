@@ -19,8 +19,7 @@ $(document).ready(function () {
     var doctorsData = {
     gynecology: [
       { name: "Dr. Lata Goyal", degrees: "MBBS, MS - Obs & Gynaecology" },
-      { name: "Dr. Ankita Bansal Goyal", degrees: "MD (Obs & Gynae) - FMAS" },
-      { name: "Dr. Sukirti Chauhan", degrees: "MBBS, MS - Obs & Gynaecology" }
+      { name: "Dr. Ankita Bansal Goyal", degrees: "MS (Obs & Gynec) - FMAS" }
     ],
     orthopedics: [
       { name: "Dr. Tanay Goyal", degrees: "MBBS, MS - Orthopaedics" }
@@ -44,7 +43,11 @@ $(document).ready(function () {
     ],
     surgery: [
       { name: "Dr. Nilesh Goyal", degrees: "MBBS, MS - General Surgery" },
-      { name: "Dr. Chandra Mukesh Dhawde", degrees: "MBBS, MS - Laparoscopic Surgeon" }
+      { name: "Dr. Manoj Bharti", degrees: "MBBS, MS - General & Laparoscopic Surgeon" }
+    ],
+    neurosurgery: [
+      { name: "Dr. Chandra Mukesh Dhawde", degrees: "MBBS, MS - Neurosurgeon" },
+      { name: "Dr. Sukirti Chauhan", degrees: "MBBS, MS - Neurosurgeon" }
     ],
     emergency: [
       { name: "On-Duty Emergency Team", degrees: "Emergency Medical Officers" }
@@ -56,8 +59,7 @@ $(document).ready(function () {
       { name: "On-Call Anesthesia Specialists", degrees: "Consultant Anaesthetists" }
     ],
     dentistry: [
-      { name: "Dr. Suneedh Gupta", degrees: "BDS, MDS - Oral & Maxillofacial Surgery" },
-      { name: "Dr. Manoj Bharti", degrees: "BDS - Consultant Dentist" }
+      { name: "Dr. Suneedh Gupta", degrees: "BDS, MDS - Oral & Maxillofacial Surgery" }
     ],
     nutrition: [
       { name: "On-Call Nutrition Specialists", degrees: "Consultant Nutritionists" }

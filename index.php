@@ -904,7 +904,7 @@ require_once __DIR__ . '/includes/videos-data.php';
               <div class="doctor-info">
                 <span class="doc-dept-badge">Gynaecology & Surgery</span>
                 <h4><a href="doctors/dr-ankita-bansal-goyal" class="text-decoration-none text-dark">Dr. Ankita Bansal Goyal</a></h4>
-                <p class="doc-degrees">MD (Obs & Gynae) - FMAS</p>
+                <p class="doc-degrees">MS (Obs &amp; Gynec) - FMAS</p>
                 <a href="#appointment" class="doc-btn">Book Appointment</a>
               </div>
             </div>
@@ -922,9 +922,9 @@ require_once __DIR__ . '/includes/videos-data.php';
                 </div>
               </div>
               <div class="doctor-info">
-                <span class="doc-dept-badge">Gynecology</span>
+                <span class="doc-dept-badge">Neurosurgery</span>
                 <h4><a href="doctors/dr-sukirti-chauhan" class="text-decoration-none text-dark">Dr. Sukirti Chauhan</a></h4>
-                <p class="doc-degrees">MBBS, MS - Obs & Gynaecology</p>
+                <p class="doc-degrees">MBBS, MS - Neurosurgeon</p>
                 <a href="#appointment" class="doc-btn">Book Appointment</a>
               </div>
             </div>
@@ -1066,9 +1066,9 @@ require_once __DIR__ . '/includes/videos-data.php';
                 </div>
               </div>
               <div class="doctor-info">
-                <span class="doc-dept-badge">Laparoscopic Surgery</span>
+                <span class="doc-dept-badge">Neurosurgery</span>
                 <h4><a href="doctors/dr-chandra-mukesh-dhawde" class="text-decoration-none text-dark">Dr. Chandra Mukesh Dhawde</a></h4>
-                <p class="doc-degrees">MBBS, MS - Laparoscopic Surgeon</p>
+                <p class="doc-degrees">MBBS, MS - Neurosurgeon</p>
                 <a href="#appointment" class="doc-btn">Book Appointment</a>
               </div>
             </div>
@@ -1207,9 +1207,9 @@ require_once __DIR__ . '/includes/videos-data.php';
                 </div>
               </div>
               <div class="doctor-info">
-                <span class="doc-dept-badge">Dentistry & Oral Surgery</span>
+                <span class="doc-dept-badge">General &amp; Laparoscopic Surgery</span>
                 <h4><a href="doctors/dr-manoj-bharti" class="text-decoration-none text-dark">Dr. Manoj Bharti</a></h4>
-                <p class="doc-degrees">BDS - Consultant Dentist</p>
+                <p class="doc-degrees">MBBS, MS - General &amp; Laparoscopic Surgeon</p>
                 <a href="#appointment" class="doc-btn">Book Appointment</a>
               </div>
             </div>
@@ -1403,6 +1403,7 @@ require_once __DIR__ . '/includes/videos-data.php';
                     <option value="gynecology">Obstetrics & Gynecology</option>
                     <option value="gynecology">Assisted Fertility (IVF/ICSI/IUI)</option>
                     <option value="surgery">General & Laparoscopic Surgery</option>
+                    <option value="neurosurgery">Neurosurgery</option>
                     <option value="pediatrics">Pediatrics</option>
                     <option value="orthopedics">Orthopaedics Surgery</option>
                     <option value="urology">Urology</option>
