@@ -560,6 +560,55 @@ $departments = [
             ['q' => 'How do you prevent infections in the dialysis unit?', 'a' => 'We follow strict infection-control guidelines. This includes dedicated machines for patients with viral markers, rigorous sanitization of beds and equipment after every session, and using sterile, single-use disposables.'],
             ['q' => 'Is dialysis covered under government health schemes?', 'a' => 'Yes. Sankalp Hospital provides cashless dialysis services for eligible beneficiaries under the Ayushman Bharat scheme and other major corporate empanelments.']
         ]
+    ],
+    'speech-therapy' => [
+        'title' => 'Speech Therapy & Autism Center',
+        'hero_title' => 'Speech Therapy, Autism & Behaviour Therapy Center in Ambikapur',
+        'meta_title' => 'Best Speech Therapy Centre in Ambikapur | Autism & Behaviour Therapy Center - Sankalp Hospital',
+        'meta_desc' => 'Looking for the best speech therapy centre in Ambikapur? Sankalp Hospital offers dedicated speech therapy in Ambikapur, autism center care, and child behaviour therapy with certified specialists.',
+        'tagline' => 'Best Speech Therapy, Autism Care & Behaviour Therapy Center in Ambikapur | Certified Speech-Language Pathologists & Child Development Specialists.',
+        'icon' => 'fas fa-comments',
+        'theme_color' => '#ea580c',
+        'gradient' => 'family',
+        'overview' => 'Sankalp Hospital’s Speech Therapy & Autism Center is Surguja’s premier dedicated developmental intervention facility, providing expert speech therapy in Ambikapur, autism center care, and behaviour therapy under one roof. We specialize in early diagnosis, individualized speech-language rehabilitation, sensory integration, and evidence-based behavioral intervention for toddlers, children, and adults. Whether your child has a speech delay, stuttering or stammering, social communication difficulties, Autism Spectrum Disorder (ASD), ADHD, or severe behavioral tantrums, our interdisciplinary team of certified speech therapists, behavioral therapists, and consultant pediatricians delivers compassionate, clinically validated therapy to help every individual communicate with confidence and achieve independence.',
+        'features' => [
+            ['icon' => 'fas fa-puzzle-piece', 'title' => 'Autism & Sensory Integration Wing', 'desc' => 'Equipped with sensory play tools, calming zones, and multi-sensory stimulation apparatus for children with ASD and sensory processing difficulties.'],
+            ['icon' => 'fas fa-microphone-alt', 'title' => 'Advanced Speech & Voice Diagnostics', 'desc' => 'Standardized diagnostic evaluations (REELS, 3DLAT) for articulation, phonology, stammering, and expressive language delays.'],
+            ['icon' => 'fas fa-user-friends', 'title' => 'Behavior Therapy & Parent Coaching', 'desc' => 'Certified Applied Behavior Analysis (ABA) protocols, ADHD management, tantrum reduction, and structured home guidance for families.']
+        ],
+        'services' => [
+            ['title' => 'Pediatric Speech & Language Therapy', 'desc' => 'Targeted clinical intervention for toddler speech delays, late talkers, articulation errors, phonological disorders, and expressive vocabulary development in Ambikapur.'],
+            ['title' => 'Autism Center & Early Intervention', 'desc' => 'Comprehensive developmental program for Autism Spectrum Disorder (ASD), featuring social engagement, eye-contact building, PECS, and milestone coaching.'],
+            ['title' => 'Behaviour Therapy & ABA Intervention', 'desc' => 'Evidence-based behavioral modification for ADHD, impulsivity, sensory meltdowns, emotional regulation, and social skill building.'],
+            ['title' => 'Stammering & Fluency Conditioning', 'desc' => 'Scientific fluency shaping, rhythm pacing, and desensitization therapy for children, adolescents, and adults experiencing stuttering or stammering.'],
+            ['title' => 'Sensory Integration Therapy (SIT)', 'desc' => 'Specialized occupational and sensory exercises to help children modulate vestibular, tactile, and auditory sensitivities in a child-friendly environment.'],
+            ['title' => 'Adult Neuro & Post-Stroke Speech Rehab', 'desc' => 'Comprehensive rehabilitation for adults with Aphasia, Dysarthria, Apraxia, and speech/swallowing recovery following stroke, trauma, or neurological conditions.']
+        ],
+        'procedures' => [
+            'Comprehensive Speech-Language Milestone Assessment',
+            'Autism Spectrum Diagnostic Screening (CARS / M-CHAT)',
+            'Applied Behavior Analysis (ABA) & Behavioral Modification',
+            'Sensory Integration Therapy (SIT) & Motor Planning',
+            'Picture Exchange Communication System (PECS) & AAC Training',
+            'Fluency Shaping & Stuttering Modification Therapy',
+            'Oral-Motor Placement Therapy (OPT) & Swallowing Exercises',
+            'Adult Aphasia & Post-Stroke Communication Rehabilitation'
+        ],
+        'why_choose_us' => [
+            'Recognized as the best speech therapy centre and autism care facility in Ambikapur and North Chhattisgarh.',
+            'Fully integrated hospital setting with Senior Pediatricians (Dr. Ankit Gupta, Dr. Megha Goyal) and Psychiatrist (Dr. Ankit Sharma) on-site.',
+            'Individualized one-on-one therapy sessions with continuous milestone evaluation and video feedback for parents.',
+            'State-of-the-art sensory therapy room and child-friendly clinical atmosphere designed to prevent therapy fatigue.',
+            'Holistic family-centric approach providing tailored home action plans to accelerate real-world progress.'
+        ],
+        'faqs' => [
+            ['q' => 'What services are provided at Sankalp Hospital’s Speech Therapy & Autism Center in Ambikapur?', 'a' => 'Our center provides comprehensive developmental healthcare including pediatric speech therapy, autism spectrum disorder (ASD) early intervention, behaviour therapy (ABA), sensory integration therapy, stuttering/stammering correction, ADHD management, and adult post-stroke speech and swallowing rehabilitation.'],
+            ['q' => 'When should I consult a speech therapist for my child?', 'a' => 'You should consult a speech therapist if your child does not babble by 12 months, does not speak meaningful single words by 15-18 months, is unable to make 2-word combinations by age 2, struggles with pronunciation, stammers, or loses previously acquired speech.'],
+            ['q' => 'How does the Autism Center at Sankalp Hospital help children with ASD?', 'a' => 'Our autism center utilizes standardized screening (such as CARS and M-CHAT) followed by a customized Individualized Education and Intervention Plan (IEP). We blend speech therapy, sensory integration, and Applied Behavior Analysis (ABA) to improve eye contact, non-verbal communication, social interaction, and reduce repetitive or sensory-seeking behaviors.'],
+            ['q' => 'What is Behaviour Therapy and who benefits from it?', 'a' => 'Behaviour therapy focuses on modifying challenging behaviors such as hyperactivity, extreme temper tantrums, aggression, inattention, and defiance, while teaching adaptive coping skills. It is especially beneficial for children with ADHD, autism, oppositional defiant behaviors, and school adjustment challenges.'],
+            ['q' => 'Why is Sankalp Hospital considered the best speech therapy centre in Ambikapur?', 'a' => 'Sankalp Hospital combines certified speech-language pathologists with on-site pediatricians, neonatologists, and psychiatrists under one roof. Unlike standalone clinics, our multidisciplinary setup ensures medical root causes (such as hearing impairment, tongue-tie, nutritional deficiencies, or neurological delays) are evaluated and treated concurrently.'],
+            ['q' => 'Do you provide speech therapy for adults?', 'a' => 'Yes. We treat adults who suffer from speech, language, or swallowing disorders (aphasia, dysarthria, dysphagia) resulting from stroke, head trauma, Parkinson’s disease, or vocal cord issues, as well as persistent adult stammering.']
+        ]
     ]
 ];
 
@@ -579,6 +628,7 @@ $catMap = [
     'emergency'     => 'critical',
     'ivf'           => 'family',
     'pediatrics'    => 'family',
+    'speech-therapy'=> 'family',
 ];
 
 // Color palette config by category (Surgical: Blue, Clinical: Teal, Critical Care: Crimson, Family: Orange)

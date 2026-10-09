@@ -11,6 +11,7 @@ $deptVideoCats = [
     'ivf'          => ['ivf'],
     'surgery'      => ['laparoscopy','gastro'],
     'pediatrics'   => ['pediatrics'],
+    'speech-therapy'=> ['pediatrics'],
     'orthopedics'  => ['orthopedics'],
     'urology'      => ['urology','dialysis'],
     'dialysis'     => ['dialysis'],
@@ -46,6 +47,12 @@ $doctorsList=[
         ['name'=>'Dr. Ankit Gupta','degrees'=>'MBBS, DCH - Pediatrician','bio'=>'Senior Consultant Pediatrician providing comprehensive outpatient child care and NICU support.','img'=>'ankit-gupta.jpg'],
         ['name'=>'Dr. Megha Goyal','degrees'=>'MBBS, MD - Pediatrics','bio'=>'Consultant Neonatologist specialized in level-III NICU care for premature newborns and babies.','img'=>'megha-goyal.jpg']
     ],
+    'speech-therapy'=>[
+        ['name'=>'Speech & Behaviour Therapy Team','degrees'=>'Speech-Language Pathologists & Behaviour Therapists','bio'=>'Certified clinical specialists providing personalized speech therapy, autism intervention (ABA), and sensory integration.','img'=>'dp'],
+        ['name'=>'Dr. Ankit Gupta','degrees'=>'MBBS, DCH - Pediatrician','bio'=>'Senior Consultant Pediatrician directing child developmental assessments, milestone evaluations, and pediatric care.','img'=>'ankit-gupta.jpg'],
+        ['name'=>'Dr. Megha Goyal','degrees'=>'MBBS, MD - Pediatrics','bio'=>'Consultant Neonatologist specializing in early infant developmental follow-ups, neuro-development, and child wellness.','img'=>'megha-goyal.jpg'],
+        ['name'=>'Dr. Ankit Sharma','degrees'=>'MBBS, MD - Psychiatry','bio'=>'Consultant Psychiatrist offering behavioral guidance, ADHD evaluations, and cognitive therapy for children and adolescents.','img'=>'ankit-sharma.jpg']
+    ],
     'psychiatry'  =>[
         ['name'=>'Dr. Ankit Sharma','degrees'=>'MBBS, MD - Psychiatry','bio'=>'Consultant Psychiatrist providing professional counseling and therapy for stress, anxiety, and depression.','img'=>'ankit-sharma.jpg']
     ],
@@ -80,6 +87,7 @@ $deptImages = [
     'ivf'           => 'images/ivf.png',
     'surgery'       => 'assets/img/infrastructure/GYNAE-OT.jpg',
     'pediatrics'    => 'images/pediatric.png',
+    'speech-therapy'=> 'images/pediatric.png',
     'orthopedics'   => 'images/orthopedics.png',
     'urology'       => 'images/urology.png',
     'psychiatry'    => 'images/psychiatry.png',
@@ -103,8 +111,8 @@ $sr   = $deptKey==='emergency'?'99.9%':($deptKey==='ivf'?'1,500+':'99.8%');
 $srLbl= $deptKey==='emergency'?'Survival Rate':($deptKey==='ivf'?'IVF Babies':'Success Rate');
 $odp  = $deptKey==='emergency'?'24/7 Open':($deptKey==='urology'||$deptKey==='psychiatry'?'On-Call':'Daily OPD');
 
-$pageTitle="{$dept['title']} | Sankalp Hospital Ambikapur";
-$pageDesc="Sankalp Hospital's {$dept['title']} department – ".substr($dept['overview'],0,150)."...";
+$pageTitle = $overrideTitle ?? ($dept['meta_title'] ?? "{$dept['title']} | Sankalp Hospital Ambikapur");
+$pageDesc  = $overrideDesc  ?? ($dept['meta_desc']  ?? ("Sankalp Hospital's {$dept['title']} department – ".substr($dept['overview'],0,150)."..."));
 // Self-referencing canonical to the SEO service URL — consolidates duplicate
 // department URLs (e.g. /orthopedics and /orthopedic-hospital-in-ambikapur render
 // identical content) onto one canonical page.
@@ -116,8 +124,9 @@ $deptCanonicalSlug = [
   'oncology'=>'chemotherapy-hospital-in-ambikapur','anesthesia'=>'anesthesia-services-in-ambikapur',
   'ent'=>'ent-hospital-in-ambikapur','neurosurgery'=>'neurosurgery-hospital-in-ambikapur',
   'psychiatry'=>'psychiatry',
+  'speech-therapy'=>'speech-therapy-in-ambikapur',
 ];
-$pageCanonical = 'https://www.sankalphospital.com/' . ($deptCanonicalSlug[$deptKey] ?? $deptKey);
+$pageCanonical = $overrideCanonical ?? ('https://www.sankalphospital.com/' . ($deptCanonicalSlug[$deptKey] ?? $deptKey));
 include __DIR__.'/includes/header.php';
 include __DIR__.'/includes/navbar.php';
 ?>
@@ -731,7 +740,7 @@ include __DIR__.'/includes/navbar.php';
                     <div class="badge-icon"><i class="<?php echo $dept['icon']; ?>"></i></div>
                     Sankalp Hospital · Speciality
                 </div>
-                <h1><?php echo $dept['title']; ?></h1>
+                <h1><?php echo $dept['hero_title'] ?? $dept['title']; ?></h1>
                 <p class="dd-hero-tagline"><?php echo $dept['tagline']; ?></p>
                 <div class="d-flex flex-wrap gap-3 mb-0">
                     <a href="#appointment" class="dd-hero-btn">
@@ -788,7 +797,7 @@ include __DIR__.'/includes/navbar.php';
         <li><a href="#services">Services</a></li>
         <li><a href="#procedures">Procedures</a></li>
         <li><a href="#why-choose">Why Us</a></li>
-
+        <?php if(!empty($deptDocs)): ?><li><a href="#doctors">Doctors</a></li><?php endif; ?>
         <?php if(!empty($deptVids)): ?><li><a href="#videos">Videos</a></li><?php endif; ?>
         <li><a href="#faqs">FAQs</a></li>
         <li><a href="#appointment">Appointment</a></li>
@@ -951,6 +960,46 @@ include __DIR__.'/includes/navbar.php';
 
 
 
+<?php if(!empty($deptDocs)): ?>
+<!-- DOCTORS -->
+<section class="dd-section dd-bg-white" id="doctors">
+    <div class="container">
+        <div class="row mb-4 align-items-end">
+            <div class="col-lg-6 dd-reveal">
+                <div class="dd-eyebrow"><div class="bar"></div> Medical Specialists</div>
+                <h2 class="dd-h2">Meet Our Specialists</h2>
+            </div>
+            <div class="col-lg-6 dd-reveal dd-d1">
+                <p class="dd-sub">Consult certified clinicians, therapists, and developmental specialists dedicated to <?php echo htmlspecialchars($dept['title']); ?>.</p>
+            </div>
+        </div>
+        <div class="row g-4">
+            <?php foreach($deptDocs as $doc): ?>
+            <div class="col-md-6 col-lg-3 dd-reveal">
+                <div class="dd-doc-card">
+                    <div class="dd-doc-img-wrap">
+                        <?php if(!empty($doc['img']) && $doc['img'] !== 'dp' && file_exists(__DIR__.'/images/'.$doc['img'])): ?>
+                            <img src="/images/<?php echo $doc['img']; ?>" alt="<?php echo htmlspecialchars($doc['name']); ?>">
+                        <?php else: ?>
+                            <div class="dd-doc-placeholder"><i class="fas fa-user-md"></i></div>
+                        <?php endif; ?>
+                        <div class="dd-doc-status"><span></span> Available</div>
+                    </div>
+                    <div class="dd-doc-info">
+                        <div class="dd-doc-dept"><?php echo htmlspecialchars($dept['title']); ?></div>
+                        <div class="dd-doc-name"><?php echo htmlspecialchars($doc['name']); ?></div>
+                        <div class="dd-doc-deg"><?php echo htmlspecialchars($doc['degrees']); ?></div>
+                        <p class="dd-doc-bio"><?php echo htmlspecialchars($doc['bio']); ?></p>
+                        <a href="#appointment" class="dd-doc-btn"><i class="far fa-calendar-check"></i> Consult Specialist</a>
+                    </div>
+                </div>
+            </div>
+            <?php endforeach; ?>
+        </div>
+    </div>
+</section>
+<?php endif; ?>
+
 <!-- FAQS -->
 <section class="dd-section dd-bg-light" id="faqs">
     <div class="container">
@@ -998,6 +1047,7 @@ $deptBlogMatch = [
   'gynecology'   => ['cat'=>['gyneco','women','pregnan','thyroid','hormonal'], 'slug'=>['pregnan','intercourse','hormonal','abdominal-pain','thyroid']],
   'ivf'          => ['cat'=>['fertil','pregnan'], 'slug'=>['ivf','fertil','pregnancy']],
   'pediatrics'   => ['cat'=>['pediatric'], 'slug'=>['child','vaccin']],
+  'speech-therapy'=> ['cat'=>['pediatric','mental','child'], 'slug'=>['child','development','milestones','fever','vaccin']],
   'psychiatry'   => ['cat'=>['mental','psych'], 'slug'=>['stress','ptsd','neend','anxiety']],
   'oncology'     => ['cat'=>['oncolog','cancer'], 'slug'=>['cancer']],
   'ophthalmology'=> ['cat'=>['ophthal','eye'], 'slug'=>['cataract']],
@@ -1137,6 +1187,51 @@ if (!empty($relatedArticles)): ?>
         </div>
     </div>
 </section>
+
+<!-- Structured Data (JSON-LD) for SEO Rich Results -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalClinic",
+      "name": "Sankalp Hospital - <?php echo addslashes($dept['title']); ?>",
+      "description": "<?php echo addslashes($pageDesc); ?>",
+      "url": "<?php echo htmlspecialchars($pageCanonical); ?>",
+      "telephone": "+91-7774-223344",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Near District Hospital, Manipur",
+        "addressLocality": "Ambikapur",
+        "addressRegion": "Chhattisgarh",
+        "postalCode": "497001",
+        "addressCountry": "IN"
+      },
+      "medicalSpecialty": "Pediatric"
+    }<?php if(!empty($dept['faqs'])): ?>,
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        <?php 
+        $faqItems = [];
+        foreach($dept['faqs'] as $faq) {
+            $faqItems[] = json_encode([
+                "@type" => "Question",
+                "name" => $faq['q'],
+                "acceptedAnswer" => [
+                    "@type" => "Answer",
+                    "text" => $faq['a']
+                ]
+            ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+        }
+        echo implode(",\n        ", $faqItems);
+        ?>
+      ]
+    }
+    <?php endif; ?>
+  ]
+}
+</script>
 
 <?php include __DIR__.'/includes/footer.php'; ?>
 <script>

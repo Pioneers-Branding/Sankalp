@@ -44,6 +44,7 @@
               <li><a href="/urology-hospital-in-ambikapur">Urology</a></li>
               <li><a href="/ophthalmology-hospital-in-ambikapur">Ophthalmology</a></li>
               <li><a href="/pediatric-hospital-in-ambikapur">Pediatrics &amp; NICU</a></li>
+              <li><a href="/speech-therapy-in-ambikapur">Speech &amp; Autism Therapy</a></li>
               <li><a href="/ent-hospital-in-ambikapur">ENT</a></li>
               <li><a href="/emergency-hospital-in-ambikapur">Emergency &amp; Trauma</a></li>
             </ul>

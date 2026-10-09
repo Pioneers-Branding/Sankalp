@@ -19,6 +19,7 @@ $deptImages = [
     'ivf'           => 'images/ivf.png',
     'surgery'       => 'assets/img/infrastructure/GYNAE-OT.jpg',
     'pediatrics'    => 'images/pediatric.png',
+    'speech-therapy'=> 'images/pediatric.png',
     'orthopedics'   => 'images/orthopedics.png',
     'urology'       => 'images/urology.png',
     'psychiatry'    => 'images/psychiatry.png',
@@ -26,6 +27,23 @@ $deptImages = [
     'anesthesia'    => 'images/anesthesia.png',
     'oncology'      => 'images/oncology.png',
     'neurosurgery'  => 'images/neurosurgery.png',
+];
+
+$deptCanonicalSlug = [
+    'ophthalmology' => 'ophthalmology-hospital-in-ambikapur',
+    'emergency'     => 'emergency-hospital-in-ambikapur',
+    'gynecology'    => 'gynecology-hospital-in-ambikapur',
+    'ivf'           => 'ivf-treatment-in-ambikapur',
+    'surgery'       => 'laparoscopic-surgery-hospital-in-ambikapur',
+    'pediatrics'    => 'pediatric-hospital-in-ambikapur',
+    'speech-therapy'=> 'speech-therapy-in-ambikapur',
+    'orthopedics'   => 'orthopedic-hospital-in-ambikapur',
+    'urology'       => 'urology-hospital-in-ambikapur',
+    'oncology'      => 'chemotherapy-hospital-in-ambikapur',
+    'anesthesia'    => 'anesthesia-services-in-ambikapur',
+    'ent'           => 'ent-hospital-in-ambikapur',
+    'neurosurgery'  => 'neurosurgery-hospital-in-ambikapur',
+    'psychiatry'    => 'psychiatry',
 ];
 ?>
 <style>
@@ -637,7 +655,7 @@ $deptImages = [
                             </div>
                         </div>
 
-                        <a href="<?php echo $key; ?>" class="dp-explore-link">
+                        <a href="<?php echo $deptCanonicalSlug[$key] ?? $key; ?>" class="dp-explore-link">
                             <span>Explore Department</span>
                             <div class="dp-arrow-wrap"><i class="fas fa-arrow-right"></i></div>
                         </a>

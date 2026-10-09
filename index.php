@@ -62,6 +62,12 @@ $departmentRoutes = [
     'onco-surgery.php' => 'oncology',
     'neurosurgery' => 'neurosurgery',
     'neurosurgery.php' => 'neurosurgery',
+    'speech-therapy-in-ambikapur' => 'speech-therapy',
+    'autism-center-in-ambikapur' => 'speech-therapy',
+    'best-speech-therapy-centre-in-ambikapur' => 'speech-therapy',
+    'behaviour-therapy-center-in-ambikapur' => 'speech-therapy',
+    'speech-therapy' => 'speech-therapy',
+    'speech-therapy.php' => 'speech-therapy',
 ];
 
 // Doctor pages are now real files in doctors/dr-<slug>.php — they are

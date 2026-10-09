@@ -35,6 +35,12 @@ $(document).ready(function () {
       { name: "Dr. Ankit Gupta", degrees: "MBBS, DCH - Pediatrician" },
       { name: "Dr. Megha Goyal", degrees: "MBBS, MD - Pediatrics" }
     ],
+    "speech-therapy": [
+      { name: "Speech & Behaviour Therapy Team", degrees: "Therapy Specialists - Child Development" },
+      { name: "Dr. Ankit Gupta", degrees: "MBBS, DCH - Pediatrician" },
+      { name: "Dr. Megha Goyal", degrees: "MBBS, MD - Pediatrics" },
+      { name: "Dr. Ankit Sharma", degrees: "MBBS, MD - Psychiatry" }
+    ],
     psychiatry: [
       { name: "Dr. Ankit Sharma", degrees: "MBBS, MD - Psychiatry" }
     ],
