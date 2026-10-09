@@ -2,7 +2,7 @@
 $blog_title = "The AMH Test and Ovarian Reserve: What Your Result Really Means";
 $blog_desc = "A low AMH result frightens more women than it should. A fertility specialist explains what the AMH test measures, what it cannot tell you, and how ovarian reserve actually affects your chances of conceiving.";
 $blog_category = "IVF & Fertility";
-$blog_date = "September 02, 2026";
+$blog_date = "October 08, 2026";
 $blog_readtime = "9 min read";
 $blog_author = "Dr. Lata Goyal";
 $blog_author_desc = "MBBS, MS (Obstetrics & Gynaecology) | Senior Consultant & IVF Specialist, Sankalp Hospital, Ambikapur";
@@ -137,9 +137,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'IVF Success Rate by Age: What the Numbers Actually Mean', 'url' => '/blog/ivf-success-rate-by-age', 'date' => 'September 02, 2026', 'image' => '/images/blog/ivf-success-rate-age.jpg'],
-    ['title' => 'PCOS and Fertility: How It Affects Getting Pregnant', 'url' => '/blog/pcos-and-fertility', 'date' => 'September 02, 2026', 'image' => '/images/blog/pcos-fertility-weight.jpg'],
-    ['title' => 'How to Prepare for an IVF Cycle: A Three-Month Guide', 'url' => '/blog/how-to-prepare-for-ivf', 'date' => 'September 02, 2026', 'image' => '/images/blog/preparing-for-ivf-lifestyle.jpg']
+    ['title' => 'IVF Success Rate by Age: What the Numbers Actually Mean', 'url' => '/blog/ivf-success-rate-by-age', 'date' => 'September 21, 2026', 'image' => '/images/blog/ivf-success-rate-age.jpg'],
+    ['title' => 'PCOS and Fertility: How It Affects Getting Pregnant', 'url' => '/blog/pcos-and-fertility', 'date' => 'September 13, 2026', 'image' => '/images/blog/pcos-fertility-weight.jpg'],
+    ['title' => 'How to Prepare for an IVF Cycle: A Three-Month Guide', 'url' => '/blog/how-to-prepare-for-ivf', 'date' => 'September 25, 2026', 'image' => '/images/blog/preparing-for-ivf-lifestyle.jpg']
 ];
 
 include 'blog-post.php';

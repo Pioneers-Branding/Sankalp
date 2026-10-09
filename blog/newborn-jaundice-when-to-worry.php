@@ -2,7 +2,7 @@
 $blog_title = "Newborn Jaundice: What Is Normal and When to Worry";
 $blog_desc = "Most newborn jaundice is harmless and clears on its own. A neonatologist explains why babies turn yellow, the timing that separates normal from dangerous, and when phototherapy or admission is needed.";
 $blog_category = "Neonatal Care";
-$blog_date = "September 02, 2026";
+$blog_date = "September 15, 2026";
 $blog_readtime = "9 min read";
 $blog_author = "Dr. Megha Goyal";
 $blog_author_desc = "MBBS, MD (Paediatrics) | Consultant Neonatologist & Paediatrician, Sankalp Hospital, Ambikapur";
@@ -126,9 +126,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'Newborn Care in the First 40 Days: A Practical Guide', 'url' => '/blog/newborn-care-first-40-days', 'date' => 'September 02, 2026', 'image' => '/images/blog/newborn-care-first-40-days.jpg'],
+    ['title' => 'Newborn Care in the First 40 Days: A Practical Guide', 'url' => '/blog/newborn-care-first-40-days', 'date' => 'September 17, 2026', 'image' => '/images/blog/newborn-care-first-40-days.jpg'],
     ['title' => 'Level-III NICU: What It Means When a Newborn Needs Extra Care', 'url' => '/blog/level-3-nicu-ambikapur', 'date' => 'August 29, 2026', 'image' => '/images/blog/level-3-nicu-newborn.jpg'],
-    ['title' => 'Fever in Children: When to Treat at Home and When to See a Doctor', 'url' => '/blog/fever-in-children-when-to-see-a-doctor', 'date' => 'September 02, 2026', 'image' => '/images/blog/fever-in-children.jpg']
+    ['title' => 'Fever in Children: When to Treat at Home and When to See a Doctor', 'url' => '/blog/fever-in-children-when-to-see-a-doctor', 'date' => 'September 29, 2026', 'image' => '/images/blog/fever-in-children.jpg']
 ];
 
 include 'blog-post.php';

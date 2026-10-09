@@ -2,7 +2,7 @@
 $blog_title = "Worm Infection in Children: Signs, Deworming and Prevention";
 $blog_desc = "Intestinal worms quietly cause anaemia and poor growth in children across rural India. A paediatrician explains the signs of worm infection, how deworming works, and the hygiene habits that stop reinfection.";
 $blog_category = "Pediatrics";
-$blog_date = "September 02, 2026";
+$blog_date = "October 04, 2026";
 $blog_readtime = "9 min read";
 $blog_author = "Dr. Ankit Sharma";
 $blog_author_desc = "MBBS, MD (Paediatrics) | Consultant Paediatrician, Sankalp Hospital, Ambikapur";
@@ -125,9 +125,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'Iron Deficiency Anaemia in Children: Signs and Treatment', 'url' => '/blog/anaemia-in-children-iron-deficiency', 'date' => 'September 02, 2026', 'image' => '/images/blog/anaemia-in-children.jpg'],
-    ['title' => 'Diarrhoea in Children: ORS, Dehydration and When to Worry', 'url' => '/blog/diarrhoea-in-children-ors-dehydration', 'date' => 'September 02, 2026', 'image' => '/images/blog/diarrhoea-in-children-ors.jpg'],
-    ['title' => 'Starting Solids at Six Months: A Practical Weaning Guide', 'url' => '/blog/starting-solids-baby-6-months', 'date' => 'September 02, 2026', 'image' => '/images/blog/starting-solids-baby.jpg']
+    ['title' => 'Iron Deficiency Anaemia in Children: Signs and Treatment', 'url' => '/blog/anaemia-in-children-iron-deficiency', 'date' => 'October 07, 2026', 'image' => '/images/blog/anaemia-in-children.jpg'],
+    ['title' => 'Diarrhoea in Children: ORS, Dehydration and When to Worry', 'url' => '/blog/diarrhoea-in-children-ors-dehydration', 'date' => 'October 03, 2026', 'image' => '/images/blog/diarrhoea-in-children-ors.jpg'],
+    ['title' => 'Starting Solids at Six Months: A Practical Weaning Guide', 'url' => '/blog/starting-solids-baby-6-months', 'date' => 'September 05, 2026', 'image' => '/images/blog/starting-solids-baby.jpg']
 ];
 
 include 'blog-post.php';

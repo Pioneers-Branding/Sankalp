@@ -2,7 +2,7 @@
 $blog_title = "World Mental Health Day: What Stops Families in Surguja From Seeking Help";
 $blog_desc = "Ahead of World Mental Health Day on 10 October, an honest look at the stigma and misconceptions that keep families from consulting a psychiatrist in Ambikapur, and what a first mental health visit actually involves.";
 $blog_category = "Mental Health";
-$blog_date = "September 02, 2026";
+$blog_date = "September 09, 2026";
 $blog_readtime = "8 min read";
 $blog_author = "Sankalp Hospital Psychiatry Team";
 $blog_author_desc = "Department of Psychiatry & Mental Health, Sankalp Hospital, Ambikapur";

@@ -2,7 +2,7 @@
 $blog_title = "Fever in Children: When to Treat at Home and When to See a Doctor";
 $blog_desc = "Most childhood fever is harmless and needs no antibiotics. A paediatrician explains how to measure fever properly, the correct paracetamol dosing, febrile fits, and the warning signs that mean a child needs to be seen today.";
 $blog_category = "Pediatrics";
-$blog_date = "September 02, 2026";
+$blog_date = "September 29, 2026";
 $blog_readtime = "10 min read";
 $blog_author = "Dr. Ankit Sharma";
 $blog_author_desc = "MBBS, MD (Paediatrics) | Consultant Paediatrician, Sankalp Hospital, Ambikapur";
@@ -149,8 +149,8 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'Pneumonia in Children: Symptoms Parents Miss', 'url' => '/blog/pneumonia-in-children-symptoms', 'date' => 'September 02, 2026', 'image' => '/images/blog/pneumonia-in-children.jpg'],
-    ['title' => 'Diarrhoea in Children: ORS, Dehydration and When to Worry', 'url' => '/blog/diarrhoea-in-children-ors-dehydration', 'date' => 'September 02, 2026', 'image' => '/images/blog/diarrhoea-in-children-ors.jpg'],
+    ['title' => 'Pneumonia in Children: Symptoms Parents Miss', 'url' => '/blog/pneumonia-in-children-symptoms', 'date' => 'September 11, 2026', 'image' => '/images/blog/pneumonia-in-children.jpg'],
+    ['title' => 'Diarrhoea in Children: ORS, Dehydration and When to Worry', 'url' => '/blog/diarrhoea-in-children-ors-dehydration', 'date' => 'October 03, 2026', 'image' => '/images/blog/diarrhoea-in-children-ors.jpg'],
     ['title' => 'Monsoon Fevers in Surguja: When a Fever Needs the ER', 'url' => '/blog/monsoon-fever-emergency-ambikapur', 'date' => 'August 20, 2026', 'image' => '/images/blog/monsoon-fever-emergency.jpg']
 ];
 

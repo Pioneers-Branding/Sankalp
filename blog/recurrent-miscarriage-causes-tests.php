@@ -2,7 +2,7 @@
 $blog_title = "Recurrent Miscarriage: Causes, Tests and What Can Be Done";
 $blog_desc = "Two or more pregnancy losses deserve investigation, not reassurance. An obstetrician explains recurrent miscarriage causes, the tests that are genuinely useful, and the treatments that improve the chance of a live birth.";
 $blog_category = "Gynecology";
-$blog_date = "September 02, 2026";
+$blog_date = "September 07, 2026";
 $blog_readtime = "10 min read";
 $blog_author = "Dr. Rajshree Verma";
 $blog_author_desc = "MBBS, MS (Obstetrics & Gynaecology) | Consultant Obstetrician, High-Risk Pregnancy Care, Sankalp Hospital, Ambikapur";
@@ -141,9 +141,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'Embryo Freezing and Frozen Embryo Transfer Explained', 'url' => '/blog/frozen-embryo-transfer-explained', 'date' => 'September 02, 2026', 'image' => '/images/blog/embryo-freezing-lab.jpg'],
+    ['title' => 'Embryo Freezing and Frozen Embryo Transfer Explained', 'url' => '/blog/frozen-embryo-transfer-explained', 'date' => 'September 27, 2026', 'image' => '/images/blog/embryo-freezing-lab.jpg'],
     ['title' => 'Navigating Pregnancy with Pre-existing Medical Conditions', 'url' => '/blog/pregnancy-with-pre-existing-medical-conditions', 'date' => 'August 24, 2026', 'image' => '/images/blog/high-risk-pregnancy-care.jpg'],
-    ['title' => 'Female Infertility: Causes, Tests and Treatment Options', 'url' => '/blog/female-infertility-causes-tests-treatment', 'date' => 'September 02, 2026', 'image' => '/images/blog/female-infertility-consultation.jpg']
+    ['title' => 'Female Infertility: Causes, Tests and Treatment Options', 'url' => '/blog/female-infertility-causes-tests-treatment', 'date' => 'October 01, 2026', 'image' => '/images/blog/female-infertility-consultation.jpg']
 ];
 
 include 'blog-post.php';

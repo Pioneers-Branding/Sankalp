@@ -2,7 +2,7 @@
 $blog_title = "Iron Deficiency Anaemia in Children: Signs, Causes and Treatment";
 $blog_desc = "Anaemia affects a majority of young children in India and quietly costs them growth and learning. A paediatrician explains the signs, why iron matters so much, and how to treat and prevent it with everyday food.";
 $blog_category = "Pediatrics";
-$blog_date = "September 02, 2026";
+$blog_date = "October 07, 2026";
 $blog_readtime = "9 min read";
 $blog_author = "Dr. Ankit Gupta";
 $blog_author_desc = "MBBS, MD (Paediatrics) | Consultant Paediatrician, Sankalp Hospital, Ambikapur";
@@ -164,9 +164,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'Starting Solids at Six Months: A Practical Weaning Guide', 'url' => '/blog/starting-solids-baby-6-months', 'date' => 'September 02, 2026', 'image' => '/images/blog/starting-solids-baby.jpg'],
-    ['title' => 'Worm Infection in Children: Signs, Deworming and Prevention', 'url' => '/blog/deworming-children-worm-infection', 'date' => 'September 02, 2026', 'image' => '/images/blog/deworming-children-hygiene.jpg'],
-    ['title' => 'Child Development Milestones and When to Worry', 'url' => '/blog/child-development-milestones', 'date' => 'September 02, 2026', 'image' => '/images/blog/child-development-milestones.jpg']
+    ['title' => 'Starting Solids at Six Months: A Practical Weaning Guide', 'url' => '/blog/starting-solids-baby-6-months', 'date' => 'September 05, 2026', 'image' => '/images/blog/starting-solids-baby.jpg'],
+    ['title' => 'Worm Infection in Children: Signs, Deworming and Prevention', 'url' => '/blog/deworming-children-worm-infection', 'date' => 'October 04, 2026', 'image' => '/images/blog/deworming-children-hygiene.jpg'],
+    ['title' => 'Child Development Milestones and When to Worry', 'url' => '/blog/child-development-milestones', 'date' => 'October 05, 2026', 'image' => '/images/blog/child-development-milestones.jpg']
 ];
 
 include 'blog-post.php';

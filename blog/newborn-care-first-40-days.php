@@ -2,7 +2,7 @@
 $blog_title = "Newborn Care in the First 40 Days: A Practical Guide for New Parents";
 $blog_desc = "The first forty days set the pattern for everything that follows. A neonatologist explains newborn care at home, feeding and sleep, cord and skin care, and the danger signs that mean you should not wait until morning.";
 $blog_category = "Neonatal Care";
-$blog_date = "September 02, 2026";
+$blog_date = "September 17, 2026";
 $blog_readtime = "10 min read";
 $blog_author = "Dr. Megha Goyal";
 $blog_author_desc = "MBBS, MD (Paediatrics) | Consultant Neonatologist & Paediatrician, Sankalp Hospital, Ambikapur";
@@ -131,7 +131,7 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'Newborn Jaundice: What Is Normal and When to Worry', 'url' => '/blog/newborn-jaundice-when-to-worry', 'date' => 'September 02, 2026', 'image' => '/images/blog/newborn-jaundice.jpg'],
+    ['title' => 'Newborn Jaundice: What Is Normal and When to Worry', 'url' => '/blog/newborn-jaundice-when-to-worry', 'date' => 'September 15, 2026', 'image' => '/images/blog/newborn-jaundice.jpg'],
     ['title' => 'Level-III NICU: What It Means When a Newborn Needs Extra Care', 'url' => '/blog/level-3-nicu-ambikapur', 'date' => 'August 29, 2026', 'image' => '/images/blog/level-3-nicu-newborn.jpg'],
     ['title' => 'The Complete Guide to Child Vaccinations: Schedule & Safety', 'url' => '/blog/child-vaccination', 'date' => 'August 08, 2026', 'image' => '/images/blog-placeholder.svg']
 ];

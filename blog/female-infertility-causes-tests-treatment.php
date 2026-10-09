@@ -2,7 +2,7 @@
 $blog_title = "Female Infertility: Causes, Tests and Treatment Options Explained";
 $blog_desc = "A clear guide to female infertility causes, the tests used to find them, and the treatment options available. Written by a fertility specialist for women in Ambikapur and across Chhattisgarh.";
 $blog_category = "IVF & Fertility";
-$blog_date = "September 02, 2026";
+$blog_date = "October 01, 2026";
 $blog_readtime = "10 min read";
 $blog_author = "Dr. Ankita Bansal Goyal";
 $blog_author_desc = "MS (Obs & Gynec) PGIMER Chandigarh, FMAS | Fertility & Laparoscopic Surgeon, Sankalp Hospital, Ambikapur";
@@ -140,9 +140,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'PCOS and Fertility: How It Affects Getting Pregnant', 'url' => '/blog/pcos-and-fertility', 'date' => 'September 02, 2026', 'image' => '/images/blog/pcos-fertility-weight.jpg'],
-    ['title' => 'Blocked Fallopian Tubes and the HSG Test Explained', 'url' => '/blog/blocked-fallopian-tubes-hsg-test', 'date' => 'September 02, 2026', 'image' => '/images/blog/hsg-test-fallopian-tubes.jpg'],
-    ['title' => 'Male Infertility: Low Sperm Count Causes and Treatment', 'url' => '/blog/male-infertility-low-sperm-count', 'date' => 'September 02, 2026', 'image' => '/images/blog/male-infertility-consultation.jpg']
+    ['title' => 'PCOS and Fertility: How It Affects Getting Pregnant', 'url' => '/blog/pcos-and-fertility', 'date' => 'September 13, 2026', 'image' => '/images/blog/pcos-fertility-weight.jpg'],
+    ['title' => 'Blocked Fallopian Tubes and the HSG Test Explained', 'url' => '/blog/blocked-fallopian-tubes-hsg-test', 'date' => 'October 06, 2026', 'image' => '/images/blog/hsg-test-fallopian-tubes.jpg'],
+    ['title' => 'Male Infertility: Low Sperm Count Causes and Treatment', 'url' => '/blog/male-infertility-low-sperm-count', 'date' => 'September 19, 2026', 'image' => '/images/blog/male-infertility-consultation.jpg']
 ];
 
 include 'blog-post.php';

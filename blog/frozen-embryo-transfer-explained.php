@@ -2,7 +2,7 @@
 $blog_title = "Embryo Freezing and Frozen Embryo Transfer (FET) Explained";
 $blog_desc = "Frozen embryo transfer is now as successful as fresh transfer and often safer. A fertility specialist explains how embryo freezing works, how an FET cycle runs, and how long embryos can be stored.";
 $blog_category = "IVF & Fertility";
-$blog_date = "September 02, 2026";
+$blog_date = "September 27, 2026";
 $blog_readtime = "9 min read";
 $blog_author = "Dr. Lata Goyal";
 $blog_author_desc = "MBBS, MS (Obstetrics & Gynaecology) | Senior Consultant & IVF Specialist, Sankalp Hospital, Ambikapur";
@@ -123,9 +123,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'IVF Injections: What They Do and How to Manage Side Effects', 'url' => '/blog/ivf-injections-side-effects', 'date' => 'September 02, 2026', 'image' => '/images/blog/ivf-injections-stimulation.jpg'],
-    ['title' => 'IVF Success Rate by Age: What the Numbers Actually Mean', 'url' => '/blog/ivf-success-rate-by-age', 'date' => 'September 02, 2026', 'image' => '/images/blog/ivf-success-rate-age.jpg'],
-    ['title' => 'Recurrent Miscarriage: Causes, Tests and What Can Be Done', 'url' => '/blog/recurrent-miscarriage-causes-tests', 'date' => 'September 02, 2026', 'image' => '/images/blog/recurrent-miscarriage-support.jpg']
+    ['title' => 'IVF Injections: What They Do and How to Manage Side Effects', 'url' => '/blog/ivf-injections-side-effects', 'date' => 'September 23, 2026', 'image' => '/images/blog/ivf-injections-stimulation.jpg'],
+    ['title' => 'IVF Success Rate by Age: What the Numbers Actually Mean', 'url' => '/blog/ivf-success-rate-by-age', 'date' => 'September 21, 2026', 'image' => '/images/blog/ivf-success-rate-age.jpg'],
+    ['title' => 'Recurrent Miscarriage: Causes, Tests and What Can Be Done', 'url' => '/blog/recurrent-miscarriage-causes-tests', 'date' => 'September 07, 2026', 'image' => '/images/blog/recurrent-miscarriage-support.jpg']
 ];
 
 include 'blog-post.php';

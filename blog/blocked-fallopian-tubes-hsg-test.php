@@ -2,7 +2,7 @@
 $blog_title = "Blocked Fallopian Tubes and the HSG Test: What to Expect";
 $blog_desc = "Blocked fallopian tubes cause no symptoms and are found only on testing. A fertility specialist explains what causes tubal blockage, what an HSG test involves, and the treatment options including surgery and IVF.";
 $blog_category = "IVF & Fertility";
-$blog_date = "September 02, 2026";
+$blog_date = "October 06, 2026";
 $blog_readtime = "9 min read";
 $blog_author = "Dr. Ankita Bansal Goyal";
 $blog_author_desc = "MS (Obs & Gynec) PGIMER Chandigarh, FMAS | Fertility & Laparoscopic Surgeon, Sankalp Hospital, Ambikapur";
@@ -130,8 +130,8 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'Female Infertility: Causes, Tests and Treatment Options', 'url' => '/blog/female-infertility-causes-tests-treatment', 'date' => 'September 02, 2026', 'image' => '/images/blog/female-infertility-consultation.jpg'],
-    ['title' => 'Endometriosis and Infertility: Symptoms and Treatment', 'url' => '/blog/endometriosis-and-infertility', 'date' => 'September 02, 2026', 'image' => '/images/blog/endometriosis-pelvic-pain.jpg'],
+    ['title' => 'Female Infertility: Causes, Tests and Treatment Options', 'url' => '/blog/female-infertility-causes-tests-treatment', 'date' => 'October 01, 2026', 'image' => '/images/blog/female-infertility-consultation.jpg'],
+    ['title' => 'Endometriosis and Infertility: Symptoms and Treatment', 'url' => '/blog/endometriosis-and-infertility', 'date' => 'October 02, 2026', 'image' => '/images/blog/endometriosis-pelvic-pain.jpg'],
     ['title' => 'IVF, ICSI or IUI: Fertility Treatment Options Without the Jargon', 'url' => '/blog/ivf-icsi-iui-difference', 'date' => 'August 27, 2026', 'image' => '/images/blog/ivf-icsi-iui-lab.jpg']
 ];
 

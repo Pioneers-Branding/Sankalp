@@ -2,7 +2,7 @@
 $blog_title = "PCOS and Fertility: How Polycystic Ovary Syndrome Affects Getting Pregnant";
 $blog_desc = "PCOS is the commonest cause of ovulation problems, and one of the most treatable. A gynaecologist explains how PCOS and pregnancy are linked, which tests confirm it, and the treatment steps that restore ovulation.";
 $blog_category = "Gynecology";
-$blog_date = "September 02, 2026";
+$blog_date = "September 13, 2026";
 $blog_readtime = "10 min read";
 $blog_author = "Dr. Ankita Bansal Goyal";
 $blog_author_desc = "MS (Obs & Gynec) PGIMER Chandigarh, FMAS | Fertility & Laparoscopic Surgeon, Sankalp Hospital, Ambikapur";
@@ -148,9 +148,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'Female Infertility: Causes, Tests and Treatment Options', 'url' => '/blog/female-infertility-causes-tests-treatment', 'date' => 'September 02, 2026', 'image' => '/images/blog/female-infertility-consultation.jpg'],
-    ['title' => 'Endometriosis and Infertility: Symptoms and Treatment', 'url' => '/blog/endometriosis-and-infertility', 'date' => 'September 02, 2026', 'image' => '/images/blog/endometriosis-pelvic-pain.jpg'],
-    ['title' => 'The AMH Test and Ovarian Reserve, Explained', 'url' => '/blog/amh-test-ovarian-reserve', 'date' => 'September 02, 2026', 'image' => '/images/blog/amh-test-ovarian-reserve.jpg']
+    ['title' => 'Female Infertility: Causes, Tests and Treatment Options', 'url' => '/blog/female-infertility-causes-tests-treatment', 'date' => 'October 01, 2026', 'image' => '/images/blog/female-infertility-consultation.jpg'],
+    ['title' => 'Endometriosis and Infertility: Symptoms and Treatment', 'url' => '/blog/endometriosis-and-infertility', 'date' => 'October 02, 2026', 'image' => '/images/blog/endometriosis-pelvic-pain.jpg'],
+    ['title' => 'The AMH Test and Ovarian Reserve, Explained', 'url' => '/blog/amh-test-ovarian-reserve', 'date' => 'October 08, 2026', 'image' => '/images/blog/amh-test-ovarian-reserve.jpg']
 ];
 
 include 'blog-post.php';

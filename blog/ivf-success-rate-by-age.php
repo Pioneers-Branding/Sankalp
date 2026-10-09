@@ -2,7 +2,7 @@
 $blog_title = "IVF Success Rate by Age: What the Numbers Actually Mean";
 $blog_desc = "IVF success rate by age is the most important number in fertility treatment and the most widely misunderstood. A fertility specialist explains what the percentages measure, why age matters so much, and how to read a clinic's figures.";
 $blog_category = "IVF & Fertility";
-$blog_date = "September 02, 2026";
+$blog_date = "September 21, 2026";
 $blog_readtime = "9 min read";
 $blog_author = "Dr. Lata Goyal";
 $blog_author_desc = "MBBS, MS (Obstetrics & Gynaecology) | Senior Consultant & IVF Specialist, Sankalp Hospital, Ambikapur";
@@ -134,8 +134,8 @@ $blog_faqs = [
 
 $related_posts = [
     ['title' => 'IVF, ICSI or IUI: Fertility Treatment Options Without the Jargon', 'url' => '/blog/ivf-icsi-iui-difference', 'date' => 'August 27, 2026', 'image' => '/images/blog/ivf-icsi-iui-lab.jpg'],
-    ['title' => 'The AMH Test and Ovarian Reserve, Explained', 'url' => '/blog/amh-test-ovarian-reserve', 'date' => 'September 02, 2026', 'image' => '/images/blog/amh-test-ovarian-reserve.jpg'],
-    ['title' => 'How to Prepare for an IVF Cycle: A Three-Month Guide', 'url' => '/blog/how-to-prepare-for-ivf', 'date' => 'September 02, 2026', 'image' => '/images/blog/preparing-for-ivf-lifestyle.jpg']
+    ['title' => 'The AMH Test and Ovarian Reserve, Explained', 'url' => '/blog/amh-test-ovarian-reserve', 'date' => 'October 08, 2026', 'image' => '/images/blog/amh-test-ovarian-reserve.jpg'],
+    ['title' => 'How to Prepare for an IVF Cycle: A Three-Month Guide', 'url' => '/blog/how-to-prepare-for-ivf', 'date' => 'September 25, 2026', 'image' => '/images/blog/preparing-for-ivf-lifestyle.jpg']
 ];
 
 include 'blog-post.php';

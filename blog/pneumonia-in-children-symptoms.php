@@ -2,7 +2,7 @@
 $blog_title = "Pneumonia in Children: The Symptoms Parents Miss";
 $blog_desc = "Pneumonia is the biggest infectious killer of children under five, and the key sign is not cough but fast breathing. A paediatrician explains how to count breaths, spot chest indrawing, and when a child needs hospital care.";
 $blog_category = "Pediatrics";
-$blog_date = "September 02, 2026";
+$blog_date = "September 11, 2026";
 $blog_readtime = "9 min read";
 $blog_author = "Dr. Ankit Sharma";
 $blog_author_desc = "MBBS, MD (Paediatrics) | Consultant Paediatrician, Sankalp Hospital, Ambikapur";
@@ -157,8 +157,8 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'Fever in Children: When to Treat at Home and When to See a Doctor', 'url' => '/blog/fever-in-children-when-to-see-a-doctor', 'date' => 'September 02, 2026', 'image' => '/images/blog/fever-in-children.jpg'],
-    ['title' => 'Wheezing and Asthma in Children: Signs and Treatment', 'url' => '/blog/wheezing-and-asthma-in-children', 'date' => 'September 02, 2026', 'image' => '/images/blog/asthma-wheezing-children.jpg'],
+    ['title' => 'Fever in Children: When to Treat at Home and When to See a Doctor', 'url' => '/blog/fever-in-children-when-to-see-a-doctor', 'date' => 'September 29, 2026', 'image' => '/images/blog/fever-in-children.jpg'],
+    ['title' => 'Wheezing and Asthma in Children: Signs and Treatment', 'url' => '/blog/wheezing-and-asthma-in-children', 'date' => 'September 03, 2026', 'image' => '/images/blog/asthma-wheezing-children.jpg'],
     ['title' => 'The Complete Guide to Child Vaccinations: Schedule & Safety', 'url' => '/blog/child-vaccination', 'date' => 'August 08, 2026', 'image' => '/images/blog-placeholder.svg']
 ];
 

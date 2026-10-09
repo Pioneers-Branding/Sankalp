@@ -2,7 +2,7 @@
 $blog_title = "Endometriosis and Infertility: Symptoms, Diagnosis and Treatment";
 $blog_desc = "Severe period pain is not normal. A laparoscopic surgeon explains how endometriosis causes infertility, why diagnosis is so often delayed, and which treatments help women trying to conceive.";
 $blog_category = "Gynecology";
-$blog_date = "September 02, 2026";
+$blog_date = "October 02, 2026";
 $blog_readtime = "10 min read";
 $blog_author = "Dr. Ankita Bansal Goyal";
 $blog_author_desc = "MS (Obs & Gynec) PGIMER Chandigarh, FMAS | Fertility & Laparoscopic Surgeon, Sankalp Hospital, Ambikapur";
@@ -139,9 +139,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'PCOS and Fertility: How It Affects Getting Pregnant', 'url' => '/blog/pcos-and-fertility', 'date' => 'September 02, 2026', 'image' => '/images/blog/pcos-fertility-weight.jpg'],
-    ['title' => 'Blocked Fallopian Tubes and the HSG Test Explained', 'url' => '/blog/blocked-fallopian-tubes-hsg-test', 'date' => 'September 02, 2026', 'image' => '/images/blog/hsg-test-fallopian-tubes.jpg'],
-    ['title' => 'Female Infertility: Causes, Tests and Treatment Options', 'url' => '/blog/female-infertility-causes-tests-treatment', 'date' => 'September 02, 2026', 'image' => '/images/blog/female-infertility-consultation.jpg']
+    ['title' => 'PCOS and Fertility: How It Affects Getting Pregnant', 'url' => '/blog/pcos-and-fertility', 'date' => 'September 13, 2026', 'image' => '/images/blog/pcos-fertility-weight.jpg'],
+    ['title' => 'Blocked Fallopian Tubes and the HSG Test Explained', 'url' => '/blog/blocked-fallopian-tubes-hsg-test', 'date' => 'October 06, 2026', 'image' => '/images/blog/hsg-test-fallopian-tubes.jpg'],
+    ['title' => 'Female Infertility: Causes, Tests and Treatment Options', 'url' => '/blog/female-infertility-causes-tests-treatment', 'date' => 'October 01, 2026', 'image' => '/images/blog/female-infertility-consultation.jpg']
 ];
 
 include 'blog-post.php';

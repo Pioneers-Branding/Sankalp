@@ -2,7 +2,7 @@
 $blog_title = "IVF Injections: What They Do, Side Effects and How to Manage Them";
 $blog_desc = "The injection phase worries most IVF patients more than any other part. A fertility specialist explains what each drug does, the IVF injections side effects to expect, and the warning signs of ovarian hyperstimulation.";
 $blog_category = "IVF & Fertility";
-$blog_date = "September 02, 2026";
+$blog_date = "September 23, 2026";
 $blog_readtime = "9 min read";
 $blog_author = "Dr. Lata Goyal";
 $blog_author_desc = "MBBS, MS (Obstetrics & Gynaecology) | Senior Consultant & IVF Specialist, Sankalp Hospital, Ambikapur";
@@ -141,9 +141,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'How to Prepare for an IVF Cycle: A Three-Month Guide', 'url' => '/blog/how-to-prepare-for-ivf', 'date' => 'September 02, 2026', 'image' => '/images/blog/preparing-for-ivf-lifestyle.jpg'],
-    ['title' => 'Embryo Freezing and Frozen Embryo Transfer Explained', 'url' => '/blog/frozen-embryo-transfer-explained', 'date' => 'September 02, 2026', 'image' => '/images/blog/embryo-freezing-lab.jpg'],
-    ['title' => 'PCOS and Fertility: How It Affects Getting Pregnant', 'url' => '/blog/pcos-and-fertility', 'date' => 'September 02, 2026', 'image' => '/images/blog/pcos-fertility-weight.jpg']
+    ['title' => 'How to Prepare for an IVF Cycle: A Three-Month Guide', 'url' => '/blog/how-to-prepare-for-ivf', 'date' => 'September 25, 2026', 'image' => '/images/blog/preparing-for-ivf-lifestyle.jpg'],
+    ['title' => 'Embryo Freezing and Frozen Embryo Transfer Explained', 'url' => '/blog/frozen-embryo-transfer-explained', 'date' => 'September 27, 2026', 'image' => '/images/blog/embryo-freezing-lab.jpg'],
+    ['title' => 'PCOS and Fertility: How It Affects Getting Pregnant', 'url' => '/blog/pcos-and-fertility', 'date' => 'September 13, 2026', 'image' => '/images/blog/pcos-fertility-weight.jpg']
 ];
 
 include 'blog-post.php';

@@ -2,7 +2,7 @@
 $blog_title = "Wheezing and Asthma in Children: Signs, Triggers and Treatment";
 $blog_desc = "Not every wheeze is asthma, and not every child who wheezes needs an inhaler forever. A paediatrician explains childhood asthma symptoms, why inhalers are safer than syrups, and the warning signs of a severe attack.";
 $blog_category = "Pediatrics";
-$blog_date = "September 02, 2026";
+$blog_date = "September 03, 2026";
 $blog_readtime = "10 min read";
 $blog_author = "Dr. Ankit Sharma";
 $blog_author_desc = "MBBS, MD (Paediatrics) | Consultant Paediatrician, Sankalp Hospital, Ambikapur";
@@ -145,8 +145,8 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'Pneumonia in Children: Symptoms Parents Miss', 'url' => '/blog/pneumonia-in-children-symptoms', 'date' => 'September 02, 2026', 'image' => '/images/blog/pneumonia-in-children.jpg'],
-    ['title' => 'Fever in Children: When to Treat at Home and When to See a Doctor', 'url' => '/blog/fever-in-children-when-to-see-a-doctor', 'date' => 'September 02, 2026', 'image' => '/images/blog/fever-in-children.jpg'],
+    ['title' => 'Pneumonia in Children: Symptoms Parents Miss', 'url' => '/blog/pneumonia-in-children-symptoms', 'date' => 'September 11, 2026', 'image' => '/images/blog/pneumonia-in-children.jpg'],
+    ['title' => 'Fever in Children: When to Treat at Home and When to See a Doctor', 'url' => '/blog/fever-in-children-when-to-see-a-doctor', 'date' => 'September 29, 2026', 'image' => '/images/blog/fever-in-children.jpg'],
     ['title' => 'Chronic Sinusitis or a Stubborn Cold: How to Tell the Difference', 'url' => '/blog/chronic-sinusitis-symptoms', 'date' => 'September 01, 2026', 'image' => '/images/blog/chronic-sinusitis-cold.jpg']
 ];
 

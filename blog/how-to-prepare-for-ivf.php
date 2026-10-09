@@ -2,7 +2,7 @@
 $blog_title = "How to Prepare for an IVF Cycle: A Practical Three-Month Guide";
 $blog_desc = "Eggs and sperm take about three months to mature, so IVF preparation should start well before the injections do. A fertility specialist sets out what genuinely improves your chances and what is a waste of money.";
 $blog_category = "IVF & Fertility";
-$blog_date = "September 02, 2026";
+$blog_date = "September 25, 2026";
 $blog_readtime = "10 min read";
 $blog_author = "Dr. Lata Goyal";
 $blog_author_desc = "MBBS, MS (Obstetrics & Gynaecology) | Senior Consultant & IVF Specialist, Sankalp Hospital, Ambikapur";
@@ -143,9 +143,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'IVF Injections: What They Do and How to Manage Side Effects', 'url' => '/blog/ivf-injections-side-effects', 'date' => 'September 02, 2026', 'image' => '/images/blog/ivf-injections-stimulation.jpg'],
-    ['title' => 'IVF Success Rate by Age: What the Numbers Actually Mean', 'url' => '/blog/ivf-success-rate-by-age', 'date' => 'September 02, 2026', 'image' => '/images/blog/ivf-success-rate-age.jpg'],
-    ['title' => 'The AMH Test and Ovarian Reserve, Explained', 'url' => '/blog/amh-test-ovarian-reserve', 'date' => 'September 02, 2026', 'image' => '/images/blog/amh-test-ovarian-reserve.jpg']
+    ['title' => 'IVF Injections: What They Do and How to Manage Side Effects', 'url' => '/blog/ivf-injections-side-effects', 'date' => 'September 23, 2026', 'image' => '/images/blog/ivf-injections-stimulation.jpg'],
+    ['title' => 'IVF Success Rate by Age: What the Numbers Actually Mean', 'url' => '/blog/ivf-success-rate-by-age', 'date' => 'September 21, 2026', 'image' => '/images/blog/ivf-success-rate-age.jpg'],
+    ['title' => 'The AMH Test and Ovarian Reserve, Explained', 'url' => '/blog/amh-test-ovarian-reserve', 'date' => 'October 08, 2026', 'image' => '/images/blog/amh-test-ovarian-reserve.jpg']
 ];
 
 include 'blog-post.php';

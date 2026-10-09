@@ -2,7 +2,7 @@
 $blog_title = "Diarrhoea in Children: ORS, Dehydration and When to Worry";
 $blog_desc = "Diarrhoea kills through dehydration, not infection, and ORS prevents almost all of it. A paediatrician explains how to make and give ORS correctly, the signs of dehydration, and when a child needs hospital care.";
 $blog_category = "Pediatrics";
-$blog_date = "September 02, 2026";
+$blog_date = "October 03, 2026";
 $blog_readtime = "9 min read";
 $blog_author = "Dr. Ankit Gupta";
 $blog_author_desc = "MBBS, MD (Paediatrics) | Consultant Paediatrician, Sankalp Hospital, Ambikapur";
@@ -139,9 +139,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'Fever in Children: When to Treat at Home and When to See a Doctor', 'url' => '/blog/fever-in-children-when-to-see-a-doctor', 'date' => 'September 02, 2026', 'image' => '/images/blog/fever-in-children.jpg'],
-    ['title' => 'Worm Infection in Children: Signs, Deworming and Prevention', 'url' => '/blog/deworming-children-worm-infection', 'date' => 'September 02, 2026', 'image' => '/images/blog/deworming-children-hygiene.jpg'],
-    ['title' => 'Starting Solids at Six Months: A Practical Weaning Guide', 'url' => '/blog/starting-solids-baby-6-months', 'date' => 'September 02, 2026', 'image' => '/images/blog/starting-solids-baby.jpg']
+    ['title' => 'Fever in Children: When to Treat at Home and When to See a Doctor', 'url' => '/blog/fever-in-children-when-to-see-a-doctor', 'date' => 'September 29, 2026', 'image' => '/images/blog/fever-in-children.jpg'],
+    ['title' => 'Worm Infection in Children: Signs, Deworming and Prevention', 'url' => '/blog/deworming-children-worm-infection', 'date' => 'October 04, 2026', 'image' => '/images/blog/deworming-children-hygiene.jpg'],
+    ['title' => 'Starting Solids at Six Months: A Practical Weaning Guide', 'url' => '/blog/starting-solids-baby-6-months', 'date' => 'September 05, 2026', 'image' => '/images/blog/starting-solids-baby.jpg']
 ];
 
 include 'blog-post.php';

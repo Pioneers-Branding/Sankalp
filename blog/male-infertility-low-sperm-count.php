@@ -2,7 +2,7 @@
 $blog_title = "Male Infertility: Low Sperm Count Causes, Tests and Treatment";
 $blog_desc = "Male factors account for around a third of infertility, yet men are often never tested. A fertility specialist explains low sperm count causes, what a semen analysis measures, and the treatment options available in Ambikapur.";
 $blog_category = "IVF & Fertility";
-$blog_date = "September 02, 2026";
+$blog_date = "September 19, 2026";
 $blog_readtime = "9 min read";
 $blog_author = "Sankalp Hospital IVF & Fertility Team";
 $blog_author_desc = "Department of IVF & Reproductive Medicine, Sankalp Hospital, Ambikapur";
@@ -149,7 +149,7 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'Female Infertility: Causes, Tests and Treatment Options', 'url' => '/blog/female-infertility-causes-tests-treatment', 'date' => 'September 02, 2026', 'image' => '/images/blog/female-infertility-consultation.jpg'],
+    ['title' => 'Female Infertility: Causes, Tests and Treatment Options', 'url' => '/blog/female-infertility-causes-tests-treatment', 'date' => 'October 01, 2026', 'image' => '/images/blog/female-infertility-consultation.jpg'],
     ['title' => 'IVF, ICSI or IUI: Fertility Treatment Options Without the Jargon', 'url' => '/blog/ivf-icsi-iui-difference', 'date' => 'August 27, 2026', 'image' => '/images/blog/ivf-icsi-iui-lab.jpg'],
     ['title' => 'Debunking Common IVF Myths for Couples in Chhattisgarh', 'url' => '/blog/ivf-myths-in-ambikapur', 'date' => 'August 21, 2026', 'image' => '/images/blog/ivf-myths-consultation.jpg']
 ];

@@ -2,7 +2,7 @@
 $blog_title = "Starting Solids at Six Months: A Practical Weaning Guide for Indian Families";
 $blog_desc = "What to feed a baby from six months, how much, how often, and which foods to avoid. A paediatrician's practical guide to complementary feeding using everyday Indian household foods.";
 $blog_category = "Child Nutrition";
-$blog_date = "September 02, 2026";
+$blog_date = "September 05, 2026";
 $blog_readtime = "10 min read";
 $blog_author = "Dr. Megha Goyal";
 $blog_author_desc = "MBBS, MD (Paediatrics) | Consultant Neonatologist & Paediatrician, Sankalp Hospital, Ambikapur";
@@ -159,9 +159,9 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'Iron Deficiency Anaemia in Children: Signs and Treatment', 'url' => '/blog/anaemia-in-children-iron-deficiency', 'date' => 'September 02, 2026', 'image' => '/images/blog/anaemia-in-children.jpg'],
-    ['title' => 'Newborn Care in the First 40 Days: A Practical Guide', 'url' => '/blog/newborn-care-first-40-days', 'date' => 'September 02, 2026', 'image' => '/images/blog/newborn-care-first-40-days.jpg'],
-    ['title' => 'Child Development Milestones and When to Worry', 'url' => '/blog/child-development-milestones', 'date' => 'September 02, 2026', 'image' => '/images/blog/child-development-milestones.jpg']
+    ['title' => 'Iron Deficiency Anaemia in Children: Signs and Treatment', 'url' => '/blog/anaemia-in-children-iron-deficiency', 'date' => 'October 07, 2026', 'image' => '/images/blog/anaemia-in-children.jpg'],
+    ['title' => 'Newborn Care in the First 40 Days: A Practical Guide', 'url' => '/blog/newborn-care-first-40-days', 'date' => 'September 17, 2026', 'image' => '/images/blog/newborn-care-first-40-days.jpg'],
+    ['title' => 'Child Development Milestones and When to Worry', 'url' => '/blog/child-development-milestones', 'date' => 'October 05, 2026', 'image' => '/images/blog/child-development-milestones.jpg']
 ];
 
 include 'blog-post.php';

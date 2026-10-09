@@ -2,7 +2,7 @@
 $blog_title = "Child Development Milestones: What Is Normal and When to Worry";
 $blog_desc = "A month-by-month guide to child development milestones from birth to five years, the red flags that need assessment, and why early intervention makes such a difference. Written by a paediatrician in Ambikapur.";
 $blog_category = "Pediatrics";
-$blog_date = "September 02, 2026";
+$blog_date = "October 05, 2026";
 $blog_readtime = "10 min read";
 $blog_author = "Dr. Ankit Gupta";
 $blog_author_desc = "MBBS, MD (Paediatrics) | Consultant Paediatrician, Sankalp Hospital, Ambikapur";
@@ -140,8 +140,8 @@ $blog_faqs = [
 ];
 
 $related_posts = [
-    ['title' => 'Starting Solids at Six Months: A Practical Weaning Guide', 'url' => '/blog/starting-solids-baby-6-months', 'date' => 'September 02, 2026', 'image' => '/images/blog/starting-solids-baby.jpg'],
-    ['title' => 'Iron Deficiency Anaemia in Children: Signs and Treatment', 'url' => '/blog/anaemia-in-children-iron-deficiency', 'date' => 'September 02, 2026', 'image' => '/images/blog/anaemia-in-children.jpg'],
+    ['title' => 'Starting Solids at Six Months: A Practical Weaning Guide', 'url' => '/blog/starting-solids-baby-6-months', 'date' => 'September 05, 2026', 'image' => '/images/blog/starting-solids-baby.jpg'],
+    ['title' => 'Iron Deficiency Anaemia in Children: Signs and Treatment', 'url' => '/blog/anaemia-in-children-iron-deficiency', 'date' => 'October 07, 2026', 'image' => '/images/blog/anaemia-in-children.jpg'],
     ['title' => 'The Importance of Regular Eye Check-ups for School Children', 'url' => '/blog/eye-check-ups-for-school-children', 'date' => 'August 26, 2026', 'image' => '/images/blog/school-children-eye-checkup.jpg']
 ];
 
