@@ -1,4 +1,20 @@
 {
+    "dr-sanjay-goyal": {
+        "name": "Dr. Sanjay Goyal",
+        "specialty": "Ophthalmology (Senior Specialist)",
+        "degrees": "MBBS, MS (Ophthalmology) | Founder & Senior Eye Surgeon",
+        "experience": "25+ Years",
+        "img": "sanjay-goyal.jpg",
+        "bio": "Dr. Sanjay Goyal is the founder of Sankalp Hospital and a pioneer of modern ophthalmology in the Surguja region. With over 25 years of experience, he has performed thousands of successful eye surgeries and is dedicated to providing world-class vision care to the community.",
+        "long_bio": "",
+        "expertise": [
+            "Micro-Incision Cataract Surgery",
+            "Laser Eye Treatment",
+            "Ocular Trauma",
+            "Corneal Diseases",
+            "Comprehensive Eye Care"
+        ]
+    },
     "dr-lata-goyal": {
         "name": "Dr. Lata Goyal",
         "specialty": "Obstetrics & Gynaecology",
@@ -31,38 +47,6 @@
             "Arthroscopy"
         ]
     },
-    "dr-suneedh-gupta": {
-        "name": "Dr. Suneedh Gupta",
-        "specialty": "Oral & Maxillofacial Surgery",
-        "degrees": "BDS, MDS (Oral & Maxillofacial Surgery) | Consultant Oral & Maxillofacial Surgeon",
-        "experience": "10+ Years",
-        "img": "suneedh-gupta.jpg",
-        "bio": "Dr. Suneedh Gupta is a highly skilled Oral & Maxillofacial Surgeon at Sankalp Hospital. He specializes in surgeries of the face, mouth, and jaws, including facial trauma management, oral pathology, and complex tooth extractions. He is dedicated to restoring facial function and aesthetics for his patients.",
-        "long_bio": "",
-        "expertise": [
-            "Facial Trauma Surgery",
-            "Jaw Realignment",
-            "Oral Cancer Screening",
-            "Complex Extractions",
-            "Dental Implants"
-        ]
-    },
-    "dr-sanjay-goyal": {
-        "name": "Dr. Sanjay Goyal",
-        "specialty": "Ophthalmology (Senior Specialist)",
-        "degrees": "MBBS, MS (Ophthalmology) | Founder & Senior Eye Surgeon",
-        "experience": "25+ Years",
-        "img": "sanjay-goyal.jpg",
-        "bio": "Dr. Sanjay Goyal is the founder of Sankalp Hospital and a pioneer of modern ophthalmology in the Surguja region. With over 25 years of experience, he has performed thousands of successful eye surgeries and is dedicated to providing world-class vision care to the community.",
-        "long_bio": "",
-        "expertise": [
-            "Micro-Incision Cataract Surgery",
-            "Laser Eye Treatment",
-            "Ocular Trauma",
-            "Corneal Diseases",
-            "Comprehensive Eye Care"
-        ]
-    },
     "dr-nilesh-goyal": {
         "name": "Dr. Nilesh Goyal",
         "specialty": "General & Laparoscopic Surgery",
@@ -79,39 +63,6 @@
             "Trauma Surgery"
         ]
     },
-    "dr-manoj-bharti": {
-        "name": "Dr. Manoj Bharti",
-        "specialty": "General & Laparoscopic Surgery",
-        "degrees": "MBBS, MS (General & Laparoscopic Surgery) | Consultant General & Laparoscopic Surgeon",
-        "experience": "10+ Years",
-        "img": "manoj-bharti.jpg",
-        "bio": "Dr. Manoj Bharti is an experienced General and Laparoscopic Surgeon at Sankalp Hospital, specializing in advanced minimally invasive abdominal procedures, hernia repairs, gallbladder surgeries, appendectomies, and emergency trauma surgical care.",
-        "long_bio": "Dr. Manoj Bharti brings over a decade of clinical excellence in general and laparoscopic surgery. Known for his surgical precision and patient-centered approach, he specializes in cutting-edge minimally invasive keyhole procedures that ensure minimal scarring, reduced pain, and faster recovery. He is committed to providing comprehensive surgical solutions for complex gastrointestinal, abdominal, and soft tissue conditions across Surguja and Northern Chhattisgarh.",
-        "expertise": [
-            "Laparoscopic Cholecystectomy (Gallbladder)",
-            "Laparoscopic Hernia Repair",
-            "Laparoscopic Appendectomy",
-            "Gastrointestinal & Abdominal Surgery",
-            "Trauma & Emergency Surgical Care",
-            "Anorectal Surgeries (Piles, Fissure, Fistula)"
-        ]
-    },
-    "dr-ankit-sharma": {
-        "name": "Dr. Ankit Sharma",
-        "specialty": "Psychiatry",
-        "degrees": "MBBS, MD (Psychiatry) | Consultant Psychiatrist",
-        "experience": "8+ Years",
-        "img": "ankit-sharma.jpg",
-        "bio": "Dr. Ankit Sharma is a dedicated Consultant Psychiatrist at Sankalp Hospital, offering compassionate, evidence-based mental healthcare, clinical psychiatry, counseling, and psychotherapy for patients of all age groups.",
-        "long_bio": "Dr. Ankit Sharma brings specialized clinical expertise in adult and adolescent psychiatry, mood and anxiety disorders, stress management, sleep medicine, and psychological counseling. Combining modern pharmacological therapies with supportive psychotherapy, Dr. Sharma works dedicatedly to eliminate the stigma surrounding mental health and guide individuals and families toward holistic emotional well-being and recovery.",
-        "expertise": [
-            "Depression & Mood Disorders",
-            "Anxiety, Panic & Phobias",
-            "Stress & Burnout Counseling",
-            "Obsessive-Compulsive Disorder (OCD)",
-            "Bipolar Disorder Management"
-        ]
-    },
     "dr-ankita-bansal-goyal": {
         "name": "Dr. Ankita Bansal Goyal",
         "specialty": "Obstetrics & Gynaecology",
@@ -126,6 +77,38 @@
             "PCOS Specialist",
             "High-risk Pregnancy",
             "Infertility Care"
+        ]
+    },
+    "dr-akshaya-goyal": {
+        "name": "Dr. Akshaya Goyal",
+        "specialty": "Ophthalmology (Eye Care)",
+        "degrees": "MBBS, MS (Ophthalmology) | Consultant Ophthalmologist",
+        "experience": "7+ Years",
+        "img": "akshaya-goyal.jpg",
+        "bio": "Dr. Akshaya Goyal is a skilled Eye Specialist at Sankalp Hospital, dedicated to providing advanced eye care services. He specializes in modern cataract surgery and managing complex eye conditions, ensuring clear vision for his patients in Ambikapur.",
+        "long_bio": "",
+        "expertise": [
+            "Phaco Cataract Surgery",
+            "Glaucoma Management",
+            "Diabetic Retinopathy",
+            "Refractive Errors",
+            "Eye Trauma"
+        ]
+    },
+    "dr-megha-goyal": {
+        "name": "Dr. Megha Goyal",
+        "specialty": "Neonatology & Pediatrics",
+        "degrees": "MBBS, MD (Pediatrics) | Consultant Neonatologist",
+        "experience": "7+ Years",
+        "img": "megha-goyal.jpg",
+        "bio": "Dr. Megha Goyal is a dedicated Neonatologist at Sankalp Hospital, specializing in the care of newborns and premature infants. Her expertise in the Neonatal Intensive Care Unit (NICU) has saved many lives, providing the highest standard of care for the most vulnerable patients.",
+        "long_bio": "",
+        "expertise": [
+            "Newborn Care",
+            "NICU Specialist",
+            "Premature Baby Care",
+            "Pediatric Emergencies",
+            "Childhood Immunization"
         ]
     },
     "dr-shailesh-gupta": {
@@ -160,73 +143,52 @@
             "Nasal Endoscopy"
         ]
     },
-    "dr-megha-goyal": {
-        "name": "Dr. Megha Goyal",
-        "specialty": "Neonatology & Pediatrics",
-        "degrees": "MBBS, MD (Pediatrics) | Consultant Neonatologist",
-        "experience": "7+ Years",
-        "img": "megha-goyal.jpg",
-        "bio": "Dr. Megha Goyal is a dedicated Neonatologist at Sankalp Hospital, specializing in the care of newborns and premature infants. Her expertise in the Neonatal Intensive Care Unit (NICU) has saved many lives, providing the highest standard of care for the most vulnerable patients.",
-        "long_bio": "",
-        "expertise": [
-            "Newborn Care",
-            "NICU Specialist",
-            "Premature Baby Care",
-            "Pediatric Emergencies",
-            "Childhood Immunization"
-        ]
-    },
-    "dr-akshaya-goyal": {
-        "name": "Dr. Akshaya Goyal",
-        "specialty": "Ophthalmology (Eye Care)",
-        "degrees": "MBBS, MS (Ophthalmology) | Consultant Ophthalmologist",
-        "experience": "7+ Years",
-        "img": "akshaya-goyal.jpg",
-        "bio": "Dr. Akshaya Goyal is a skilled Eye Specialist at Sankalp Hospital, dedicated to providing advanced eye care services. He specializes in modern cataract surgery and managing complex eye conditions, ensuring clear vision for his patients in Ambikapur.",
-        "long_bio": "",
-        "expertise": [
-            "Phaco Cataract Surgery",
-            "Glaucoma Management",
-            "Diabetic Retinopathy",
-            "Refractive Errors",
-            "Eye Trauma"
-        ]
-    },
-    "dr-akshay-gupta": {
-        "name": "Dr. Akshay Gupta",
-        "specialty": "Rheumatology & Internal Medicine",
-        "degrees": "MD (Medicine) | Consultant Physician & Rheumatologist",
-        "experience": "5+ Years",
-        "img": "akshay-gupta.png",
-        "bio": "Dr. Akshay Gupta is a Consultant Physician and Rheumatologist with expertise in Internal Medicine, autoimmune diseases, arthritis, and complex medical disorders. He completed his MBBS from Vardhman Mahavir Medical College & Safdarjung Hospital and MD (Medicine) from Dr. Ram Manohar Lohia Hospital, New Delhi. He is recognized as the first and only rheumatology specialist serving the Surguja region.",
-        "long_bio": "",
-        "expertise": [
-            "Rheumatology",
-            "Rheumatoid Arthritis",
-            "Ankylosing Spondylitis",
-            "Lupus (SLE)",
-            "Psoriatic Arthritis",
-            "Gout",
-            "Vasculitis",
-            "Osteoporosis",
-            "Diabetes & Hypertension",
-            "General Internal Medicine"
-        ]
-    },
-    "dr-ankit-gupta": {
-        "name": "Dr. Ankit Gupta",
-        "specialty": "Pediatrics",
-        "degrees": "MBBS, DCH | Senior Consultant Pediatrician",
+    "dr-suneedh-gupta": {
+        "name": "Dr. Suneedh Gupta",
+        "specialty": "Oral & Maxillofacial Surgery",
+        "degrees": "BDS, MDS (Oral & Maxillofacial Surgery) | Consultant Oral & Maxillofacial Surgeon",
         "experience": "10+ Years",
-        "img": "ankit-gupta.jpg",
-        "bio": "Dr. Ankit Gupta is a highly regarded Pediatrician in Ambikapur, known for his excellence in child healthcare. He provides comprehensive care for infants, children, and adolescents, specializing in growth monitoring, nutrition, and infectious diseases.",
+        "img": "suneedh-gupta.jpg",
+        "bio": "Dr. Suneedh Gupta is a highly skilled Oral & Maxillofacial Surgeon at Sankalp Hospital. He specializes in surgeries of the face, mouth, and jaws, including facial trauma management, oral pathology, and complex tooth extractions. He is dedicated to restoring facial function and aesthetics for his patients.",
         "long_bio": "",
         "expertise": [
-            "Child Vaccination",
-            "Neonatal Care",
-            "Pediatric Nutrition",
-            "Child Growth Monitoring",
-            "Infectious Diseases"
+            "Facial Trauma Surgery",
+            "Jaw Realignment",
+            "Oral Cancer Screening",
+            "Complex Extractions",
+            "Dental Implants"
+        ]
+    },
+    "dr-himanshu-gupta": {
+        "name": "Dr. Himanshu Gupta",
+        "specialty": "Oncology",
+        "degrees": "MBBS, MD / DNB - Medical Oncology",
+        "experience": "10+ Years",
+        "img": "himanshu-gupta.jpg",
+        "bio": "Dr. Himanshu Gupta is a Consultant Medical Oncologist at Sankalp Hospital, offering expert care in cancer evaluation, chemotherapy planning, and multidisciplinary oncology support.",
+        "long_bio": "",
+        "expertise": [
+            "Medical Oncology",
+            "Chemotherapy Planning",
+            "Cancer Screening & Prevention",
+            "Palliative & Supportive Care"
+        ]
+    },
+    "dr-manoj-bharti": {
+        "name": "Dr. Manoj Bharti",
+        "specialty": "General & Laparoscopic Surgery",
+        "degrees": "MBBS, MS (General & Laparoscopic Surgery) | Consultant General & Laparoscopic Surgeon",
+        "experience": "10+ Years",
+        "img": "manoj-bharti.jpg",
+        "bio": "Dr. Manoj Bharti is an experienced General and Laparoscopic Surgeon at Sankalp Hospital, specializing in advanced minimally invasive abdominal procedures, hernia repairs, gallbladder surgeries, appendectomies, and emergency trauma surgical care.",
+        "long_bio": "Dr. Manoj Bharti brings over a decade of clinical excellence in general and laparoscopic surgery. Known for his surgical precision and patient-centered approach, he specializes in cutting-edge minimally invasive keyhole procedures that ensure minimal scarring, reduced pain, and faster recovery. He is committed to providing comprehensive surgical solutions for complex gastrointestinal, abdominal, and soft tissue conditions across Surguja and Northern Chhattisgarh.",
+        "expertise": [
+            "Laparoscopic Cholecystectomy (Gallbladder)",
+            "Laparoscopic Hernia Repair",
+            "Laparoscopic Appendectomy",
+            "Gastrointestinal & Abdominal Surgery",
+            "Trauma & Emergency Surgical Care",
+            "Anorectal Surgeries (Piles, Fissure, Fistula)"
         ]
     },
     "dr-chandra-mukesh-dhawde": {
@@ -262,6 +224,54 @@
             "Peripheral Nerve Surgery"
         ]
     },
+    "dr-ankit-gupta": {
+        "name": "Dr. Ankit Gupta",
+        "specialty": "Pediatrics",
+        "degrees": "MBBS, DCH | Senior Consultant Pediatrician",
+        "experience": "10+ Years",
+        "img": "ankit-gupta.jpg",
+        "bio": "Dr. Ankit Gupta is a highly regarded Pediatrician in Ambikapur, known for his excellence in child healthcare. He provides comprehensive care for infants, children, and adolescents, specializing in growth monitoring, nutrition, and infectious diseases.",
+        "long_bio": "",
+        "expertise": [
+            "Child Vaccination",
+            "Neonatal Care",
+            "Pediatric Nutrition",
+            "Child Growth Monitoring",
+            "Infectious Diseases"
+        ]
+    },
+    "dr-chetan-chaturvedi": {
+        "name": "Dr. Chetan Chaturvedi",
+        "specialty": "Cardiology",
+        "degrees": "MBBS, DNB (Cardiology) | Consultant Cardiologist",
+        "experience": "10+ Years",
+        "img": "doc1.png",
+        "bio": "Dr. Chetan Chaturvedi is a leading Consultant Cardiologist specializing in interventional cardiology, echocardiography, and the comprehensive management of cardiovascular diseases.",
+        "long_bio": "Dr. Chaturvedi is dedicated to the prevention, diagnosis, and treatment of heart conditions. His clinical focus includes managing acute myocardial infarctions, heart failure, and complex arrhythmias. He is highly proficient in performing diagnostic angiograms and echocardiograms. His patient-first philosophy ensures comprehensive cardiovascular care aimed at long-term heart health.",
+        "expertise": [
+            "Interventional Cardiology",
+            "Echocardiography (2D Echo)",
+            "Heart Failure Management",
+            "Hypertension & Lipid Management",
+            "Preventive Cardiology"
+        ]
+    },
+    "dr-rajshree-verma": {
+        "name": "Dr. Rajshree Verma",
+        "specialty": "Obstetrics & Gynaecology",
+        "degrees": "MBBS, MS (Obstetrics & Gynaecology) | Consultant Gynaecologist",
+        "experience": "10+ Years",
+        "img": "rajshree-verma.jpg",
+        "bio": "Dr. Rajshree Verma is a compassionate Consultant Gynaecologist and Obstetrician, specializing in high-risk pregnancies, adolescent gynecology, and minimally invasive gynecological surgeries.",
+        "long_bio": "With over a decade of clinical experience, Dr. Rajshree Verma provides comprehensive healthcare for women at every stage of life. She is an advocate for preventive maternal care and is highly skilled in managing complex obstetric emergencies. Dr. Verma is known for her empathetic patient communication and her dedication to promoting women's health and wellness in the community.",
+        "expertise": [
+            "High-Risk Pregnancy",
+            "Laparoscopic Gynaecology",
+            "Adolescent Gynaecology",
+            "Preventive Maternal Care",
+            "Menopause Management"
+        ]
+    },
     "dr-yuvan-prasannaa": {
         "name": "Dr. Yuvan Prasannaa",
         "specialty": "Anaesthesiology",
@@ -278,20 +288,20 @@
             "Trauma Resuscitation"
         ]
     },
-    "dr-rajesh-kr-agarwal": {
-        "name": "Dr. Rajesh Kr Agarwal",
-        "specialty": "Urology",
-        "degrees": "MBBS, MS (Urology) | Consultant Urologist",
+    "dr-anoj-kumar": {
+        "name": "Dr. Anoj Kumar",
+        "specialty": "Anaesthesiology",
+        "degrees": "MBBS, DNB (Anaesthesiology) | Consultant Anaesthesiologist",
         "experience": "10+ Years",
         "img": "doc1.png",
-        "bio": "Dr. Rajesh Kr Agarwal is a distinguished Consultant Urologist specializing in endourology and advanced laparoscopic urological surgeries. He is dedicated to providing cutting-edge treatments for kidney stones and prostate conditions.",
-        "long_bio": "Dr. Agarwal has extensive experience in managing complex genitourinary diseases, male infertility, and urologic oncology. He is highly proficient in minimally invasive laser surgeries for kidney stones and prostate enlargement (BPH). At Sankalp Hospital, he is committed to delivering patient-centric, evidence-based urological care with a focus on fast recovery and improved quality of life.",
+        "bio": "Dr. Anoj Kumar is a dedicated Consultant Anaesthesiologist, proficient in advanced airway management and regional anesthesia for high-risk surgical patients.",
+        "long_bio": "Dr. Kumar specializes in providing safe and effective anesthesia care across various surgical specialties, including orthopedics, general surgery, and obstetrics. He is particularly skilled in nerve blocks and epidural analgesia, focusing on minimizing post-operative pain and enhancing patient comfort. His vigilant approach ensures the highest safety standards in the operating theater.",
         "expertise": [
-            "Endourology & Laser Surgery",
-            "Kidney Stone Management",
-            "Prostate Enlargement (BPH)",
-            "Male Infertility",
-            "Urologic Oncology"
+            "Advanced Airway Management",
+            "Regional & Epidural Anaesthesia",
+            "High-Risk Surgical Anaesthesia",
+            "Pain Management",
+            "Obstetric Anaesthesia"
         ]
     },
     "dr-ambar-garg": {
@@ -326,38 +336,6 @@
             "Laboratory Quality Assurance"
         ]
     },
-    "dr-anoj-kumar": {
-        "name": "Dr. Anoj Kumar",
-        "specialty": "Anaesthesiology",
-        "degrees": "MBBS, DNB (Anaesthesiology) | Consultant Anaesthesiologist",
-        "experience": "10+ Years",
-        "img": "doc1.png",
-        "bio": "Dr. Anoj Kumar is a dedicated Consultant Anaesthesiologist, proficient in advanced airway management and regional anesthesia for high-risk surgical patients.",
-        "long_bio": "Dr. Kumar specializes in providing safe and effective anesthesia care across various surgical specialties, including orthopedics, general surgery, and obstetrics. He is particularly skilled in nerve blocks and epidural analgesia, focusing on minimizing post-operative pain and enhancing patient comfort. His vigilant approach ensures the highest safety standards in the operating theater.",
-        "expertise": [
-            "Advanced Airway Management",
-            "Regional & Epidural Anaesthesia",
-            "High-Risk Surgical Anaesthesia",
-            "Pain Management",
-            "Obstetric Anaesthesia"
-        ]
-    },
-    "dr-rajshree-verma": {
-        "name": "Dr. Rajshree Verma",
-        "specialty": "Obstetrics & Gynaecology",
-        "degrees": "MBBS, MS (Obstetrics & Gynaecology) | Consultant Gynaecologist",
-        "experience": "10+ Years",
-        "img": "rajshree-verma.jpg",
-        "bio": "Dr. Rajshree Verma is a compassionate Consultant Gynaecologist and Obstetrician, specializing in high-risk pregnancies, adolescent gynecology, and minimally invasive gynecological surgeries.",
-        "long_bio": "With over a decade of clinical experience, Dr. Rajshree Verma provides comprehensive healthcare for women at every stage of life. She is an advocate for preventive maternal care and is highly skilled in managing complex obstetric emergencies. Dr. Verma is known for her empathetic patient communication and her dedication to promoting women's health and wellness in the community.",
-        "expertise": [
-            "High-Risk Pregnancy",
-            "Laparoscopic Gynaecology",
-            "Adolescent Gynaecology",
-            "Preventive Maternal Care",
-            "Menopause Management"
-        ]
-    },
     "dr-sonali-gupta": {
         "name": "Dr. Sonali Gupta",
         "specialty": "Pathology",
@@ -374,20 +352,41 @@
             "Oncopathology"
         ]
     },
-    "dr-chetan-chaturvedi": {
-        "name": "Dr. Chetan Chaturvedi",
-        "specialty": "Cardiology",
-        "degrees": "MBBS, DNB (Cardiology) | Consultant Cardiologist",
-        "experience": "10+ Years",
-        "img": "doc1.png",
-        "bio": "Dr. Chetan Chaturvedi is a leading Consultant Cardiologist specializing in interventional cardiology, echocardiography, and the comprehensive management of cardiovascular diseases.",
-        "long_bio": "Dr. Chaturvedi is dedicated to the prevention, diagnosis, and treatment of heart conditions. His clinical focus includes managing acute myocardial infarctions, heart failure, and complex arrhythmias. He is highly proficient in performing diagnostic angiograms and echocardiograms. His patient-first philosophy ensures comprehensive cardiovascular care aimed at long-term heart health.",
+    "dr-ankit-sharma": {
+        "name": "Dr. Ankit Sharma",
+        "specialty": "Psychiatry",
+        "degrees": "MBBS, MD (Psychiatry) | Consultant Psychiatrist",
+        "experience": "8+ Years",
+        "img": "ankit-sharma.jpg",
+        "bio": "Dr. Ankit Sharma is a dedicated Consultant Psychiatrist at Sankalp Hospital, offering compassionate, evidence-based mental healthcare, clinical psychiatry, counseling, and psychotherapy for patients of all age groups.",
+        "long_bio": "Dr. Ankit Sharma brings specialized clinical expertise in adult and adolescent psychiatry, mood and anxiety disorders, stress management, sleep medicine, and psychological counseling. Combining modern pharmacological therapies with supportive psychotherapy, Dr. Sharma works dedicatedly to eliminate the stigma surrounding mental health and guide individuals and families toward holistic emotional well-being and recovery.",
         "expertise": [
-            "Interventional Cardiology",
-            "Echocardiography (2D Echo)",
-            "Heart Failure Management",
-            "Hypertension & Lipid Management",
-            "Preventive Cardiology"
+            "Depression & Mood Disorders",
+            "Anxiety, Panic & Phobias",
+            "Stress & Burnout Counseling",
+            "Obsessive-Compulsive Disorder (OCD)",
+            "Bipolar Disorder Management"
+        ]
+    },
+    "dr-akshay-gupta": {
+        "name": "Dr. Akshay Gupta",
+        "specialty": "Rheumatology & Internal Medicine",
+        "degrees": "MD (Medicine) | Consultant Physician & Rheumatologist",
+        "experience": "5+ Years",
+        "img": "akshay-gupta.png",
+        "bio": "Dr. Akshay Gupta is a Consultant Physician and Rheumatologist with expertise in Internal Medicine, autoimmune diseases, arthritis, and complex medical disorders. He completed his MBBS from Vardhman Mahavir Medical College & Safdarjung Hospital and MD (Medicine) from Dr. Ram Manohar Lohia Hospital, New Delhi. He is recognized as the first and only rheumatology specialist serving the Surguja region.",
+        "long_bio": "",
+        "expertise": [
+            "Rheumatology",
+            "Rheumatoid Arthritis",
+            "Ankylosing Spondylitis",
+            "Lupus (SLE)",
+            "Psoriatic Arthritis",
+            "Gout",
+            "Vasculitis",
+            "Osteoporosis",
+            "Diabetes & Hypertension",
+            "General Internal Medicine"
         ]
     },
     "dr-shradha-kinkar": {

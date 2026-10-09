@@ -130,6 +130,7 @@ $pageDesc = "Sankalp Hospital is a premier multi-specialist healthcare facility 
 include __DIR__ . '/includes/header.php';
 include __DIR__ . '/includes/navbar.php';
 require_once __DIR__ . '/includes/videos-data.php';
+require_once __DIR__ . '/doctors/_registry.php';
 ?>
   <!-- HERO SECTION WITH QUICK APPOINTMENT WIDGET -->
   <section id="home" class="hero-slider">
@@ -869,12 +870,18 @@ require_once __DIR__ . '/includes/videos-data.php';
       <!-- Custom Doctors Slider -->
       <div class="doctors-slider-container position-relative">
         <div class="doctors-track">
-          
-          <!-- Dr. Lata Goyal -->
+          <?php foreach ($doctorRegistry as $slug => $doc): 
+            $degreeClean = trim(explode('|', $doc['degrees'])[0]);
+            $badgeText = $doc['specialty'];
+            if ($slug === 'dr-sanjay-goyal') {
+                $badgeText = 'Ophthalmology · Founder';
+            }
+          ?>
+          <!-- <?php echo htmlspecialchars($doc['name']); ?> -->
           <div class="doctor-card-wrapper">
             <div class="doctor-card">
               <div class="doctor-img-container">
-                <a href="doctors/dr-lata-goyal"><img src="images/lata-goyal.jpg" alt="Dr. Lata Goyal"></a>
+                <a href="doctors/<?php echo htmlspecialchars($slug); ?>"><img src="images/<?php echo htmlspecialchars($doc['img']); ?>" alt="<?php echo htmlspecialchars($doc['name']); ?>" onerror="this.src='images/doc1.png'"></a>
                 <span class="doc-badge-status"><i class="fas fa-check-circle text-success me-1"></i> Available Today</span>
                 <div class="doctor-glass-socials">
                   <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
@@ -882,339 +889,14 @@ require_once __DIR__ . '/includes/videos-data.php';
                 </div>
               </div>
               <div class="doctor-info">
-                <span class="doc-dept-badge">Gynecology & IVF</span>
-                <h4><a href="doctors/dr-lata-goyal" class="text-decoration-none text-dark">Dr. Lata Goyal</a></h4>
-                <p class="doc-degrees">MBBS, MS - Obs & Gynaecology</p>
+                <span class="doc-dept-badge"><?php echo htmlspecialchars($badgeText); ?></span>
+                <h4><a href="doctors/<?php echo htmlspecialchars($slug); ?>" class="text-decoration-none text-dark"><?php echo htmlspecialchars($doc['name']); ?></a></h4>
+                <p class="doc-degrees"><?php echo htmlspecialchars($degreeClean); ?></p>
                 <a href="#appointment" class="doc-btn">Book Appointment</a>
               </div>
             </div>
           </div>
-          
-          <!-- Dr. Ankita Bansal Goyal -->
-          <div class="doctor-card-wrapper">
-            <div class="doctor-card">
-              <div class="doctor-img-container">
-                <a href="doctors/dr-ankita-bansal-goyal"><img src="images/ankita-goyal.jpg" alt="Dr. Ankita Bansal Goyal"></a>
-                <span class="doc-badge-status"><i class="fas fa-check-circle text-success me-1"></i> Available Today</span>
-                <div class="doctor-glass-socials">
-                  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                  <a href="mailto:info.sankalpslms@gmail.com" aria-label="Mail"><i class="fas fa-envelope"></i></a>
-                </div>
-              </div>
-              <div class="doctor-info">
-                <span class="doc-dept-badge">Gynaecology & Surgery</span>
-                <h4><a href="doctors/dr-ankita-bansal-goyal" class="text-decoration-none text-dark">Dr. Ankita Bansal Goyal</a></h4>
-                <p class="doc-degrees">MS (Obs &amp; Gynec) - FMAS</p>
-                <a href="#appointment" class="doc-btn">Book Appointment</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Dr. Sukirti Chauhan -->
-          <div class="doctor-card-wrapper">
-            <div class="doctor-card">
-              <div class="doctor-img-container">
-                <a href="doctors/dr-sukirti-chauhan"><img src="images/sukirti-chauhan.jpg" alt="Dr. Sukirti Chauhan"></a>
-                <span class="doc-badge-status"><i class="fas fa-check-circle text-success me-1"></i> Available Today</span>
-                <div class="doctor-glass-socials">
-                  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                  <a href="mailto:info.sankalpslms@gmail.com" aria-label="Mail"><i class="fas fa-envelope"></i></a>
-                </div>
-              </div>
-              <div class="doctor-info">
-                <span class="doc-dept-badge">Neurosurgery</span>
-                <h4><a href="doctors/dr-sukirti-chauhan" class="text-decoration-none text-dark">Dr. Sukirti Chauhan</a></h4>
-                <p class="doc-degrees">MBBS, MS - Neurosurgeon</p>
-                <a href="#appointment" class="doc-btn">Book Appointment</a>
-              </div>
-            </div>
-          </div>
-
-
-
-          <!-- Dr. Tanay Goyal -->
-          <div class="doctor-card-wrapper">
-            <div class="doctor-card">
-              <div class="doctor-img-container">
-                <a href="doctors/dr-tanay-goyal"><img src="images/tanay-goyal.jpg" alt="Dr. Tanay Goyal"></a>
-                <span class="doc-badge-status"><i class="fas fa-check-circle text-success me-1"></i> Available Today</span>
-                <div class="doctor-glass-socials">
-                  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                  <a href="mailto:info.sankalpslms@gmail.com" aria-label="Mail"><i class="fas fa-envelope"></i></a>
-                </div>
-              </div>
-              <div class="doctor-info">
-                <span class="doc-dept-badge">Orthopaedics & Trauma</span>
-                <h4><a href="doctors/dr-tanay-goyal" class="text-decoration-none text-dark">Dr. Tanay Goyal</a></h4>
-                <p class="doc-degrees">MBBS, MS - Orthopaedics</p>
-                <a href="#appointment" class="doc-btn">Book Appointment</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Dr. Sanjay Goyal -->
-          <div class="doctor-card-wrapper">
-            <div class="doctor-card">
-              <div class="doctor-img-container">
-                <a href="doctors/dr-sanjay-goyal"><img src="images/sanjay-goyal.jpg" alt="Dr. Sanjay Goyal"></a>
-                <span class="doc-badge-status"><i class="fas fa-check-circle text-success me-1"></i> Available Today</span>
-                <div class="doctor-glass-socials">
-                  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                  <a href="mailto:info.sankalpslms@gmail.com" aria-label="Mail"><i class="fas fa-envelope"></i></a>
-                </div>
-              </div>
-              <div class="doctor-info">
-                <span class="doc-dept-badge">Ophthalmology · Founder</span>
-                <h4><a href="doctors/dr-sanjay-goyal" class="text-decoration-none text-dark">Dr. Sanjay Goyal</a></h4>
-                <p class="doc-degrees">MBBS, MS - Ophthalmology</p>
-                <a href="#appointment" class="doc-btn">Book Appointment</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Dr. Akshaya Goyal -->
-          <div class="doctor-card-wrapper">
-            <div class="doctor-card">
-              <div class="doctor-img-container">
-                <a href="doctors/dr-akshaya-goyal"><img src="images/akshaya-goyal.jpg" alt="Dr. Akshaya Goyal"></a>
-                <span class="doc-badge-status"><i class="fas fa-check-circle text-success me-1"></i> Available Today</span>
-                <div class="doctor-glass-socials">
-                  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                  <a href="mailto:info.sankalpslms@gmail.com" aria-label="Mail"><i class="fas fa-envelope"></i></a>
-                </div>
-              </div>
-              <div class="doctor-info">
-                <span class="doc-dept-badge">Ophthalmology</span>
-                <h4><a href="doctors/dr-akshaya-goyal" class="text-decoration-none text-dark">Dr. Akshaya Goyal</a></h4>
-                <p class="doc-degrees">MBBS, MS - Ophthalmology</p>
-                <a href="#appointment" class="doc-btn">Book Appointment</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Dr. Ankit Gupta -->
-          <div class="doctor-card-wrapper">
-            <div class="doctor-card">
-              <div class="doctor-img-container">
-                <a href="doctors/dr-ankit-gupta"><img src="images/ankit-gupta.jpg" alt="Dr. Ankit Gupta"></a>
-                <span class="doc-badge-status"><i class="fas fa-check-circle text-success me-1"></i> Available Today</span>
-                <div class="doctor-glass-socials">
-                  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                  <a href="mailto:info.sankalpslms@gmail.com" aria-label="Mail"><i class="fas fa-envelope"></i></a>
-                </div>
-              </div>
-              <div class="doctor-info">
-                <span class="doc-dept-badge">Pediatrics</span>
-                <h4><a href="doctors/dr-ankit-gupta" class="text-decoration-none text-dark">Dr. Ankit Gupta</a></h4>
-                <p class="doc-degrees">MBBS, DCH - Pediatrician</p>
-                <a href="#appointment" class="doc-btn">Book Appointment</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Dr. Megha Goyal -->
-          <div class="doctor-card-wrapper">
-            <div class="doctor-card">
-              <div class="doctor-img-container">
-                <a href="doctors/dr-megha-goyal"><img src="images/megha-goyal.jpg" alt="Dr. Megha Goyal"></a>
-                <span class="doc-badge-status"><i class="fas fa-check-circle text-success me-1"></i> Available Today</span>
-                <div class="doctor-glass-socials">
-                  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                  <a href="mailto:info.sankalpslms@gmail.com" aria-label="Mail"><i class="fas fa-envelope"></i></a>
-                </div>
-              </div>
-              <div class="doctor-info">
-                <span class="doc-dept-badge">Neonatology & Pediatrics</span>
-                <h4><a href="doctors/dr-megha-goyal" class="text-decoration-none text-dark">Dr. Megha Goyal</a></h4>
-                <p class="doc-degrees">MBBS, MD - Pediatrics</p>
-                <a href="#appointment" class="doc-btn">Book Appointment</a>
-              </div>
-            </div>
-          </div>
-
-
-
-          <!-- Dr. Nilesh Goyal -->
-          <div class="doctor-card-wrapper">
-            <div class="doctor-card">
-              <div class="doctor-img-container">
-                <a href="doctors/dr-nilesh-goyal"><img src="images/nilesh-goyal.jpg" alt="Dr. Nilesh Goyal"></a>
-                <span class="doc-badge-status"><i class="fas fa-check-circle text-success me-1"></i> Available Today</span>
-                <div class="doctor-glass-socials">
-                  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                  <a href="mailto:info.sankalpslms@gmail.com" aria-label="Mail"><i class="fas fa-envelope"></i></a>
-                </div>
-              </div>
-              <div class="doctor-info">
-                <span class="doc-dept-badge">General Surgery</span>
-                <h4><a href="doctors/dr-nilesh-goyal" class="text-decoration-none text-dark">Dr. Nilesh Goyal</a></h4>
-                <p class="doc-degrees">MBBS, MS - General Surgery</p>
-                <a href="#appointment" class="doc-btn">Book Appointment</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Dr. Chandra Mukesh Dhawde -->
-          <div class="doctor-card-wrapper">
-            <div class="doctor-card">
-              <div class="doctor-img-container">
-                <a href="doctors/dr-chandra-mukesh-dhawde"><img src="images/chandra-dhawde.jpg" alt="Dr. Chandra Mukesh Dhawde"></a>
-                <span class="doc-badge-status"><i class="fas fa-check-circle text-success me-1"></i> Available Today</span>
-                <div class="doctor-glass-socials">
-                  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                  <a href="mailto:info.sankalpslms@gmail.com" aria-label="Mail"><i class="fas fa-envelope"></i></a>
-                </div>
-              </div>
-              <div class="doctor-info">
-                <span class="doc-dept-badge">Neurosurgery</span>
-                <h4><a href="doctors/dr-chandra-mukesh-dhawde" class="text-decoration-none text-dark">Dr. Chandra Mukesh Dhawde</a></h4>
-                <p class="doc-degrees">MBBS, MS - Neurosurgeon</p>
-                <a href="#appointment" class="doc-btn">Book Appointment</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Dr. Suneedh Gupta -->
-          <div class="doctor-card-wrapper">
-            <div class="doctor-card">
-              <div class="doctor-img-container">
-                <a href="doctors/dr-suneedh-gupta"><img src="images/suneedh-gupta.jpg" alt="Dr. Suneedh Gupta"></a>
-                <span class="doc-badge-status"><i class="fas fa-check-circle text-success me-1"></i> Available Today</span>
-                <div class="doctor-glass-socials">
-                  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                  <a href="mailto:info.sankalpslms@gmail.com" aria-label="Mail"><i class="fas fa-envelope"></i></a>
-                </div>
-              </div>
-              <div class="doctor-info">
-                <span class="doc-dept-badge">Dentistry & Maxillofacial</span>
-                <h4><a href="doctors/dr-suneedh-gupta" class="text-decoration-none text-dark">Dr. Suneedh Gupta</a></h4>
-                <p class="doc-degrees">BDS, MDS - Oral & Maxillofacial Surgery</p>
-                <a href="#appointment" class="doc-btn">Book Appointment</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Dr. Himanshu Gupta -->
-          <div class="doctor-card-wrapper">
-            <div class="doctor-card">
-              <div class="doctor-img-container">
-                <a href="doctors/dr-himanshu-gupta"><img src="images/himanshu-gupta.jpg" alt="Dr. Himanshu Gupta"></a>
-                <span class="doc-badge-status"><i class="fas fa-check-circle text-success me-1"></i> Available Today</span>
-                <div class="doctor-glass-socials">
-                  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                  <a href="mailto:info.sankalpslms@gmail.com" aria-label="Mail"><i class="fas fa-envelope"></i></a>
-                </div>
-              </div>
-              <div class="doctor-info">
-                <span class="doc-dept-badge">Oncology</span>
-                <h4><a href="doctors/dr-himanshu-gupta" class="text-decoration-none text-dark">Dr. Himanshu Gupta</a></h4>
-                <p class="doc-degrees">MBBS, MD / DNB - Medical Oncology</p>
-                <a href="#appointment" class="doc-btn">Book Appointment</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Dr. Shailesh Gupta -->
-          <div class="doctor-card-wrapper">
-            <div class="doctor-card">
-              <div class="doctor-img-container">
-                <a href="doctors/dr-shailesh-gupta"><img src="images/shailesh-gupta.jpg" alt="Dr. Shailesh Gupta"></a>
-                <span class="doc-badge-status"><i class="fas fa-check-circle text-success me-1"></i> Available Today</span>
-                <div class="doctor-glass-socials">
-                  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                  <a href="mailto:info.sankalpslms@gmail.com" aria-label="Mail"><i class="fas fa-envelope"></i></a>
-                </div>
-              </div>
-              <div class="doctor-info">
-                <span class="doc-dept-badge">Internal Medicine & Cardiology</span>
-                <h4><a href="doctors/dr-shailesh-gupta" class="text-decoration-none text-dark">Dr. Shailesh Gupta</a></h4>
-                <p class="doc-degrees">MBBS, MD - Medicine</p>
-                <a href="#appointment" class="doc-btn">Book Appointment</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Dr. Akshay Gupta -->
-          <div class="doctor-card-wrapper">
-            <div class="doctor-card">
-              <div class="doctor-img-container">
-                <a href="doctors/dr-akshay-gupta"><img src="images/akshay-gupta.jpg" alt="Dr. Akshay Gupta"></a>
-                <span class="doc-badge-status"><i class="fas fa-check-circle text-success me-1"></i> Available Today</span>
-                <div class="doctor-glass-socials">
-                  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                  <a href="mailto:info.sankalpslms@gmail.com" aria-label="Mail"><i class="fas fa-envelope"></i></a>
-                </div>
-              </div>
-              <div class="doctor-info">
-                <span class="doc-dept-badge">Rheumatology & Medicine</span>
-                <h4><a href="doctors/dr-akshay-gupta" class="text-decoration-none text-dark">Dr. Akshay Gupta</a></h4>
-                <p class="doc-degrees">MD - Medicine</p>
-                <a href="#appointment" class="doc-btn">Book Appointment</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Dr. Usha Armo -->
-          <div class="doctor-card-wrapper">
-            <div class="doctor-card">
-              <div class="doctor-img-container">
-                <a href="doctors/dr-usha-armo"><img src="images/usha-armo.jpg" alt="Dr. Usha Armo"></a>
-                <span class="doc-badge-status"><i class="fas fa-check-circle text-success me-1"></i> Available Today</span>
-                <div class="doctor-glass-socials">
-                  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                  <a href="mailto:info.sankalpslms@gmail.com" aria-label="Mail"><i class="fas fa-envelope"></i></a>
-                </div>
-              </div>
-              <div class="doctor-info">
-                <span class="doc-dept-badge">ENT (Otolaryngology)</span>
-                <h4><a href="doctors/dr-usha-armo" class="text-decoration-none text-dark">Dr. Usha Armo</a></h4>
-                <p class="doc-degrees">MBBS, MS - ENT</p>
-                <a href="#appointment" class="doc-btn">Book Appointment</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Dr. Ankit Sharma -->
-          <div class="doctor-card-wrapper">
-            <div class="doctor-card">
-              <div class="doctor-img-container">
-                <a href="doctors/dr-ankit-sharma"><img src="images/ankit-sharma.jpg" alt="Dr. Ankit Sharma"></a>
-                <span class="doc-badge-status"><i class="fas fa-check-circle text-success me-1"></i> Available Today</span>
-                <div class="doctor-glass-socials">
-                  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                  <a href="mailto:info.sankalpslms@gmail.com" aria-label="Mail"><i class="fas fa-envelope"></i></a>
-                </div>
-              </div>
-              <div class="doctor-info">
-                <span class="doc-dept-badge">Psychiatry</span>
-                <h4><a href="doctors/dr-ankit-sharma" class="text-decoration-none text-dark">Dr. Ankit Sharma</a></h4>
-                <p class="doc-degrees">MBBS, MD - Psychiatry</p>
-                <a href="#appointment" class="doc-btn">Book Appointment</a>
-              </div>
-            </div>
-          </div>
-
-
-          <!-- Dr. Manoj Bharti -->
-          <div class="doctor-card-wrapper">
-            <div class="doctor-card">
-              <div class="doctor-img-container">
-                <a href="doctors/dr-manoj-bharti"><img src="images/manoj-bharti.jpg" alt="Dr. Manoj Bharti"></a>
-                <span class="doc-badge-status"><i class="fas fa-check-circle text-success me-1"></i> Available Today</span>
-                <div class="doctor-glass-socials">
-                  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                  <a href="mailto:info.sankalpslms@gmail.com" aria-label="Mail"><i class="fas fa-envelope"></i></a>
-                </div>
-              </div>
-              <div class="doctor-info">
-                <span class="doc-dept-badge">General &amp; Laparoscopic Surgery</span>
-                <h4><a href="doctors/dr-manoj-bharti" class="text-decoration-none text-dark">Dr. Manoj Bharti</a></h4>
-                <p class="doc-degrees">MBBS, MS - General &amp; Laparoscopic Surgeon</p>
-                <a href="#appointment" class="doc-btn">Book Appointment</a>
-              </div>
-            </div>
-          </div>
-
+          <?php endforeach; ?>
         </div>
 
         <!-- Slider Controls -->

@@ -14,6 +14,17 @@ if (basename($_SERVER['SCRIPT_FILENAME'] ?? '') === '_registry.php') {
 }
 
 $doctorRegistry = [
+    // =========================================================================
+    // 1. GOYAL FAMILY (Ordered Age / Seniority-wise)
+    // =========================================================================
+    'dr-sanjay-goyal' => [
+        'name' => 'Dr. Sanjay Goyal',
+        'specialty' => 'Ophthalmology (Senior Specialist)',
+        'degrees' => 'MBBS, MS (Ophthalmology) | Founder & Senior Eye Surgeon',
+        'experience' => '25+ Years',
+        'img' => 'sanjay-goyal.jpg',
+        'filters' => ['ophthalmology'],
+    ],
     'dr-lata-goyal' => [
         'name' => 'Dr. Lata Goyal',
         'specialty' => 'Obstetrics & Gynaecology',
@@ -30,6 +41,63 @@ $doctorRegistry = [
         'img' => 'tanay-goyal.jpg',
         'filters' => ['orthopedics'],
     ],
+    'dr-nilesh-goyal' => [
+        'name' => 'Dr. Nilesh Goyal',
+        'specialty' => 'General & Laparoscopic Surgery',
+        'degrees' => 'MBBS, MS (General Surgery) | Consultant General & Laparoscopic Surgeon',
+        'experience' => '10+ Years',
+        'img' => 'nilesh-goyal.jpg',
+        'filters' => ['surgery'],
+    ],
+    'dr-ankita-bansal-goyal' => [
+        'name' => 'Dr. Ankita Bansal Goyal',
+        'specialty' => 'Obstetrics & Gynaecology',
+        'degrees' => 'MS (Obs & Gynec) - PGIMER CHD, FMAS | Consultant Laparoscopic Surgeon & Gynaecologist',
+        'experience' => '8+ Years',
+        'img' => 'ankita-goyal.jpg',
+        'filters' => ['gynecology', 'surgery'],
+    ],
+    'dr-akshaya-goyal' => [
+        'name' => 'Dr. Akshaya Goyal',
+        'specialty' => 'Ophthalmology (Eye Care)',
+        'degrees' => 'MBBS, MS (Ophthalmology) | Consultant Ophthalmologist',
+        'experience' => '7+ Years',
+        'img' => 'akshaya-goyal.jpg',
+        'filters' => ['ophthalmology'],
+    ],
+    'dr-megha-goyal' => [
+        'name' => 'Dr. Megha Goyal',
+        'specialty' => 'Neonatology & Pediatrics',
+        'degrees' => 'MBBS, MD (Pediatrics) | Consultant Neonatologist',
+        'experience' => '7+ Years',
+        'img' => 'megha-goyal.jpg',
+        'filters' => ['pediatrics'],
+    ],
+
+    // =========================================================================
+    // 2. OTHER CONSULTANTS & SPECIALISTS (Ordered Age / Experience-wise)
+    // =========================================================================
+    // 15+ Years
+    'dr-shailesh-gupta' => [
+        'name' => 'Dr. Shailesh Gupta',
+        'specialty' => 'Cardiology & Internal Medicine',
+        'degrees' => 'MBBS, MD (Medicine) | Senior Physician & Heart Specialist',
+        'experience' => '15+ Years',
+        'img' => 'shailesh-gupta.jpg',
+        'filters' => ['medicine'],
+    ],
+
+    // 12+ Years
+    'dr-usha-armo' => [
+        'name' => 'Dr. Usha Armo',
+        'specialty' => 'ENT (Otolaryngology)',
+        'degrees' => 'MBBS, MS (ENT) | Senior ENT Consultant',
+        'experience' => '12+ Years',
+        'img' => 'usha-armo.jpg',
+        'filters' => ['ent'],
+    ],
+
+    // 10+ Years
     'dr-suneedh-gupta' => [
         'name' => 'Dr. Suneedh Gupta',
         'specialty' => 'Oral & Maxillofacial Surgery',
@@ -46,14 +114,6 @@ $doctorRegistry = [
         'img' => 'himanshu-gupta.jpg',
         'filters' => ['oncology'],
     ],
-    'dr-sanjay-goyal' => [
-        'name' => 'Dr. Sanjay Goyal',
-        'specialty' => 'Ophthalmology (Senior Specialist)',
-        'degrees' => 'MBBS, MS (Ophthalmology) | Founder & Senior Eye Surgeon',
-        'experience' => '25+ Years',
-        'img' => 'sanjay-goyal.jpg',
-        'filters' => ['ophthalmology'],
-    ],
     'dr-manoj-bharti' => [
         'name' => 'Dr. Manoj Bharti',
         'specialty' => 'General & Laparoscopic Surgery',
@@ -61,46 +121,6 @@ $doctorRegistry = [
         'experience' => '10+ Years',
         'img' => 'manoj-bharti.jpg',
         'filters' => ['surgery'],
-    ],
-    'dr-nilesh-goyal' => [
-        'name' => 'Dr. Nilesh Goyal',
-        'specialty' => 'General & Laparoscopic Surgery',
-        'degrees' => 'MBBS, MS (General Surgery) | Consultant General & Laparoscopic Surgeon',
-        'experience' => '10+ Years',
-        'img' => 'nilesh-goyal.jpg',
-        'filters' => ['surgery'],
-    ],
-    'dr-ankit-sharma' => [
-        'name' => 'Dr. Ankit Sharma',
-        'specialty' => 'Psychiatry',
-        'degrees' => 'MBBS, MD (Psychiatry) | Consultant Psychiatrist',
-        'experience' => '8+ Years',
-        'img' => 'ankit-sharma.jpg',
-        'filters' => ['psychiatry'],
-    ],
-    'dr-ankita-bansal-goyal' => [
-        'name' => 'Dr. Ankita Bansal Goyal',
-        'specialty' => 'Obstetrics & Gynaecology',
-        'degrees' => 'MS (Obs & Gynec) - PGIMER CHD, FMAS | Consultant Laparoscopic Surgeon & Gynaecologist',
-        'experience' => '8+ Years',
-        'img' => 'ankita-goyal.jpg',
-        'filters' => ['gynecology', 'surgery'],
-    ],
-    'dr-shailesh-gupta' => [
-        'name' => 'Dr. Shailesh Gupta',
-        'specialty' => 'Cardiology & Internal Medicine',
-        'degrees' => 'MBBS, MD (Medicine) | Senior Physician & Heart Specialist',
-        'experience' => '15+ Years',
-        'img' => 'shailesh-gupta.jpg',
-        'filters' => ['medicine'],
-    ],
-    'dr-usha-armo' => [
-        'name' => 'Dr. Usha Armo',
-        'specialty' => 'ENT (Otolaryngology)',
-        'degrees' => 'MBBS, MS (ENT) | Senior ENT Consultant',
-        'experience' => '12+ Years',
-        'img' => 'usha-armo.jpg',
-        'filters' => ['ent'],
     ],
     'dr-chandra-mukesh-dhawde' => [
         'name' => 'Dr. Chandra Mukesh Dhawde',
@@ -118,30 +138,6 @@ $doctorRegistry = [
         'img' => 'sukirti-chauhan.jpg',
         'filters' => ['neurosurgery', 'surgery'],
     ],
-    'dr-megha-goyal' => [
-        'name' => 'Dr. Megha Goyal',
-        'specialty' => 'Neonatology & Pediatrics',
-        'degrees' => 'MBBS, MD (Pediatrics) | Consultant Neonatologist',
-        'experience' => '7+ Years',
-        'img' => 'megha-goyal.jpg',
-        'filters' => ['pediatrics'],
-    ],
-    'dr-akshaya-goyal' => [
-        'name' => 'Dr. Akshaya Goyal',
-        'specialty' => 'Ophthalmology (Eye Care)',
-        'degrees' => 'MBBS, MS (Ophthalmology) | Consultant Ophthalmologist',
-        'experience' => '7+ Years',
-        'img' => 'akshaya-goyal.jpg',
-        'filters' => ['ophthalmology'],
-    ],
-    'dr-akshay-gupta' => [
-        'name' => 'Dr. Akshay Gupta',
-        'specialty' => 'Rheumatology & Internal Medicine',
-        'degrees' => 'MD (Medicine) | Consultant Physician & Rheumatologist',
-        'experience' => '5+ Years',
-        'img' => 'akshay-gupta.png',
-        'filters' => ['medicine'],
-    ],
     'dr-ankit-gupta' => [
         'name' => 'Dr. Ankit Gupta',
         'specialty' => 'Pediatrics',
@@ -149,6 +145,22 @@ $doctorRegistry = [
         'experience' => '10+ Years',
         'img' => 'ankit-gupta.jpg',
         'filters' => ['pediatrics'],
+    ],
+    'dr-chetan-chaturvedi' => [
+        'name' => 'Dr. Chetan Chaturvedi',
+        'specialty' => 'Cardiology',
+        'degrees' => 'MBBS, DNB (Cardiology) | Consultant Cardiologist',
+        'experience' => '10+ Years',
+        'img' => 'chetan-chaturvedi.png',
+        'filters' => ['cardiology'],
+    ],
+    'dr-rajshree-verma' => [
+        'name' => 'Dr. Rajshree Verma',
+        'specialty' => 'Obstetrics & Gynaecology',
+        'degrees' => 'MBBS, MS (Obstetrics & Gynaecology) | Consultant Gynaecologist',
+        'experience' => '10+ Years',
+        'img' => 'rajshree-verma.jpg',
+        'filters' => ['gynecology'],
     ],
     'dr-yuvan-prasannaa' => [
         'name' => 'Dr. Yuvan Prasannaa',
@@ -158,7 +170,14 @@ $doctorRegistry = [
         'img' => 'yuvan.jpg',
         'filters' => ['anesthesiology'],
     ],
-
+    'dr-anoj-kumar' => [
+        'name' => 'Dr. Anoj Kumar',
+        'specialty' => 'Anaesthesiology',
+        'degrees' => 'MBBS, DNB (Anaesthesiology) | Consultant Anaesthesiologist',
+        'experience' => '10+ Years',
+        'img' => 'anoj-kumar.png',
+        'filters' => ['anesthesiology'],
+    ],
     'dr-ambar-garg' => [
         'name' => 'Dr. Ambar Garg',
         'specialty' => 'Haematology',
@@ -175,22 +194,6 @@ $doctorRegistry = [
         'img' => 'azad-bhagat.png',
         'filters' => ['pathology'],
     ],
-    'dr-anoj-kumar' => [
-        'name' => 'Dr. Anoj Kumar',
-        'specialty' => 'Anaesthesiology',
-        'degrees' => 'MBBS, DNB (Anaesthesiology) | Consultant Anaesthesiologist',
-        'experience' => '10+ Years',
-        'img' => 'anoj-kumar.png',
-        'filters' => ['anesthesiology'],
-    ],
-    'dr-rajshree-verma' => [
-        'name' => 'Dr. Rajshree Verma',
-        'specialty' => 'Obstetrics & Gynaecology',
-        'degrees' => 'MBBS, MS (Obstetrics & Gynaecology) | Consultant Gynaecologist',
-        'experience' => '10+ Years',
-        'img' => 'rajshree-verma.jpg',
-        'filters' => ['gynecology'],
-    ],
     'dr-sonali-gupta' => [
         'name' => 'Dr. Sonali Gupta',
         'specialty' => 'Pathology',
@@ -199,13 +202,25 @@ $doctorRegistry = [
         'img' => 'sonali-gupta.png',
         'filters' => ['pathology'],
     ],
-    'dr-chetan-chaturvedi' => [
-        'name' => 'Dr. Chetan Chaturvedi',
-        'specialty' => 'Cardiology',
-        'degrees' => 'MBBS, DNB (Cardiology) | Consultant Cardiologist',
-        'experience' => '10+ Years',
-        'img' => 'chetan-chaturvedi.png',
-        'filters' => ['cardiology'],
+
+    // 8+ Years
+    'dr-ankit-sharma' => [
+        'name' => 'Dr. Ankit Sharma',
+        'specialty' => 'Psychiatry',
+        'degrees' => 'MBBS, MD (Psychiatry) | Consultant Psychiatrist',
+        'experience' => '8+ Years',
+        'img' => 'ankit-sharma.jpg',
+        'filters' => ['psychiatry'],
+    ],
+
+    // 5+ Years
+    'dr-akshay-gupta' => [
+        'name' => 'Dr. Akshay Gupta',
+        'specialty' => 'Rheumatology & Internal Medicine',
+        'degrees' => 'MD (Medicine) | Consultant Physician & Rheumatologist',
+        'experience' => '5+ Years',
+        'img' => 'akshay-gupta.png',
+        'filters' => ['medicine'],
     ],
     'dr-shradha-kinkar' => [
         'name' => 'Dr. Shradha Kinkar',
