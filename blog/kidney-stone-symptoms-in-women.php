@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title><a href="/urology-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Kidney Stone</a> Symptoms in Women | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
+  <title>Kidney Stone Symptoms in Women | Sankalp Hospital</title>
   <meta name="description" content="Comprehensive guide to kidney stone symptoms in women. Learn about causes, risk factors, warning signs, prevention tips, and treatment options at Sankalp Hospital Ambikapur.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/kidney-stone-symptoms-in-women">
   <?php include '../includes/header-code.php'; ?>
@@ -44,6 +44,7 @@ $blog_date = "July 15, 2026"; include '../includes/header.php'; ?>
     <p class="blog-meta"><a href="../index" class="text-white">Home</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="index" class="text-white">Health Blog</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> Urology</p>
     <div class="blog-hero-img"><img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=400&fit=crop" alt="Kidney Stones in Women"></div>
     <h1>Kidney Stone Symptoms in Women: Complete Guide</h1>
+    <?php include __DIR__ . '/../includes/medical-disclaimer.php'; ?>
     <p class="blog-meta"><i class="far fa-calendar"></i> May 19, 2026 &nbsp;&nbsp; <i class="far fa-clock"></i> 10 min read</p>
   </div>
 </section>
@@ -53,7 +54,7 @@ $blog_date = "July 15, 2026"; include '../includes/header.php'; ?>
   <div class="blog-content">
     <p class="lead">Kidney stones are one of the most painful conditions a person can experience. While men are statistically more likely to develop them, millions of women worldwide suffer from kidney stones each year—and the symptoms can often be confusing, mimicking other health issues. Understanding the signs, causes, and when to seek help is crucial for every woman.</p>
 
-    <blockquote>"Kidney stones affect approximately 1 in 11 people in India, and the incidence in women has been steadily increasing over the past decade. Early recognition of symptoms can prevent serious complications and save you from unbearable pain."</blockquote>
+    <blockquote>"Kidney stones are common in both men and women. Early recognition of symptoms can help prevent serious complications and reduce unnecessary suffering."</blockquote>
 
     <h2>What Are Kidney Stones?</h2>
     <p>Kidney stones are hard deposits made of minerals and salts that form inside your kidneys. They develop when your urine contains more crystal-forming substances—like calcium, oxalate, and uric acid—than the fluid in your urine can dilute. These crystals accumulate over time, gradually forming stones that can be as small as a grain of sand or as large as a golf ball.</p>
@@ -221,8 +222,8 @@ $blog_date = "July 15, 2026"; include '../includes/header.php'; ?>
     </div>
 
     <div class="text-center mt-5 p-4 rounded" style="background:var(--bg-soft)">
-      <h4>Expert Kidney Stone Care at Sankalp Hospital</h4>
-      <p class="text-muted mb-4">Our experienced urology team provides comprehensive care for kidney stones—from diagnosis and conservative management to advanced surgical procedures. Don't let kidney stone pain control your life.</p>
+      <h4>Kidney Stone Care at Sankalp Hospital</h4>
+      <p class="text-muted mb-4">Our urology team provides care for kidney stones—from diagnosis and conservative management to advanced surgical procedures. Don't let kidney stone pain control your life.</p>
       <a href="../index#appointment" class="btn btn-primary"><i class="fas fa-calendar-check me-2"></i>Schedule a Consultation</a>
     </div>
   </div>
@@ -236,7 +237,7 @@ if (!empty($blogVids)): ?>
 <div style="max-width:800px;margin:0 auto;padding:0 15px 45px;">
   <div style="border-top:2px solid #eee;padding-top:26px;">
     <h2 style="color:var(--primary,#0f5cad);font-size:1.5rem;font-weight:700;margin-bottom:6px;"><i class="fab fa-youtube" style="color:#e11d48;"></i> Watch: Related Videos</h2>
-    <p style="color:#666;font-size:15px;margin-bottom:20px;">Explainers and real patient stories from Sankalp Hospital doctors.</p>
+    <p style="color:#666;font-size:15px;margin-bottom:20px;">Related health videos from the Sankalp Hospital YouTube channel.</p>
     <?php echo sankalp_video_assets(); ?>
     <div class="sk-vid-grid">
       <?php foreach ($blogVids as $v) echo sankalp_video_facade($v['id'], $v['title']); ?>

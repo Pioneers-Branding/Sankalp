@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-  <title>गैस से पीठ दर्द क्यों होता है? पीठ में गैस के लक्षण, उपाय और इलाज | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
+  <title>गैस से पीठ दर्द क्यों होता है? पीठ में गैस के लक्षण, उपाय और इलाज | Sankalp Hospital</title>
   <meta name="description" content="पीठ में गैस के लक्षण और उपाय जानें — गैस के कारण पीठ और कमर में दर्द क्यों होता है, पीठ में गैस बने या फंस जाए तो क्या करें, तुरंत राहत के घरेलू उपाय और इलाज।">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/gas-se-peeth-dard-kyun-hota-hai">
   <meta property="og:type" content="article">
@@ -127,6 +127,7 @@ $blog_date = "June 27, 2026"; include '../includes/header.php'; ?>
     <p class="blog-meta"><a href="../index" class="text-white">Home</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="index" class="text-white">Health Blog</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> Gastrology</p>
     <div class="blog-hero-img"><img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=400&fit=crop" alt="गैस से पीठ दर्द - पेट की समस्या"></div>
     <h1>गैस से पीठ दर्द क्यों होता है? लक्षण, उपाय और इलाज</h1>
+    <?php include __DIR__ . '/../includes/medical-disclaimer.php'; ?>
     <p class="blog-meta"><i class="far fa-calendar"></i> Updated: July 20, 2026 &nbsp;&nbsp; <i class="far fa-clock"></i> 10 min read</p>
   </div>
 </section>
@@ -226,7 +227,7 @@ $blog_date = "June 27, 2026"; include '../includes/header.php'; ?>
     <p>घुटनों को छाती की ओर लाएं और कुछ मिनट तक ऐसे ही रहें। यह मुद्रा आंतों में फंसी गैस को बाहर निकालने में मदद करती है।</p>
 
     <h3>3. हींग का सेवन करें</h3>
-    <p>हींग (Asafoetida) पानी में डालकर पिएं। यह आंतों की गैस कम करने में बहुत प्रभावी है। एक चुटकी हींग एक गिलास गुनगुने पानी में घोलकर पिएं। अजवाइन को काले नमक के साथ चबाना भी गैस में राहत देता है।</p>
+    <p>हींग (Asafoetida) पानी में डालकर पिएं। यह पारंपरिक रूप से आंतों की गैस में राहत के लिए इस्तेमाल होती है। एक चुटकी हींग एक गिलास गुनगुने पानी में घोलकर पिएं। अजवाइन को काले नमक के साथ चबाना भी गैस में राहत देता है।</p>
 
     <h3>4. चलें</h3>
     <p>हल्की-फुल्की सैर गैस को बाहर निकालने में मदद करती है। भारी भोजन के बाद 15-20 मिनट धीमी गति से चलें।</p>
@@ -317,7 +318,7 @@ $blog_date = "June 27, 2026"; include '../includes/header.php'; ?>
     <h2>कब चिंता कीजिए?</h2>
     <div class="warning-box">
       <h4>तुरंत डॉक्टर से मिलें अगर:</h4>
-      <p>दर्द बहुत तेज है और कम नहीं हो रहा। बुखार 101°F से अधिक है। उल्टी में खून या काला मल दिखे। दर्द लगातार बढ़ रहा है। वजन अचानक कम हो रहा है। ये लक्षण गंभीर समस्या का संकेत हो सकते हैं।</p>
+      <p>सीने में दर्द, दबाव या जकड़न हो, दर्द बाएं हाथ, जबड़े या पीठ तक फैले, साथ में पसीना, सांस फूलना या घबराहट हो — इसे गैस मानकर न टालें, तुरंत इमरजेंसी में जाएं। दर्द बहुत तेज है और कम नहीं हो रहा। बुखार 101°F से अधिक है। उल्टी में खून या काला मल दिखे। दर्द लगातार बढ़ रहा है। वजन अचानक कम हो रहा है। ये लक्षण गंभीर समस्या का संकेत हो सकते हैं।</p>
     </div>
 
     <h2>अक्सर पूछे जाने वाले प्रश्न (FAQs)</h2>
@@ -388,7 +389,7 @@ $blog_date = "June 27, 2026"; include '../includes/header.php'; ?>
     <!-- CTA -->
     <div class="text-center mt-5 p-4 rounded" style="background:var(--bg-soft)">
       <h4>गैस और पीठ दर्द से परेशान हैं?</h4>
-      <p class="text-muted mb-4">Sankalp Hospital, Ambikapur के विशेषज्ञ गैस्ट्रोएंटरोलॉजिस्ट से परामर्श लें और दर्द की असली वजह का सही इलाज पाएं।</p>
+      <p class="text-muted mb-4">Sankalp Hospital, Ambikapur के डॉक्टरों से परामर्श लें और दर्द की असली वजह का सही इलाज पाएं।</p>
       <a href="../index#appointment" class="btn btn-primary"><i class="fas fa-calendar-check me-2"></i>अपॉइंटमेंट बुक करें</a>
     </div>
   </div>
@@ -402,7 +403,7 @@ if (!empty($blogVids)): ?>
 <div style="max-width:800px;margin:0 auto;padding:0 15px 45px;">
   <div style="border-top:2px solid #eee;padding-top:26px;">
     <h2 style="color:var(--primary,#0f5cad);font-size:1.5rem;font-weight:700;margin-bottom:6px;"><i class="fab fa-youtube" style="color:#e11d48;"></i> Watch: Related Videos</h2>
-    <p style="color:#666;font-size:15px;margin-bottom:20px;">Explainers and real patient stories from Sankalp Hospital doctors.</p>
+    <p style="color:#666;font-size:15px;margin-bottom:20px;">Related health videos from the Sankalp Hospital YouTube channel.</p>
     <?php echo sankalp_video_assets(); ?>
     <div class="sk-vid-grid">
       <?php foreach ($blogVids as $v) echo sankalp_video_facade($v['id'], $v['title']); ?>

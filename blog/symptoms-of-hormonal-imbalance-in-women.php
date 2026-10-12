@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title><a href="/gynecology-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Hormonal Imbalance</a> in Women: Symptoms and Signs | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
+  <title>Hormonal Imbalance in Women: Symptoms and Signs | Sankalp Hospital</title>
   <meta name="description" content="Common symptoms, causes, and effects of hormonal imbalance in women. Learn how to manage hormonal health with expert care at Sankalp Hospital.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/symptoms-of-hormonal-imbalance-in-women">
   <?php include '../includes/header-code.php'; ?>
@@ -36,6 +36,7 @@ $blog_date = "July 05, 2026"; include '../includes/header.php'; ?>
     <p class="blog-meta"><a href="../index" class="text-white">Home</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="index" class="text-white">Health Blog</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> Women's Health</p>
     <div class="blog-hero-img"><img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=400&fit=crop" alt="Hormonal Imbalance in Women"></div>
     <h1>Symptoms of Hormonal Imbalance in Women</h1>
+    <?php include __DIR__ . '/../includes/medical-disclaimer.php'; ?>
     <p class="blog-meta"><i class="far fa-calendar"></i> May 11, 2026 &nbsp;&nbsp; <i class="far fa-clock"></i> 8 min read</p>
   </div>
 </section>
@@ -77,7 +78,7 @@ $blog_date = "July 05, 2026"; include '../includes/header.php'; ?>
 
     <div class="text-center mt-5 p-4 rounded" style="background:var(--bg-soft)">
       <h4>Take Control of Your Hormones</h4>
-      <p class="text-muted mb-4">Rebalance your body and regain your energy with our expert guidance.</p>
+      <p class="text-muted mb-4">Get your symptoms assessed and discuss treatment options with our doctors.</p>
       <a href="../index#appointment" class="btn btn-primary"><i class="fas fa-calendar-check me-2"></i>Schedule a Consultation</a>
     </div>
   </div>
@@ -91,7 +92,7 @@ if (!empty($blogVids)): ?>
 <div style="max-width:800px;margin:0 auto;padding:0 15px 45px;">
   <div style="border-top:2px solid #eee;padding-top:26px;">
     <h2 style="color:var(--primary,#0f5cad);font-size:1.5rem;font-weight:700;margin-bottom:6px;"><i class="fab fa-youtube" style="color:#e11d48;"></i> Watch: Related Videos</h2>
-    <p style="color:#666;font-size:15px;margin-bottom:20px;">Explainers and real patient stories from Sankalp Hospital doctors.</p>
+    <p style="color:#666;font-size:15px;margin-bottom:20px;">Related health videos from the Sankalp Hospital YouTube channel.</p>
     <?php echo sankalp_video_assets(); ?>
     <div class="sk-vid-grid">
       <?php foreach ($blogVids as $v) echo sankalp_video_facade($v['id'], $v['title']); ?>

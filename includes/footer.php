@@ -72,9 +72,7 @@
         </div>
       </div>
 
-      <div class="footer-bottom">
-        <p>&copy; <?php echo date('Y'); ?> Sankalp Hospital. All Rights Reserved.</p>
-      </div>
+      <?php /* This footer is also inlined into doctors/*.php by tools/generate-doctor-pages.php, so resolve the path from either location. */ include (is_file(__DIR__ . '/legal-links.php') ? __DIR__ : dirname(__DIR__) . '/includes') . '/legal-links.php'; ?>
     </div>
   </footer>
 </div> <!-- .page-wrapper -->

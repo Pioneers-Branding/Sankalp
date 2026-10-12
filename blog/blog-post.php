@@ -11,6 +11,15 @@ $blogSlug = (!empty($pageCanonical)) ? basename(parse_url($pageCanonical, PHP_UR
 $blogVideoCats = sankalp_blog_video_cats($blog_category ?? '', $blogSlug);
 $blogVids = $blogVideoCats ? sankalp_videos_by_cat($blogVideoCats, 2, true) : [];
 
+// Byline / medical review. A doctor is credited ONLY when the post is listed in
+// medical-review-register.php (written approval obtained). The $blog_author
+// set in each post is kept as the intended reviewer but is not displayed.
+if ($blogSlug === '') {
+    $blogSlug = basename($_SERVER['SCRIPT_FILENAME'] ?? '', '.php');
+}
+$reviewRegister = require __DIR__ . '/medical-review-register.php';
+$blogReview = ($blogSlug !== '' && isset($reviewRegister[$blogSlug])) ? $reviewRegister[$blogSlug] : null;
+
 include __DIR__ . '/../includes/header.php';
 ?>
   <!-- Blog-specific inline styles -->
@@ -286,8 +295,9 @@ include __DIR__ . '/../includes/header.php';
     "datePublished": "<?php echo $schema_date; ?>",
     "dateModified": "<?php echo $schema_modified; ?>",
     "author": {
-      "@type": "Person",
-      "name": "<?php echo isset($blog_author) ? htmlspecialchars($blog_author) : 'Sankalp Hospital'; ?>"
+      "@type": "Organization",
+      "name": "Sankalp Hospital Editorial Team",
+      "url": "https://sankalphospital.com/editorial-policy"
     },
     "publisher": {
       "@type": "Organization",
@@ -341,6 +351,7 @@ include __DIR__ . '/../includes/header.php';
       <i class="far fa-clock"></i> <?php echo isset($blog_readtime) ? $blog_readtime : '5 min read'; ?>
     </p>
     <h1><?php echo isset($blog_title) ? $blog_title : ''; ?></h1>
+    <?php include __DIR__ . '/../includes/medical-disclaimer.php'; ?>
     <?php
     // Featured image: use the post's own image when it is a local asset, otherwise
     // fall back to the branded SVG. Remote hotlinks (e.g. Unsplash) are not used as
@@ -364,7 +375,7 @@ include __DIR__ . '/../includes/header.php';
         <?php if (!empty($blogVids)): ?>
         <div class="blog-video-embed mt-5 pt-4" style="border-top:2px solid #eee;">
           <h2 style="color:var(--primary);font-size:1.8rem;font-weight:700;margin-bottom:6px;"><i class="fab fa-youtube" style="color:#e11d48;"></i> Watch: Related Videos</h2>
-          <p style="color:#666;font-size:15px;margin-bottom:22px;">Explainers and real patient stories from Sankalp Hospital doctors.</p>
+          <p style="color:#666;font-size:15px;margin-bottom:22px;">Related health videos from the Sankalp Hospital YouTube channel.</p>
           <?php echo sankalp_video_assets(); ?>
           <div class="sk-vid-grid">
             <?php foreach ($blogVids as $v) echo sankalp_video_facade($v['id'], $v['title']); ?>
@@ -400,15 +411,17 @@ include __DIR__ . '/../includes/header.php';
         <?php endif; ?>
 
         <!-- Author Box -->
-        <?php if (isset($blog_author) && $blog_author): ?>
         <div class="author-box">
-          <div class="author-avatar"><i class="fas fa-user-md"></i></div>
+          <div class="author-avatar"><i class="fas <?php echo $blogReview ? 'fa-user-md' : 'fa-pen-nib'; ?>"></i></div>
           <div class="author-info">
-            <h5><?php echo $blog_author; ?></h5>
-            <p><?php echo isset($blog_author_desc) ? $blog_author_desc : 'Sankalp Hospital, Ambikapur'; ?></p>
+            <h5>Sankalp Hospital Editorial Team</h5>
+            <?php if ($blogReview): ?>
+            <p>Medically reviewed by <strong><?php echo htmlspecialchars($blogReview['reviewer']); ?></strong><?php echo !empty($blogReview['credentials']) ? ', ' . htmlspecialchars($blogReview['credentials']) : ''; ?> on <?php echo htmlspecialchars(date('j F Y', strtotime($blogReview['date']))); ?>.</p>
+            <?php else: ?>
+            <p>This article was prepared with AI assistance by the Sankalp Hospital editorial team. It has not yet been individually reviewed by a doctor. <a href="/editorial-policy">How we create health content</a></p>
+            <?php endif; ?>
           </div>
         </div>
-        <?php endif; ?>
 
         <!-- Share -->
         <div class="share-box">

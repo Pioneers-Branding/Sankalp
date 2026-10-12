@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Symptoms of AIDS in Women: Signs and Risks | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
+  <title>Symptoms of AIDS in Women: Signs and Risks | Sankalp Hospital</title>
   <meta name="description" content="Detailed guide on the symptoms of AIDS in women, from early signs of HIV to advanced stages. Understand the health risks and care options at Sankalp Hospital.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/symptoms-of-aids-in-women-early-signs-and-health-risks-explained">
   <?php include '../includes/header-code.php'; ?>
@@ -36,6 +36,7 @@ $blog_date = "July 07, 2026"; include '../includes/header.php'; ?>
     <p class="blog-meta"><a href="../index" class="text-white">Home</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="index" class="text-white">Health Blog</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> Infectious Diseases</p>
     <div class="blog-hero-img"><img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400&h=400&fit=crop" alt="AIDS Awareness in Women"></div>
     <h1>Symptoms of AIDS in Women: Explained</h1>
+    <?php include __DIR__ . '/../includes/medical-disclaimer.php'; ?>
     <p class="blog-meta"><i class="far fa-calendar"></i> May 11, 2026 &nbsp;&nbsp; <i class="far fa-clock"></i> 9 min read</p>
   </div>
 </section>
@@ -67,11 +68,11 @@ $blog_date = "July 07, 2026"; include '../includes/header.php'; ?>
     <p>Hormonal changes and reproductive health are deeply impacted by advanced HIV. Women may experience severe menstrual irregularities and increased susceptibility to HPV (Human Papillomavirus) and subsequent cervical health issues.</p>
 
     <h2>Testing and Modern Care</h2>
-    <p>The transition from HIV to AIDS can be prevented with early diagnosis and consistent Antiretroviral Therapy (ART). At Sankalp Hospital, we provide confidential testing, comprehensive counseling, and advanced treatment to help patients manage their condition effectively.</p>
+    <p>The transition from HIV to AIDS can be prevented with early diagnosis and consistent Antiretroviral Therapy (ART). At Sankalp Hospital, we provide confidential testing and counseling, and treatment or referral to an ART centre, to help patients manage their condition.</p>
 
     <div class="text-center mt-5 p-4 rounded" style="background:var(--bg-soft)">
       <h4>Confidential Health Support</h4>
-      <p class="text-muted mb-4">We are here to help you with expert care and complete privacy.</p>
+      <p class="text-muted mb-4">We are here to help you with care and privacy.</p>
       <a href="../index#appointment" class="btn btn-primary"><i class="fas fa-calendar-check me-2"></i>Book a Consultation</a>
     </div>
   </div>
@@ -85,7 +86,7 @@ if (!empty($blogVids)): ?>
 <div style="max-width:800px;margin:0 auto;padding:0 15px 45px;">
   <div style="border-top:2px solid #eee;padding-top:26px;">
     <h2 style="color:var(--primary,#0f5cad);font-size:1.5rem;font-weight:700;margin-bottom:6px;"><i class="fab fa-youtube" style="color:#e11d48;"></i> Watch: Related Videos</h2>
-    <p style="color:#666;font-size:15px;margin-bottom:20px;">Explainers and real patient stories from Sankalp Hospital doctors.</p>
+    <p style="color:#666;font-size:15px;margin-bottom:20px;">Related health videos from the Sankalp Hospital YouTube channel.</p>
     <?php echo sankalp_video_assets(); ?>
     <div class="sk-vid-grid">
       <?php foreach ($blogVids as $v) echo sankalp_video_facade($v['id'], $v['title']); ?>

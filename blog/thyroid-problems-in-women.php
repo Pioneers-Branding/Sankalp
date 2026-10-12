@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Thyroid Problems in Women: A Comprehensive Guide | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
+  <title>Thyroid Problems in Women: A Comprehensive Guide | Sankalp Hospital</title>
   <meta name="description" content="Explore the different types of thyroid problems affecting women, from hypothyroidism to hyperthyroidism. Learn about diagnosis and care at Sankalp Hospital.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/thyroid-problems-in-women">
   <?php include '../includes/header-code.php'; ?>
@@ -36,6 +36,7 @@ $blog_date = "July 04, 2026"; include '../includes/header.php'; ?>
     <p class="blog-meta"><a href="../index" class="text-white">Home</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="index" class="text-white">Health Blog</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> Endocrinology</p>
     <div class="blog-hero-img"><img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400&h=400&fit=crop" alt="Thyroid Problems in Women"></div>
     <h1>Thyroid Problems in Women: What You Need to Know</h1>
+    <?php include __DIR__ . '/../includes/medical-disclaimer.php'; ?>
     <p class="blog-meta"><i class="far fa-calendar"></i> May 11, 2026 &nbsp;&nbsp; <i class="far fa-clock"></i> 8 min read</p>
   </div>
 </section>
@@ -64,8 +65,8 @@ $blog_date = "July 04, 2026"; include '../includes/header.php'; ?>
     <h2>The Impact on Female Health</h2>
     <p>Thyroid problems can significantly impact a woman's reproductive health, leading to irregular periods, difficulties in becoming pregnant, and potential complications during <a href="/gynecology-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">pregnancy</a>. Managing thyroid health is essential for women at every stage of life.</p>
 
-    <h2>Diagnosis and Expert Care</h2>
-    <p>We use precise blood tests to measure levels of TSH, T3, and T4 hormones. Our endocrinology department in Ambikapur provides advanced diagnostic imaging and personalized treatment plans to help you regain your energy and balance.</p>
+    <h2>Diagnosis and Care</h2>
+    <p>We use blood tests to measure levels of TSH, T3, and T4 hormones. Our doctors in Ambikapur provide diagnostic imaging and personalized treatment plans for thyroid conditions.</p>
 
     <div class="text-center mt-5 p-4 rounded" style="background:var(--bg-soft)">
       <h4>Experiencing Symptoms of Thyroid Dysfunction?</h4>
@@ -83,7 +84,7 @@ if (!empty($blogVids)): ?>
 <div style="max-width:800px;margin:0 auto;padding:0 15px 45px;">
   <div style="border-top:2px solid #eee;padding-top:26px;">
     <h2 style="color:var(--primary,#0f5cad);font-size:1.5rem;font-weight:700;margin-bottom:6px;"><i class="fab fa-youtube" style="color:#e11d48;"></i> Watch: Related Videos</h2>
-    <p style="color:#666;font-size:15px;margin-bottom:20px;">Explainers and real patient stories from Sankalp Hospital doctors.</p>
+    <p style="color:#666;font-size:15px;margin-bottom:20px;">Related health videos from the Sankalp Hospital YouTube channel.</p>
     <?php echo sankalp_video_assets(); ?>
     <div class="sk-vid-grid">
       <?php foreach ($blogVids as $v) echo sankalp_video_facade($v['id'], $v['title']); ?>

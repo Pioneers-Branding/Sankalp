@@ -140,7 +140,7 @@ $blog_faqs = [
     ],
     [
         "question" => "When should I worry about a headache?",
-        "answer" => "<a href="/contact.php" class="text-primary text-decoration-none fw-medium">Seek medical help</a> urgently if you have a sudden severe headache (the 'worst of your life'), a headache with fever and stiff neck, confusion, weakness, numbness, slurred speech, or vision loss, a headache after a head injury, or headaches that keep worsening or change in pattern. These can indicate serious conditions such as infection, stroke, or bleeding and need immediate evaluation."
+        "answer" => "<a href='/contact.php' class='text-primary text-decoration-none fw-medium'>Seek medical help</a> urgently if you have a sudden severe headache (the 'worst of your life'), a headache with fever and stiff neck, confusion, weakness, numbness, slurred speech, or vision loss, a headache after a head injury, or headaches that keep worsening or change in pattern. These can indicate serious conditions such as infection, stroke, or bleeding and need immediate evaluation."
     ],
     [
         "question" => "Can dehydration really cause headaches?",

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title><a href="/orthopedic-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Joint Pain</a> in Winter: Causes and Remedies | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
+  <title>Joint Pain in Winter: Causes and Remedies | Sankalp Hospital</title>
   <meta name="description" content="Discover why joint pain increases in winter, effective home remedies, and when to consult an orthopedic specialist at Sankalp Hospital.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/joint-pain-in-winter-causes-home-remedies-when-to-see-an-orthopedic-doctor">
   <?php include '../includes/header-code.php'; ?>
@@ -43,6 +43,7 @@ $blog_date = "July 18, 2026"; include '../includes/header.php'; ?>
     <p class="blog-meta"><a href="../index" class="text-white">Home</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="index" class="text-white">Health Blog</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> Orthopedics</p>
     <div class="blog-hero-img"><img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop" alt="Joint Pain in Winter"></div>
     <h1>Joint Pain in Winter: Causes and Home Remedies</h1>
+    <?php include __DIR__ . '/../includes/medical-disclaimer.php'; ?>
     <p class="blog-meta"><i class="far fa-calendar"></i> May 19, 2026 &nbsp;&nbsp; <i class="far fa-clock"></i> 10 min read</p>
   </div>
 </section>
@@ -164,7 +165,7 @@ $blog_date = "July 18, 2026"; include '../includes/header.php'; ?>
     <p>Over-the-counter pain relievers like acetaminophen or NSAIDs (ibuprofen, naproxen) can reduce pain and inflammation. For more severe cases, a doctor may recommend corticosteroid injections directly into the joint or prescription medications tailored to your specific condition.</p>
 
     <h3>Alternative Therapies</h3>
-    <p>Acupuncture, massage therapy, and chiropractic care can provide significant relief for some patients. These therapies work by improving circulation, reducing muscle tension, and releasing endorphins—the body's natural pain relievers.</p>
+    <p>Acupuncture, massage therapy, and chiropractic care may provide some relief for some patients, though the evidence is mixed. These therapies work by improving circulation, reducing muscle tension, and releasing endorphins—the body's natural pain relievers.</p>
 
     <h3>Advanced Treatments</h3>
     <p>For advanced arthritis, treatments like platelet-rich plasma (PRP) injections, hyaluronic acid injections, or regenerative medicine approaches may be recommended. In severe cases, joint replacement surgery can provide lasting relief.</p>
@@ -227,7 +228,7 @@ if (!empty($blogVids)): ?>
 <div style="max-width:800px;margin:0 auto;padding:0 15px 45px;">
   <div style="border-top:2px solid #eee;padding-top:26px;">
     <h2 style="color:var(--primary,#0f5cad);font-size:1.5rem;font-weight:700;margin-bottom:6px;"><i class="fab fa-youtube" style="color:#e11d48;"></i> Watch: Related Videos</h2>
-    <p style="color:#666;font-size:15px;margin-bottom:20px;">Explainers and real patient stories from Sankalp Hospital doctors.</p>
+    <p style="color:#666;font-size:15px;margin-bottom:20px;">Related health videos from the Sankalp Hospital YouTube channel.</p>
     <?php echo sankalp_video_assets(); ?>
     <div class="sk-vid-grid">
       <?php foreach ($blogVids as $v) echo sankalp_video_facade($v['id'], $v['title']); ?>

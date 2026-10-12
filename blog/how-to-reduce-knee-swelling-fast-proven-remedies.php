@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>How to Reduce <a href="/orthopedic-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Knee</a> Swelling Fast | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
+  <title>How to Reduce Knee Swelling Fast | Sankalp Hospital</title>
   <meta name="description" content="Proven home remedies and medical treatments to reduce knee swelling (effusion) fast. Learn when to see a doctor for knee swelling at Sankalp Hospital.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/how-to-reduce-knee-swelling-fast-proven-remedies">
   <?php include '../includes/header-code.php'; ?>
@@ -36,6 +36,7 @@ $blog_date = "July 20, 2026"; include '../includes/header.php'; ?>
     <p class="blog-meta"><a href="../index" class="text-white">Home</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="index" class="text-white">Health Blog</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> Orthopedics</p>
     <div class="blog-hero-img"><img src="https://images.unsplash.com/photo-1434596922112-19c563067271?w=400&h=400&fit=crop" alt="Knee Swelling Relief - Ice Treatment"></div>
     <h1>How to Reduce Knee Swelling Fast: Proven Remedies</h1>
+    <?php include __DIR__ . '/../includes/medical-disclaimer.php'; ?>
     <p class="blog-meta"><i class="far fa-calendar"></i> May 11, 2026 &nbsp;&nbsp; <i class="far fa-clock"></i> 8 min read</p>
   </div>
 </section>
@@ -55,7 +56,7 @@ $blog_date = "July 20, 2026"; include '../includes/header.php'; ?>
     </ul>
 
     <div class="remedy-box">
-      <h4>Proven Home Remedies</h4>
+      <h4>Other Home Measures</h4>
       <p>Beyond R.I.C.E., these steps can help:</p>
       <ul>
         <li><strong>Gentle Range-of-Motion Exercises:</strong> Once the initial pain subsides, gentle movements help circulate fluid out of the joint.</li>
@@ -67,7 +68,7 @@ $blog_date = "July 20, 2026"; include '../includes/header.php'; ?>
     <h2>Medical Treatments for Severe Swelling</h2>
     <p>If home remedies aren't enough, our orthopedic <a href="/doctors.php" class="text-primary text-decoration-none fw-medium">specialists</a> may recommend:</p>
     <ul>
-      <li><strong>Arthrocentesis:</strong> A procedure to remove excess fluid from the joint using a needle, providing instant relief from pressure.</li>
+      <li><strong>Arthrocentesis:</strong> A procedure to remove excess fluid from the joint using a needle, which can quickly relieve pressure and allows the fluid to be tested.</li>
       <li><strong>Corticosteroid Injections:</strong> Powerful anti-inflammatory medications injected directly into the joint.</li>
       <li><strong>Physical Therapy:</strong> A tailored exercise program to strengthen the muscles around the knee and improve joint stability.</li>
     </ul>
@@ -77,7 +78,7 @@ $blog_date = "July 20, 2026"; include '../includes/header.php'; ?>
     <ul>
       <li>The swelling was caused by a sudden, high-impact injury.</li>
       <li>You cannot straighten or bend your knee fully.</li>
-      <li>The skin over the knee is red and warm to the touch (possible infection).</li>
+      <li>The skin over the knee is red and warm to the touch, especially with fever (possible joint infection — seek care the same day).</li>
       <li>The swelling does not improve after 48 hours of home care.</li>
     </ul>
 
@@ -97,7 +98,7 @@ if (!empty($blogVids)): ?>
 <div style="max-width:800px;margin:0 auto;padding:0 15px 45px;">
   <div style="border-top:2px solid #eee;padding-top:26px;">
     <h2 style="color:var(--primary,#0f5cad);font-size:1.5rem;font-weight:700;margin-bottom:6px;"><i class="fab fa-youtube" style="color:#e11d48;"></i> Watch: Related Videos</h2>
-    <p style="color:#666;font-size:15px;margin-bottom:20px;">Explainers and real patient stories from Sankalp Hospital doctors.</p>
+    <p style="color:#666;font-size:15px;margin-bottom:20px;">Related health videos from the Sankalp Hospital YouTube channel.</p>
     <?php echo sankalp_video_assets(); ?>
     <div class="sk-vid-grid">
       <?php foreach ($blogVids as $v) echo sankalp_video_facade($v['id'], $v['title']); ?>

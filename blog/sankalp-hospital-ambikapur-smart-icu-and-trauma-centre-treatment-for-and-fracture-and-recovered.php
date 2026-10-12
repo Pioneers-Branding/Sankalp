@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Smart ICU and Trauma Centre in Ambikapur | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
+  <title>Smart ICU and Trauma Centre in Ambikapur | Sankalp Hospital</title>
   <meta name="description" content="Discover Sankalp Hospital's Smart ICU and advanced Trauma Centre for emergency care, fracture treatment, and rapid recovery in Ambikapur.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/sankalp-hospital-ambikapur-smart-icu-and-trauma-centre-treatment-for-and-fracture-and-recovered">
   <?php include '../includes/header-code.php'; ?>
@@ -36,6 +36,7 @@ $blog_date = "July 09, 2026"; include '../includes/header.php'; ?>
     <p class="blog-meta"><a href="../index" class="text-white">Home</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="index" class="text-white">Health Blog</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> Critical Care</p>
     <div class="blog-hero-img"><img src="/assets/img/infrastructure/ICU.jpg" alt="Smart ICU"></div>
     <h1>Smart ICU and Trauma Centre at Sankalp Hospital</h1>
+    <?php include __DIR__ . '/../includes/medical-disclaimer.php'; ?>
     <p class="blog-meta"><i class="far fa-calendar"></i> May 11, 2026 &nbsp;&nbsp; <i class="far fa-clock"></i> 8 min read</p>
   </div>
 </section>
@@ -43,10 +44,10 @@ $blog_date = "July 09, 2026"; include '../includes/header.php'; ?>
 <!-- BLOG CONTENT -->
 <div class="container">
   <div class="blog-content">
-    <p class="lead">In critical situations, every second counts. Sankalp Hospital Ambikapur features a state-of-the-art Smart ICU and a 24/7 Trauma Centre dedicated to providing immediate, life-saving care for emergencies and severe injuries.</p>
+    <p class="lead">In critical situations, every second counts. Sankalp Hospital Ambikapur has a Smart ICU and a 24/7 Trauma Centre for emergency care and severe injuries.</p>
 
     <h2>What Makes an ICU "Smart"?</h2>
-    <p>Our Smart ICU integrates advanced monitoring systems with real-time data analytics, allowing our <a href="/doctors.php" class="text-primary text-decoration-none fw-medium">medical team</a> to track patient vitals with unprecedented precision. This ensures that even the slightest change in a patient's condition is detected and addressed immediately.</p>
+    <p>Our Smart ICU integrates advanced monitoring systems with real-time data analytics, allowing our <a href="/doctors.php" class="text-primary text-decoration-none fw-medium">medical team</a> to track patient vitals continuously. This helps the team detect and respond to changes in a patient's condition promptly.</p>
 
     <div class="icu-box">
       <h4>Advanced Trauma & Fracture Care</h4>
@@ -61,10 +62,10 @@ $blog_date = "July 09, 2026"; include '../includes/header.php'; ?>
 
     <h2>The Journey from Fracture to Recovery</h2>
     <p>Recovery from a severe injury or fracture requires more than just surgery. Our multidisciplinary team—including <a href="/orthopedic-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">orthopedic</a> surgeons, critical care specialists, and physiotherapists—works together to create a customized recovery path for every patient.</p>
-    <p>We take pride in our high recovery rates, helping patients regain their mobility and return to their lives as quickly and safely as possible.</p>
+    <p>Our aim is to help patients regain their mobility and return to their lives as safely as possible; recovery time varies with the injury and the individual.</p>
 
     <h2>24/7 Emergency Availability</h2>
-    <p>Accidents don't happen on a schedule. That's why our trauma centre and emergency department are fully staffed and operational 24 hours a day, 7 days a week, providing the best emergency care in Ambikapur and the surrounding Surguja region.</p>
+    <p>Accidents don't happen on a schedule. That's why our trauma centre and emergency department are operational 24 hours a day, 7 days a week, providing emergency care in Ambikapur and the surrounding Surguja region.</p>
 
     <div class="text-center mt-5 p-4 rounded" style="background:var(--bg-soft)">
       <h4>Emergency Contact: +91 9584 889068</h4>
@@ -82,7 +83,7 @@ if (!empty($blogVids)): ?>
 <div style="max-width:800px;margin:0 auto;padding:0 15px 45px;">
   <div style="border-top:2px solid #eee;padding-top:26px;">
     <h2 style="color:var(--primary,#0f5cad);font-size:1.5rem;font-weight:700;margin-bottom:6px;"><i class="fab fa-youtube" style="color:#e11d48;"></i> Watch: Related Videos</h2>
-    <p style="color:#666;font-size:15px;margin-bottom:20px;">Explainers and real patient stories from Sankalp Hospital doctors.</p>
+    <p style="color:#666;font-size:15px;margin-bottom:20px;">Related health videos from the Sankalp Hospital YouTube channel.</p>
     <?php echo sankalp_video_assets(); ?>
     <div class="sk-vid-grid">
       <?php foreach ($blogVids as $v) echo sankalp_video_facade($v['id'], $v['title']); ?>

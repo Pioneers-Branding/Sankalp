@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Will Your <a href="/orthopedic-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Knee</a> Feel 100% Normal After ACL Surgery? | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
+  <title>Will Your Knee Feel 100% Normal After ACL Surgery? | Sankalp Hospital</title>
   <meta name="description" content="Expert guide on ACL surgery recovery expectations, timeline, and what you can realistically expect for knee function after reconstruction surgery.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/will-your-knee-feel-100-percent-normal-after-acl-surgery-recovery-facts">
   <?php include '../includes/header-code.php'; ?>
@@ -38,6 +38,7 @@ $blog_date = "June 29, 2026"; include '../includes/header.php'; ?>
     <p class="blog-meta"><a href="/index" class="text-white">Home</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="/blog/" class="text-white">Health Blog</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> Orthopedics</p>
     <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&h=400&fit=crop" alt="ACL Surgery Recovery and Rehabilitation" class="blog-img-large">
     <h1>Will Your Knee Feel 100% Normal After ACL Surgery? Recovery Facts</h1>
+    <?php include __DIR__ . '/../includes/medical-disclaimer.php'; ?>
     <p class="blog-meta"><i class="far fa-calendar"></i> May 7, 2026 &nbsp;&nbsp; <i class="far fa-clock"></i> 12 min read &nbsp;&nbsp; <i class="fas fa-bone"></i> Sports Medicine</p>
   </div>
 </section>
@@ -118,7 +119,7 @@ $blog_date = "June 29, 2026"; include '../includes/header.php'; ?>
       <li>Proprioception training begins (balance exercises)</li>
       <li>May transition from two crutches to one crutch or cane</li>
       <li>Stationary cycling can begin if range of motion allows</li>
-      <li>Swimming may be allowed with water-proof dressing</li>
+      <li>Swimming only once the wound has fully healed and your surgeon allows it</li>
     </ul>
 
     <h3>Weeks 6-12: Building Strength Phase</h3>
@@ -241,7 +242,7 @@ $blog_date = "June 29, 2026"; include '../includes/header.php'; ?>
     <p>Full recovery can take 9-12 months for athletes returning to high-level sports. For non-athletes, it may be faster, but the healing process takes time. Trust the process.</p>
 
     <h3>3. Don't Rush the Return</h3>
-    <p>Returning to activity too early is the #1 cause of graft re-rupture. Most re-injuries occur within the first year when patients push too hard too soon.</p>
+    <p>Returning to activity too early is a major cause of graft re-rupture. Most re-injuries occur within the first year when patients push too hard too soon.</p>
 
     <h3>4. Strengthen Supporting Muscles</h3>
     <p>Strong quadriceps and hamstrings protect the ACL graft. A muscle-strengthening deficit is one of the biggest predictors of re-injury.</p>
@@ -324,7 +325,7 @@ $blog_date = "June 29, 2026"; include '../includes/header.php'; ?>
 
     <div class="tip-box">
       <h4>Mental Preparation Tips:</h4>
-      <p>Use visualization techniques to imagine yourself performing sport-specific movements. This has been shown to improve outcomes and reduce fear of re-injury. Consider working with a sports psychologist if you're struggling psychologically.</p>
+      <p>Use visualization techniques to imagine yourself performing sport-specific movements. Some athletes find this helps reduce fear of re-injury. Consider working with a sports psychologist if you're struggling psychologically.</p>
     </div>
 
     <h2>Long-Term Outcomes and Arthritis Risk</h2>
@@ -377,7 +378,7 @@ $blog_date = "June 29, 2026"; include '../includes/header.php'; ?>
     </div>
 
     <h2>The Bottom Line</h2>
-    <p>ACL surgery has excellent outcomes for most patients. While you may not achieve "100% normal" in the technical sense—especially if you're comparing to your pre-injury state—many patients return to high-level sports and activities without significant limitations.</p>
+    <p>ACL surgery has good outcomes for many patients, although results vary. While you may not achieve "100% normal" in the technical sense—especially if you're comparing to your pre-injury state—many patients return to high-level sports and activities without significant limitations.</p>
 
     <p>The key to success is:</p>
     <ul>
@@ -411,7 +412,7 @@ if (!empty($blogVids)): ?>
 <div style="max-width:800px;margin:0 auto;padding:0 15px 45px;">
   <div style="border-top:2px solid #eee;padding-top:26px;">
     <h2 style="color:var(--primary,#0f5cad);font-size:1.5rem;font-weight:700;margin-bottom:6px;"><i class="fab fa-youtube" style="color:#e11d48;"></i> Watch: Related Videos</h2>
-    <p style="color:#666;font-size:15px;margin-bottom:20px;">Explainers and real patient stories from Sankalp Hospital doctors.</p>
+    <p style="color:#666;font-size:15px;margin-bottom:20px;">Related health videos from the Sankalp Hospital YouTube channel.</p>
     <?php echo sankalp_video_assets(); ?>
     <div class="sk-vid-grid">
       <?php foreach ($blogVids as $v) echo sankalp_video_facade($v['id'], $v['title']); ?>

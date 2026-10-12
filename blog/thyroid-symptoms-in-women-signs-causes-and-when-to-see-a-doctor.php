@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Thyroid Symptoms in Women: Signs and Causes | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
+  <title>Thyroid Symptoms in Women: Signs and Causes | Sankalp Hospital</title>
   <meta name="description" content="A detailed look at thyroid symptoms in women, including early warning signs, common causes like Hashimoto's, and when to consult a specialist at Sankalp Hospital.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/thyroid-symptoms-in-women-signs-causes-and-when-to-see-a-doctor">
   <?php include '../includes/header-code.php'; ?>
@@ -36,6 +36,7 @@ $blog_date = "July 03, 2026"; include '../includes/header.php'; ?>
     <p class="blog-meta"><a href="../index" class="text-white">Home</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="index" class="text-white">Health Blog</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> Endocrinology</p>
     <div class="blog-hero-img"><img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400&h=400&fit=crop" alt="Thyroid Signs and Causes in Women"></div>
     <h1>Thyroid Symptoms in Women: Signs, Causes, and Care</h1>
+    <?php include __DIR__ . '/../includes/medical-disclaimer.php'; ?>
     <p class="blog-meta"><i class="far fa-calendar"></i> May 11, 2026 &nbsp;&nbsp; <i class="far fa-clock"></i> 10 min read</p>
   </div>
 </section>
@@ -66,7 +67,7 @@ $blog_date = "July 03, 2026"; include '../includes/header.php'; ?>
     </div>
 
     <h2>When Should You See a Doctor?</h2>
-    <p>You should consult an endocrinology specialist at Sankalp Hospital if you experience:</p>
+    <p>You should consult a doctor at Sankalp Hospital if you experience:</p>
     <ul>
       <li>Any of the persistent symptoms mentioned above for more than a few weeks.</li>
       <li>Visible swelling in the neck area.</li>
@@ -75,11 +76,11 @@ $blog_date = "July 03, 2026"; include '../includes/header.php'; ?>
     </ul>
 
     <h2>Comprehensive Care at Sankalp Hospital</h2>
-    <p>We provide a full range of thyroid care, including advanced TSH, T3, and T4 blood panels, high-resolution ultrasound imaging, and specialized management of thyroid conditions during pregnancy. Our team in Ambikapur is dedicated to providing personalized care that addresses the root cause of your symptoms.</p>
+    <p>We provide a full range of thyroid care, including TSH, T3, and T4 blood tests, thyroid ultrasound imaging, and specialized management of thyroid conditions during pregnancy. Our team in Ambikapur is dedicated to providing personalized care that addresses the root cause of your symptoms.</p>
 
     <div class="text-center mt-5 p-4 rounded" style="background:var(--bg-soft)">
       <h4>Get Your Thyroid Health Back on Track</h4>
-      <p class="text-muted mb-4">Talk to our experts today and start feeling like yourself again.</p>
+      <p class="text-muted mb-4">Talk to our doctors about your symptoms and treatment options.</p>
       <a href="../index#appointment" class="btn btn-primary"><i class="fas fa-calendar-check me-2"></i>Book an Appointment</a>
     </div>
   </div>
@@ -93,7 +94,7 @@ if (!empty($blogVids)): ?>
 <div style="max-width:800px;margin:0 auto;padding:0 15px 45px;">
   <div style="border-top:2px solid #eee;padding-top:26px;">
     <h2 style="color:var(--primary,#0f5cad);font-size:1.5rem;font-weight:700;margin-bottom:6px;"><i class="fab fa-youtube" style="color:#e11d48;"></i> Watch: Related Videos</h2>
-    <p style="color:#666;font-size:15px;margin-bottom:20px;">Explainers and real patient stories from Sankalp Hospital doctors.</p>
+    <p style="color:#666;font-size:15px;margin-bottom:20px;">Related health videos from the Sankalp Hospital YouTube channel.</p>
     <?php echo sankalp_video_assets(); ?>
     <div class="sk-vid-grid">
       <?php foreach ($blogVids as $v) echo sankalp_video_facade($v['id'], $v['title']); ?>

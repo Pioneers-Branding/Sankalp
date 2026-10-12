@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Causes, Symptoms, and Treatment of <a href="/ivf-treatment-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">IVF</a> | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
+  <title>Causes, Symptoms, and Treatment of IVF | Sankalp Hospital</title>
   <meta name="description" content="A comprehensive guide to IVF: understanding the causes of infertility, symptoms that indicate a need for IVF, and the step-by-step treatment process.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/causes-symptoms-and-treatment-of-ivf">
   <?php include '../includes/header-code.php'; ?>
@@ -36,6 +36,7 @@ $blog_date = "July 23, 2026"; include '../includes/header.php'; ?>
     <p class="blog-meta"><a href="../index" class="text-white">Home</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="index" class="text-white">Health Blog</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> Fertility</p>
     <div class="blog-hero-img"><img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=400&fit=crop" alt="IVF Treatment Process"></div>
     <h1>Causes, Symptoms, and Treatment of IVF</h1>
+    <?php include __DIR__ . '/../includes/medical-disclaimer.php'; ?>
     <p class="blog-meta"><i class="far fa-calendar"></i> May 11, 2026 &nbsp;&nbsp; <i class="far fa-clock"></i> 9 min read</p>
   </div>
 </section>
@@ -76,10 +77,10 @@ $blog_date = "July 23, 2026"; include '../includes/header.php'; ?>
     </div>
 
     <h2>Success Rates and Expectations</h2>
-    <p>Success rates for IVF depend on various factors, most importantly the age of the woman. At Sankalp Hospital, we pride ourselves on maintaining some of the highest success rates in Chhattisgarh by using state-of-the-art laboratory technology and personalized treatment protocols.</p>
+    <p>Success rates for IVF depend on various factors, most importantly the age of the woman. Other factors include the cause of infertility, ovarian reserve and embryo quality, so outcomes vary by individual. At Sankalp Hospital, your specialist will discuss realistic expectations for your situation and plan a personalized treatment protocol.</p>
 
     <h2>Why Choose Sankalp Hospital?</h2>
-    <p>As the first dedicated IVF center in Ambikapur, we offer world-class fertility care right here in the Surguja region. Our team provides not just medical expertise, but also the emotional support needed during this significant journey.</p>
+    <p>As a dedicated IVF center in Ambikapur, we offer fertility care right here in the Surguja region. Our team provides not just medical expertise, but also the emotional support needed during this significant journey.</p>
 
     <div class="text-center mt-5 p-4 rounded" style="background:var(--bg-soft)">
       <h4>Start Your Parenthood Journey Today</h4>
@@ -97,7 +98,7 @@ if (!empty($blogVids)): ?>
 <div style="max-width:800px;margin:0 auto;padding:0 15px 45px;">
   <div style="border-top:2px solid #eee;padding-top:26px;">
     <h2 style="color:var(--primary,#0f5cad);font-size:1.5rem;font-weight:700;margin-bottom:6px;"><i class="fab fa-youtube" style="color:#e11d48;"></i> Watch: Related Videos</h2>
-    <p style="color:#666;font-size:15px;margin-bottom:20px;">Explainers and real patient stories from Sankalp Hospital doctors.</p>
+    <p style="color:#666;font-size:15px;margin-bottom:20px;">Related health videos from the Sankalp Hospital YouTube channel.</p>
     <?php echo sankalp_video_assets(); ?>
     <div class="sk-vid-grid">
       <?php foreach ($blogVids as $v) echo sankalp_video_facade($v['id'], $v['title']); ?>

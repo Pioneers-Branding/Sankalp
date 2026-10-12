@@ -13,10 +13,10 @@ $blog_content = <<<'HTML'
 
 <p>Understanding the difference between gas pain and heart problems isn't just medical knowledge — it could save your life or someone you love. This comprehensive guide will help you distinguish between these two very different conditions and know exactly when to seek help.</p>
 
-<blockquote>"Many patients I see have waited too long because they thought their chest pain was just gas. On the other hand, thousands of unnecessary ER visits happen yearly due to panic over normal gas pain. The key is knowing the difference."</blockquote>
+<blockquote>"Some people wait too long because they assume their chest pain is just gas, while others panic over ordinary gas pain. The key is knowing the difference — and getting checked when in doubt."</blockquote>
 
 <h2>Can Gas Really Cause Chest Pain?</h2>
-<p>Yes, gas can absolutely cause significant <a href="/blog/gas-se-peeth-dard-kyun-hota-hai"><strong>chest pain</strong></a> that mimics heart problems. This condition, known medically as "non-cardiac chest pain," accounts for up to 25% of all chest pain complaints in emergency <a href="/departments.php" class="text-primary text-decoration-none fw-medium">departments</a>.</p>
+<p>Yes, gas can absolutely cause significant <a href="/blog/gas-se-peeth-dard-kyun-hota-hai"><strong>chest pain</strong></a> that mimics heart problems. This falls under what doctors call "non-cardiac chest pain," which accounts for a large share of chest pain complaints in emergency <a href="/departments.php" class="text-primary text-decoration-none fw-medium">departments</a>.</p>
 
 <p>Gas-related chest pain typically occurs when:</p>
 <ul>
@@ -159,9 +159,9 @@ $blog_content = <<<'HTML'
 <h3>Try This Simple Assessment:</h3>
 <ol>
   <li><strong>Does burping provide relief?</strong> — Gas pain often improves after belching or passing gas</li>
-  <li><strong>Did it start after a large meal or gas-producing food?</strong> — Heart pain usually doesn't correlate with eating</li>
+  <li><strong>Did it start after a large meal or gas-producing food?</strong> — Gas pain often follows meals, but heart pain can also be brought on by a heavy meal, so this alone does not rule out the heart</li>
   <li><strong>Does changing position help?</strong> — Gas pain may improve when you sit up or walk</li>
-  <li><strong>Does an antacid help?</strong> — If TUMS or similar provide relief, it's more likely digestive</li>
+  <li><strong>Does an antacid help?</strong> — Relief after an antacid suggests a digestive cause, but it does not rule out a heart problem</li>
   <li><strong>Is there bloating or stomach noises?</strong> — These suggest gas rather than heart issues</li>
 </ol>
 
@@ -203,7 +203,7 @@ $blog_content = <<<'HTML'
   <li><strong>Endoscopy:</strong> If digestive causes are suspected</li>
 </ul>
 
-<p>At <a href="/"><strong>Sankalp Hospital</strong></a>, our emergency department is equipped with state-of-the-art cardiac diagnostics to quickly determine whether your symptoms are heart-related or digestive in nature.</p>
+<p>At <a href="/"><strong>Sankalp Hospital</strong></a>, our emergency department has cardiac diagnostics such as ECG and blood tests to help determine whether your symptoms are heart-related or digestive in nature.</p>
 
 <h2>Preventing Gas Pain at Home</h2>
 <p>If your chest pain is confirmed to be gas-related, these strategies can help prevent future episodes:</p>
@@ -279,7 +279,7 @@ $blog_content = <<<'HTML'
 <h2>Final Thoughts</h2>
 <p>While gas pain can mimic heart problems, the two conditions have distinct characteristics that can help you differentiate them. However, the stakes are too high to take chances. If you experience chest pain that concerns you — especially if you have heart disease risk factors — seek immediate medical evaluation.</p>
 
-<p>At <a href="/"><strong>Sankalp Hospital</strong></a> in Ambikapur, our emergency and cardiology departments are equipped to rapidly evaluate chest pain and determine whether it's cardiac or digestive in origin. Our experienced team uses advanced diagnostics to ensure you receive the right treatment quickly.</p>
+<p>At <a href="/"><strong>Sankalp Hospital</strong></a> in Ambikapur, our emergency and cardiology departments are equipped to rapidly evaluate chest pain and determine whether it's cardiac or digestive in origin. Our team uses appropriate diagnostic tests to guide the right treatment.</p>
 
 <p><strong>Remember:</strong> It's always better to be evaluated for "just gas" than to dismiss real heart symptoms. Your health — and your life — are worth that peace of mind.</p>
 
@@ -308,7 +308,7 @@ $blog_faqs = [
     ],
     [
         "question" => "Can stress cause both gas and heart symptoms?",
-        "answer" => "Yes, stress can cause both gas and heart-related symptoms. Stress increases stomach acid production and can trigger irritable bowel syndrome (IBS), leading to gas, bloating, and chest discomfort. Stress also raises blood pressure and heart rate, potentially triggering angina (heart-related chest pain). Additionally, panic attacks can cause chest tightness, rapid heartbeat, and shortness of breath that mimic heart attacks. If stress-related symptoms are frequent, <a href="/doctors.php" class="text-primary text-decoration-none fw-medium">consult a doctor</a> to rule out cardiac issues."
+        "answer" => "Yes, stress can cause both gas and heart-related symptoms. Stress increases stomach acid production and can trigger irritable bowel syndrome (IBS), leading to gas, bloating, and chest discomfort. Stress also raises blood pressure and heart rate, potentially triggering angina (heart-related chest pain). Additionally, panic attacks can cause chest tightness, rapid heartbeat, and shortness of breath that mimic heart attacks. If stress-related symptoms are frequent, <a href='/doctors.php' class='text-primary text-decoration-none fw-medium'>consult a doctor</a> to rule out cardiac issues."
     ],
     [
         "question" => "What tests are done to differentiate gas pain from heart pain?",

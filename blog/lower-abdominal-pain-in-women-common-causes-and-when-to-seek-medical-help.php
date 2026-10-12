@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Lower Abdominal Pain in Women: Causes and Care | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
+  <title>Lower Abdominal Pain in Women: Causes and Care | Sankalp Hospital</title>
   <meta name="description" content="Understand common causes of lower abdominal pain in women, from digestive issues to gynecological concerns, and when to seek medical help at Sankalp Hospital.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/lower-abdominal-pain-in-women-common-causes-and-when-to-seek-medical-help">
   <?php include '../includes/header-code.php'; ?>
@@ -41,6 +41,7 @@ $blog_date = "July 13, 2026"; include '../includes/header.php'; ?>
     <p class="blog-meta"><a href="../index" class="text-white">Home</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="index" class="text-white">Health Blog</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="/gynecology-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Women's Health</a></p>
     <div class="blog-hero-img"><img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=400&fit=crop" alt="Lower Abdominal Pain in Women"></div>
     <h1>Lower Abdominal Pain in Women: Causes and When to Worry</h1>
+    <?php include __DIR__ . '/../includes/medical-disclaimer.php'; ?>
     <p class="blog-meta"><i class="far fa-calendar"></i> May 19, 2026 &nbsp;&nbsp; <i class="far fa-clock"></i> 12 min read</p>
   </div>
 </section>
@@ -131,7 +132,7 @@ $blog_date = "July 13, 2026"; include '../includes/header.php'; ?>
     </div>
 
     <h2>Diagnosis at Sankalp Hospital</h2>
-    <p>Accurate diagnosis is essential for effective treatment. Our gynecology and general medicine <a href="/departments.php" class="text-primary text-decoration-none fw-medium">departments</a> work together to provide comprehensive evaluation using the latest diagnostic techniques:</p>
+    <p>Accurate diagnosis is essential for effective treatment. Our gynecology and general medicine <a href="/departments.php" class="text-primary text-decoration-none fw-medium">departments</a> work together to provide a thorough evaluation using diagnostic tests such as:</p>
     <ul>
       <li><strong>Pelvic Examination:</strong> A physical examination to assess reproductive organs and identify areas of tenderness or abnormal growths.</li>
       <li><strong>Ultrasound Imaging:</strong> Transvaginal or abdominal ultrasound to visualize ovaries, uterus, and detect cysts, fibroids, or other abnormalities.</li>
@@ -217,7 +218,7 @@ if (!empty($blogVids)): ?>
 <div style="max-width:800px;margin:0 auto;padding:0 15px 45px;">
   <div style="border-top:2px solid #eee;padding-top:26px;">
     <h2 style="color:var(--primary,#0f5cad);font-size:1.5rem;font-weight:700;margin-bottom:6px;"><i class="fab fa-youtube" style="color:#e11d48;"></i> Watch: Related Videos</h2>
-    <p style="color:#666;font-size:15px;margin-bottom:20px;">Explainers and real patient stories from Sankalp Hospital doctors.</p>
+    <p style="color:#666;font-size:15px;margin-bottom:20px;">Related health videos from the Sankalp Hospital YouTube channel.</p>
     <?php echo sankalp_video_assets(); ?>
     <div class="sk-vid-grid">
       <?php foreach ($blogVids as $v) echo sankalp_video_facade($v['id'], $v['title']); ?>

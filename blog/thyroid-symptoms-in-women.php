@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Thyroid Symptoms in Women: Common Signs | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
+  <title>Thyroid Symptoms in Women: Common Signs | Sankalp Hospital</title>
   <meta name="description" content="Common thyroid symptoms in women, including fatigue, weight changes, and mood swings. Expert diagnosis and care at Sankalp Hospital Ambikapur.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/thyroid-symptoms-in-women">
   <?php include '../includes/header-code.php'; ?>
@@ -34,6 +34,7 @@ $blog_date = "July 02, 2026"; include '../includes/header.php'; ?>
     <p class="blog-meta"><a href="../index" class="text-white">Home</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="index" class="text-white">Health Blog</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> Endocrinology</p>
     <div class="blog-hero-img"><img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400&h=400&fit=crop" alt="Thyroid Symptoms in Women"></div>
     <h1>Common Thyroid Symptoms in Women</h1>
+    <?php include __DIR__ . '/../includes/medical-disclaimer.php'; ?>
     <p class="blog-meta"><i class="far fa-calendar"></i> May 11, 2026 &nbsp;&nbsp; <i class="far fa-clock"></i> 7 min read</p>
   </div>
 </section>
@@ -65,7 +66,7 @@ $blog_date = "July 02, 2026"; include '../includes/header.php'; ?>
     <p>Thyroid hormones are essential for a healthy reproductive system. Imbalances can lead to irregular periods, heavy bleeding, and challenges with fertility or <a href="/gynecology-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">pregnancy</a>.</p>
 
     <h2>When to Consult a Specialist</h2>
-    <p>If you experience persistent symptoms, a simple blood test at Sankalp Hospital can provide clarity. Our endocrinology team is here to help you manage your thyroid health and improve your quality of life.</p>
+    <p>If you experience persistent symptoms, a simple blood test at Sankalp Hospital can provide clarity. Our medical team is here to help you manage your thyroid health and improve your quality of life.</p>
 
     <div class="text-center mt-5 p-4 rounded" style="background:var(--bg-soft)">
       <h4>Concerned About Your Thyroid?</h4>
@@ -83,7 +84,7 @@ if (!empty($blogVids)): ?>
 <div style="max-width:800px;margin:0 auto;padding:0 15px 45px;">
   <div style="border-top:2px solid #eee;padding-top:26px;">
     <h2 style="color:var(--primary,#0f5cad);font-size:1.5rem;font-weight:700;margin-bottom:6px;"><i class="fab fa-youtube" style="color:#e11d48;"></i> Watch: Related Videos</h2>
-    <p style="color:#666;font-size:15px;margin-bottom:20px;">Explainers and real patient stories from Sankalp Hospital doctors.</p>
+    <p style="color:#666;font-size:15px;margin-bottom:20px;">Related health videos from the Sankalp Hospital YouTube channel.</p>
     <?php echo sankalp_video_assets(); ?>
     <div class="sk-vid-grid">
       <?php foreach ($blogVids as $v) echo sankalp_video_facade($v['id'], $v['title']); ?>

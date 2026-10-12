@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-  <title>गर्भावस्था के पहले सप्ताह के लक्षण | <a href="/gynecology-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Pregnancy</a> Symptoms in Hindi</title>
+  <title>गर्भावस्था के पहले सप्ताह के लक्षण | Pregnancy Symptoms in Hindi</title>
   <meta name="description" content="प्रेग्नेंसी के पहले सप्ताह के शुरुआती लक्षण (First Week Pregnancy Symptoms) और सावधानियां। जानें शरीर में होने वाले महत्वपूर्ण बदलावों के बारे में।">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/pregnancy-ke-pehle-week-ke-symptoms">
   <?php include '../includes/header-code.php'; ?>
@@ -36,6 +36,7 @@ $blog_date = "July 12, 2026"; include '../includes/header.php'; ?>
     <p class="blog-meta"><a href="../index" class="text-white">Home</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="index" class="text-white">Health Blog</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> Pregnancy Care</p>
     <div class="blog-hero-img"><img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=400&fit=crop" alt="Early Pregnancy Symptoms"></div>
     <h1>गर्भावस्था के पहले सप्ताह के लक्षण (First Week Symptoms)</h1>
+    <?php include __DIR__ . '/../includes/medical-disclaimer.php'; ?>
     <p class="blog-meta"><i class="far fa-calendar"></i> May 11, 2026 &nbsp;&nbsp; <i class="far fa-clock"></i> 9 min read</p>
   </div>
 </section>
@@ -59,7 +60,7 @@ $blog_date = "July 12, 2026"; include '../includes/header.php'; ?>
 
     <div class="tip-box">
       <h4>जरूरी सलाह:</h4>
-      <p>यदि आपको लग रहा है कि आप प्रेग्नेंट हैं, तो तुरंत फोलिक एसिड सप्लीमेंट शुरू करें और भारी वजन उठाने या दवाओं के सेवन से बचें। पुष्टि के लिए प्रेग्नेंसी टेस्ट किट का उपयोग करें या डॉक्टर से मिलें।</p>
+      <p>यदि आपको लग रहा है कि आप प्रेग्नेंट हैं, तो डॉक्टर की सलाह से फोलिक एसिड सप्लीमेंट शुरू करें, भारी वजन उठाने से बचें और बिना डॉक्टर की सलाह के कोई नई दवा न लें (पहले से चल रही दवा अपने आप बंद न करें, डॉक्टर से पूछें)। पुष्टि के लिए प्रेग्नेंसी टेस्ट किट का उपयोग करें या डॉक्टर से मिलें।</p>
     </div>
 
     <h2>गर्भावस्था की पुष्टि कैसे करें?</h2>
@@ -67,7 +68,7 @@ $blog_date = "July 12, 2026"; include '../includes/header.php'; ?>
 
     <div class="text-center mt-5 p-4 rounded" style="background:var(--bg-soft)">
       <h4>क्या आप मां बनने वाली हैं?</h4>
-      <p class="text-muted mb-4">संकल्प हॉस्पिटल के बेहतरीन स्त्री रोग विभाग में अपना पंजीकरण कराएं।</p>
+      <p class="text-muted mb-4">संकल्प हॉस्पिटल के स्त्री रोग विभाग में अपना पंजीकरण कराएं।</p>
       <a href="../index#appointment" class="btn btn-primary"><i class="fas fa-calendar-check me-2"></i>अपॉइंटमेंट बुक करें</a>
     </div>
   </div>
@@ -81,7 +82,7 @@ if (!empty($blogVids)): ?>
 <div style="max-width:800px;margin:0 auto;padding:0 15px 45px;">
   <div style="border-top:2px solid #eee;padding-top:26px;">
     <h2 style="color:var(--primary,#0f5cad);font-size:1.5rem;font-weight:700;margin-bottom:6px;"><i class="fab fa-youtube" style="color:#e11d48;"></i> Watch: Related Videos</h2>
-    <p style="color:#666;font-size:15px;margin-bottom:20px;">Explainers and real patient stories from <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a> doctors.</p>
+    <p style="color:#666;font-size:15px;margin-bottom:20px;">Related health videos from the Sankalp Hospital YouTube channel.</p>
     <?php echo sankalp_video_assets(); ?>
     <div class="sk-vid-grid">
       <?php foreach ($blogVids as $v) echo sankalp_video_facade($v['id'], $v['title']); ?>

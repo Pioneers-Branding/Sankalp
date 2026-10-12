@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Left Shoulder Pain in Women: Causes and Treatment | <a href="/" class="text-primary text-decoration-none fw-medium">Sankalp Hospital</a></title>
+  <title>Left Shoulder Pain in Women: Causes and Treatment | Sankalp Hospital</title>
   <meta name="description" content="Comprehensive guide on left shoulder pain in women: causes including rotator cuff, frozen shoulder, referred pain, heart issues, and effective treatment options at Sankalp Hospital.">
   <link rel="canonical" href="https://www.sankalphospital.com/blog/left-shoulder-pain-in-women-possible-causes-and-treatment-options">
   <?php include '../includes/header-code.php'; ?>
@@ -44,6 +44,7 @@ $blog_date = "July 14, 2026"; include '../includes/header.php'; ?>
     <p class="blog-meta"><a href="../index" class="text-white">Home</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="index" class="text-white">Health Blog</a> <i class="fas fa-chevron-right mx-2" style="font-size:10px"></i> <a href="/orthopedic-hospital-in-ambikapur.php" class="text-primary text-decoration-none fw-medium">Orthopedics</a></p>
     <div class="blog-hero-img"><img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=400&fit=crop" alt="Left Shoulder Pain in Women"></div>
     <h1>Left Shoulder Pain in Women: Causes and Treatment</h1>
+    <?php include __DIR__ . '/../includes/medical-disclaimer.php'; ?>
     <p class="blog-meta"><i class="far fa-calendar"></i> May 11, 2026 &nbsp;&nbsp; <i class="far fa-clock"></i> 12 min read</p>
   </div>
 </section>
@@ -88,7 +89,7 @@ $blog_date = "July 14, 2026"; include '../includes/header.php'; ?>
     <p>Angina (reduced blood flow to the heart) can cause left shoulder pain that may feel similar to musculoskeletal pain but often comes with exertion and resolves with rest. Women experiencing angina may describe it differently than men, sometimes reporting upper back pain, shoulder pain, or jaw pain as their primary symptom. Pericarditis—inflammation of the sac surrounding the heart—causes sharp, stabbing pain that typically worsens when lying down and may improve when sitting forward.</p>
 
     <h3>Digestive System Issues</h3>
-    <p>Gallbladder problems, though typically causing right upper quadrant pain, can sometimes refer pain to the left shoulder blade area through phrenic nerve irritation. This is known as Kehr's sign. Pancreatic conditions may also cause pain that radiates to the left shoulder region. Women should be aware that digestive-related shoulder pain often accompanies abdominal symptoms like nausea, vomiting, or changes in digestion.</p>
+    <p>Gallbladder problems typically cause right upper abdominal pain that may spread to the right shoulder blade. Left shoulder-tip pain can arise when the left side of the diaphragm is irritated, for example by blood from an injured spleen (known as Kehr's sign), which is a medical emergency. Pancreatic conditions may also cause pain that radiates to the left shoulder region. Women should be aware that digestive-related shoulder pain often accompanies abdominal symptoms like nausea, vomiting, or changes in digestion.</p>
 
     <h3>Cervical Spine Disorders</h3>
     <p>A herniated disc or degenerative changes in the cervical spine (neck) can compress nerves that travel down the arm, causing shoulder pain that follows a specific dermatome pattern. Women with desk jobs or those who frequently look down at devices are particularly susceptible to cervical issues that manifest as shoulder discomfort. Associated symptoms may include numbness, tingling, or weakness extending into the arm and hand.</p>
@@ -183,7 +184,7 @@ if (!empty($blogVids)): ?>
 <div style="max-width:800px;margin:0 auto;padding:0 15px 45px;">
   <div style="border-top:2px solid #eee;padding-top:26px;">
     <h2 style="color:var(--primary,#0f5cad);font-size:1.5rem;font-weight:700;margin-bottom:6px;"><i class="fab fa-youtube" style="color:#e11d48;"></i> Watch: Related Videos</h2>
-    <p style="color:#666;font-size:15px;margin-bottom:20px;">Explainers and real patient stories from Sankalp Hospital doctors.</p>
+    <p style="color:#666;font-size:15px;margin-bottom:20px;">Related health videos from the Sankalp Hospital YouTube channel.</p>
     <?php echo sankalp_video_assets(); ?>
     <div class="sk-vid-grid">
       <?php foreach ($blogVids as $v) echo sankalp_video_facade($v['id'], $v['title']); ?>
