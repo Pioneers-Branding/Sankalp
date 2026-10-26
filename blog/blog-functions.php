@@ -82,7 +82,7 @@ function get_all_blogs($blog_dir = __DIR__) {
     if ($files === false) return $blogs;
 
     // Files to skip (non-blog PHP files)
-    $skip = ['index.php', 'blog-post.php', 'blog-functions.php', 'sidebar.php'];
+    $skip = ['index.php', 'blog-post.php', 'blog-functions.php', 'sidebar.php', 'medical-review-register.php'];
 
     foreach ($files as $file) {
         // Skip non-PHP files
